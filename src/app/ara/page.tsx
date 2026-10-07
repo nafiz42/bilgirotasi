@@ -7,8 +7,8 @@ import SidebarWidgets from '@/components/SidebarWidgets';
 import { Search } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Portal İçi Arama',
-  description: 'RehberPortal üzerinde aradığınız tüm kılavuz ve makaleleri bulun.',
+  title: 'Site İçi Arama',
+  description: 'Bilgi Rotası üzerinde aradığınız tüm kılavuz ve makaleleri bulun.',
   robots: {
     index: false,
     follow: true

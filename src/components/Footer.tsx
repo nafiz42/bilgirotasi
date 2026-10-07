@@ -18,7 +18,7 @@ export default function Footer() {
                 <Compass className="w-5 h-5" />
               </div>
               <span className="text-lg font-black text-slate-900 dark:text-white">
-                Rehber<span className="text-blue-600 dark:text-blue-400">Portal</span>
+                Bilgi<span className="text-blue-600 dark:text-blue-400">Rotası</span>
               </span>
             </Link>
             <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed max-w-sm">
@@ -143,7 +143,7 @@ export default function Footer() {
         {/* Bottom Bar & AdSense Legal Notice */}
         <div className="mt-12 pt-6 border-t border-slate-200/70 dark:border-slate-800/80 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400 dark:text-slate-500">
           <p>
-            &copy; {currentYear} RehberPortal. Tüm hakları saklıdır. Portalımızda yer alan rehberler bilgilendirme amaçlıdır.
+            &copy; {currentYear} Bilgi Rotası. Tüm hakları saklıdır. Sitemizde yer alan rehberler bilgilendirme amaçlıdır.
           </p>
           <div className="flex items-center gap-4 text-[11px]">
             <span>Google AdSense Uyumludur</span>

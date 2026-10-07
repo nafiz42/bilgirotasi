@@ -6,7 +6,7 @@ import { FileText, AlertTriangle, Copyright, ExternalLink } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Kullanım Koşulları ve Şartlar',
   description:
-    'RehberPortal kullanım koşulları, telif hakları, sorumluluk reddi beyanı ve içerik paylaşım şartları.',
+    'Bilgi Rotası kullanım koşulları, telif hakları, sorumluluk reddi beyanı ve içerik paylaşım şartları.',
   alternates: {
     canonical: '/kullanim-kosullari'
   }
@@ -38,7 +38,7 @@ export default function TermsPage() {
             1. Fikri Mülkiyet ve Telif Hakları
           </h2>
           <p>
-            RehberPortal üzerinde yer alan tüm metinler, grafikler, logolar, simgeler ve içerik düzeni 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile korunmaktadır. Sitemizdeki makaleler kaynak gösterilmeden ve aktif dofollow bağlantı verilmeden kısmen dahi kopyalanamaz veya çoğaltılamaz.
+            Bilgi Rotası üzerinde yer alan tüm metinler, grafikler, logolar, simgeler ve içerik düzeni 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile korunmaktadır. Sitemizdeki makaleler kaynak gösterilmeden ve aktif dofollow bağlantı verilmeden kısmen dahi kopyalanamaz veya çoğaltılamaz.
           </p>
         </section>
 
@@ -48,7 +48,7 @@ export default function TermsPage() {
             2. Bilgilendirme Amaçlı İçerik ve Sorumluluk Reddi
           </h2>
           <p>
-            Portalımızda yer alan e-Devlet, sınav hazırlığı, donanım optimizasyonu ve diğer rehber yazıları yalnızca genel bilgilendirme amacıyla sunulmaktadır. RehberPortal hiçbir resmi kamu kurumunun (GSB, ÖSYM, Bakanlıklar vb.) resmi web sitesi veya temsilcisi değildir.
+            Sitemizde yer alan e-Devlet, sınav hazırlığı, donanım optimizasyonu ve diğer rehber yazıları yalnızca genel bilgilendirme amacıyla sunulmaktadır. Bilgi Rotası hiçbir resmi kamu kurumunun (GSB, ÖSYM, Bakanlıklar vb.) resmi web sitesi veya temsilcisi değildir.
           </p>
           <p>
             Kullanıcıların kılavuzları uygularken resmi kurumların güncel duyurularını da teyit etmeleri önerilir. Bilgilerin kullanımından doğabilecek aksaklıklardan sitemiz doğrudan sorumlu tutulamaz.
@@ -61,7 +61,7 @@ export default function TermsPage() {
             3. Dış Bağlantılar (External Links)
           </h2>
           <p>
-            RehberPortal zaman zaman resmi kurumlara, kaynak web sitelerine veya sponsorlu iş ortaklarına ait harici bağlantılar içerebilir. Bu sitelerin içeriklerinden ve gizlilik uygulamalarından RehberPortal sorumlu değildir.
+            Bilgi Rotası zaman zaman resmi kurumlara, kaynak web sitelerine veya sponsorlu iş ortaklarına ait harici bağlantılar içerebilir. Bu sitelerin içeriklerinden ve gizlilik uygulamalarından Bilgi Rotası sorumlu değildir.
           </p>
         </section>
 

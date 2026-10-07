@@ -3,7 +3,7 @@ import { posts } from '@/data/posts';
 import { categories } from '@/data/categories';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://rehberportal.com';
+  const baseUrl = 'https://www.bilgirotasi.tr';
 
   // 1. Static Pages
   const staticPages: MetadataRoute.Sitemap = [

@@ -50,7 +50,7 @@ export default function Header() {
               </div>
               <div className="flex flex-col">
                 <span className="text-lg font-black tracking-tight text-slate-900 dark:text-white leading-none flex items-center gap-1">
-                  Rehber<span className="text-blue-600 dark:text-blue-400">Portal</span>
+                  Bilgi<span className="text-blue-600 dark:text-blue-400">Rotası</span>
                 </span>
                 <span className="text-[10px] font-medium text-slate-500 dark:text-slate-400 tracking-wider uppercase">
                   Bilgi &bull; Çözüm &bull; Rehber
@@ -144,7 +144,7 @@ export default function Header() {
                 className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800/80 hover:bg-slate-200/80 dark:hover:bg-slate-700/80 border border-slate-200 dark:border-slate-700/80 text-slate-500 dark:text-slate-400 text-xs transition-colors shadow-2xs group"
               >
                 <Search className="w-4 h-4 text-slate-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors" />
-                <span className="hidden sm:inline">Portalda ara...</span>
+                <span className="hidden sm:inline">Rehberlerde ara...</span>
                 <kbd className="hidden sm:inline-block px-1.5 py-0.5 rounded-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-[10px] font-mono text-slate-400">
                   Ctrl+K
                 </kbd>

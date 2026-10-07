@@ -15,7 +15,7 @@ export default function SocialShare({ title, url }: SocialShareProps) {
     if (typeof window !== 'undefined') {
       return url || window.location.href;
     }
-    return url || 'https://rehberportal.com';
+    return url || 'https://www.bilgirotasi.tr';
   };
 
   const handleCopy = async () => {

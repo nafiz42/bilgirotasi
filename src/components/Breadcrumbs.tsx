@@ -21,13 +21,13 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
         '@type': 'ListItem',
         position: 1,
         name: 'Ana Sayfa',
-        item: 'https://rehberportal.com'
+        item: 'https://www.bilgirotasi.tr'
       },
       ...items.map((item, index) => ({
         '@type': 'ListItem',
         position: index + 2,
         name: item.label,
-        ...(item.href ? { item: `https://rehberportal.com${item.href}` } : {})
+        ...(item.href ? { item: `https://www.bilgirotasi.tr${item.href}` } : {})
       }))
     ]
   };

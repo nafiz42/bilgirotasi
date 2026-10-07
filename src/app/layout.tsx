@@ -23,10 +23,10 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://rehberportal.com'),
+  metadataBase: new URL('https://www.bilgirotasi.tr'),
   title: {
-    default: 'RehberPortal | Genel Bilgi, e-Devlet ve Nasıl Yapılır Rehberi',
-    template: '%s | RehberPortal'
+    default: 'Bilgi Rotası | Genel Bilgi, e-Devlet ve Nasıl Yapılır Rehberi',
+    template: '%s | Bilgi Rotası'
   },
   description:
     'e-Devlet başvuruları, teknoloji ve mobil ayarlar, oyun FPS çözümleri, sınav hazırlıkları ve günlük pratik bilgiler için Türkiye’nin en kapsamlı rehber portalı.',
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     'burs başvurusu',
     'pratik bilgiler'
   ],
-  authors: [{ name: 'RehberPortal Editör Ekibi' }],
-  creator: 'RehberPortal',
-  publisher: 'RehberPortal Medya',
+  authors: [{ name: 'Bilgi Rotası Editör Ekibi' }],
+  creator: 'Bilgi Rotası',
+  publisher: 'Bilgi Rotası Medya',
   formatDetection: {
     email: false,
     address: false,
@@ -52,20 +52,20 @@ export const metadata: Metadata = {
     canonical: '/'
   },
   openGraph: {
-    title: 'RehberPortal | Genel Bilgi, e-Devlet ve Nasıl Yapılır Rehberi',
+    title: 'Bilgi Rotası | Genel Bilgi, e-Devlet ve Nasıl Yapılır Rehberi',
     description:
       'e-Devlet, teknoloji, donanım, eğitim ve yaşam rehberleri ile aradığınız tüm çözümler adım adım burada.',
-    url: 'https://rehberportal.com',
-    siteName: 'RehberPortal',
+    url: 'https://www.bilgirotasi.tr',
+    siteName: 'Bilgi Rotası',
     locale: 'tr_TR',
     type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'RehberPortal | Genel Bilgi ve Rehber Portalı',
+    title: 'Bilgi Rotası | Genel Bilgi ve Rehber Portalı',
     description:
       'e-Devlet, teknoloji, donanım, eğitim ve yaşam rehberleri ile aradığınız tüm çözümler adım adım burada.',
-    creator: '@rehberportal'
+    creator: '@bilgirotasi'
   },
   robots: {
     index: true,
@@ -92,14 +92,14 @@ export default function RootLayout({
   const websiteSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'RehberPortal',
-    url: 'https://rehberportal.com',
+    name: 'Bilgi Rotası',
+    url: 'https://www.bilgirotasi.tr',
     description: 'Genel Bilgi, e-Devlet ve Nasıl Yapılır Rehberi',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://rehberportal.com/ara?q={search_term_string}'
+        urlTemplate: 'https://www.bilgirotasi.tr/ara?q={search_term_string}'
       },
       'query-input': 'required name=search_term_string'
     }

@@ -7,7 +7,7 @@ import { ShieldCheck, Target, HeartHandshake, Award, Users } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Hakkımızda',
   description:
-    'RehberPortal’ın misyonu, yayın ilkeleri, editör kadrosu ve doğru bilgiye erişimi kolaylaştırma vizyonu hakkında detaylar.',
+    'Bilgi Rotası’nın misyonu, yayın ilkeleri, editör kadrosu ve doğru bilgiye erişimi kolaylaştırma vizyonu hakkında detaylar.',
   alternates: {
     canonical: '/hakkimizda'
   }
@@ -25,7 +25,7 @@ export default function AboutPage() {
           Bağımsız &bull; Şeffaf &bull; Doğrulanmış
         </span>
         <h1 className="text-3xl sm:text-4xl font-black tracking-tight">
-          Hakkımızda &bull; RehberPortal
+          Hakkımızda &bull; Bilgi Rotası
         </h1>
         <p className="text-slate-300 text-sm sm:text-base leading-relaxed max-w-2xl">
           Karmaşık bürokratik işlemleri, teknik ayarları ve sınav hazırlık süreçlerini herkesin kolayca uygulayabileceği sade adımlara dönüştürüyoruz.
@@ -103,7 +103,7 @@ export default function AboutPage() {
             Google AdSense ve İçerik Kalitesi Taahhüdü
           </h3>
           <p>
-            RehberPortal, Google Yayıncı Politikaları&apos;na tam uyumlu çalışır. Kullanıcı deneyimini önceleyen sayfa yerleşimleri, özgün metinler ve reklam-içerik ayrımına gösterilen hassasiyet ile güvenilir bir yayıncılık sürdürmekteyiz.
+            Bilgi Rotası, Google Yayıncı Politikaları&apos;na tam uyumlu çalışır. Kullanıcı deneyimini önceleyen sayfa yerleşimleri, özgün metinler ve reklam-içerik ayrımına gösterilen hassasiyet ile güvenilir bir yayıncılık sürdürmekteyiz.
           </p>
         </div>
       </div>

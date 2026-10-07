@@ -1,88 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Ana Sayfa -->
-  <url>
-    <loc>https://www.bilgirotasi.tr/</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- Temel Sayfalar (AdSense için) -->
-  <url>
-    <loc>https://www.bilgirotasi.tr/hakkimizda</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.bilgirotasi.tr/gizlilik-politikasi</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.bilgirotasi.tr/iletisim</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <!-- Kategori Sayfaları -->
-  <url>
-    <loc>https://www.bilgirotasi.tr/kategori/e-devlet-basvurular</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.bilgirotasi.tr/kategori/teknoloji-mobil</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.bilgirotasi.tr/kategori/oyun-donanim</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Rehber Yazıları -->
-  <url>
-    <loc>https://www.bilgirotasi.tr/kategori/e-devlet-basvurular/kyk-burs-ve-ogrenim-kredisi-basvurusu-nasil-yapilir</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.bilgirotasi.tr/kategori/e-devlet-basvurular/e-devlet-uzerinden-ikametgah-adresi-degistirme-rehberi</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.bilgirotasi.tr/kategori/teknoloji-mobil/whatsapp-kaybolan-mesajlar-ve-medya-gizliligi-ayarlari</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.bilgirotasi.tr/kategori/teknoloji-mobil/iphone-ve-android-pil-omrunu-uzatma-yontemleri</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.bilgirotasi.tr/kategori/oyun-donanim/oyunlarda-fps-artirma-ve-gecikme-azaltma-rehberi</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.bilgirotasi.tr/kategori/oyun-donanim/ekran-karti-surucu-guncelleme-ve-temiz-kurulum-rehberi</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+<url>
+<loc>https://www.bilgirotasi.tr</loc>
+<lastmod>2026-10-07T10:38:52.795Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/hakkimizda</loc>
+<lastmod>2026-10-07T10:38:52.795Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/gizlilik-politikasi</loc>
+<lastmod>2026-10-07T10:38:52.795Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kullanim-kosullari</loc>
+<lastmod>2026-10-07T10:38:52.795Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/iletisim</loc>
+<lastmod>2026-10-07T10:38:52.795Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/e-devlet-basvurular</loc>
+<lastmod>2026-10-07T10:38:52.795Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/teknoloji-mobil</loc>
+<lastmod>2026-10-07T10:38:52.795Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/oyun-donanim</loc>
+<lastmod>2026-10-07T10:38:52.795Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/egitim-sinavlar</loc>
+<lastmod>2026-10-07T10:38:52.795Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/pratik-bilgiler</loc>
+<lastmod>2026-10-07T10:38:52.795Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/e-devlet-basvurular/kyk-burs-kredi-taahhutname-onayi-nasil-yapilir</loc>
+<lastmod>2026-10-07T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/teknoloji-mobil/instagram-hesap-dondurma-gecici-kapatma-linki</loc>
+<lastmod>2026-10-07T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/oyun-donanim/valorant-van-1067-ve-tpm-2-0-hatasi-kesin-cozumu</loc>
+<lastmod>2026-10-07T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/e-devlet-basvurular/e-devlet-ikametgah-belgesi-nasil-alinir</loc>
+<lastmod>2026-10-07T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/e-devlet-basvurular/kyk-burs-ve-ogrenim-kredisi-basvurusu-nasil-yapilir</loc>
+<lastmod>2026-10-02T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/e-devlet-basvurular/e-devlet-uzerinden-ikametgah-adresi-degistirme-rehberi</loc>
+<lastmod>2026-10-01T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/e-devlet-basvurular/sosyal-yardim-basvurusu-e-devlet-sorgulama-adimlari</loc>
+<lastmod>2026-09-29T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/teknoloji-mobil/whatsapp-kaybolan-mesajlar-ve-medya-gizliligi-ayarlari</loc>
+<lastmod>2026-10-03T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/teknoloji-mobil/iphone-ve-android-pil-omrunu-uzatma-yontemleri</loc>
+<lastmod>2026-10-02T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/teknoloji-mobil/instagram-hesabi-gecici-ve-kalici-kapatma-adimlari</loc>
+<lastmod>2026-09-28T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/oyun-donanim/oyunlarda-fps-artirma-ve-gecikme-azaltma-rehberi</loc>
+<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/oyun-donanim/ekran-karti-surucu-guncelleme-ve-temiz-kurulum-rehberi</loc>
+<lastmod>2026-09-30T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/oyun-donanim/steam-oyun-acilmiyor-hatasi-kesin-cozum-yollari</loc>
+<lastmod>2026-09-24T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/egitim-sinavlar/yks-calisma-programi-hazirlama-ve-net-artirma-taktikleri</loc>
+<lastmod>2026-10-03T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/egitim-sinavlar/kpss-puan-turleri-ve-kadro-dagilimi-kapsamli-rehber</loc>
+<lastmod>2026-09-27T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/egitim-sinavlar/universite-kayit-icin-gerekli-belgeler-ve-e-kayit-adimlari</loc>
+<lastmod>2026-09-15T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/pratik-bilgiler/evde-pratik-leke-cikarma-ve-temizlik-tuyolari</loc>
+<lastmod>2026-10-01T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/pratik-bilgiler/elektrik-faturasini-dusurmenin-etkili-10-yolu</loc>
+<lastmod>2026-09-28T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.bilgirotasi.tr/kategori/pratik-bilgiler/pasaport-randevusu-alma-ve-gerekli-evraklar-listesi</loc>
+<lastmod>2026-10-02T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
 </urlset>

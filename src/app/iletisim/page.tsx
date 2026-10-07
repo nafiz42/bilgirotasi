@@ -50,8 +50,8 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="font-semibold text-slate-900 dark:text-slate-100">E-Posta Adresi</p>
-                <a href="mailto:iletisim@rehberportal.com" className="text-blue-600 dark:text-blue-400 hover:underline">
-                  iletisim@rehberportal.com
+                <a href="mailto:iletisim@bilgirotasi.tr" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  iletisim@bilgirotasi.tr
                 </a>
               </div>
             </div>
@@ -62,8 +62,8 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="font-semibold text-slate-900 dark:text-slate-100">Reklam &amp; Sponsorluk</p>
-                <a href="mailto:reklam@rehberportal.com" className="text-blue-600 dark:text-blue-400 hover:underline">
-                  reklam@rehberportal.com
+                <a href="mailto:reklam@bilgirotasi.tr" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  reklam@bilgirotasi.tr
                 </a>
               </div>
             </div>

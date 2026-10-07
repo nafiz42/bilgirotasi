@@ -60,7 +60,7 @@ export async function generateMetadata({
       canonical: `/kategori/${post.categorySlug}/${post.slug}`
     },
     openGraph: {
-      title: `${post.title} | RehberPortal`,
+      title: `${post.title} | Bilgi Rotası`,
       description: post.description,
       type: 'article',
       publishedTime: post.publishedAt,
@@ -126,20 +126,20 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     dateModified: post.updatedAt,
     author: {
       '@type': 'Person',
-      name: author?.name || 'RehberPortal Editörü',
-      url: 'https://rehberportal.com/hakkimizda'
+      name: author?.name || 'Bilgi Rotası Editörü',
+      url: 'https://www.bilgirotasi.tr/hakkimizda'
     },
     publisher: {
       '@type': 'Organization',
-      name: 'RehberPortal',
+      name: 'Bilgi Rotası',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://rehberportal.com/logo.png'
+        url: 'https://www.bilgirotasi.tr/logo.png'
       }
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://rehberportal.com/kategori/${post.categorySlug}/${post.slug}`
+      '@id': `https://www.bilgirotasi.tr/kategori/${post.categorySlug}/${post.slug}`
     }
   };
 

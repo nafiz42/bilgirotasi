@@ -6,7 +6,7 @@ import { Shield, Cookie, Lock, UserCheck, FileText } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Gizlilik Politikası ve Çerez Aydınlatma Metni',
   description:
-    'RehberPortal kullanıcı gizliliği, Google AdSense çerezleri, kişisel verilerin korunması ve KVKK/GDPR uyumluluk bildirimi.',
+    'Bilgi Rotası kullanıcı gizliliği, Google AdSense çerezleri, kişisel verilerin korunması ve KVKK/GDPR uyumluluk bildirimi.',
   alternates: {
     canonical: '/gizlilik-politikasi'
   }
@@ -26,7 +26,7 @@ export default function PrivacyPage() {
           Gizlilik Politikası ve Çerezler (Cookies)
         </h1>
         <p className="text-xs sm:text-sm text-slate-300">
-          Son Güncelleme: 05 Ekim 2026 &bull; RehberPortal.com
+          Son Güncelleme: 05 Ekim 2026 &bull; Bilgi Rotası (bilgirotasi.tr)
         </p>
       </div>
 
@@ -38,7 +38,7 @@ export default function PrivacyPage() {
             1. Genel Bakış ve Veri Sorumlusu
           </h2>
           <p>
-            RehberPortal olarak ziyaretçilerimizin gizliliğine büyük önem vermekteyiz. Bu Gizlilik Politikası belgesi, RehberPortal tarafından hangi tür kişisel ve anonim bilgilerin toplandığını, kaydedildiğini ve bu bilgilerin nasıl kullanıldığını açıklamaktadır.
+            Bilgi Rotası olarak ziyaretçilerimizin gizliliğine büyük önem vermekteyiz. Bu Gizlilik Politikası belgesi, Bilgi Rotası tarafından hangi tür kişisel ve anonim bilgilerin toplandığını, kaydedildiğini ve bu bilgilerin nasıl kullanıldığını açıklamaktadır.
           </p>
           <p>
             6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve Avrupa Genel Veri Koruma Tüzüğü (GDPR) kapsamında veri sorumlusu sıfatıyla hareket etmekteyiz.
@@ -72,7 +72,7 @@ export default function PrivacyPage() {
             3. Kayıt Dosyaları (Log Files)
           </h2>
           <p>
-            Diğer pek çok web sitesi gibi RehberPortal da standart log dosyaları kullanır. Bu dosyalar yalnızca siteye gelen ziyaretçileri kaydeder; internet servis sağlayıcısı (ISP), internet protokolü (IP) adresleri, tarayıcı türü, tarih/saat damgaları ve yönlendiren sayfaları kapsar. Bu bilgiler kişisel olarak tanımlanabilir bilgilerle bağlantılı değildir; yalnızca trendleri analiz etmek, siteyi yönetmek ve kullanıcı hareketlerini izlemek amacıyla kullanılır.
+            Diğer pek çok web sitesi gibi Bilgi Rotası da standart log dosyaları kullanır. Bu dosyalar yalnızca siteye gelen ziyaretçileri kaydeder; internet servis sağlayıcısı (ISP), internet protokolü (IP) adresleri, tarayıcı türü, tarih/saat damgaları ve yönlendiren sayfaları kapsar. Bu bilgiler kişisel olarak tanımlanabilir bilgilerle bağlantılı değildir; yalnızca trendleri analiz etmek, siteyi yönetmek ve kullanıcı hareketlerini izlemek amacıyla kullanılır.
           </p>
         </section>
 

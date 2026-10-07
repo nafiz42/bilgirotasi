@@ -55,9 +55,9 @@ export async function generateMetadata({
       canonical: `/kategori/${category.slug}`
     },
     openGraph: {
-      title: `${category.title} | RehberPortal`,
+      title: `${category.title} | Bilgi Rotası`,
       description: category.description,
-      url: `https://rehberportal.com/kategori/${category.slug}`
+      url: `https://www.bilgirotasi.tr/kategori/${category.slug}`
     }
   };
 }
