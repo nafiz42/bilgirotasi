@@ -20,7 +20,7 @@ interface AdBannerProps {
 export default function AdBanner({
   type,
   adSlotId = 'DEMO-AD-SLOT',
-  adClient = 'ca-pub-XXXXXXXXXXXXXXXX',
+  adClient = 'ca-pub-1843373602369228',
   className = '',
   label = 'REKLAM ALANI / SPONSORLU'
 }: AdBannerProps) {

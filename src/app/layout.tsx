@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     }
   },
   other: {
-    'google-adsense-account': 'ca-pub-XXXXXXXXXXXXXXXX'
+    'google-adsense-account': 'ca-pub-1843373602369228'
   }
 };
 
@@ -108,6 +108,11 @@ export default function RootLayout({
   return (
     <html lang="tr" suppressHydrationWarning className={inter.variable}>
       <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1843373602369228"
+          crossOrigin="anonymous"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
