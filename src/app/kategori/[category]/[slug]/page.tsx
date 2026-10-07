@@ -2,8 +2,9 @@ import React from 'react';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getPostBySlug, getRelatedPosts, posts } from '@/data/posts';
+import { Post } from '@/types';
 import { getCategoryBySlug } from '@/data/categories';
-import { getAuthorById } from '@/data/authors';
+import { getAuthorById, authors } from '@/data/authors';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import TableOfContents from '@/components/TableOfContents';
 import SocialShare from '@/components/SocialShare';
@@ -36,6 +37,100 @@ export async function generateStaticParams() {
   }));
 }
 
+const defaultCovers: Record<string, string> = {
+  'e-devlet-basvurular': 'https://images.unsplash.com/photo-1450133064473-71024230f91b?w=1200&auto=format&fit=crop&q=80',
+  'teknoloji-mobil': 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1200&auto=format&fit=crop&q=80',
+  'oyun-donanim': 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80',
+  'egitim-sinavlar': 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80',
+  'pratik-bilgiler': 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&auto=format&fit=crop&q=80'
+};
+
+interface NormalizedContent {
+  lead: string;
+  sections: {
+    id: string;
+    heading: string;
+    paragraphs: string[];
+    steps?: { title: string; description: string }[];
+    callout?: {
+      type: 'info' | 'warning' | 'tip';
+      title: string;
+      message: string;
+    };
+  }[];
+}
+
+function normalizePostContent(content: Post['content'], fallbackLead: string): NormalizedContent {
+  if (typeof content !== 'string') {
+    return content;
+  }
+
+  const parts = content.split(/^##\s+/m);
+  let lead = fallbackLead;
+  const sections: NormalizedContent['sections'] = [];
+
+  parts.forEach((part, index) => {
+    if (!part.trim()) return;
+
+    if (index === 0 && !content.trim().startsWith('##')) {
+      lead = part.trim();
+      return;
+    }
+
+    const lines = part.trim().split('\n');
+    const heading = lines[0].trim();
+    const bodyLines = lines.slice(1);
+
+    const paragraphs: string[] = [];
+    const steps: { title: string; description: string }[] = [];
+    let callout: NormalizedContent['sections'][0]['callout'] | undefined;
+
+    bodyLines.forEach((rawLine) => {
+      const line = rawLine.trim();
+      if (!line) return;
+
+      const stepMatch = line.match(/^(\d+)\.\s+\*\*(.*?)\*\*:?\s*(.*)$/);
+      if (stepMatch) {
+        steps.push({
+          title: stepMatch[2].trim(),
+          description: stepMatch[3].trim()
+        });
+        return;
+      }
+
+      if (line.startsWith('* **') && line.includes(':**')) {
+        const itemMatch = line.match(/^\*\s+\*\*(.*?)\*\*:?\s*(.*)$/);
+        if (itemMatch && !callout) {
+          callout = {
+            type: 'tip',
+            title: itemMatch[1].trim(),
+            message: itemMatch[2].trim()
+          };
+          return;
+        }
+      }
+
+      paragraphs.push(line.replace(/^\*\s+/, '• '));
+    });
+
+    const slugId = heading
+      .toLowerCase()
+      .replace(/[^a-z0-9ğüşıöç\s-]/gi, '')
+      .trim()
+      .replace(/\s+/g, '-');
+
+    sections.push({
+      id: slugId || `section-${index}`,
+      heading,
+      paragraphs,
+      steps: steps.length > 0 ? steps : undefined,
+      callout
+    });
+  });
+
+  return { lead, sections };
+}
+
 export async function generateMetadata({
   params
 }: ArticlePageProps): Promise<Metadata> {
@@ -49,12 +144,16 @@ export async function generateMetadata({
   }
 
   const category = getCategoryBySlug(post.categorySlug);
-  const author = getAuthorById(post.authorId);
+  const author = getAuthorById(post.authorId || 'author-1') || authors[0];
+  const coverImage = post.coverImage || defaultCovers[post.categorySlug] || defaultCovers['pratik-bilgiler'];
+  const pubDate = post.publishedAt || post.date || '2026-10-07';
+  const updDate = post.updatedAt || post.date || pubDate;
+  const tags = post.tags && post.tags.length > 0 ? post.tags : [category?.title || 'Rehber', 'Nasıl Yapılır'];
 
   return {
     title: post.title,
     description: post.description,
-    keywords: post.tags,
+    keywords: tags,
     authors: author ? [{ name: author.name }] : undefined,
     alternates: {
       canonical: `/kategori/${post.categorySlug}/${post.slug}`
@@ -63,13 +162,13 @@ export async function generateMetadata({
       title: `${post.title} | Bilgi Rotası`,
       description: post.description,
       type: 'article',
-      publishedTime: post.publishedAt,
-      modifiedTime: post.updatedAt,
+      publishedTime: pubDate,
+      modifiedTime: updDate,
       section: category?.title,
-      tags: post.tags,
+      tags: tags,
       images: [
         {
-          url: post.coverImage,
+          url: coverImage,
           width: 1200,
           height: 630,
           alt: post.title
@@ -80,7 +179,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: post.title,
       description: post.description,
-      images: [post.coverImage]
+      images: [coverImage]
     }
   };
 }
@@ -94,23 +193,31 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   }
 
   const category = getCategoryBySlug(post.categorySlug);
-  const author = getAuthorById(post.authorId);
+  const author = getAuthorById(post.authorId || 'author-1') || authors[0];
   const relatedPosts = getRelatedPosts(post.id, post.categorySlug, 3);
+  const coverImage = post.coverImage || defaultCovers[post.categorySlug] || defaultCovers['pratik-bilgiler'];
+  const viewCount = post.viewCount ?? 16800;
+  const pubDate = post.publishedAt || post.date || '2026-10-07';
+  const updDate = post.updatedAt || post.date || pubDate;
+  const tags = post.tags && post.tags.length > 0 ? post.tags : [category?.title || 'Rehber', 'Nasıl Yapılır'];
+  const faqs = post.faqs || [];
 
-  const formattedPublishedDate = new Date(post.publishedAt).toLocaleDateString('tr-TR', {
+  const normalizedContent = normalizePostContent(post.content, post.description);
+
+  const formattedPublishedDate = new Date(pubDate).toLocaleDateString('tr-TR', {
     day: 'numeric',
     month: 'long',
     year: 'numeric'
   });
 
-  const formattedUpdatedDate = new Date(post.updatedAt).toLocaleDateString('tr-TR', {
+  const formattedUpdatedDate = new Date(updDate).toLocaleDateString('tr-TR', {
     day: 'numeric',
     month: 'long',
     year: 'numeric'
   });
 
   // Table of Contents sections
-  const tocSections = post.content.sections.map((s) => ({
+  const tocSections = normalizedContent.sections.map((s) => ({
     id: s.id,
     heading: s.heading
   }));
@@ -121,9 +228,9 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     '@type': 'Article',
     headline: post.title,
     description: post.description,
-    image: [post.coverImage],
-    datePublished: post.publishedAt,
-    dateModified: post.updatedAt,
+    image: [coverImage],
+    datePublished: pubDate,
+    dateModified: updDate,
     author: {
       '@type': 'Person',
       name: author?.name || 'Bilgi Rotası Editörü',
@@ -224,7 +331,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                     </span>
                     <span className="flex items-center gap-1">
                       <Eye className="w-3.5 h-3.5 text-blue-500" />
-                      {post.viewCount.toLocaleString('tr-TR')} görüntülenme
+                      {viewCount.toLocaleString('tr-TR')} görüntülenme
                     </span>
                   </div>
                 </div>
@@ -233,7 +340,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               {/* Cover Image */}
               <div className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-lg bg-slate-100 dark:bg-slate-800 border border-slate-200/80 dark:border-slate-800">
                 <img
-                  src={post.coverImage}
+                  src={coverImage}
                   alt={post.title}
                   className="w-full h-full object-cover"
                 />
@@ -244,7 +351,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
               {/* Lead Paragraph */}
               <div className="text-base sm:text-lg text-slate-700 dark:text-slate-200 font-medium leading-relaxed bg-blue-50/50 dark:bg-blue-950/20 p-5 rounded-2xl border-l-4 border-blue-600">
-                {post.content.lead}
+                {normalizedContent.lead}
               </div>
 
               {/* Automatic Table of Contents */}
@@ -255,7 +362,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
               {/* Dynamic Content Sections with Automatic Pre-H2 Ad Placement */}
               <div className="space-y-8 text-slate-800 dark:text-slate-200 leading-relaxed text-sm sm:text-base">
-                {post.content.sections.map((section, idx) => (
+                {normalizedContent.sections.map((section, idx) => (
                   <section key={section.id} id={section.id} className="scroll-mt-24 space-y-4">
                     
                     {/* Secondary In-Article ad before subsequent H2 headers */}
@@ -331,7 +438,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               <div className="pt-6 border-t border-slate-200 dark:border-slate-800">
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="text-xs font-semibold text-slate-400">Etiketler:</span>
-                  {post.tags.map((tag) => (
+                  {tags.map((tag) => (
                     <span
                       key={tag}
                       className="text-xs px-3 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200/60 dark:border-slate-700/60"
@@ -343,7 +450,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               </div>
 
               {/* SSS (FAQ Accordion) with JSON-LD Schema */}
-              <FaqAccordion faqs={post.faqs} />
+              {faqs.length > 0 && <FaqAccordion faqs={faqs} />}
 
               {/* Author Bio Box */}
               {author && <AuthorBio author={author} />}

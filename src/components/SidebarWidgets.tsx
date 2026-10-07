@@ -19,7 +19,7 @@ export default function SidebarWidgets({
   // Sort posts by viewCount for "En Çok Okunanlar"
   const topPosts = [...posts]
     .filter((p) => p.id !== currentPostId)
-    .sort((a, b) => b.viewCount - a.viewCount)
+    .sort((a, b) => (b.viewCount || 0) - (a.viewCount || 0))
     .slice(0, 5);
 
   return (

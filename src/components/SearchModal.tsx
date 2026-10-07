@@ -46,7 +46,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
       (p) =>
         p.title.toLowerCase().includes(q) ||
         p.description.toLowerCase().includes(q) ||
-        p.tags.some((tag) => tag.toLowerCase().includes(q))
+        (p.tags ? p.tags.some((tag) => tag.toLowerCase().includes(q)) : false)
     );
   }, [query]);
 

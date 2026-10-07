@@ -50,7 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // 3. Post Pages
   const postPages: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${baseUrl}/kategori/${post.categorySlug}/${post.slug}`,
-    lastModified: new Date(post.updatedAt || post.publishedAt),
+    lastModified: new Date(post.updatedAt || post.publishedAt || post.date || new Date()),
     changeFrequency: 'weekly',
     priority: 0.8
   }));

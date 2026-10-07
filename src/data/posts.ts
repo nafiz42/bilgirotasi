@@ -1086,7 +1086,11 @@ export const posts: Post[] = [
 ];
 
 export function getAllPosts(): Post[] {
-  return posts.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+  return posts.sort(
+    (a, b) =>
+      new Date(b.publishedAt || b.date || '2026-10-07').getTime() -
+      new Date(a.publishedAt || a.date || '2026-10-07').getTime()
+  );
 }
 
 export function getPostBySlug(slug: string): Post | undefined {
@@ -1096,7 +1100,11 @@ export function getPostBySlug(slug: string): Post | undefined {
 export function getPostsByCategory(categorySlug: string): Post[] {
   return posts
     .filter((p) => p.categorySlug === categorySlug)
-    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+    .sort(
+      (a, b) =>
+        new Date(b.publishedAt || b.date || '2026-10-07').getTime() -
+        new Date(a.publishedAt || a.date || '2026-10-07').getTime()
+    );
 }
 
 export function getFeaturedPosts(): Post[] {
@@ -1120,7 +1128,7 @@ export function searchPosts(query: string): Post[] {
     return (
       p.title.toLowerCase().includes(q) ||
       p.description.toLowerCase().includes(q) ||
-      p.tags.some((t) => t.toLowerCase().includes(q))
+      (p.tags ? p.tags.some((t) => t.toLowerCase().includes(q)) : false)
     );
   });
 }

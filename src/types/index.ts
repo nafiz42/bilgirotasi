@@ -37,30 +37,34 @@ export interface Post {
   title: string;
   description: string;
   categorySlug: string;
-  authorId: string;
-  publishedAt: string;
-  updatedAt: string;
+  category?: string;
+  authorId?: string;
+  publishedAt?: string;
+  updatedAt?: string;
+  date?: string;
   readTime: string;
-  viewCount: number;
+  viewCount?: number;
   featured?: boolean;
   trending?: boolean;
-  coverImage: string;
-  tags: string[];
-  content: {
-    lead: string;
-    sections: {
-      id: string;
-      heading: string;
-      paragraphs: string[];
-      steps?: PostStep[];
-      callout?: {
-        type: 'info' | 'warning' | 'tip';
-        title: string;
-        message: string;
+  coverImage?: string;
+  tags?: string[];
+  content:
+    | string
+    | {
+        lead: string;
+        sections: {
+          id: string;
+          heading: string;
+          paragraphs: string[];
+          steps?: PostStep[];
+          callout?: {
+            type: 'info' | 'warning' | 'tip';
+            title: string;
+            message: string;
+          };
+        }[];
       };
-    }[];
-  };
-  faqs: FaqItem[];
+  faqs?: FaqItem[];
 }
 
 export interface SearchResult {
