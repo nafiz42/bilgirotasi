@@ -6,6 +6,7 @@ import { Flame, FolderTree, Bell } from 'lucide-react';
 import { posts } from '@/data/posts';
 import { categories } from '@/data/categories';
 import AdBanner from '@/components/AdBanner';
+import { ADS_CONFIG } from '@/config/ads';
 
 interface SidebarWidgetsProps {
   currentPostId?: string;
@@ -121,8 +122,8 @@ export default function SidebarWidgets({
         </form>
       </div>
 
-      {/* 4. Sticky AdBanner (300x250 or 300x600) */}
-      {!hideStickyAd && (
+      {/* 4. Sticky AdBanner (300x250 or 300x600 - Arka planda hazır) */}
+      {!hideStickyAd && ADS_CONFIG.enabled && (
         <div className="sticky top-24">
           <AdBanner type="sidebar-sticky" />
         </div>

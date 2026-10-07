@@ -146,7 +146,7 @@ export default function Footer() {
             &copy; {currentYear} Bilgi Rotası. Tüm hakları saklıdır. Sitemizde yer alan rehberler bilgilendirme amaçlıdır.
           </p>
           <div className="flex items-center gap-4 text-[11px]">
-            <span>Google AdSense Uyumludur</span>
+            <span>Güvenli &amp; Özgün İçerik</span>
             <span>&bull;</span>
             <Link href="/gizlilik-politikasi" className="underline hover:text-slate-600 dark:hover:text-slate-300">
               Çerez Tercihleri

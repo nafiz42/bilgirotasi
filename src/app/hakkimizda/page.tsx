@@ -100,10 +100,10 @@ export default function AboutPage() {
         <ShieldCheck className="w-8 h-8 text-blue-600 shrink-0 mt-0.5" />
         <div className="space-y-1">
           <h3 className="font-bold text-slate-900 dark:text-slate-100">
-            Google AdSense ve İçerik Kalitesi Taahhüdü
+            Yayıncılık İlkeleri ve İçerik Kalitesi Taahhüdü
           </h3>
           <p>
-            Bilgi Rotası, Google Yayıncı Politikaları&apos;na tam uyumlu çalışır. Kullanıcı deneyimini önceleyen sayfa yerleşimleri, özgün metinler ve reklam-içerik ayrımına gösterilen hassasiyet ile güvenilir bir yayıncılık sürdürmekteyiz.
+            Bilgi Rotası, uluslararası yayıncılık standartlarına ve dijital içerik ilkelerine tam uyumlu çalışır. Kullanıcı deneyimini önceleyen sayfa yerleşimleri, özgün metinler ve güvenilir bilgi sunma hassasiyeti ile yayıncılık sürdürmekteyiz.
           </p>
         </div>
       </div>

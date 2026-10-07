@@ -5,6 +5,7 @@ import { ThemeProvider } from '@/context/ThemeContext';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AdBanner from '@/components/AdBanner';
+import { ADS_CONFIG } from '@/config/ads';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -78,9 +79,13 @@ export const metadata: Metadata = {
       'max-snippet': -1
     }
   },
-  other: {
-    'google-adsense-account': 'ca-pub-1843373602369228'
-  }
+  ...(ADS_CONFIG.enabled && ADS_CONFIG.adClient
+    ? {
+        other: {
+          'google-adsense-account': ADS_CONFIG.adClient
+        }
+      }
+    : {})
 };
 
 export default function RootLayout({
@@ -108,11 +113,13 @@ export default function RootLayout({
   return (
     <html lang="tr" suppressHydrationWarning className={inter.variable}>
       <head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1843373602369228"
-          crossOrigin="anonymous"
-        />
+        {ADS_CONFIG.enabled && ADS_CONFIG.adClient && (
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADS_CONFIG.adClient}`}
+            crossOrigin="anonymous"
+          />
+        )}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
@@ -123,10 +130,8 @@ export default function RootLayout({
           {/* Header Navigation */}
           <Header />
 
-          {/* Under Header Ad Banner (728x90 Desktop / 320x100 Mobile) */}
-          <div className="w-full bg-slate-100/60 dark:bg-slate-950/40 border-b border-slate-200/40 dark:border-slate-800/40 py-1">
-            <AdBanner type="header" />
-          </div>
+          {/* Header Altı Reklam Alanı (Arka planda hazır, ön planda reklamlar kapalıyken render edilmez) */}
+          <AdBanner type="header" />
 
           {/* Main Page Content */}
           <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">

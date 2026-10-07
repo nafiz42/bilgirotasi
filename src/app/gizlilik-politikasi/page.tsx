@@ -20,7 +20,7 @@ export default function PrivacyPage() {
       <div className="p-8 sm:p-10 rounded-3xl bg-slate-900 text-white space-y-3">
         <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-semibold">
           <Shield className="w-3.5 h-3.5" />
-          <span>KVKK ve Google AdSense Uyumlu</span>
+          <span>KVKK ve Çerez Güvenliği Politikası</span>
         </div>
         <h1 className="text-2xl sm:text-3xl font-black">
           Gizlilik Politikası ve Çerezler (Cookies)

@@ -118,9 +118,9 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               {categoryPosts.map((post, idx) => (
                 <React.Fragment key={post.id}>
                   <ArticleCard post={post} variant="horizontal" />
-                  {/* In-feed ad after second post */}
+                  {/* In-feed ad after second post (Arka planda hazır) */}
                   {idx === 1 && (
-                    <AdBanner type="in-article" label="Kategori İçi Sponsorlu Alan" />
+                    <AdBanner type="in-article" label="Sponsorlu İçerik" />
                   )}
                 </React.Fragment>
               ))}

@@ -357,17 +357,17 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               {/* Automatic Table of Contents */}
               <TableOfContents sections={tocSections} />
 
-              {/* In-Article Ad Banner #1 */}
-              <AdBanner type="in-article" label="Sponsorlu Bağlantı (AdSense In-Article)" />
+              {/* In-Article Ad Banner #1 (Arka planda hazır) */}
+              <AdBanner type="in-article" label="Sponsorlu İçerik" />
 
               {/* Dynamic Content Sections with Automatic Pre-H2 Ad Placement */}
               <div className="space-y-8 text-slate-800 dark:text-slate-200 leading-relaxed text-sm sm:text-base">
                 {normalizedContent.sections.map((section, idx) => (
                   <section key={section.id} id={section.id} className="scroll-mt-24 space-y-4">
                     
-                    {/* Secondary In-Article ad before subsequent H2 headers */}
+                    {/* Secondary In-Article ad before subsequent H2 headers (Arka planda hazır) */}
                     {idx === 2 && (
-                      <AdBanner type="in-article" label="Makale İçi Sponsorlu Alan (AdSense)" />
+                      <AdBanner type="in-article" label="Sponsorlu İçerik" />
                     )}
 
                     <h2 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white pt-2 border-b border-slate-100 dark:border-slate-800/80 pb-2">
@@ -455,10 +455,10 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               {/* Author Bio Box */}
               {author && <AuthorBio author={author} />}
 
-              {/* Yazı Sonu Reklam Alanı (Full-width AdBanner before Related Posts) */}
+              {/* Yazı Sonu Reklam Alanı (Arka planda hazır) */}
               <AdBanner
                 type="article-footer"
-                label="Yazı Sonu Sponsorlu Reklam (AdSense Display)"
+                label="Sponsorlu İçerik"
               />
 
               {/* Benzer / İlgili Diğer Rehberler */}

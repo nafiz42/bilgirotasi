@@ -104,8 +104,8 @@ export default function HomePage() {
             </div>
           </section>
 
-          {/* Mid-Feed In-Article Ad Banner */}
-          <AdBanner type="article-footer" label="Sponsorlu İçerik / AdSense Alanı" />
+          {/* Mid-Feed In-Article Ad Banner (Arka planda hazır) */}
+          <AdBanner type="article-footer" label="Sponsorlu İçerik" />
 
           {/* Kategorilere Göre Öne Çıkanlar (e-Devlet & Teknoloji Özel Blokları) */}
           <section className="space-y-8">
