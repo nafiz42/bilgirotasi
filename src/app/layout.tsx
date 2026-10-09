@@ -79,7 +79,7 @@ export const metadata: Metadata = {
       'max-snippet': -1
     }
   },
-  ...(ADS_CONFIG.enabled && ADS_CONFIG.adClient
+  ...(ADS_CONFIG.adClient && (ADS_CONFIG.enabled || ADS_CONFIG.enableVerificationScript)
     ? {
         other: {
           'google-adsense-account': ADS_CONFIG.adClient
@@ -113,7 +113,7 @@ export default function RootLayout({
   return (
     <html lang="tr" suppressHydrationWarning className={inter.variable}>
       <head>
-        {ADS_CONFIG.enabled && ADS_CONFIG.adClient && (
+        {ADS_CONFIG.adClient && (ADS_CONFIG.enabled || ADS_CONFIG.enableVerificationScript) && (
           <script
             async
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADS_CONFIG.adClient}`}

@@ -11,13 +11,16 @@
  */
 
 export const ADS_CONFIG = {
-  // Reklamların ön planda gösterim durumu (Şu anlık tamamen kapalı)
+  // Reklam afişlerinin sitede gösterim durumu (false: banner ve reklam alanları kapalı)
   enabled: false,
+
+  // AdSense site doğrulama / onay scripti ve meta etiketi (true: onay için <head>'e eklenir)
+  enableVerificationScript: true,
 
   // Gerçek AdSense yayın durumu (true: canli <ins> etiketleri, false: yerleşim taslağı)
   isProduction: false,
 
-  // Google AdSense Yayıncı Kimliği (Arka planda hazır tutulur, ön plana sızdırılmaz)
+  // Google AdSense Yayıncı Kimliği
   adClient: 'ca-pub-1843373602369228',
 
   // Reklam Alanları / Slot Kimlikleri (Arka planda hazır tutulur)
