@@ -43,11 +43,11 @@ export interface Post {
   updatedAt?: string;
   date?: string;
   readTime: string;
-  viewCount?: number;
   featured?: boolean;
   trending?: boolean;
   coverImage?: string;
   tags?: string[];
+  sources?: { title: string; url: string }[];
   content:
     | string
     | {

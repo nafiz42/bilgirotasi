@@ -83,7 +83,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           <div className="space-y-2 max-w-2xl">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md text-xs font-semibold text-blue-200">
               <span className="w-2 h-2 rounded-full bg-emerald-400" />
-              <span>{categoryPosts.length} Kapsamlı Rehber Mevcut</span>
+              <span>{categoryPosts.length} rehber</span>
             </div>
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight">
               {category.title}

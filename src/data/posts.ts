@@ -9,13 +9,16 @@ export const posts: Post[] = [
     categorySlug: 'e-devlet-basvurular',
     authorId: 'author-2',
     publishedAt: '2026-10-07',
-    updatedAt: '2026-10-07',
+    updatedAt: '2026-10-21',
     readTime: '4 dk',
-    viewCount: 18450,
     featured: true,
     trending: true,
     coverImage: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&auto=format&fit=crop&q=80',
     tags: ['KYK', 'Burs', 'Öğrenim Kredisi', 'Taahhütname Onayı', 'e-Devlet', 'GSB'],
+    sources: [
+      { title: 'GSB: Burs ve kredi genel bilgileri', url: 'https://kygm.gsb.gov.tr/sayfalar/2441/2390/genel-bilgiler.aspx' },
+      { title: 'GSB: Burs ve kredi sıkça sorulan sorular', url: 'https://kygm.gsb.gov.tr/Sayfalar/2446/3200/sikca-sorulan-sorular-kredi-burs.aspx' }
+    ],
     content: {
       lead: 'Gençlik ve Spor Bakanlığı (GSB) tarafından her yıl açıklanan KYK burs ve kredi başvuru sonuçlarının ardından hak kazanan öğrencilerin ödemelerini alabilmeleri için taahhütname onayı vermesi gerekir. İşte e-Devlet üzerinden adım adım onay kılavuzu.',
       sections: [
@@ -24,7 +27,7 @@ export const posts: Post[] = [
           heading: 'KYK Taahhütname Onayı Nedir ve Neden Zorunludur?',
           paragraphs: [
             'Gençlik ve Spor Bakanlığı (GSB) tarafından her yıl açıklanan KYK burs ve kredi başvuru sonuçlarının ardından hak kazanan öğrencilerin burslarını alabilmeleri için taahhütname onayı vermesi gerekir.',
-            'Belirlenen son tarihe kadar onaylanmayan haklar otomatik olarak iptal edilir ve yedek listelerdeki öğrencilere aktarılır.'
+            'Taahhütname onayı yapılmadığında burs veya kredi ödemesi yapılmaz. Son tarih ve son tarihten sonra izlenecek yol her dönem GSB tarafından duyurulur; güncel yılın ilanını kontrol edin.'
           ],
           callout: {
             type: 'warning',
@@ -65,8 +68,8 @@ export const posts: Post[] = [
           id: '18-yas-alti-onay',
           heading: '18 Yaşından Küçük Öğrenciler Ne Yapmalı?',
           paragraphs: [
-            '18 yaşını doldurmamış öğrencilerin taahhütnameleri anne veya babaları (yasal vasileri) tarafından onaylanmalıdır:',
-            'Öncelikle anne veya baba kendi e-Devlet hesabıyla giriş yapar, "Burs/Kredi Taahhütname Onayı (Öğrenci Yakını)" hizmetini aratarak onay işlemini tamamlar. Ardından öğrenci kendi e-Devlet hesabına girerek nihai onayı verir.'
+            'GSB’nin güncel açıklamasında 15–18 yaş aralığındaki öğrenciler için önce anne veya babanın e-Devlet hesabından veli onayı, ardından öğrencinin kendi hesabından taahhütname onayı isteniyor.',
+            '15 yaşından küçük öğrenciler ile anne ve babası bulunmayan bazı öğrenciler için işlem farklı olabilir; GSB, bu durumlarda kanuni vasiyle birlikte ilgili il müdürlüğüne başvurulmasını belirtiyor. Yaş ve durumunuza göre güncel GSB duyurusunu kontrol edin.'
           ],
           callout: {
             type: 'tip',
@@ -83,7 +86,7 @@ export const posts: Post[] = [
       },
       {
         question: '18 yaşından küçükler kendi hesabından tek başına onay verebilir mi?',
-        answer: 'Hayır, 18 yaş altındaki öğrenciler için öncelikle yasal vasi (anne veya baba) e-Devlet üzerinden veli onayı vermelidir.'
+        answer: '15–18 yaş aralığı için GSB, önce anne veya babanın e-Devlet üzerinden veli onayı vermesini, sonra öğrencinin kendi hesabından taahhütnameyi onaylamasını istiyor. 15 yaşından küçük öğrencilerin işlemi farklı olabilir; GSB’nin güncel açıklamasına bakın.'
       }
     ]
   },
@@ -95,13 +98,16 @@ export const posts: Post[] = [
     categorySlug: 'teknoloji-mobil',
     authorId: 'author-1',
     publishedAt: '2026-10-07',
-    updatedAt: '2026-10-07',
+    updatedAt: '2026-10-21',
     readTime: '3 dk',
-    viewCount: 26800,
     featured: true,
     trending: true,
     coverImage: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&auto=format&fit=crop&q=80',
     tags: ['Instagram', 'Hesap Dondurma', 'Sosyal Medya', 'Hesap Kapatma', 'Mobil'],
+    sources: [
+      { title: 'Instagram Yardım Merkezi: Hesabı geçici olarak dondurma', url: 'https://help.instagram.com/728869160569983' },
+      { title: 'Instagram Yardım Merkezi', url: 'https://help.instagram.com/' }
+    ],
     content: {
       lead: 'Instagram hesabınızı silmeden fotoğraflarınızı, takipçilerinizi ve mesajlarınızı koruyarak geçici olarak kapatabilirsiniz. İşte 2026 Meta Hesaplar Merkezi ile telefondan ve bilgisayardan hesap dondurma adımları.',
       sections: [
@@ -158,7 +164,20 @@ export const posts: Post[] = [
           callout: {
             type: 'tip',
             title: 'Önemli Hatırlatma',
-            message: 'Hesabınızı haftada yalnızca 1 kez dondurabilirsiniz. Dondurulan hesabı yeniden açmak için kullanıcı adı ve şifrenizle normal giriş yapmanız yeterlidir.'
+            message: 'Yeniden dondurma sıklığı değişebilir; işlem ekranında gösterilen güncel uyarıyı esas alın. Dondurmayı kaldırmak için hesabınıza yeniden giriş yapın.'
+          }
+        },
+        {
+          id: 'kalici-silme',
+          heading: 'Hesabı Kalıcı Olarak Silmeden Önce',
+          paragraphs: [
+            'Hesabı silme talebi dondurmadan farklıdır ve profilinize erişiminizi kalıcı olarak kaybettirebilir. Fotoğraf, video ve diğer bilgilerinize ihtiyacınız varsa talep oluşturmadan önce Instagram’ın bilgi indirme aracını kullanın.',
+            'Silme talebini Hesaplar Merkezi içindeki hesap sahipliği ve kontrolü bölümünden başlatın. Instagram’ın gösterdiği son tarih ve iptal koşullarını dikkatle okuyun; silme süreci ve menü adları değişebileceğinden güncel resmi yardım sayfasını esas alın.'
+          ],
+          callout: {
+            type: 'warning',
+            title: 'Silme işlemi kalıcı olabilir',
+            message: 'Devam etmeden önce hesabınızda saklamak istediğiniz içeriği indirin ve ekranda gösterilen silme/iptal süresini not edin.'
           }
         }
       ]
@@ -169,8 +188,8 @@ export const posts: Post[] = [
         answer: 'Hesabınıza kullanıcı adı ve şifrenizle tekrar giriş yaptığınız anda dondurma işlemi iptal edilir ve hesabınız hemen aktifleşir.'
       },
       {
-        question: 'Instagram hesabını ne sıklıkla dondurabilirim?',
-        answer: 'Instagram güvenlik politikaları gereğince hesabınızı haftada sadece 1 defa dondurabilirsiniz.'
+        question: 'Instagram hesabını yeniden ne zaman dondurabilirim?',
+        answer: 'Yeniden dondurma sıklığı hesap ve Instagram kurallarına göre değişebilir. İşlem sırasında ekranda görünen bilgilendirmeyi kontrol edin.'
       }
     ]
   },
@@ -178,17 +197,20 @@ export const posts: Post[] = [
     id: 'post-new-3',
     slug: 'valorant-van-1067-ve-tpm-2-0-hatasi-kesin-cozumu',
     title: 'Valorant Van 1067 Hatası ve TPM 2.0 Çözümü (Windows 10 / 11)',
-    description: 'Valorant açılırken karşılaşılan Van 1067 ve Vanguard TPM 2.0 / Secure Boot hatalarının adım adım kesin çözüm yolları.',
+    description: 'Valorant açılırken görülen Van 1067 ve Vanguard TPM 2.0 / Secure Boot hatalarında uygulanabilecek kontrol adımları.',
     categorySlug: 'oyun-donanim',
     authorId: 'author-3',
     publishedAt: '2026-10-07',
-    updatedAt: '2026-10-07',
+    updatedAt: '2026-10-21',
     readTime: '5 dk',
-    viewCount: 34100,
     featured: true,
     trending: true,
     coverImage: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80',
     tags: ['Valorant', 'Van 1067', 'TPM 2.0', 'Secure Boot', 'Vanguard', 'Hata Çözümü'],
+    sources: [
+      { title: 'Riot Games VALORANT Destek', url: 'https://support-valorant.riotgames.com/hc/tr' },
+      { title: 'Microsoft: Windows sürücü güncellemeleri', url: 'https://support.microsoft.com/en-us/windows/hardware/drivers/automatically-get-recommended-and-updated-hardware-drivers' }
+    ],
     content: {
       lead: 'Valorant açılırken karşılaşılan Van 1067 hatası, Riot Vanguard\'ın güvenlik doğrulamasından kaynaklanır. İşte BIOS üzerinden TPM 2.0 ve Secure Boot ayarları ile VGC servisinin yapılandırılması.',
       sections: [
@@ -260,13 +282,16 @@ export const posts: Post[] = [
     categorySlug: 'e-devlet-basvurular',
     authorId: 'author-2',
     publishedAt: '2026-10-07',
-    updatedAt: '2026-10-07',
+    updatedAt: '2026-10-21',
     readTime: '3 dk',
-    viewCount: 21900,
     featured: true,
     trending: true,
     coverImage: 'https://images.unsplash.com/photo-1450133064473-71024230f91b?w=1200&auto=format&fit=crop&q=80',
     tags: ['e-Devlet', 'İkametgah', 'Yerleşim Yeri Belgesi', 'Barkodlu Belge', 'NVİ'],
+    sources: [
+      { title: 'NVİ: Nüfus kayıt örneği ve yerleşim yeri belgeleri', url: 'https://www.nvi.gov.tr/nufus-kayit-ornegi-verilmesi' },
+      { title: 'NVİ: e-Doğrulamalar', url: 'https://nvi.gov.tr/e-dogrulamalar' }
+    ],
     content: {
       lead: 'Nüfus müdürlüğüne gitmeden resmi kurumlara ibraz edebileceğiniz barkodlu ikametgah (yerleşim yeri) belgesini e-Devlet kapısı üzerinden saniyeler içinde ücretsiz oluşturabilirsiniz.',
       sections: [
@@ -275,7 +300,7 @@ export const posts: Post[] = [
           heading: 'e-Devlet\'ten Alınan İkametgah Belgesi Geçerli midir?',
           paragraphs: [
             'Evet. e-Devlet üzerinden oluşturulan karekodlu ve barkodlu yerleşim yeri belgeleri, Nüfus Müdürlüklerinden bizzat alınan ıslak imzalı belgelerle aynı hukuki geçerliliğe sahiptir.',
-            'Üniversite kayıtları, iş başvuruları, bankacılık işlemleri ve noter işlemleri dahil olmak üzere tüm resmi merciler bu belgeyi kabul etmekle yükümlüdür.'
+            'Belge e-Devlet üzerinden karekodlu veya barkodlu olarak alınabilir ve elektronik ortamda doğrulanabilir. Başvuru yapacağınız kurumun belge tarihi veya sunum biçimiyle ilgili özel koşullarını ayrıca kontrol edin.'
           ]
         },
         {
@@ -332,7 +357,7 @@ export const posts: Post[] = [
       },
       {
         question: 'Belgenin kullanım süresi ne kadardır?',
-        answer: 'e-Devlet üzerinden alınan yerleşim yeri belgeleri oluşturulduğu tarihten itibaren genellikle 1 ay süreyle geçerlidir.'
+        answer: 'Belgenin her kurum için geçerli tek bir kullanım süresi yoktur. Belgeyi sunacağınız kurumdan güncel tarih şartı olup olmadığını öğrenin.'
       }
     ]
   },
@@ -345,13 +370,16 @@ export const posts: Post[] = [
     categorySlug: 'e-devlet-basvurular',
     authorId: 'author-2',
     publishedAt: '2026-09-28',
-    updatedAt: '2026-10-02',
+    updatedAt: '2026-10-21',
     readTime: '6 dk',
-    viewCount: 48250,
     featured: true,
     trending: true,
     coverImage: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&auto=format&fit=crop&q=80',
     tags: ['KYK Bursu', 'e-Devlet', 'Öğrenim Kredisi', 'GSB', 'Üniversite'],
+    sources: [
+      { title: 'GSB: Burs ve kredi genel bilgileri', url: 'https://kygm.gsb.gov.tr/sayfalar/2441/2390/genel-bilgiler.aspx' },
+      { title: 'GSB: Burs ve kredi sıkça sorulan sorular', url: 'https://kygm.gsb.gov.tr/Sayfalar/2446/3200/sikca-sorulan-sorular-kredi-burs.aspx' }
+    ],
     content: {
       lead: 'Üniversiteyi yeni kazanan veya ara sınıfta olan yüzbinlerce öğrenci için Gençlik ve Spor Bakanlığı (GSB) KYK burs ve kredi başvuruları büyük önem taşıyor. İşte e-Devlet kapısı üzerinden hatasız başvuru rehberi.',
       sections: [
@@ -423,7 +451,7 @@ export const posts: Post[] = [
       },
       {
         question: 'KYK burs başvurusu için e-Devlet şifresi nereden alınır?',
-        answer: 'Size en yakın PTT şubesine kimlik kartınızla giderek 15 TL karşılığında kapalı zarf içinde e-Devlet şifrenizi alabilirsiniz.'
+        answer: 'e-Devlet şifresi edinme koşulları ve varsa ücret bilgisi değişebilir. PTT veya e-Devlet Kapısı üzerinden güncel açıklamayı kontrol edin.'
       }
     ]
   },
@@ -435,15 +463,18 @@ export const posts: Post[] = [
     categorySlug: 'e-devlet-basvurular',
     authorId: 'author-1',
     publishedAt: '2026-09-25',
-    updatedAt: '2026-10-01',
+    updatedAt: '2026-10-21',
     readTime: '5 dk',
-    viewCount: 32100,
     featured: false,
     trending: true,
     coverImage: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80',
     tags: ['İkametgah', 'Adres Değişikliği', 'Nüfus Müdürlüğü', 'NVİ', 'e-Devlet'],
+    sources: [
+      { title: 'NVİ: e-Devlet işlemleri', url: 'https://nvi.gov.tr/e-dogrulamalar' },
+      { title: 'e-Devlet: Adres değişikliği bildirimi', url: 'https://www.turkiye.gov.tr/nvi-adres-degisikligi-bildirimi' }
+    ],
     content: {
-      lead: 'Yeni bir eve taşındığınızda yasal olarak 20 iş günü içinde adres bildirimi yapmanız gerekmektedir. Nüfus müdürlüğüne gitmeden bu işlemi e-Devlet üzerinden nasıl yapabileceğinizi derledik.',
+      lead: 'Yeni bir adrese taşındığınızda adres bildiriminizi Nüfus ve Vatandaşlık İşleri Genel Müdürlüğünün (NVİ) kurallarına göre yapmanız gerekir. e-Devlet üzerinden bildirim her durum için açık olmayabilir; işlem öncesinde güncel koşulları kontrol edin.',
       sections: [
         {
           id: 'kimler-yapabilir',
@@ -480,7 +511,7 @@ export const posts: Post[] = [
           callout: {
             type: 'info',
             title: 'Yasal Süre',
-            message: '5490 sayılı Nüfus Hizmetleri Kanunu gereğince taşınma tarihinden itibaren 20 iş günü içinde bildirilmeyen adresler için idari para cezası uygulanmaktadır.'
+            message: 'Adres bildirim süresi ve uygulanabilecek yaptırımlar mevzuata göre değişebilir. Güncel bilgi için NVİ ve mevzuat kaynaklarını kontrol edin.'
           }
         }
       ]
@@ -506,11 +537,14 @@ export const posts: Post[] = [
     publishedAt: '2026-09-15',
     updatedAt: '2026-09-29',
     readTime: '5 dk',
-    viewCount: 29400,
     featured: false,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&auto=format&fit=crop&q=80',
     tags: ['Sosyal Yardım', 'Aile Destek', 'e-Devlet', 'Bakanlık'],
+    sources: [
+      { title: 'e-Devlet: Sosyal yardım başvuru hizmeti', url: 'https://www.turkiye.gov.tr/ashb-sosyal-yardim-basvuru-hizmeti' },
+      { title: 'Aile ve Sosyal Hizmetler Bakanlığı', url: 'https://www.aile.gov.tr/sygm/' }
+    ],
     content: {
       lead: 'Devletin ihtiyaç sahibi ailelere sağladığı nakdi destekler ve sosyal yardımlar için e-Devlet üzerinden kolayca başvuru yapılabilmektedir.',
       sections: [
@@ -518,14 +552,15 @@ export const posts: Post[] = [
           id: 'yardim-turleri',
           heading: 'Başvurulabilecek Sosyal Yardım Programları',
           paragraphs: [
-            'Aile Destek Programı, Doğalgaz Tüketim Desteği, Elektrik Tüketim Desteği ve Eğitim Materyali Yardımı gibi çeşitli kalemlerde destekler sunulmaktadır.'
+            'Yardım programları, başvuru dönemleri ve koşulları zaman içinde değişebilir. Eski haberlerde veya başka rehberlerde adı geçen bir desteğin hâlen açık olduğunu varsaymayın; e-Devlet başvuru ekranında listelenen güncel programı ve koşullarını inceleyin.'
           ]
         },
         {
           id: 'basvuru-yapma',
           heading: 'Sosyal Yardım Başvuru Ekranı',
           paragraphs: [
-            'e-Devlet arama kısmına "Sosyal Yardım Başvuru Hizmeti" yazarak Aile ve Sosyal Hizmetler Bakanlığı sayfasına ulaşın ve formdaki gelir-gider bilgilerini eksiksiz doldurun.'
+            'e-Devlet’te "Sosyal Yardım Başvuru Hizmeti"ni arayın. Başvuruyu kendi hesabınızdan açın, ekrandaki bilgilendirmeyi okuyun ve yalnızca sorulan bilgileri doğru biçimde doldurun. Başvuruyu gönderdikten sonra ekrandaki takip bilgilerini saklayın ve durumu aynı hizmetten kontrol edin.',
+            'Başvurunun gönderilmesi yardımın kesin olarak bağlanacağı anlamına gelmez. Değerlendirme, ilgili programın koşullarına ve yetkili vakfın incelemesine göre yapılır.'
           ]
         }
       ]
@@ -533,7 +568,7 @@ export const posts: Post[] = [
     faqs: [
       {
         question: 'Sosyal yardım başvurusu ne kadar sürede sonuçlanır?',
-        answer: 'Başvurular genellikle 15 ile 30 gün içerisinde SYDV heyeti tarafından incelenerek karara bağlanır.'
+        answer: 'Değerlendirme süresi yardım programına ve başvuru yoğunluğuna göre değişir. Başvurunuzun durumunu e-Devlet’teki ilgili hizmetten veya bağlı olduğunuz Sosyal Yardımlaşma ve Dayanışma Vakfından takip edin.'
       }
     ]
   },
@@ -545,13 +580,16 @@ export const posts: Post[] = [
     categorySlug: 'teknoloji-mobil',
     authorId: 'author-1',
     publishedAt: '2026-10-01',
-    updatedAt: '2026-10-03',
+    updatedAt: '2026-10-21',
     readTime: '4 dk',
-    viewCount: 21400,
     featured: true,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1614680376593-902f749f7ffc?w=1200&auto=format&fit=crop&q=80',
     tags: ['WhatsApp', 'Gizlilik', 'Akıllı Telefon', 'Android', 'iOS'],
+    sources: [
+      { title: 'WhatsApp Yardım Merkezi: Kaybolan mesajlar', url: 'https://faq.whatsapp.com/673193694148537/' },
+      { title: 'WhatsApp Yardım Merkezi', url: 'https://faq.whatsapp.com/' }
+    ],
     content: {
       lead: 'Kişisel verilerinizi korumak ve sohbetlerinizin başkalarının eline geçmesini engellemek için WhatsApp gizlilik özelliklerini doğru yapılandırmanız şarttır.',
       sections: [
@@ -597,39 +635,43 @@ export const posts: Post[] = [
   {
     id: 'post-5',
     slug: 'iphone-ve-android-pil-omrunu-uzatma-yontemleri',
-    title: 'iPhone ve Android Pil Ömrünü Uzatmanın 10 Kanıtlanmış Yolu',
+    title: 'iPhone ve Android’de Pil Tüketimini Azaltmaya Yardımcı Ayarlar',
     description: 'Telefon şarjınızın çabuk bitmesini önleyin: Arka plan yenilemeleri, ekran parlaklığı, şarj döngüsü ve pil sağlığı koruma teknikleri.',
     categorySlug: 'teknoloji-mobil',
     authorId: 'author-3',
     publishedAt: '2026-09-20',
-    updatedAt: '2026-10-02',
+    updatedAt: '2026-10-21',
     readTime: '6 dk',
-    viewCount: 41200,
     featured: false,
     trending: true,
     coverImage: 'https://images.unsplash.com/photo-1511707171634-5f897ff02597?w=1200&auto=format&fit=crop&q=80',
     tags: ['Pil Sağlığı', 'Batarya', 'iPhone', 'Samsung', 'Şarj'],
+    sources: [
+      { title: 'Apple: iPhone pilinin daha çabuk bitmesi', url: 'https://support.apple.com/en-euro/120745' },
+      { title: 'Google Pixel Yardım', url: 'https://support.google.com/pixelphone/' }
+    ],
     content: {
-      lead: 'Akıllı telefon bataryaları zamanla kimyasal olarak yaşlanır. Ancak doğru kullanım alışkanlıklarıyla günlük kullanım sürenizi %30 artırabilir ve pil sağlığınızı koruyabilirsiniz.',
+      lead: 'Akıllı telefon bataryaları zamanla kimyasal olarak yıpranır. Ekran, bağlantı ve arka plan etkinliklerini gözden geçirmek günlük tüketimi azaltabilir; elde edilecek fark kullanım alışkanlığına ve cihaza göre değişir.',
       sections: [
         {
           id: 'temel-ayarlar',
           heading: 'Pil Tüketen Kritik Ayarları Kapatın',
           paragraphs: [
-            'Konum servislerini sürekli açık tutmak ve arka planda uygulama yenilemeyi açık bırakmak bataryayı en çok tüketen etkenlerin başında gelir.',
-            'Kullanmadığınız uygulamaların konum iznini "Yalnızca Uygulama Kullanılırken" olarak değiştirin.'
+            'Önce Ayarlar > Pil bölümündeki kullanım dökümünü inceleyin. Ekran, sinyal gücü, oyun ve video gibi etkenlerin tüketimi cihaz ve kullanıma göre farklılaşır.',
+            'Konum erişimini uygulama bazında gözden geçirin; sürekli konum gerekmeyen uygulamalara "uygulamayı kullanırken" izni vermek gizliliği de destekler. Menü adları Android üreticisine ve iOS sürümüne göre değişebilir.'
           ]
         },
         {
-          id: '80-20-kurali',
-          heading: '%20 - %80 Şarj Kuralı Nedir?',
+          id: 'sarj-ve-isi',
+          heading: 'Şarj Alışkanlığı ve Isı',
           paragraphs: [
-            'Lityum-iyon bataryalar aşırı yüksek veya aşırı düşük voltajda kimyasal stres yaşar. Pilinizi %20 altına düşürmeden şarja takıp %80-%85 civarında çıkarmak pil ömrünü 2 katına çıkarabilir.'
+            'Her telefon için geçerli, pil ömrünü iki katına çıkaran sabit bir yüzde kuralı yoktur. Aşırı sıcak pil sağlığını olumsuz etkileyebilir; cihazı sıcak ortamda bırakmamaya ve üreticinin şarj önerilerini izlemeye çalışın.',
+            'Desteklenen iPhone modellerinde İyileştirilmiş Pil Şarjı veya şarj sınırı özellikleri pilin uzun süre tam dolu kalmasını azaltabilir. Android’de benzer özelliklerin adı ve kullanılabilirliği üreticiye göre değişir.'
           ],
           callout: {
             type: 'tip',
-            title: 'Uzman Tavsiyesi',
-            message: 'Cihazınızı gece boyunca şarjda bırakırken iOS veya Android üzerindeki "İyileştirilmiş Pil Şarjı" özelliğini mutlaka aktif tutun.'
+            title: 'Cihazınızın ayarlarını kontrol edin',
+            message: 'Pil sağlığı ve şarj ayarlarının adını, modelinize ait üretici destek sayfasından doğrulayın.'
           }
         }
       ]
@@ -642,40 +684,6 @@ export const posts: Post[] = [
     ]
   },
   {
-    id: 'post-6',
-    slug: 'instagram-hesabi-gecici-ve-kalici-kapatma-adimlari',
-    title: 'Instagram Hesabı Geçici ve Kalıcı Olarak Nasıl Kapatılır?',
-    description: 'Instagram hesabınızı dondurma veya tüm fotoğraflarla birlikte tamamen silme adımları ve linkleri.',
-    categorySlug: 'teknoloji-mobil',
-    authorId: 'author-1',
-    publishedAt: '2026-09-10',
-    updatedAt: '2026-09-28',
-    readTime: '4 dk',
-    viewCount: 18900,
-    featured: false,
-    trending: false,
-    coverImage: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&auto=format&fit=crop&q=80',
-    tags: ['Instagram', 'Hesap Dondurma', 'Hesap Silme', 'Sosyal Medya'],
-    content: {
-      lead: 'Sosyal medyaya ara vermek ya da hesabınızı tamamen kapatmak istiyorsanız Meta Hesaplar Merkezi üzerinden yapılması gereken adımlar şunlardır.',
-      sections: [
-        {
-          id: 'dondurma-vs-silme',
-          heading: 'Hesap Dondurma ile Silme Arasındaki Fark',
-          paragraphs: [
-            'Geçici olarak dondurduğunuzda profiliniz gizlenir ancak tekrar giriş yaptığınız anda tüm fotoğraf ve mesajlarınız geri gelir. Kalıcı silmede ise 30 gün sonra verileriniz tamamen yok olur.'
-          ]
-        }
-      ]
-    },
-    faqs: [
-      {
-        question: 'Dondurulan hesap ne zaman açılır?',
-        answer: 'Kullanıcı adı ve şifrenizle giriş yaptığınız anda hesabınız otomatik olarak tekrar aktifleşir.'
-      }
-    ]
-  },
-  {
     id: 'post-7',
     slug: 'oyunlarda-fps-artirma-ve-gecikme-azaltma-rehberi',
     title: 'PC Oyunlarında FPS Artırma ve Giriş Gecikmesini (Input Lag) Azaltma Rehberi',
@@ -683,13 +691,15 @@ export const posts: Post[] = [
     categorySlug: 'oyun-donanim',
     authorId: 'author-3',
     publishedAt: '2026-10-02',
-    updatedAt: '2026-10-04',
+    updatedAt: '2026-10-21',
     readTime: '7 dk',
-    viewCount: 52400,
     featured: true,
     trending: true,
     coverImage: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80',
     tags: ['FPS Artırma', 'NVIDIA', 'AMD', 'Oyun', 'Windows 11', 'Donanım'],
+    sources: [
+      { title: 'Microsoft: Windows 11 pencere modunda oyun iyileştirmeleri', url: 'https://support.microsoft.com/en-us/windows/hardware/display-graphics/optimizations-for-windowed-games-in-windows-11' }
+    ],
     content: {
       lead: 'Valorant, CS2, Warzone veya Apex Legends gibi rekabetçi oyunlarda yüksek FPS ve düşük gecikme hayati önem taşır. Donanım değiştirmeden yazılımsal optimizasyon ile FPS değerlerinizi nasıl artırabileceğinizi anlatıyoruz.',
       sections: [
@@ -743,7 +753,7 @@ export const posts: Post[] = [
       },
       {
         question: 'V-Sync açık mı olmalı kapalı mı?',
-        answer: 'Rekabetçi oyunlarda V-Sync giriş gecikmesini (input lag) artırdığı için kesinlikle kapalı tutulmalıdır. G-Sync veya FreeSync kullanıyorsanız ekran yırtılmalarını gecikme olmadan önleyebilirsiniz.'
+        answer: 'V-Sync görüntü yırtılmasını azaltabilir, ancak gecikme ve performans etkisi sisteme ve oyuna göre değişir. V-Sync, G-Sync veya FreeSync ayarlarını oyunda deneyerek kendi sisteminizdeki gecikme ve görüntü kalitesini karşılaştırın.'
       }
     ]
   },
@@ -757,11 +767,15 @@ export const posts: Post[] = [
     publishedAt: '2026-09-18',
     updatedAt: '2026-09-30',
     readTime: '5 dk',
-    viewCount: 16400,
     featured: false,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=1200&auto=format&fit=crop&q=80',
     tags: ['Ekran Kartı', 'DDU', 'Sürücü', 'NVIDIA', 'AMD'],
+    sources: [
+      { title: 'Microsoft: Windows sürücü güncellemeleri', url: 'https://support.microsoft.com/en-us/windows/hardware/drivers/automatically-get-recommended-and-updated-hardware-drivers' },
+      { title: 'NVIDIA sürücü indirmeleri', url: 'https://www.nvidia.com/Download/index.aspx' },
+      { title: 'AMD sürücü ve destek', url: 'https://www.amd.com/en/support/download/drivers.html' }
+    ],
     content: {
       lead: 'Eski sürücü kalıntıları mavi ekran hatalarına ve oyun içi ani takılmalara (stuttering) yol açabilir. DDU programı ile sıfırdan temiz kurulum yapmanın adımları.',
       sections: [
@@ -769,7 +783,7 @@ export const posts: Post[] = [
           id: 'temiz-kurulum-adimlari',
           heading: 'Güvenli Modda DDU Kullanımı',
           paragraphs: [
-            'Display Driver Uninstaller programını indirip bilgisayarı Güvenli Modda başlatın. "Temizle ve Yeniden Başlat" seçeneğine basarak eski sürücüyü tamamen kaldırın ve en güncel sürücüyü resmi siteden kurun.'
+            'Önce Windows Update veya ekran kartı üreticisinin resmi kurulum aracını kullanın. DDU üçüncü taraf bir sürücü kaldırma aracıdır; yalnızca normal kaldırma ve yeniden kurulum sorunu çözmezse, aracın kendi talimatlarını okuyup geri dönüş için gerekli sürücüyü önceden indirerek değerlendirin.'
           ]
         }
       ]
@@ -777,25 +791,28 @@ export const posts: Post[] = [
     faqs: [
       {
         question: 'DDU kullanmak tehlikeli midir?',
-        answer: 'Hayır, milyonlarca kullanıcı ve donanım üreticisi tarafından önerilen en güvenilir temizleme aracıdır.'
+        answer: 'DDU üçüncü taraf yazılımdır ve sürücüleri kaldırır; yanlış kullanım görüntü sorunlarına yol açabilir. Önce üreticinin önerdiği kurulum/kaldırma yöntemini izleyin ve DDU kullanmanız gerekiyorsa aracın güncel talimatlarını dikkatle uygulayın.'
       }
     ]
   },
   {
     id: 'post-9',
     slug: 'steam-oyun-acilmiyor-hatasi-kesin-cozum-yollari',
-    title: 'Steam Oyun Açılmıyor Hatası ve Kesin Çözüm Yolları',
+    title: 'Steam Oyunu Açılmıyorsa Kontrol Edilebilecek Çözüm Adımları',
     description: 'Steam başlatılıyor diyor ama oyun açılmıyor mu? Dosya bütünlüğü doğrulama, DirectX ve Visual C++ onarım adımları.',
     categorySlug: 'oyun-donanim',
     authorId: 'author-3',
     publishedAt: '2026-09-05',
     updatedAt: '2026-09-24',
     readTime: '4 dk',
-    viewCount: 24700,
     featured: false,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&auto=format&fit=crop&q=80',
     tags: ['Steam', 'Oyun Hatası', 'Çözüm', 'Windows'],
+    sources: [
+      { title: 'Steam: Oyun dosyalarının bütünlüğünü doğrulama', url: 'https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB' },
+      { title: 'Steam: Oyun başlatılamıyor', url: 'https://help.steampowered.com/en/faqs/view/5814-D9A3-BE42-62DF' }
+    ],
     content: {
       lead: 'Steam üzerinde oyunu başlattığınızda "Çalışıyor" dedikten sonra hemen kapanıyorsa sorunun kaynağı çoğunlukla eksik kütüphane dosyaları veya bozuk oyun dosyalarıdır.',
       sections: [
@@ -819,17 +836,19 @@ export const posts: Post[] = [
     id: 'post-10',
     slug: 'yks-calisma-programi-hazirlama-ve-net-artirma-taktikleri',
     title: 'YKS Çalışma Programı Hazırlama ve Net Artırma Taktikleri (TYT-AYT)',
-    description: 'Derece yapan öğrencilerin uyguladığı ders çalışma teknikleri, konu tekrarları, deneme analizi ve zaman yönetimi stratejileri.',
+    description: 'Haftalık ders dağılımı, konu tekrarları, deneme analizi ve çalışma süresini gerçekçi biçimde planlama önerileri.',
     categorySlug: 'egitim-sinavlar',
     authorId: 'author-2',
     publishedAt: '2026-09-26',
-    updatedAt: '2026-10-03',
+    updatedAt: '2026-10-22',
     readTime: '8 dk',
-    viewCount: 38700,
     featured: true,
     trending: true,
     coverImage: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80',
     tags: ['YKS', 'TYT', 'AYT', 'ÖSYM', 'Ders Çalışma', 'Deneme'],
+    sources: [
+      { title: 'ÖSYM: Sınav duyuruları ve kılavuzlar', url: 'https://www.osym.gov.tr/' }
+    ],
     content: {
       lead: 'Yükseköğretim Kurumları Sınavı’na (YKS) hazırlanırken sadece saatlerce masa başında oturmak yeterli değildir. Başarının anahtarı stratejik planlama, eksik odaklı çalışma ve doğru deneme analizinden geçer.',
       sections: [
@@ -845,6 +864,14 @@ export const posts: Post[] = [
             title: 'Altın Kural',
             message: 'Konuları bitirdikten sonra hemen soru çözümüne geçmeyin; önce formülleri ve temel kavramları bir kağıda kendi cümlelerinizle özetleyin.'
           }
+        },
+        {
+          id: 'ornek-haftalik-plan',
+          heading: 'Örnek Haftalık Planı Kendi Durumunuza Uyarlayın',
+          paragraphs: [
+            'Aşağıdaki şablon sabit bir başarı reçetesi değildir; okul saatlerinize, alanınıza ve eksiklerinize göre değiştirin. Her çalışma bloğuna konu tekrarı, soru çözümü ve yanlış analizi için ayrı zaman ayırın.',
+            'Pazartesi: matematik konu tekrarı ve soru çözümü. Salı: Türkçe/paragraf ve alan dersi. Çarşamba: fen veya sosyal konu çalışması. Perşembe: önceki günlerin yanlışlarını yeniden çözme. Cuma: eksik kalan konu ve kısa karma test. Cumartesi: süre tutarak deneme. Pazar: deneme analizi ve sonraki haftanın planı.'
+          ]
         },
         {
           id: 'deneme-analizi',
@@ -871,7 +898,7 @@ export const posts: Post[] = [
           id: 'ayt-ye-ne-zaman-baslanmali',
           heading: 'AYT Çalışmalarına Ne Zaman Başlanmalı?',
           paragraphs: [
-            'TYT’nin tamamen bitmesini beklerseniz AYT için geç kalabilirsiniz. TYT konularının %60’ı tamamlandığı andan itibaren mutlaka paralel olarak AYT derslerine başlanmalıdır. Unutmayın, yerleştirme puanının en büyük ağırlığı AYT’dedir.'
+            'AYT’ye başlama zamanı öğrencinin hedefi, alanı ve mevcut konu durumuna göre değişir. TYT ve AYT çalışmalarını birlikte planlayıp haftalık deneme sonuçlarına göre süreleri yeniden ayarlamak daha esnek bir yaklaşım sağlar.'
           ]
         }
       ]
@@ -897,11 +924,14 @@ export const posts: Post[] = [
     publishedAt: '2026-09-12',
     updatedAt: '2026-09-27',
     readTime: '6 dk',
-    viewCount: 22100,
     featured: false,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80',
     tags: ['KPSS', 'Memuriyet', 'P3 Puanı', 'ÖSYM', 'Atamalar'],
+    sources: [
+      { title: 'ÖSYM: KPSS duyuruları ve kılavuzlar', url: 'https://www.osym.gov.tr/' },
+      { title: 'Kariyer Kapısı Kamu İşe Alım Platformu', url: 'https://kariyerkapisi.gov.tr/isealim' }
+    ],
     content: {
       lead: 'KPSS sınavına giren adayların en çok kafa karışıklığı yaşadığı konuların başında puan türleri gelir. Hangi meslek için hangi puan türünün gerektiğine yakından bakalım.',
       sections: [
@@ -909,7 +939,7 @@ export const posts: Post[] = [
           id: 'puan-turleri',
           heading: 'Temel KPSS Puan Türleri ve Anlamları',
           paragraphs: [
-            'KPSS P3 lisans mezunları için B grubu genel kadrolara atanmada kullanılır. KPSS P93 önlisans mezunlarına, P94 ise lise/ortaöğretim mezunlarına aittir.'
+            'Puan türü; öğrenim düzeyine, sınav oturumuna ve başvurulan kadronun özel koşullarına göre değişir. P3, P93 ve P94 farklı öğrenim düzeylerinde kullanılan puan türleridir; her ilanın kabul ettiği puan türünü ve taban puan şartını ilgili ÖSYM tercih kılavuzundan veya kurum ilanından doğrulayın.'
           ]
         }
       ]
@@ -917,7 +947,7 @@ export const posts: Post[] = [
     faqs: [
       {
         question: 'KPSS puanı kaç yıl geçerlidir?',
-        answer: 'Genel B grubu kadrolar için KPSS puanı sonuçların açıklanmasından itibaren 2 yıl boyunca geçerlidir.'
+        answer: 'Puan geçerlilik süresi sınav türü ve ilgili yerleştirme kılavuzuna göre belirlenir. Başvuru yapacağınız dönem için ÖSYM kılavuzunu ve kurum ilanını kontrol edin.'
       }
     ]
   },
@@ -931,19 +961,22 @@ export const posts: Post[] = [
     publishedAt: '2026-08-20',
     updatedAt: '2026-09-15',
     readTime: '5 dk',
-    viewCount: 31200,
     featured: false,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1200&auto=format&fit=crop&q=80',
     tags: ['Üniversite Kayıt', 'e-Kayıt', 'e-Devlet', 'Öğrenci Belgesi'],
+    sources: [
+      { title: 'e-Devlet Kapısı', url: 'https://www.turkiye.gov.tr/' },
+      { title: 'YÖK: Yükseköğretim Kurulu', url: 'https://www.yok.gov.tr/' }
+    ],
     content: {
-      lead: 'Üniversiteye yerleşen öğrencilerin büyük çoğunluğu artık üniversiteye bizzat gitmeye gerek kalmadan e-Devlet e-Kayıt sistemi üzerinden kayıtlarını tamamlayabiliyor.',
+      lead: 'Üniversiteye yerleşen adaylar için e-Kayıt seçeneği açılmış olabilir; kayıt yöntemi programa ve üniversiteye göre değişir. Kayıt ekranındaki duyuruyu ve yerleştiğiniz üniversitenin kayıt takvimini birlikte kontrol edin.',
       sections: [
         {
           id: 'e-kayit-nasil-yapilir',
           heading: 'e-Kayıt Yapma Adımları',
           paragraphs: [
-            'e-Devlet sistemine giriş yapıp "Üniversite E-Kayıt" hizmetine tıklayın. Bilgilerinizi kontrol edip "Evet" yazarak onaylayın ve barkodlu kayıt belgesini indirin.'
+            'e-Devlet’e giriş yaptıktan sonra "Üniversite E-Kayıt" hizmetinde yerleştiğiniz programın görünüp görünmediğini kontrol edin. Ekrandaki bilgileri doğrulayıp işlem adımlarını tamamlayın; oluşan barkodlu belgeyi indirin ve kayıt durumunuzu tekrar kontrol edin. Hizmette programınız görünmüyorsa veya hata alıyorsanız üniversitenizin öğrenci işleriyle iletişime geçin.'
           ]
         }
       ]
@@ -951,7 +984,7 @@ export const posts: Post[] = [
     faqs: [
       {
         question: 'e-Kayıt yaptıktan sonra üniversiteye gitmek gerekir mi?',
-        answer: 'Genellikle gerekmez; ancak sağlık raporu veya özel mülakat isteyen bölümler (pilotaj, beden eğitimi vb.) hariçtir.'
+        answer: 'Bu durum üniversitenin ve programın kayıt duyurusuna bağlıdır. e-Kayıt tamamlandıktan sonra ayrıca belge teslimi veya yüz yüze işlem gerekip gerekmediğini üniversitenizin güncel duyurusundan doğrulayın.'
       }
     ]
   },
@@ -963,9 +996,8 @@ export const posts: Post[] = [
     categorySlug: 'pratik-bilgiler',
     authorId: 'author-1',
     publishedAt: '2026-09-19',
-    updatedAt: '2026-10-01',
+    updatedAt: '2026-10-21',
     readTime: '5 dk',
-    viewCount: 19800,
     featured: true,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&auto=format&fit=crop&q=80',
@@ -977,19 +1009,19 @@ export const posts: Post[] = [
           id: 'yag-lekesi',
           heading: 'Kurumuş Yağ Lekesi Nasıl Çıkar?',
           paragraphs: [
-            'Lekenin üzerine hemen bebek pudrası veya mısır nişastası dökerek yağı emmesini sağlayın. 15 dakika bekledikten sonra üzerine bulaşık deterjanı damlatıp ılık suyla hafifçe çitileyin.'
+            'Önce fazla yağı temiz, emici bir bezle bastırarak alın. Kumaş bakım etiketini kontrol edin; pudra veya bulaşık deterjanını kullanmadan önce görünmeyen küçük bir alanda deneyin. Uygun görünüyorsa ürünü kısa süre bekletip etikette izin verilen yıkama talimatını uygulayın.'
           ]
         },
         {
           id: 'kahve-ve-cay-lekesi',
-          heading: 'Kahve ve Çay Lekeleri İçin Beyaz Sirke Mucizesi',
+          heading: 'Kahve ve Çay Lekelerinde İlk Müdahale',
           paragraphs: [
-            'Bir ölçü beyaz sirke ile iki ölçü ılık suyu karıştırın. Temiz bir mikrofiber bezi bu karışıma batırarak lekeyi dıştan içe doğru tampon hareketlerle silin.'
+            'Önce sıvıyı temiz, emici bir bezle dıştan içe doğru tamponlayın. Kumaşın bakım etiketini kontrol edin ve herhangi bir temizleyiciyi görünmeyen alanda deneyin. Hassas kumaşlarda ev karışımları yerine profesyonel temizlik tercih edin.'
           ],
           callout: {
             type: 'warning',
             title: 'Dikkat',
-            message: 'Lekeli bölgeyi asla sıcak suyla yıkamayın veya ütülemeyin. Sıcaklık lekenin kumaş liflerine kalıcı olarak işlemesine neden olur.'
+            message: 'Temizlik ürünlerini, özellikle çamaşır suyunu, başka ürünlerle karıştırmayın. Kumaş ve leke türüne göre ısı lekeyi sabitleyebileceğinden bakım etiketindeki talimatı izleyin.'
           }
         }
       ]
@@ -997,40 +1029,39 @@ export const posts: Post[] = [
     faqs: [
       {
         question: 'Mürekkep lekesine ne iyi gelir?',
-        answer: 'Alkol bazlı el dezenfektanı veya kolonya damlatıp temiz bir pamukla lekeyi emdirerek çıkartabilirsiniz.'
+        answer: 'Mürekkep türü ve kumaş değiştiği için tek bir yöntem her durumda güvenli değildir. Önce bakım etiketini kontrol edin ve ürünü görünmeyen küçük bir alanda deneyin; hassas kumaşlarda profesyonel temizlik tercih edin.'
       }
     ]
   },
   {
     id: 'post-14',
     slug: 'elektrik-faturasini-dusurmenin-etkili-10-yolu',
-    title: 'Elektrik Faturasını %30 Düşürmenin Etkili 10 Yolu',
-    description: 'Evdeki gizli elektrik tüketicileri (vampir cihazlar), üç zamanlı tarife avantajı ve enerji tasarruflu cihaz kullanımı.',
+    title: 'Elektrik Tüketimini Azaltmak İçin Evde Uygulanabilecek Yöntemler',
+    description: 'Bekleme modu, cihaz seçimi ve kullanım alışkanlıklarının elektrik tüketimine etkisini anlamaya yönelik pratik öneriler.',
     categorySlug: 'pratik-bilgiler',
     authorId: 'author-1',
     publishedAt: '2026-09-14',
-    updatedAt: '2026-09-28',
+    updatedAt: '2026-10-22',
     readTime: '5 dk',
-    viewCount: 26300,
     featured: false,
     trending: true,
     coverImage: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&auto=format&fit=crop&q=80',
     tags: ['Tasarruf', 'Elektrik Faturası', 'Enerji', 'Pratik Tüyolar'],
     content: {
-      lead: 'Her ay gelen kabarık elektrik faturalarını basit alışkanlık değişiklikleriyle ve doğru tarife seçimiyle belirgin oranda düşürmek mümkün.',
+      lead: 'Elektrik tüketimini azaltmak için önce hangi cihazların ne kadar çalıştığını anlamak, ardından güvenli ve uygulanabilir alışkanlık değişikliklerini denemek gerekir.',
       sections: [
         {
           id: 'bekleme-modu',
           heading: 'Bekleme Modundaki (Standby) Vampir Cihazlar',
           paragraphs: [
-            'Televizyonlar, mikrodalga fırınlar, şarj aletleri ve oyun konsolları kapalıyken bile prizde takılı kaldıklarında yıllık elektrik faturanızın yaklaşık %8 ila %12’sini oluşturur. Anahtarlı prizler kullanmak bu israfı anında keser.'
+            'Bekleme modunda enerji tüketimi cihazın modeline ve ayarlarına göre değişir; her cihazı “vampir tüketici” kabul etmek doğru değildir. Bir cihazın tüketimini öğrenmek için üretici teknik bilgisine veya uygun bir priz tipi enerji ölçere bakın. Çoklu anahtar priz, kullanmadığınız cihazların elektriğini kesmeyi kolaylaştırabilir.'
           ]
         },
         {
           id: 'beyaz-esya-kullanimi',
           heading: 'Çamaşır ve Bulaşık Makinelerinde Doğru Program Seçimi',
           paragraphs: [
-            'Çamaşırları 60 derece yerine 30 derecede yıkamak ısıtıcı rezistansın harcadığı enerjiyi yarı yarıya azaltır. Bulaşık makinesinde ise ekonomik (Eco 50°) modunu tercih edin.'
+            'Düşük sıcaklıkta yıkama, uygun deterjan ve kumaş bakım etiketi elverdiğinde enerji tüketimini azaltabilir. Tasarruf oranı makineye, programa, yük miktarına ve su sıcaklığına göre değişir. Bulaşık makinesinde üreticinin önerdiği Eco programını karşılaştırın.'
           ]
         }
       ]
@@ -1038,7 +1069,7 @@ export const posts: Post[] = [
     faqs: [
       {
         question: 'Üç zamanlı tarife karlı mı?',
-        answer: 'Eğer çamaşır, kurutma ve bulaşık gibi yüksek enerji harcayan aletleri saat 22:00 ile 06:00 arasında çalıştırıyorsanız üç zamanlı tarife ciddi tasarruf sağlar.'
+        answer: 'Üç zamanlı tarifenin avantajı tüketim saatlerinize ve dağıtım bölgenizde uygulanan güncel saat dilimlerine bağlıdır. Mevcut tarifenizi ve faturanızdaki zaman dilimlerini kontrol etmeden geçiş kararı vermeyin.'
       }
     ]
   },
@@ -1050,13 +1081,16 @@ export const posts: Post[] = [
     categorySlug: 'pratik-bilgiler',
     authorId: 'author-1',
     publishedAt: '2026-09-08',
-    updatedAt: '2026-10-02',
+    updatedAt: '2026-10-21',
     readTime: '6 dk',
-    viewCount: 35900,
     featured: false,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1544717305-2782549b5136?w=1200&auto=format&fit=crop&q=80',
     tags: ['Pasaport', 'NVİ', 'Seyahat', 'Harç Ücretleri', 'Biyometrik'],
+    sources: [
+      { title: 'NVİ: Pasaport başvurusu', url: 'https://www.nvi.gov.tr/pasaport' },
+      { title: 'NVİ randevu sistemi', url: 'https://randevu.nvi.gov.tr/' }
+    ],
     content: {
       lead: 'Yurt dışı seyahatleri için pasaport çıkarma veya pasaport yenileme süreçleri Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü üzerinden yürütülmektedir.',
       sections: [
@@ -1082,11 +1116,302 @@ export const posts: Post[] = [
         answer: '25 yaşını doldurmamış ve eğitimi devam eden öğrenciler "harçsız öğrenci pasaportu" alabilir; yalnızca defter bedeli öderler.'
       }
     ]
+  },
+  {
+    id: 'post-new-16',
+    slug: 'pc-oyunlarinda-takilma-ve-fps-dususu-teshis-rehberi',
+    title: 'PC Oyunlarında Takılma ve FPS Düşüşü: Adım Adım Teşhis Rehberi',
+    description: 'Oyun içi takılma, anlık FPS düşüşü ve uzun yükleme sorunlarını güvenli sırayla ayırt edip çözmek için ölçülebilir kontrol listesi.',
+    categorySlug: 'oyun-donanim',
+    authorId: 'author-3',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    readTime: '7 dk',
+    featured: true,
+    trending: false,
+    coverImage: 'https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=1200&auto=format&fit=crop&q=80',
+    tags: ['PC Oyun', 'FPS', 'Takılma', 'Frametime', 'Performans'],
+    sources: [
+      { title: 'PCGamingWiki: oyun bazlı hata ve performans notları', url: 'https://www.pcgamingwiki.com/wiki/Home' },
+      { title: 'Steam Destek: oyun dosyalarının bütünlüğünü doğrulama', url: 'https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB' },
+      { title: 'Tom’s Hardware: FPS ölçümü ve performans sayaçları', url: 'https://www.tomshardware.com/how-to/check-fps-windows' },
+      { title: 'GamersNexus: FPS ortalaması ve takılma ölçümlerinin farkı', url: 'https://gamersnexus.net/site-news/2513-testing-methodology-explained-1percent-lows-and-delta-t' },
+      { title: 'Ars Technica: PC oyunlarında shader derleme ve takılmalar', url: 'https://arstechnica.com/gaming/2026/03/microsoft-is-working-to-eliminate-pc-gamings-compiling-shaders-wait-times/' },
+      { title: 'PC Gamer: Shader derleme ekranı ve oyun performansı', url: 'https://www.pcgamer.com/games/the-compiling-shaders-screen-is-the-worst-screen-in-gaming-heres-how-to-make-it-suck-less/' }
+    ],
+    content: {
+      lead: 'Takılma her zaman ekran kartının yetersiz olduğu anlamına gelmez. FPS sayısı, takılmanın ne zaman başladığı ve hangi oyunda görüldüğü birlikte değerlendirildiğinde sorun; shader derleme, sıcaklık, arka plan yükü, oyun dosyası veya ağ gecikmesi olarak ayrıştırılabilir.',
+      sections: [
+        { id: 'sorunu-tanimla', heading: 'Önce Sorunun Türünü Ayırın', paragraphs: [
+          'FPS sürekli düşükse çözünürlük ve grafik ayarları sistem kapasitesini aşıyor olabilir. FPS yüksek görünürken görüntü aralıklı donuyorsa frametime sıçraması, shader derlemesi, veri akışı veya arka plan işi olasılıkları düşünülür. Yalnızca çevrimiçi maçta oyuncular ışınlanıyor ya da komutlar geç işleniyorsa FPS’den çok ping ve paket kaybını kontrol edin.',
+          'Aynı sahnede kısa bir test yapın ve değişiklikleri tek tek uygulayın. Her seferinde birkaç ayarı birden değiştirmek hangi adımın etkili olduğunu anlamayı zorlaştırır.'
+        ] },
+        { id: 'ilk-olcum', heading: 'Aynı Sahneyi Kullanarak Basit Ölçüm Yapın', paragraphs: [
+          'Oyunun yerleşik performans göstergesini veya güvenilir bir FPS sayacını açın. Mümkünse ortalama FPS yanında frametime grafiğini de izleyin; tek bir ortalama kısa takılmaları saklayabilir. Karşılaştırma için aynı kayıt, eğitim alanı veya tekrarlanabilir sahneyi kullanın ve test süresini benzer tutun.',
+          'Test sırasında sıcaklık ve kullanım değerlerine bakacaksanız üretici yazılımı veya Windows’un araçlarını tercih edin. Bilinmeyen “FPS artırıcı” programları kurmayın; bindirme araçları bazı oyunlarla çakışabileceği için sorun giderirken gereksiz overlay’leri geçici olarak kapatıp tekrar karşılaştırın.'
+        ] },
+        { id: 'shader-ve-ilk-acilis', heading: 'İlk Açılışta veya Güncellemeden Sonra Takılıyorsa', paragraphs: [
+          'Bazı oyunlar ilk çalıştırmada veya grafik sürücüsü/oyun güncellemesinden sonra shader derler. Bu sırada kısa süreli takılma görülebilir. Oyunun menüsünde derleme göstergesi varsa bitmesini bekleyin; tekrar eden takılmaların oyuna özgü bilinen bir sorun olup olmadığını oyunun resmi destek notlarında ve PCGamingWiki’nin ilgili oyun sayfasında kontrol edin.',
+          'Shader önbelleğini gelişigüzel silmek sorunu çözmek yerine derlemeyi yeniden başlatabilir. Bu adımı ancak oyunun veya GPU üreticisinin soruna özel talimatı varsa uygulayın.'
+        ], callout: { type: 'tip', title: 'İlk testte sabırlı olun', message: 'Sürücü ya da oyun güncellemesinden sonraki ilk açılışı sonraki oturumlarla karşılaştırın; tek seferlik derleme takılmasını kalıcı performans sorunu sanmayın.' } },
+        { id: 'guvenli-kontrol-sirasi', heading: 'Güvenli Sorun Giderme Sırası', paragraphs: ['Aşağıdaki basamakları sırayla deneyin; her adımdan sonra aynı sahnede yeniden ölçün:'], steps: [
+          { title: 'Oyunu ve bilgisayarı yeniden başlatın', description: 'Geçici takılma veya askıda kalmış işlem olup olmadığını ayırın.' },
+          { title: 'Sistem gereksinimlerini ve güç modunu kontrol edin', description: 'Dizüstünde adaptörün bağlı olduğuna, oyunun doğru GPU’yu kullandığına ve güç tasarruf modunun performansı sınırlamadığına bakın.' },
+          { title: 'Sıcaklık ve arka plan yükünü gözleyin', description: 'Görev Yöneticisi’nde CPU, GPU, bellek ve disk kullanımına bakın. Isı artarken saat hızları düşüyorsa hava kanallarını kapatmadığınızdan emin olun; cihazı açıp müdahale etmek yerine üretici servisine başvurun.' },
+          { title: 'Grafik ayarlarını tek tek düşürün', description: 'Önce ışın izleme, gölge, görüş mesafesi ve doku ayarlarını karşılaştırın. Her değişiklikten sonra aynı sahnede test edin.' },
+          { title: 'Oyun dosyalarını doğrulayın', description: 'Steam’de Kütüphane > oyuna sağ tık > Özellikler > Yüklü Dosyalar > Dosyaların bütünlüğünü doğrula yolunu kullanın. İşlem birkaç dakika sürebilir.' },
+          { title: 'Güncellemeleri kontrollü uygulayın', description: 'Windows ve ekran kartı sürücülerini resmi kanallardan güncelleyin. Sorun bir sürücü güncellemesinin hemen ardından başladıysa üreticinin geri alma yönergesini izleyin.' }
+        ] },
+        { id: 'ne-zaman-destek', heading: 'Ne Zaman Oyunun Desteğine Başvurmalı?', paragraphs: [
+          'Sorun yalnızca tek oyunda yaşanıyorsa oyun sürümü, hata mesajı, sistem özellikleri ve tekrar üretme adımlarını not edip oyunun resmi destek kanalına iletin. Birden fazla oyunda çökme, görüntü bozulması, yeniden başlama veya mavi ekran varsa donanım ve sürücü incelemesi gerekebilir; rastgele BIOS ayarı değiştirmeyin.',
+          'Bu rehber genel teşhis sırası sunar. Her oyunun motoru, sürümü ve bilgisayar bileşenleri farklı olduğundan tek bir ayar tüm sistemlerde aynı sonucu vermez.'
+        ] }
+      ]
+    },
+    faqs: [
+      { question: 'FPS yüksek ama oyun neden takılıyor?', answer: 'Ortalama FPS kısa frametime sıçramalarını göstermeyebilir. Shader derlemesi, veri yükleme, bellek baskısı veya arka plan işlemlerini aynı sahnede ölçerek ayırın.' },
+      { question: 'Oyun dosyalarını doğrulamak kayıt dosyalarımı siler mi?', answer: 'Steam doğrulaması kurulu oyun dosyalarını kontrol eder. Yine de önemli kayıtlar için oyunun bulut kayıt durumunu ve yerel yedekleme bilgisini ayrıca kontrol etmek iyi bir önlemdir.' }
+    ]
+  },
+  {
+    id: 'post-new-17',
+    slug: 'windows-dizustu-pil-sagligi-battery-report-okuma',
+    title: 'Windows Dizüstü Pil Sağlığı: Battery Report Oluşturma ve Okuma',
+    description: 'Windows’un yerleşik battery report raporunu üretme, tasarım kapasitesi ile son dolum kapasitesini karşılaştırma ve pil tüketimini inceleme adımları.',
+    categorySlug: 'teknoloji-mobil',
+    authorId: 'author-1',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    readTime: '5 dk',
+    featured: false,
+    trending: false,
+    coverImage: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1200&auto=format&fit=crop&q=80',
+    tags: ['Windows', 'Dizüstü Bilgisayar', 'Pil Sağlığı', 'Battery Report'],
+    sources: [
+      { title: 'Microsoft Support: Windows’ta pil bakımı ve battery report', url: 'https://support.microsoft.com/en-au/windows/experience/power-battery/caring-for-your-battery-in-windows' }
+    ],
+    content: {
+      lead: 'Dizüstü bilgisayarın şarjı eskisine göre daha çabuk bitiyorsa Windows’un battery report raporu pil kapasitesi ve kullanım geçmişi hakkında başlangıç verisi sağlar. Rapor tek başına arızayı teşhis etmez; kapasiteyi ve kullanım alışkanlığını anlamaya yardımcı olur.',
+      sections: [
+        { id: 'rapor-olustur', heading: 'Battery Report Nasıl Oluşturulur?', paragraphs: ['Komut İstemi’ni açıp Windows’un yerleşik rapor komutunu çalıştırın. Yönetici yetkisi gerekirse istemi yönetici olarak açın. Raporun kaydedildiği konum komut çıktısında gösterilir.'], steps: [
+          { title: 'Başlat menüsünde Komut İstemi’ni arayın', description: 'Windows aramasına Komut İstemi yazın; gerekirse yönetici olarak çalıştırın.' },
+          { title: 'Rapor komutunu girin', description: 'powercfg /batteryreport yazıp Enter’a basın.' },
+          { title: 'HTML raporunu açın', description: 'Komut çıktısında belirtilen dosya yoluna gidip battery-report.html dosyasını tarayıcıda açın.' }
+        ] },
+        { id: 'kapasite-karsilastir', heading: 'Design Capacity ve Full Charge Capacity Ne Anlama Gelir?', paragraphs: [
+          'Design Capacity pilin tasarlanmış kapasitesini, Full Charge Capacity ise raporun ölçtüğü mevcut tam dolum kapasitesini gösterir. İkinci değer zamanla düşebilir. Yaklaşık sağlık oranı için Full Charge Capacity değerini Design Capacity değerine bölüp 100 ile çarpabilirsiniz; bu yalnızca kabaca karşılaştırma sağlar.',
+          'Örnek: tasarım kapasitesi 50.000 mWh, tam dolum kapasitesi 40.000 mWh ise rapor değerleri yaklaşık yüzde 80 oranına karşılık gelir. Üretici ölçüm yöntemi, sıcaklık ve pilin durumu sonucu etkileyebilir; tek ölçümü kesin arıza kararı saymayın.'
+        ] },
+        { id: 'kullanim-gecmisi', heading: 'Usage History ve Battery Usage Bölümlerini İnceleyin', paragraphs: [
+          'Usage History bölümündeki süre ve kapasite kayıtları, pil kullanımının zamanla nasıl değiştiğini görmeye yardımcı olur. Battery Usage yakın dönem tüketimini gösterir. Şarjın hızla düştüğü saatlerde hangi uygulamaların açık olduğunu Windows Ayarları’ndaki güç/pil kullanım ekranıyla birlikte inceleyin.',
+          'Eski bir rapor son durumu yansıtmayabilir. Ölçümü karşılaştıracaksanız bilgisayarı normal kullanımda birkaç kez kullanıp raporu yeniden oluşturun ve aynı koşulları not edin.'
+        ] },
+        { id: 'pil-omru-ve-servis', heading: 'Pil Ömrünü Uzatmak ve Servis Gerektiren Durumlar', paragraphs: [
+          'Ekran parlaklığını ihtiyacınıza göre azaltmak, kullanılmayan kablosuz bağlantıları kapatmak ve gereksiz arka plan uygulamalarını sınırlamak tüketimi azaltabilir. Pil şişmesi, kasada açıklık, olağandışı ısınma veya koku fark ederseniz cihazı kullanmayı bırakıp üretici servisinden destek alın; pili delmeyin veya kendiniz sökmeyin.',
+          'Şarj kapasitesi belirgin düşmüşse cihaz üreticisinin pil tanılama aracını ve garanti koşullarını kontrol edin. Battery report bir bakım/garanti kararı yerine geçmez.'
+        ], callout: { type: 'warning', title: 'Fiziksel pil hasarında', message: 'Şişmiş ya da hasarlı pili kullanmaya devam etmeyin ve kendiniz açmaya çalışmayın; üretici veya yetkili servisten yardım alın.' } }
+      ]
+    },
+    faqs: [
+      { question: 'Battery report komutu dosyayı nerede oluşturur?', answer: 'Komut İstemi işlem tamamlandığında dosyanın kaydedildiği yolu yazar. Bu yolu Dosya Gezgini adres çubuğuna yapıştırıp HTML dosyasını açabilirsiniz.' },
+      { question: 'Battery report pilin kesin sağlık yüzdesini verir mi?', answer: 'Hayır. Kapasite değerlerinden yaklaşık bir oran hesaplanabilir; ölçüm koşulları ve üretici tanılama yöntemi sonucu etkileyebilir. Kesin servis değerlendirmesi için üreticinin tanılama aracını veya servisini kullanın.' }
+    ]
+  },
+  {
+    id: 'post-new-18',
+    slug: 'e-devlet-iki-asamali-giris-nasil-acilir',
+    title: 'e-Devlet İki Aşamalı Giriş Nasıl Açılır? Güvenlik Rehberi',
+    description: 'e-Devlet hesabında iki aşamalı girişi web ve mobil uygulamadan etkinleştirme, telefon doğrulama ve giriş kodu sorunları.',
+    categorySlug: 'e-devlet-basvurular',
+    authorId: 'author-2',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    readTime: '5 dk',
+    featured: true,
+    trending: false,
+    coverImage: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&auto=format&fit=crop&q=80',
+    tags: ['e-Devlet', 'Hesap Güvenliği', 'İki Aşamalı Giriş', 'SMS Doğrulama'],
+    sources: [
+      { title: 'e-Devlet Kapısı: İki aşamalı giriş ayarını açma', url: 'https://www.turkiye.gov.tr/iletisim?hizli=CozumMerkeziV2&nodeId=233' },
+      { title: 'e-Devlet Kapısı: İki aşamalı giriş nedir?', url: 'https://www.turkiye.gov.tr/2fa-tanitim' },
+      { title: 'e-Devlet Kapısı: Sıkça sorulan sorular', url: 'https://www.turkiye.gov.tr/bilgilendirme?konu=sikcaSorulanlar' }
+    ],
+    content: {
+      lead: 'İki aşamalı giriş, e-Devlet şifresine ek olarak kimlikle doğrulanmış cep telefonuna gönderilen tek kullanımlık kodla oturum açılmasını sağlar. Ayarları yalnızca resmi turkiye.gov.tr sitesi veya resmi mobil uygulama üzerinden yönetin.',
+      sections: [
+        { id: 'gerekenler', heading: 'Etkinleştirmeden Önce Gerekenler', paragraphs: [
+          'e-Devlet Kapısı yardım sayfasına göre hesabınızda kimlikle doğrulanmış, yurt içi bir cep telefonu numarası bulunmalıdır. Numaranız eskiyse önce resmi hesap ayarlarından güncelleyin; başkasına ait numarayı hesabınıza bağlamayın.',
+          'SMS kodu hesabın güvenlik adımının parçasıdır. Kodu isteyen arama, mesaj veya bağlantılara karşı dikkatli olun; e-Devlet çalışanı olduğunu söyleyen kişilere doğrulama kodunuzu paylaşmayın.'
+        ] },
+        { id: 'webden-acma', heading: 'Tarayıcıdan İki Aşamalı Girişi Açma', paragraphs: ['Resmi adresi kendiniz yazarak açın ve hesabınıza giriş yaptıktan sonra şu yolu izleyin:'], steps: [
+          { title: 'Güvenlik ayarlarına gidin', description: 'Hesap menüsündeki Güvenlik ve Ayarlar / Şifre ve Güvenlik Ayarlarım sayfasını açın.' },
+          { title: 'İki Aşamalı Giriş İşlemleri’ni seçin', description: 'İki aşamalı giriş alanında Aktif seçeneğini işaretleyip kullanım şartlarını okuyun ve onay kutusunu seçin.' },
+          { title: 'Ayarı kaydedin', description: 'Ayarları Kaydet düğmesine basın. Kimlikle doğrulanmış telefonunuza gelen SMS kodunu ekrana girin.' },
+          { title: 'Doğrulamayı tamamlayın', description: 'Doğrula düğmesine bastıktan sonra ayarın etkin olduğunu aynı ekrandan kontrol edin.' }
+        ] },
+        { id: 'uygulamadan-acma', heading: 'Mobil Uygulamadan Etkinleştirme', paragraphs: [
+          'Resmi e-Devlet Kapısı uygulamasında hesabınıza giriş yapın. Profilim > Ayarlar > İki Aşamalı Giriş İşlemleri bölümüne gidin, kullanım şartlarını onaylayıp İki Aşamalı Girişi Aç düğmesine dokunun ve kayıtlı telefonunuza gelen kodu doğrulayın. Uygulama sürümüne göre menü adı veya yeri değişebilir; ekrandaki güncel resmi yönlendirmeyi izleyin.'
+        ] },
+        { id: 'sorun-giderme', heading: 'SMS Kodu Gelmiyor veya Girişte Sorun Çıkıyorsa', paragraphs: [
+          'Önce telefonda sinyal bulunduğunu, numaranın doğru ve kimlikle doğrulanmış olduğunu kontrol edin. Kısa süre bekleyip yeniden kod isteme seçeneği varsa yalnızca resmi giriş sayfasındaki işlemi kullanın. Numara değiştiyse veya hesabınıza erişemiyorsanız e-Devlet Kapısı’nın resmi iletişim/yardım kanalına başvurun.',
+          'Kayıtlı numaraya erişiminiz yokken e-posta ya da arama yoluyla gelen “hesabınızı açalım” tekliflerine güvenmeyin. Şifrenizi ve SMS kodunu kimseyle paylaşmayın; adres çubuğunda turkiye.gov.tr alan adını kontrol edin.'
+        ], callout: { type: 'warning', title: 'Doğrulama kodunu paylaşmayın', message: 'Tek kullanımlık SMS kodu hesabınıza giriş izni verebilir. Resmi giriş ekranı dışında hiçbir kişi veya siteyle paylaşmayın.' } },
+        { id: 'kapatma-ve-yedek', heading: 'Telefonunuza Erişiminiz Kesilirse', paragraphs: [
+          'İki aşamalı giriş ayarını değiştirme veya kapatma işlemlerini yalnızca e-Devlet’in kendi güvenlik ayarlarından yapın. Telefon kaybında önce mobil operatörünüzle hattınızı güvene alın; başka bir cihazdan hesabınıza erişemiyorsanız resmi yardım kanallarını kullanın. Menü ve kurtarma seçenekleri değişebildiği için üçüncü tarafların paylaştığı kodları veya uygulamaları kullanmayın.'
+        ] }
+      ]
+    },
+    faqs: [
+      { question: 'İki aşamalı giriş için cep telefonu doğrulanmış olmalı mı?', answer: 'e-Devlet Kapısı yardımına göre yurt içinde kimlikle doğrulanmış cep telefonu numarası gerekir.' },
+      { question: 'SMS kodumu e-Devlet desteğine iletebilir miyim?', answer: 'Hayır. Tek kullanımlık doğrulama kodunu hiç kimseyle paylaşmayın; işlemi yalnızca resmi giriş ekranında tamamlayın.' }
+    ]
+  },
+  {
+    id: 'post-new-19',
+    slug: 'steam-cloud-esitleme-cakismasi-kayit-dosyasi-koruma',
+    title: 'Steam Cloud Eşitleme Çakışması: Kayıt Dosyanızı Korumak',
+    description: 'Steam yerel kayıt ile bulut kaydı uyuşmadığında doğru sürümü seçme, çevrimdışı oturum riskini anlama ve ilerlemeyi koruma adımları.',
+    categorySlug: 'oyun-donanim',
+    authorId: 'author-3',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    readTime: '5 dk',
+    featured: true,
+    trending: false,
+    coverImage: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&auto=format&fit=crop&q=80',
+    tags: ['Steam', 'Steam Cloud', 'Oyun Kaydı', 'Eşitleme', 'PC Oyun'],
+    sources: [
+      { title: 'Steam Destek: Steam Cloud ve çakışma çözümü', url: 'https://help.steampowered.com/en/faqs/view/68D2-35AB-09A9-7678' },
+      { title: 'Steam Destek: oyun dosyalarının bütünlüğünü doğrulama', url: 'https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB' }
+    ],
+    content: {
+      lead: 'Steam Cloud çakışması, bilgisayardaki kayıtla buluttaki kayıt farklı olduğunda çıkar. Yanlış sürümü seçmek ilerlemenin üzerine yazabilir; önce hangi kaydın son oynadığınız oturuma ait olduğunu belirleyin.',
+      sections: [
+        { id: 'bulut-kaydi-nasil-calisir', heading: 'Steam Cloud Her Oyunda Aynı Şekilde Çalışmaz', paragraphs: [
+          'Steam Cloud, oyuna bağlı olarak kayıt dosyalarını, ayarları veya başka kullanıcı verilerini saklayabilir. Her oyun desteklemez ve hangi dosyaların eşitlendiğini geliştirici belirler. Oyunun mağaza sayfasında Steam Cloud desteğini, oyun özelliklerinde ise eşitleme ayarını kontrol edin.',
+          'Çevrimdışı modda oynanan oturum buluta gönderilmeden kalabilir. Son oynadığınız cihazı ve tarihi hatırlamak bu yüzden önemlidir.'
+        ] },
+        { id: 'cakisma-ekrani', heading: 'Çakışma Ekranında Hangi Kaydı Seçmeli?', paragraphs: [
+          'Steam iki farklı sürüm gördüğünde yerel dosya ve bulut kaydının tarih/saat bilgilerini gösterir. En son ilerlemenizi yaptığınız oturumu ve o oturumun hangi cihazda gerçekleştiğini karşılaştırın. Son oynadığınız kayıt yerelse yerel sürüm; başka cihazda buluta gönderildiyse bulut sürümü doğru olabilir. Yalnızca “en yeni görünen” tarihe güvenmeden önce cihaz saatinin doğru olup olmadığını da hesaba katın.',
+          'Karar veremiyorsanız oyunu hemen başlatıp seçeneklerden birini seçmeyin. Önce Steam’in resmi yardım yönergesini okuyun ve mümkünse mevcut yerel kayıt klasörünü başka bir yere kopyalayarak yedekleyin; kayıt klasörünün yeri oyuna göre değişir.'
+        ], callout: { type: 'warning', title: 'Üzerine yazma riski', message: 'Çakışma penceresini gelişigüzel kapatıp oyunu başlatmak kayıtların üzerine yazılmasına neden olabilir. İlerlemeyi hangi cihazda yaptığınızı doğrulamadan seçim yapmayın.' } },
+        { id: 'esitleme-hatasi', heading: 'Cloud Eşitleme Hatası Varsa', paragraphs: ['Steam, eşitleme başarısızken oyunu başlatmanın yerel ve bulut dosyaları arasında yeni bir çakışma yaratabileceği konusunda uyarıyor. Şu kontrolleri sırayla yapın:'], steps: [
+          { title: 'Steam bağlantısını ve hizmet durumunu kontrol edin', description: 'Steam’i çevrimiçi moda alın; internet bağlantısının çalıştığını doğrulayın.' },
+          { title: 'Açık oturumları kapatın', description: 'Aynı oyunun başka bilgisayarda açık olmadığından ve önceki oturumun eşitlemesinin tamamlandığından emin olun.' },
+          { title: 'Oyunun Cloud ayarına bakın', description: 'Kütüphane’de oyuna sağ tıklayıp Özellikler > Genel içindeki Steam Cloud seçeneğini kontrol edin.' },
+          { title: 'Son değişiklikleri yedekleyin', description: 'Oyuna özgü kayıt dosyalarını bulup kopyalayın; konum oyun ve işletim sistemine göre değişir.' },
+          { title: 'Hata sürerse resmi Steam desteğine başvurun', description: 'Oyunu tekrar tekrar başlatmak yerine hata mesajını ve kullandığınız cihazları not ederek Steam’in yönergesini izleyin.' }
+        ] },
+        { id: 'desteklemeyen-oyun', heading: 'Oyun Steam Cloud Kullanmadığında', paragraphs: [
+          'Bulut kaydı yoksa ilerleme yalnızca yerel cihazda veya oyunun kendi hesabında tutulabilir. Yeni bilgisayara geçmeden önce geliştiricinin kayıt taşıma talimatlarını bulun ve eski cihaza erişiminiz varken yedek alın. Steam Cloud her oyunun kayıtlarını geri getiremez.'
+        ] }
+      ]
+    },
+    faqs: [
+      { question: 'Steam Cloud çakışmasında en yeni tarihli dosyayı seçmek yeterli mi?', answer: 'Her zaman değil. Son oyunu hangi cihazda oynadığınızı ve saat ayarlarını da kontrol edin; tarihler tek başına kaydın doğru ilerlemeyi içerdiğini garanti etmez.' },
+      { question: 'Steam Cloud tüm oyun kayıtlarını kurtarır mı?', answer: 'Hayır. Cloud desteği ve eşitlenen dosyalar oyuna göre değişir. Geliştirici Cloud kullanmıyorsa veya son kayıt eşitlenmediyse Steam bulutu dosyayı geri getiremeyebilir.' }
+    ]
+  },
+  {
+    id: 'post-new-20',
+    slug: 'windows-depolama-alani-acma-storage-sense-guvenli-temizlik',
+    title: 'Windows’ta Depolama Alanı Açma: Storage Sense’i Güvenle Kullanma',
+    description: 'Windows 10 ve 11’de büyük dosyaları bulma, Storage Sense ayarlarını inceleme ve yanlışlıkla önemli dosya silmeyi önleme rehberi.',
+    categorySlug: 'teknoloji-mobil',
+    authorId: 'author-1',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    readTime: '6 dk',
+    featured: false,
+    trending: false,
+    coverImage: 'https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1200&auto=format&fit=crop&q=80',
+    tags: ['Windows', 'Depolama', 'Storage Sense', 'Disk Alanı', 'Windows 11'],
+    sources: [
+      { title: 'Microsoft Support: Windows’ta depolama alanı açma', url: 'https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/free-up-drive-space-in-windows' },
+      { title: 'Microsoft Support: Storage Sense ayarları', url: 'https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense' }
+    ],
+    content: {
+      lead: 'Disk alanı azaldığında Windows güncellemeleri ve uygulama kurulumları sorun çıkarabilir. Önce hangi kategorilerin yer kapladığını görün, ardından kaldırılacak dosyaları tek tek inceleyin; “temizle” düğmesine gelişigüzel basmayın.',
+      sections: [
+        { id: 'ne-kadar-yer-var', heading: 'Önce Kullanılan Alanı ve Büyük Dosyaları Bulun', paragraphs: [
+          'Dosya Gezgini’nde Bu Bilgisayar bölümünü açarak disklerde kalan boş alanı görün. Windows Ayarları > Sistem > Depolama ekranı geçici dosyalar, uygulamalar ve diğer kategorilerin yaklaşık kullanımını gösterir.',
+          'Kişisel dosyaları Dosya Gezgini’nde boyuta göre sıralayın. Eski videolar, kurulum dosyaları ve büyük arşivler çok yer kaplayabilir; silmek yerine harici diske taşımak isteyebilirsiniz.'
+        ] },
+        { id: 'cleanup-recommendations', heading: 'Temizleme Önerilerini İnceleyin', paragraphs: [
+          'Windows 11’de Ayarlar > Sistem > Depolama > Temizleme önerileri bölümünde geçici dosyalar, büyük/kullanılmayan dosyalar ve kullanılmayan uygulamalar ayrı listelenebilir. Her kategoriyi açıp seçilen öğelerin ne olduğunu kontrol edin. Windows 10’da seçeneklerin adı veya konumu farklı olabilir.'
+        ] },
+        { id: 'storage-sense-ayari', heading: 'Storage Sense’i Ayarlarken Dikkat Edin', paragraphs: [
+          'Storage Sense, sistem sürücüsündeki (genellikle C:) belirli geçici dosyaları ve Geri Dönüşüm Kutusu içeriğini otomatik temizleyebilir. Microsoft’un belirttiği varsayılanlarda İndirilenler klasörü silinmez; ancak ayardan İndirilenler için süre seçerseniz açılmayan dosyalar kaldırılabilir. Bu seçeneği etkinleştirmeden önce klasörünüzü gözden geçirin.',
+          'OneDrive bulut dosyaları için “yalnızca çevrimiçi” ayarı, dosyayı buluttan kalıcı silmekten farklıdır; internet olduğunda tekrar indirilebilir. Yine de yerel kopya sizin için önemliyse “bu cihazda her zaman tut” seçeneğini ve senkronizasyon durumunu kontrol edin.'
+        ], steps: [
+          { title: 'Ayarlar > Sistem > Depolama’yı açın', description: 'Storage Sense’i etkinleştirmeden önce geçici dosyalar ve diğer kategorilerin içeriğine bakın.' },
+          { title: 'Storage Sense ayarlarına girin', description: 'Çalışma sıklığını, Geri Dönüşüm Kutusu ve İndirilenler için ayrı saklama sürelerini inceleyin.' },
+          { title: 'İlk temizliği elle başlatın', description: 'Önerilen dosyaları seçip neyin kaldırılacağını kontrol ettikten sonra temizleyin.' },
+          { title: 'Sonucu tekrar ölçün', description: 'Depolama ekranını yenileyip açılan alanı kontrol edin; yeterli alan oluştuysa diğer temizleme adımlarına geçmeyin.' }
+        ] },
+        { id: 'windows-old-uyarisi', heading: 'Windows.old ve Geri Dönüşüm Kutusu Uyarısı', paragraphs: [
+          'Önceki Windows kurulum dosyalarını silmek, önceki sürüme geri dönme seçeneğini kaldırabilir. Geri Dönüşüm Kutusu’nu boşaltmak da içindeki dosyaları geri alınamaz biçimde siler. Bu bölümlerdeki içeriği gerçekten istemediğinizden emin olmadan temizlemeyin.',
+          'Temizlikten sonra alan hâlâ dolu görünüyorsa tüm geçici klasörleri elle silmek yerine Windows’un depolama önerilerini ve Microsoft destek yönergelerini izleyin.'
+        ], callout: { type: 'warning', title: 'Önemli dosyaları yedekleyin', message: 'İndirilenler, Geri Dönüşüm Kutusu veya Windows.old içeriğini temizlemek dosyaları ya da geri dönme seçeneğini kalıcı olarak kaldırabilir.' } }
+      ]
+    },
+    faqs: [
+      { question: 'Storage Sense İndirilenler klasörümü siler mi?', answer: 'Varsayılan ayarda İndirilenler klasörüne dokunmaz. Ancak ayarlarda bu klasör için süre belirlerseniz belirtilen koşullara uyan dosyalar silinebilir; ayarı kontrol edin.' },
+      { question: 'Windows.old klasörünü silmeli miyim?', answer: 'Önceki Windows sürümüne dönme ihtiyacınız yoksa ve klasörün içeriğini incelediyseniz silebilirsiniz. Silindiğinde önceki sürüme geri dönme seçeneği kaybolabilir.' }
+    ]
+  },
+  {
+    id: 'post-new-21',
+    slug: 'android-telefon-depolama-alani-acma-dosya-temizligi',
+    title: 'Android Telefonda Depolama Alanı Açma: Dosyaları Güvenle Temizleme',
+    description: 'Android’de yer kaplayan uygulama ve dosyaları bulma, Files by Google önerilerini inceleme ve fotoğraf silmeden önce yedek kontrolü.',
+    categorySlug: 'teknoloji-mobil',
+    authorId: 'author-1',
+    publishedAt: '2026-10-22',
+    updatedAt: '2026-10-22',
+    readTime: '5 dk',
+    featured: false,
+    trending: false,
+    coverImage: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1200&auto=format&fit=crop&q=80',
+    tags: ['Android', 'Telefon Hafızası', 'Dosyalar', 'Files by Google', 'Depolama'],
+    sources: [
+      { title: 'Google Files Yardım: Files by Google ile alan açma', url: 'https://support.google.com/files/answer/9848742?hl=tr' },
+      { title: 'Android Yardım: cihazda yer açma', url: 'https://support.google.com/android/answer/7431795?hl=tr' }
+    ],
+    content: {
+      lead: 'Android telefonda boş alan azaldığında önce Depolama ayarlarından nelerin yer kapladığını görün. Önbelleği ve kişisel dosyaları ayırt edin; fotoğraf veya indirme silmeden önce yedeğin gerçekten tamamlandığını kontrol edin.',
+      sections: [
+        { id: 'depolama-analizi', heading: 'Telefon Hafızasında Nelerin Yer Kapladığını Bulun', paragraphs: [
+          'Ayarlar > Depolama ekranında uygulamalar, fotoğraflar, videolar, indirilenler ve sistem alanının dağılımını inceleyin. Android üreticisine göre menü adı değişebilir. Büyük uygulamalar arasında kullanılmayanları belirleyin; uygulamayı kaldırmak yerel verilerini de silebilir.'
+        ] },
+        { id: 'files-by-google-temizleme', heading: 'Files by Google Önerilerini Gözden Geçirin', paragraphs: [
+          'Files by Google yüklüyse Temizle sekmesindeki önerileri kullanabilirsiniz. Google’ın yardımına göre uygulama gereksiz dosyaları bulmaya ve dosyalara göz atmaya yardımcı olur. Her öneride hangi dosyaların seçildiğini açıp kontrol edin; öneri, dosyanın sizin için önemsiz olduğu anlamına gelmez.',
+          'İndirilenler klasöründe belge, bilet, makbuz veya çevrimdışı dosyalar bulunabilir. Tanımadığınız klasörleri topluca silmek yerine dosya adını ve içeriğini kontrol edin.'
+        ], steps: [
+          { title: 'Depolama ekranını açın', description: 'Ayarlar’da Depolama bölümünden dolu kategoriyi tespit edin.' },
+          { title: 'Files by Google’da Temizle’yi açın', description: 'Öneri kartlarının içindeki dosya listesini tek tek gözden geçirin.' },
+          { title: 'Yalnızca emin olduklarınızı seçin', description: 'Silinecek öğeleri seçip onay ekranındaki dosya adlarını yeniden kontrol edin.' },
+          { title: 'Boş alanı tekrar kontrol edin', description: 'İşlem bittikten sonra Depolama ekranında açılan alanı ölçün.' }
+        ] },
+        { id: 'fotograf-yedekleme', heading: 'Fotoğraf ve Videoları Silmeden Önce Yedek Durumunu Doğrulayın', paragraphs: [
+          'Bulut yedekleme kullanıyorsanız uygulamada yüklemenin tamamlandığını ve doğru Google hesabının seçili olduğunu kontrol edin. Senkronizasyon beklemede olan içerik telefondan silinirse yedek kopya olmayabilir. Önemli dosyaları ayrıca bilgisayara veya harici ortama kopyalayabilirsiniz.',
+          'Google Fotoğraflar’da cihazdan yer açma işlemi yerel kopyaları kaldırabilir; bulut yedekleme durumu, çöp kutusu ve çevrimdışı erişim beklentinizi önceden kontrol edin. İşlem sonrası bazı içerikler internet olmadan görünmeyebilir.'
+        ], callout: { type: 'warning', title: 'Yedek kontrolü yapın', message: 'Fotoğraf ve videoları silmeden önce yüklemenin tamamlandığını farklı bir cihazdan veya web arayüzünden kontrol edin.' } },
+        { id: 'onbellek-ve-veri', heading: 'Önbelleği Temizlemek ile Uygulama Verisini Silmek Farklıdır', paragraphs: [
+          'Önbellek, uygulamanın yeniden oluşturabileceği geçici dosyalardır; temizlenince uygulama bazı içerikleri yeniden indirebilir. Depolamayı temizle/veriyi sil seçeneği ise oturum bilgileri, ayarlar veya yerel kayıtlar gibi kalıcı uygulama verilerini kaldırabilir. Özellikle mesajlaşma, not, oyun ve kimlik doğrulama uygulamalarında yedek almadan veri silmeyin.',
+          'Depolama alanı sürekli hızla doluyorsa büyük video kayıtlarını, çevrimdışı müzik/harita indirmelerini ve mesajlaşma uygulamalarının medya klasörlerini ayrı ayrı inceleyin.'
+        ] }
+      ]
+    },
+    faqs: [
+      { question: 'Android’de önbelleği temizlemek fotoğrafları siler mi?', answer: 'Uygulama önbelleği ile fotoğraf klasörleri farklıdır; ancak yanlışlıkla uygulama verisini silmemek için ekrandaki seçeneğin adını ve kapsamını kontrol edin.' },
+      { question: 'Files by Google önerdiği her dosyayı silebilir miyim?', answer: 'Hayır. Önerilen dosyaları silmeden önce adını ve içeriğini inceleyin; uygulama dosyanın sizin için gerekli olup olmadığını bilemez.' }
+    ]
   }
 ];
 
 export function getAllPosts(): Post[] {
-  return posts.sort(
+  return [...posts].sort(
     (a, b) =>
       new Date(b.publishedAt || b.date || '2026-10-07').getTime() -
       new Date(a.publishedAt || a.date || '2026-10-07').getTime()
@@ -1108,7 +1433,9 @@ export function getPostsByCategory(categorySlug: string): Post[] {
 }
 
 export function getFeaturedPosts(): Post[] {
-  return posts.filter((p) => p.featured);
+  return posts
+    .filter((p) => p.featured)
+    .sort((a, b) => new Date(b.publishedAt || b.date || '2000-01-01').getTime() - new Date(a.publishedAt || a.date || '2000-01-01').getTime());
 }
 
 export function getTrendingPosts(): Post[] {
@@ -1116,9 +1443,14 @@ export function getTrendingPosts(): Post[] {
 }
 
 export function getRelatedPosts(currentPostId: string, categorySlug: string, limit = 3): Post[] {
+  const current = posts.find((post) => post.id === currentPostId);
+  const currentTags = new Set((current?.tags || []).map((tag) => tag.toLocaleLowerCase('tr-TR')));
   return posts
-    .filter((p) => p.id !== currentPostId && p.categorySlug === categorySlug)
-    .slice(0, limit);
+    .filter((post) => post.id !== currentPostId && post.categorySlug === categorySlug)
+    .map((post) => ({ post, overlap: (post.tags || []).filter((tag) => currentTags.has(tag.toLocaleLowerCase('tr-TR'))).length }))
+    .sort((a, b) => b.overlap - a.overlap || new Date(b.post.publishedAt || b.post.date || '2000-01-01').getTime() - new Date(a.post.publishedAt || a.post.date || '2000-01-01').getTime())
+    .slice(0, limit)
+    .map(({ post }) => post);
 }
 
 export function searchPosts(query: string): Post[] {

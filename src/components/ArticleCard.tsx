@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Clock, Eye, Calendar, ArrowRight } from 'lucide-react';
+import { Clock, Calendar, ArrowRight } from 'lucide-react';
 import { Post } from '@/types';
 import { categories } from '@/data/categories';
 import { authors } from '@/data/authors';
@@ -22,7 +22,6 @@ export default function ArticleCard({ post, variant = 'standard' }: ArticleCardP
   const category = categories.find((c) => c.slug === post.categorySlug);
   const author = authors.find((a) => a.id === post.authorId) || authors[0];
   const coverImage = post.coverImage || defaultCovers[post.categorySlug] || defaultCovers['pratik-bilgiler'];
-  const viewCount = post.viewCount ?? 14200;
 
   const rawDate = post.publishedAt || post.date || '2026-10-07';
   const formattedDate = new Date(rawDate).toLocaleDateString('tr-TR', {
@@ -75,11 +74,6 @@ export default function ArticleCard({ post, variant = 'standard' }: ArticleCardP
             <div className="flex items-center gap-3">
               {author && (
                 <div className="flex items-center gap-2">
-                  <img
-                    src={author.avatar}
-                    alt={author.name}
-                    className="w-6 h-6 rounded-full object-cover border border-white/20"
-                  />
                   <span className="font-medium text-slate-200">{author.name}</span>
                 </div>
               )}
@@ -93,10 +87,6 @@ export default function ArticleCard({ post, variant = 'standard' }: ArticleCardP
               <span className="flex items-center gap-1">
                 <Clock className="w-3.5 h-3.5" />
                 {post.readTime}
-              </span>
-              <span className="flex items-center gap-1">
-                <Eye className="w-3.5 h-3.5" />
-                {viewCount.toLocaleString('tr-TR')}
               </span>
             </div>
           </div>
@@ -221,11 +211,6 @@ export default function ArticleCard({ post, variant = 'standard' }: ArticleCardP
         <div className="pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs">
           {author && (
             <div className="flex items-center gap-2">
-              <img
-                src={author.avatar}
-                alt={author.name}
-                className="w-5 h-5 rounded-full object-cover"
-              />
               <span className="font-medium text-slate-700 dark:text-slate-300 truncate max-w-[120px]">
                 {author.name}
               </span>

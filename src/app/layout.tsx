@@ -1,17 +1,10 @@
 import type { Metadata, Viewport } from 'next';
-import { Inter } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/context/ThemeContext';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AdBanner from '@/components/AdBanner';
 import { ADS_CONFIG } from '@/config/ads';
-
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-sans'
-});
 
 export const viewport: Viewport = {
   themeColor: [
@@ -30,7 +23,7 @@ export const metadata: Metadata = {
     template: '%s | Bilgi Rotası'
   },
   description:
-    'e-Devlet başvuruları, teknoloji ve mobil ayarlar, oyun FPS çözümleri, sınav hazırlıkları ve günlük pratik bilgiler için Türkiye’nin en kapsamlı rehber portalı.',
+    'e-Devlet başvuruları, teknoloji ve mobil ayarlar, oyun çözümleri, sınav hazırlıkları ve günlük yaşam konularında bilgilendirme rehberleri.',
   keywords: [
     'rehber',
     'nasıl yapılır',
@@ -43,7 +36,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Bilgi Rotası Editör Ekibi' }],
   creator: 'Bilgi Rotası',
-  publisher: 'Bilgi Rotası Medya',
+  publisher: 'Bilgi Rotası',
   formatDetection: {
     email: false,
     address: false,
@@ -111,7 +104,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="tr" suppressHydrationWarning className={inter.variable}>
+    <html lang="tr" suppressHydrationWarning>
       <head>
         {ADS_CONFIG.adClient && (ADS_CONFIG.enabled || ADS_CONFIG.enableVerificationScript) && (
           <script

@@ -7,7 +7,7 @@ import {
   FolderOpen
 } from 'lucide-react';
 import { categories } from '@/data/categories';
-import { posts, getFeaturedPosts } from '@/data/posts';
+import { posts, getAllPosts, getFeaturedPosts, getPostsByCategory } from '@/data/posts';
 import ArticleCard from '@/components/ArticleCard';
 import CategoryCard from '@/components/CategoryCard';
 import SidebarWidgets from '@/components/SidebarWidgets';
@@ -17,7 +17,7 @@ export default function HomePage() {
   const featuredPosts = getFeaturedPosts();
   const mainHeroPost = featuredPosts[0] || posts[0];
   const sideHeroPosts = featuredPosts.slice(1, 3);
-  const recentPosts = posts.slice(0, 6);
+  const recentPosts = getAllPosts().slice(0, 6);
 
   return (
     <div className="space-y-12">
@@ -27,7 +27,7 @@ export default function HomePage() {
           <div>
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400 text-xs font-semibold mb-1 border border-blue-500/20">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Günün En Çok Aranan Konuları</span>
+              <span>Öne çıkan rehberler</span>
             </div>
             <h1 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
               Öne Çıkan &amp; Trend Rehberler
@@ -93,7 +93,7 @@ export default function HomePage() {
                 </h2>
               </div>
               <span className="text-xs font-semibold text-slate-400">
-                Sürekli Güncellenen İçerik
+                Rehberler ve kullanım bilgileri
               </span>
             </div>
 
@@ -110,7 +110,7 @@ export default function HomePage() {
           {/* Kategorilere Göre Öne Çıkanlar (e-Devlet & Teknoloji Özel Blokları) */}
           <section className="space-y-8">
             {categories.slice(0, 2).map((cat) => {
-              const catPosts = posts.filter((p) => p.categorySlug === cat.slug).slice(0, 3);
+              const catPosts = getPostsByCategory(cat.slug).slice(0, 3);
               return (
                 <div key={cat.id} className="space-y-4">
                   <div className="flex items-center justify-between">

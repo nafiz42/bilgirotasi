@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getPostBySlug, getRelatedPosts, posts } from '@/data/posts';
@@ -13,10 +14,11 @@ import AuthorBio from '@/components/AuthorBio';
 import ArticleCard from '@/components/ArticleCard';
 import SidebarWidgets from '@/components/SidebarWidgets';
 import AdBanner from '@/components/AdBanner';
+import StudyPlanner from '@/components/StudyPlanner';
+import EnergyCalculator from '@/components/EnergyCalculator';
 import {
   Calendar,
   Clock,
-  Eye,
   AlertCircle,
   Lightbulb,
   ShieldCheck,
@@ -196,7 +198,6 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const author = getAuthorById(post.authorId || 'author-1') || authors[0];
   const relatedPosts = getRelatedPosts(post.id, post.categorySlug, 3);
   const coverImage = post.coverImage || defaultCovers[post.categorySlug] || defaultCovers['pratik-bilgiler'];
-  const viewCount = post.viewCount ?? 16800;
   const pubDate = post.publishedAt || post.date || '2026-10-07';
   const updDate = post.updatedAt || post.date || pubDate;
   const tags = post.tags && post.tags.length > 0 ? post.tags : [category?.title || 'Rehber', 'Nasıl Yapılır'];
@@ -232,17 +233,13 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     datePublished: pubDate,
     dateModified: updDate,
     author: {
-      '@type': 'Person',
+      '@type': 'Organization',
       name: author?.name || 'Bilgi Rotası Editörü',
       url: 'https://www.bilgirotasi.tr/hakkimizda'
     },
     publisher: {
       '@type': 'Organization',
       name: 'Bilgi Rotası',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://www.bilgirotasi.tr/logo.png'
-      }
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
@@ -286,10 +283,6 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                       {category.title}
                     </span>
                   )}
-                  <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 flex items-center gap-1">
-                    <ShieldCheck className="w-3.5 h-3.5" />
-                    Doğrulanmış Bilgi
-                  </span>
                 </div>
 
                 <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 dark:text-white tracking-tight leading-tight">
@@ -301,11 +294,6 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                   <div className="flex items-center gap-3">
                     {author && (
                       <div className="flex items-center gap-2">
-                        <img
-                          src={author.avatar}
-                          alt={author.name}
-                          className="w-8 h-8 rounded-full object-cover border border-slate-200 dark:border-slate-700"
-                        />
                         <div>
                           <p className="font-semibold text-slate-800 dark:text-slate-200">
                             {author.name}
@@ -328,10 +316,6 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                     <span className="flex items-center gap-1">
                       <Clock className="w-3.5 h-3.5 text-blue-500" />
                       {post.readTime} okuma
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <Eye className="w-3.5 h-3.5 text-blue-500" />
-                      {viewCount.toLocaleString('tr-TR')} görüntülenme
                     </span>
                   </div>
                 </div>
@@ -430,9 +414,55 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                         </p>
                       </div>
                     )}
+
+                    {idx === 0 && relatedPosts.length > 0 && (
+                      <nav
+                        aria-label="Konuyla ilgili rehberler"
+                        className="rounded-2xl border border-blue-200 bg-blue-50/70 p-4 dark:border-blue-900 dark:bg-blue-950/30"
+                      >
+                        <h3 className="mb-2 text-sm font-bold text-slate-900 dark:text-slate-100">
+                          Konuyla ilgili rehberler
+                        </h3>
+                        <ul className="space-y-2">
+                          {relatedPosts.slice(0, 2).map((relatedPost) => (
+                            <li key={relatedPost.id}>
+                              <Link
+                                href={`/kategori/${relatedPost.categorySlug}/${relatedPost.slug}`}
+                                className="text-sm font-medium text-blue-700 underline-offset-4 hover:underline dark:text-blue-300"
+                              >
+                                {relatedPost.title}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </nav>
+                    )}
                   </section>
                 ))}
               </div>
+
+              {post.sources && post.sources.length > 0 && (
+                <section aria-labelledby="article-sources" className="rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900">
+                  <h2 id="article-sources" className="mb-3 text-base font-bold text-slate-900 dark:text-slate-100">
+                    Kaynaklar ve resmi başvuru bağlantıları
+                  </h2>
+                  <ul className="list-disc space-y-2 pl-5 text-sm">
+                    {post.sources.map((source) => (
+                      <li key={source.url}>
+                        <a href={source.url} target="_blank" rel="noopener noreferrer" className="text-blue-700 underline underline-offset-4 hover:text-blue-900 dark:text-blue-300 dark:hover:text-blue-200">
+                          {source.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="mt-3 text-xs text-slate-500 dark:text-slate-400">
+                    İşlem adımları ve koşullar zamanla değişebilir. Başvuru öncesinde ilgili kurumun güncel açıklamasını kontrol edin.
+                  </p>
+                </section>
+              )}
+
+              {post.slug === 'yks-calisma-programi-hazirlama-ve-net-artirma-taktikleri' && <StudyPlanner />}
+              {post.slug === 'elektrik-faturasini-dusurmenin-etkili-10-yolu' && <EnergyCalculator />}
 
               {/* Tags */}
               <div className="pt-6 border-t border-slate-200 dark:border-slate-800">

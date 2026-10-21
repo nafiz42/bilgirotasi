@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Compass, ShieldCheck, Mail, FileText, HelpCircle } from 'lucide-react';
+import { Compass, Mail, FileText, HelpCircle, ShieldCheck } from 'lucide-react';
 import { categories } from '@/data/categories';
 
 export default function Footer() {
@@ -22,15 +22,10 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed max-w-sm">
-              Türkiye&apos;nin en güncel, sade ve doğrulanmış bilgi rehberi. e-Devlet işlemleri, mobil teknoloji ayarları, donanım optimizasyonları ve sınav süreçlerinde adım adım yanınızdayız.
+              e-Devlet işlemleri, teknoloji, eğitim ve günlük yaşam konularında bilgilendirme rehberleri.
             </p>
             <div className="flex items-center gap-3 pt-2 text-xs">
-              <span className="inline-flex items-center gap-1 text-emerald-600 dark:text-emerald-400 font-medium">
-                <ShieldCheck className="w-4 h-4" />
-                Doğrulanmış İçerikler
-              </span>
-              <span className="text-slate-300 dark:text-slate-700">&bull;</span>
-              <span>Hızlı ve Güvenilir</span>
+              <Link href="/hakkimizda" className="hover:text-blue-600 dark:hover:text-blue-400">Yayın ilkeleri ve kaynak kullanımı</Link>
             </div>
           </div>
 

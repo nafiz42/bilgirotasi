@@ -6,7 +6,7 @@ import { Shield, Cookie, Lock, UserCheck, FileText } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Gizlilik Politikası ve Çerez Aydınlatma Metni',
   description:
-    'Bilgi Rotası kullanıcı gizliliği, Google AdSense çerezleri, kişisel verilerin korunması ve KVKK/GDPR uyumluluk bildirimi.',
+    'Bilgi Rotası’nın AdSense etiketi, çerezler ve gizlilikle ilgili uygulamalarına dair açıklama.',
   alternates: {
     canonical: '/gizlilik-politikasi'
   }
@@ -26,7 +26,7 @@ export default function PrivacyPage() {
           Gizlilik Politikası ve Çerezler (Cookies)
         </h1>
         <p className="text-xs sm:text-sm text-slate-300">
-          Son Güncelleme: 05 Ekim 2026 &bull; Bilgi Rotası (bilgirotasi.tr)
+          Son Güncelleme: 22 Ekim 2026 &bull; Bilgi Rotası (bilgirotasi.tr)
         </p>
       </div>
 
@@ -38,32 +38,37 @@ export default function PrivacyPage() {
             1. Genel Bakış ve Veri Sorumlusu
           </h2>
           <p>
-            Bilgi Rotası olarak ziyaretçilerimizin gizliliğine büyük önem vermekteyiz. Bu Gizlilik Politikası belgesi, Bilgi Rotası tarafından hangi tür kişisel ve anonim bilgilerin toplandığını, kaydedildiğini ve bu bilgilerin nasıl kullanıldığını açıklamaktadır.
+            Bu sayfa, Bilgi Rotası’nda kullanılan reklam etiketi ve ziyaretçilerin gizlilik tercihleri hakkında mevcut bilgileri açıklar. Sitedeki uygulamalar veya hizmet sağlayıcılar değiştikçe bu metin de güncellenmelidir.
           </p>
           <p>
-            6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve Avrupa Genel Veri Koruma Tüzüğü (GDPR) kapsamında veri sorumlusu sıfatıyla hareket etmekteyiz.
+            Sitede ziyaretçi hesabı, yorum veya iletişim formu bulunmamaktadır. Sunucu ve barındırma sağlayıcısının teknik kayıt tutup tutmadığı ve saklama süreleri için ilgili sağlayıcının koşullarına bakın.
           </p>
         </section>
 
         <section className="space-y-3">
           <h2 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
             <Cookie className="w-4 h-4 text-amber-500" />
-            2. Google AdSense ve DoubleClick DART Çerezleri
+            2. Google reklam etiketi ve çerezler
           </h2>
           <p>
-            Google, web sitemizde üçüncü taraf satıcı olarak reklam yayınlamak amacıyla çerezlerden (cookies) yararlanır. Google&apos;ın DART çerezlerini kullanması, kullanıcılarımıza sitemize ve internetteki diğer sitelere yaptıkları ziyaretlere dayalı reklamlar sunmasını sağlar.
+            Bu sitede Google AdSense reklam etiketi yüklenmektedir; mevcut ayarda reklam alanları gösterime kapalıdır. Google, reklam isteği veya reklamla ilgili etkinlik gerçekleştiğinde çerez ve benzeri teknolojiler kullanabilir. Kullanım; Google hesabı, reklam ayarları, yayıncı ayarları ve kullanıcının bulunduğu bölgeye göre değişebilir. Bu nedenle sitede reklam gösterilmemesi, Google etiketinin hiç yüklenmediği anlamına gelmez.
           </p>
           <ul className="list-disc pl-5 space-y-1.5 text-slate-600 dark:text-slate-400">
             <li>
-              Google dahil üçüncü taraf satıcılar, web sitemize daha önce yaptığınız ziyaretlere veya internetteki diğer sitelere dayalı olarak reklam yayınlamak için çerez kullanır.
+              Google ve üçüncü taraf sağlayıcıların reklam, ölçüm ve güvenlik amaçlı çerez/yerel depolama kullanımı seçilen reklam ayarlarına bağlı olabilir.
             </li>
             <li>
-              Google&apos;ın reklam çerezlerini kullanması, Google ve iş ortaklarının kullanıcılarımıza siteniz ve/veya internetteki diğer sitelerdeki ziyaretlerine dayalı reklamlar sunmasına olanak tanır.
+              Kişiselleştirilmiş reklam tercihleri Google hesabındaki reklam ayarlarından yönetilebilir. Reklam kişiselleştirme kapalı olsa bile ölçüm, sıklık sınırlama veya güvenlik amaçlı bazı teknolojiler kullanılabilir.
             </li>
             <li>
               Kullanıcılar, <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">Google Reklam Ayarları</a> sayfasını ziyaret ederek kişiselleştirilmiş reklamcılığı devre dışı bırakabilirler.
             </li>
           </ul>
+          <p>
+            Google’ın yayıncı ürünleri için açıkladığı veri ve teknoloji kullanım ayrıntıları için{' '}
+            <a href="https://support.google.com/adsense/answer/7549925?hl=tr" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">AdSense çerezleri açıklamasını</a>{' '}
+            ve <a href="https://support.google.com/adsense/answer/10502938?hl=tr" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Google yayıncı politikalarını</a> inceleyin.
+          </p>
         </section>
 
         <section className="space-y-3">
@@ -72,7 +77,7 @@ export default function PrivacyPage() {
             3. Kayıt Dosyaları (Log Files)
           </h2>
           <p>
-            Diğer pek çok web sitesi gibi Bilgi Rotası da standart log dosyaları kullanır. Bu dosyalar yalnızca siteye gelen ziyaretçileri kaydeder; internet servis sağlayıcısı (ISP), internet protokolü (IP) adresleri, tarayıcı türü, tarih/saat damgaları ve yönlendiren sayfaları kapsar. Bu bilgiler kişisel olarak tanımlanabilir bilgilerle bağlantılı değildir; yalnızca trendleri analiz etmek, siteyi yönetmek ve kullanıcı hareketlerini izlemek amacıyla kullanılır.
+            Ziyaret sırasında barındırma altyapısı, güvenlik ve hizmetin çalışması için teknik günlükler oluşturabilir. Bu kayıtların kapsamı, saklama süresi ve erişimi barındırma sağlayıcısının yapılandırmasına bağlıdır; Bilgi Rotası bu sayfada belirli bir saklama süresi veya anonimleştirme garantisi vermez.
           </p>
         </section>
 
