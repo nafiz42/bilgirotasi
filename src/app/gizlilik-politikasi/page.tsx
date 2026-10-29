@@ -51,7 +51,7 @@ export default function PrivacyPage() {
             2. Google reklam etiketi ve çerezler
           </h2>
           <p>
-            Bu sitede Google AdSense reklam etiketi yüklenmektedir; mevcut ayarda reklam alanları gösterime kapalıdır. Google, reklam isteği veya reklamla ilgili etkinlik gerçekleştiğinde çerez ve benzeri teknolojiler kullanabilir. Kullanım; Google hesabı, reklam ayarları, yayıncı ayarları ve kullanıcının bulunduğu bölgeye göre değişebilir. Bu nedenle sitede reklam gösterilmemesi, Google etiketinin hiç yüklenmediği anlamına gelmez.
+            Bu sitede Google AdSense reklamları ve etiketleri aktif olarak yayınlanmaktadır. Google, reklam isteği veya reklamla ilgili etkinlik gerçekleştiğinde çerez ve benzeri teknolojiler kullanabilir. Kullanım; Google hesabı, reklam ayarları, yayıncı ayarları ve kullanıcının bulunduğu bölgeye göre değişebilir.
           </p>
           <ul className="list-disc pl-5 space-y-1.5 text-slate-600 dark:text-slate-400">
             <li>

@@ -25,9 +25,34 @@ export default function AdBanner({
   className = '',
   label = 'Sponsorlu İçerik'
 }: AdBannerProps) {
+  const adRef = React.useRef<HTMLModElement | null>(null);
+
+  // Canlı AdSense için her ins etiketi mount olduğunda push({}) tetiklenir
+  React.useEffect(() => {
+    if (!ADS_CONFIG.enabled || !ADS_CONFIG.isProduction) {
+      return;
+    }
+
+    // Element zaten doldurulduysa tekrar çağırma (React StrictMode / hot-reload koruması)
+    if (adRef.current && adRef.current.getAttribute('data-adsbygoogle-status')) {
+      return;
+    }
+
+    try {
+      if (typeof window !== 'undefined') {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const adsbygoogle = ((window as any).adsbygoogle = (window as any).adsbygoogle || []);
+        adsbygoogle.push({});
+      }
+    } catch (err) {
+      if (process.env.NODE_ENV === 'development') {
+        console.warn('AdSense push notice:', err);
+      }
+    }
+  }, []);
+
   // 1. Reklamlar ön planda kapalıysa kesinlikle hiçbir şey render edilmez.
   // Bu sayede sitede hiçbir reklam alanı, boşluk, kenarlık veya kimlik görünmez.
-  // Tüm alanlar arka planda hazır olarak korunur.
   if (!ADS_CONFIG.enabled) {
     return null;
   }
@@ -42,18 +67,24 @@ export default function AdBanner({
         ? ADS_CONFIG.slots.sidebarSticky
         : type === 'article-footer'
         ? ADS_CONFIG.slots.articleFooter
+        : type === 'category-inline'
+        ? ADS_CONFIG.slots.categoryInline
         : ADS_CONFIG.slots.inArticleTop);
 
+    // Yalnızca geçerli sayısal slot kimliği girildiyse data-ad-slot eklenir
+    const isNumericSlot = Boolean(slotId && /^\d+$/.test(slotId));
+
     const bannerContent = (
-      <div className={`ad-wrapper my-6 flex flex-col items-center justify-center overflow-hidden ${className}`}>
+      <div className={`ad-wrapper my-6 flex flex-col items-center justify-center overflow-hidden min-h-[90px] ${className}`}>
         <span className="text-[10px] tracking-wider uppercase text-slate-400 dark:text-slate-500 mb-1">
           {label}
         </span>
         <ins
+          ref={adRef}
           className="adsbygoogle"
           style={{ display: 'block' }}
           data-ad-client={adClient}
-          data-ad-slot={slotId}
+          {...(isNumericSlot ? { 'data-ad-slot': slotId } : {})}
           data-ad-format="auto"
           data-full-width-responsive="true"
         />

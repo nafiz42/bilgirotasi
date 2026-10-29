@@ -11,25 +11,26 @@
  */
 
 export const ADS_CONFIG = {
-  // Reklam afişlerinin sitede gösterim durumu (false: banner ve reklam alanları kapalı)
-  enabled: false,
+  // Reklam afişlerinin sitede gösterim durumu (true: reklam alanları aktif ve yayında)
+  enabled: true,
 
-  // AdSense site doğrulama / onay scripti ve meta etiketi (true: onay için <head>'e eklenir)
+  // AdSense site doğrulama / onay scripti ve meta etiketi (true: <head>'e eklenir)
   enableVerificationScript: true,
 
-  // Gerçek AdSense yayın durumu (true: canli <ins> etiketleri, false: yerleşim taslağı)
-  isProduction: false,
+  // Gerçek AdSense yayın durumu (true: canlı <ins> etiketleri ve AdSense istekleri, false: yerleşim taslağı)
+  isProduction: true,
 
   // Google AdSense Yayıncı Kimliği
   adClient: 'ca-pub-1843373602369228',
 
-  // Reklam Alanları / Slot Kimlikleri (Arka planda hazır tutulur)
+  // Reklam Alanları / Slot Kimlikleri
+  // AdSense panelinizden (Reklamlar > Reklam Birimleri) aldığınız sayısal slot kimliklerini buraya tanımlayabilirsiniz.
   slots: {
-    header: 'HEADER-BANNER-SLOT',
-    inArticleTop: 'IN-ARTICLE-TOP-SLOT',
-    inArticleMiddle: 'IN-ARTICLE-MID-SLOT',
-    sidebarSticky: 'SIDEBAR-STICKY-SLOT',
-    articleFooter: 'ARTICLE-FOOTER-SLOT',
-    categoryInline: 'CATEGORY-INLINE-SLOT',
+    header: '',
+    inArticleTop: '',
+    inArticleMiddle: '',
+    sidebarSticky: '',
+    articleFooter: '',
+    categoryInline: '',
   }
 } as const;
