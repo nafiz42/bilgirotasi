@@ -294,7 +294,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                 <div className="flex flex-wrap items-center justify-between gap-4 py-3 border-y border-slate-200 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400">
                   <div className="flex items-center gap-3">
                     {author && (
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-2.5">
                         <div>
                           <p className="font-semibold text-slate-800 dark:text-slate-200">
                             {author.name}
@@ -303,21 +303,6 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                         </div>
                       </div>
                     )}
-                  </div>
-
-                  <div className="flex flex-wrap items-center gap-4">
-                    <span className="flex items-center gap-1">
-                      <Calendar className="w-3.5 h-3.5 text-blue-500" />
-                      Yayın: {formattedPublishedDate}
-                    </span>
-                    <span className="flex items-center gap-1 text-slate-400">
-                      <RefreshCw className="w-3 h-3 text-emerald-500" />
-                      Güncelleme: {formattedUpdatedDate}
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <Clock className="w-3.5 h-3.5 text-blue-500" />
-                      {post.readTime} okuma
-                    </span>
                   </div>
                 </div>
               </div>

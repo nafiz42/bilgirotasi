@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Clock, Calendar, ArrowRight } from 'lucide-react';
+import { Compass, ArrowRight } from 'lucide-react';
 import { Post } from '@/types';
 import { categories } from '@/data/categories';
 import { authors } from '@/data/authors';
@@ -22,13 +22,6 @@ export default function ArticleCard({ post, variant = 'standard' }: ArticleCardP
   const category = categories.find((c) => c.slug === post.categorySlug);
   const author = authors.find((a) => a.id === post.authorId) || authors[0];
   const coverImage = post.coverImage || defaultCovers[post.categorySlug] || defaultCovers['pratik-bilgiler'];
-
-  const rawDate = post.publishedAt || post.date || '2026-10-07';
-  const formattedDate = new Date(rawDate).toLocaleDateString('tr-TR', {
-    day: 'numeric',
-    month: 'short',
-    year: 'numeric'
-  });
 
   if (variant === 'featured') {
     return (
@@ -71,24 +64,19 @@ export default function ArticleCard({ post, variant = 'standard' }: ArticleCardP
           </p>
 
           <div className="flex flex-wrap items-center justify-between gap-4 pt-3 border-t border-white/10 text-xs text-slate-300">
-            <div className="flex items-center gap-3">
-              {author && (
-                <div className="flex items-center gap-2">
-                  <span className="font-medium text-slate-200">{author.name}</span>
-                </div>
-              )}
-              <span className="flex items-center gap-1 text-slate-400">
-                <Calendar className="w-3.5 h-3.5" />
-                {formattedDate}
-              </span>
+            <div className="flex items-center gap-2">
+              <div className="w-6 h-6 rounded-lg bg-blue-600 flex items-center justify-center text-white">
+                <Compass className="w-3.5 h-3.5" />
+              </div>
+              <span className="font-semibold text-slate-200">{author?.name || 'Bilgi Rotası'}</span>
             </div>
 
-            <div className="flex items-center gap-3 text-slate-400">
-              <span className="flex items-center gap-1">
-                <Clock className="w-3.5 h-3.5" />
-                {post.readTime}
-              </span>
-            </div>
+            <Link
+              href={`/kategori/${post.categorySlug}/${post.slug}`}
+              className="text-xs font-semibold text-blue-300 hover:text-white flex items-center gap-1 transition-colors"
+            >
+              Rehberi Oku <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
           </div>
         </div>
       </article>
@@ -109,8 +97,6 @@ export default function ArticleCard({ post, variant = 'standard' }: ArticleCardP
         <div className="flex-1 min-w-0 space-y-1">
           <div className="flex items-center gap-2 text-[11px] text-blue-600 dark:text-blue-400 font-semibold">
             <span>{category?.title}</span>
-            <span className="text-slate-300 dark:text-slate-700">&bull;</span>
-            <span className="text-slate-400 font-normal">{post.readTime}</span>
           </div>
           <h4 className="text-xs sm:text-sm font-semibold text-slate-900 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 line-clamp-2 transition-colors">
             <Link href={`/kategori/${post.categorySlug}/${post.slug}`}>
@@ -138,20 +124,15 @@ export default function ArticleCard({ post, variant = 'standard' }: ArticleCardP
         </Link>
         <div className="flex-1 flex flex-col justify-between py-1 space-y-3">
           <div className="space-y-2">
-            <div className="flex items-center gap-2.5">
+            <div className="flex items-center gap-2">
               {category && (
                 <Link
                   href={`/kategori/${category.slug}`}
-                  className="text-xs font-bold text-rose-500 dark:text-rose-400 hover:underline"
+                  className="text-xs font-bold text-blue-600 dark:text-blue-400 hover:underline"
                 >
                   {category.title}
                 </Link>
               )}
-              <span className="text-slate-300 dark:text-slate-700">&bull;</span>
-              <span className="text-xs text-slate-400 flex items-center gap-1">
-                <Clock className="w-3 h-3" />
-                {post.readTime}
-              </span>
             </div>
             <h3 className="text-lg sm:text-xl font-extrabold text-slate-900 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors leading-snug">
               <Link href={`/kategori/${post.categorySlug}/${post.slug}`}>
@@ -164,18 +145,13 @@ export default function ArticleCard({ post, variant = 'standard' }: ArticleCardP
           </div>
 
           <div className="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-800/80">
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-full bg-amber-400/20 dark:bg-amber-500/20 border border-amber-400/40 flex items-center justify-center text-amber-700 dark:text-amber-300 font-bold text-xs shrink-0">
-                BR
+            <div className="flex items-center gap-2.5">
+              <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-2xs shrink-0">
+                <Compass className="w-4 h-4" />
               </div>
-              <div className="leading-tight">
-                <p className="text-xs font-bold text-slate-800 dark:text-slate-200">
-                  {author?.name || 'Bilgi Rotası'}
-                </p>
-                <p className="text-[11px] text-slate-400 mt-0.5">
-                  {formattedDate}
-                </p>
-              </div>
+              <span className="text-xs font-bold text-slate-700 dark:text-slate-200">
+                {author?.name || 'Bilgi Rotası'}
+              </span>
             </div>
 
             <Link
@@ -210,17 +186,6 @@ export default function ArticleCard({ post, variant = 'standard' }: ArticleCardP
       </div>
 
       <div className="flex flex-col flex-1 p-5 space-y-3">
-        <div className="flex items-center justify-between text-xs text-slate-400">
-          <span className="flex items-center gap-1">
-            <Calendar className="w-3.5 h-3.5" />
-            {formattedDate}
-          </span>
-          <span className="flex items-center gap-1">
-            <Clock className="w-3.5 h-3.5" />
-            {post.readTime}
-          </span>
-        </div>
-
         <h3 className="text-base font-bold text-slate-900 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 leading-snug">
           <Link href={`/kategori/${post.categorySlug}/${post.slug}`}>
             {post.title}
@@ -232,13 +197,14 @@ export default function ArticleCard({ post, variant = 'standard' }: ArticleCardP
         </p>
 
         <div className="pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs">
-          {author && (
-            <div className="flex items-center gap-2">
-              <span className="font-medium text-slate-700 dark:text-slate-300 truncate max-w-[120px]">
-                {author.name}
-              </span>
+          <div className="flex items-center gap-2">
+            <div className="w-6 h-6 rounded-md bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shrink-0">
+              <Compass className="w-3.5 h-3.5" />
             </div>
-          )}
+            <span className="font-semibold text-slate-700 dark:text-slate-300 truncate max-w-[130px]">
+              {author?.name || 'Bilgi Rotası'}
+            </span>
+          </div>
           <span className="text-blue-600 dark:text-blue-400 font-semibold group-hover:underline flex items-center gap-1">
             İncele <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
           </span>

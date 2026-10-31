@@ -61,12 +61,7 @@ export default function SidebarWidgets({
 
         <div className="space-y-4">
           {otherSidebarPosts.map((post) => {
-            const rawDate = post.publishedAt || post.date || '2026-10-07';
-            const formattedDate = new Date(rawDate).toLocaleDateString('tr-TR', {
-              day: 'numeric',
-              month: 'long',
-              year: 'numeric'
-            });
+            const category = categories.find((c) => c.slug === post.categorySlug);
             return (
               <Link
                 key={post.id}
@@ -82,12 +77,14 @@ export default function SidebarWidgets({
                   />
                 </div>
                 <div className="flex-1 min-w-0">
+                  {category && (
+                    <span className="text-[10px] font-bold text-blue-600 dark:text-blue-400 block mb-0.5 truncate">
+                      {category.title}
+                    </span>
+                  )}
                   <h4 className="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-blue-600 dark:group-hover:text-blue-400 line-clamp-2 transition-colors leading-snug">
                     {post.title}
                   </h4>
-                  <span className="text-[11px] text-slate-400 block mt-1">
-                    {formattedDate}
-                  </span>
                 </div>
               </Link>
             );
