@@ -26,15 +26,15 @@ export default function ContactPage() {
       </header>
 
       <section className="grid gap-5 sm:grid-cols-2" aria-label="E-posta adresleri">
-        <a href="mailto:iletisim@bilgirotasi.tr" className="rounded-2xl border border-slate-200 bg-white p-6 transition hover:border-blue-400 dark:border-slate-800 dark:bg-slate-900">
+        <a href="mailto:konhansoftware@gmail.com" className="rounded-2xl border border-slate-200 bg-white p-6 transition hover:border-blue-400 dark:border-slate-800 dark:bg-slate-900">
           <Mail className="mb-4 h-6 w-6 text-blue-600 dark:text-blue-400" />
           <h2 className="font-bold text-slate-900 dark:text-slate-100">Genel iletişim ve içerik düzeltme</h2>
-          <p className="mt-2 text-sm text-blue-700 underline dark:text-blue-300">iletisim@bilgirotasi.tr</p>
+          <p className="mt-2 text-sm text-blue-700 underline dark:text-blue-300">konhansoftware@gmail.com</p>
         </a>
-        <a href="mailto:reklam@bilgirotasi.tr" className="rounded-2xl border border-slate-200 bg-white p-6 transition hover:border-blue-400 dark:border-slate-800 dark:bg-slate-900">
+        <a href="mailto:konhansoftware@gmail.com" className="rounded-2xl border border-slate-200 bg-white p-6 transition hover:border-blue-400 dark:border-slate-800 dark:bg-slate-900">
           <Megaphone className="mb-4 h-6 w-6 text-amber-600 dark:text-amber-400" />
           <h2 className="font-bold text-slate-900 dark:text-slate-100">Reklam ve iş birliği</h2>
-          <p className="mt-2 text-sm text-blue-700 underline dark:text-blue-300">reklam@bilgirotasi.tr</p>
+          <p className="mt-2 text-sm text-blue-700 underline dark:text-blue-300">konhansoftware@gmail.com</p>
         </a>
       </section>
     </div>

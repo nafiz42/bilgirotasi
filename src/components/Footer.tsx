@@ -24,8 +24,11 @@ export default function Footer() {
             <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed max-w-sm">
               e-Devlet işlemleri, teknoloji, eğitim ve günlük yaşam konularında bilgilendirme rehberleri.
             </p>
-            <div className="flex items-center gap-3 pt-2 text-xs">
+            <div className="flex flex-col gap-1.5 pt-2 text-xs">
               <Link href="/hakkimizda" className="hover:text-blue-600 dark:hover:text-blue-400">Yayın ilkeleri ve kaynak kullanımı</Link>
+              <a href="mailto:konhansoftware@gmail.com" className="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                İletişim: konhansoftware@gmail.com
+              </a>
             </div>
           </div>
 
