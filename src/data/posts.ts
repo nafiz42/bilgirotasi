@@ -1,6 +1,7 @@
 import { Post } from '@/types';
+import { infoburadaPosts } from './infoburada-posts';
 
-export const posts: Post[] = [
+const originalPosts: Post[] = [
   {
     id: 'post-new-1',
     slug: 'kyk-burs-kredi-taahhutname-onayi-nasil-yapilir',
@@ -1409,6 +1410,8 @@ export const posts: Post[] = [
     ]
   }
 ];
+
+export const posts: Post[] = [...infoburadaPosts, ...originalPosts];
 
 export function getAllPosts(): Post[] {
   return [...posts].sort(
