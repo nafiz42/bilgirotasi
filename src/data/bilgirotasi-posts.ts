@@ -1,4 +1,4 @@
-import { Post } from '@/types';
+import { Post } from "@/types";
 
 // Bilgi Rotası özgün ve kapsamlı rehber içerikleri.
 export const bilgirotasiPosts: Post[] = [
@@ -218,14 +218,147 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
+    "id": "bilgirotasi-ruya-gunes",
+    "slug": "ruyada-gunes-gormek",
+    "title": "Rüyada Güneş Görmek Ne Anlama Gelir? Geleneksel Yorumlar ve Psikolojik Sembolizm",
+    "description": "Rüyada güneş görmek, güneşin doğduğunu, parladığını veya tutulduğunu görmenin kültürel rüya tabirlerindeki yeri ve psikolojik çağrışımları.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-30",
+    "updatedAt": "2026-10-31",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Rüya Tabirleri",
+      "Sembolizm",
+      "Güneş",
+      "Kültür",
+      "Psikoloji"
+    ],
+    "content": {
+      "lead": "Güneş, insanlık tarihinin en eski anlatılarından bu yana yaşam enerjisini, aydınlanmayı, belirsizliklerin dağılmasını ve yeni başlangıçları temsil eden güçlü bir arketiptir. Rüyada güneş görmek de hem geleneksel Anadolu ve Doğu rüya tabirlerinde hem de modern rüya psikolojisinde kişinin iç dünyasındaki motivasyon, umut ve farkındalık düzeyiyle ilişkilendirilir.",
+      "sections": [
+        {
+          "id": "ruyada-gunes-gormek-geleneksel-yorumlar",
+          "heading": "1. Geleneksel Rüya Yorumlarında Güneş İmgesi",
+          "paragraphs": [
+            "Klasik rüya tabiri kaynaklarında berrak bir gökyüzünde parlayan güneş görmek; uzun süredir çözüm bekleyen bir konunun netleşmesine, haneye girecek ferahlığa ve kişinin emeklerinin görünür hâle gelmesine yorulur.",
+            "Ancak rüya yorumlarında tek bir sembol yerine rüyanın bütünü ve rüyayı gören kişinin içinde bulunduğu ruh hâli esas alınır. Güneşin ısıtan ve aydınlatan bir biçimde görülmesi güven duygusunu simgelerken, yakıcı veya bunaltıcı hissedilmesi aşırı sorumluluk baskısına işaret edebilir."
+          ],
+          "bullets": [
+            "Rüyada Güneşin Doğduğunu Görmek: Yeni bir karar aşamasına, ertelenen bir planın hayata geçmesine ve taze bir başlangıç isteğine işaret eder.",
+            "Rüyada Evin İçine Güneş Doğması: Aile içi iletişimin güçlenmesi, huzur ve ortak bir sevincin paylaşılması şeklinde yorumlanır.",
+            "Rüyada Güneş Tutulması veya Bulut Arkasında Güneş: Geçici bir kararsızlık, bilgi eksikliği veya kısa süreli bir kaygı dönemini simgeler."
+          ]
+        },
+        {
+          "id": "psikolojik-acidindan-gunes-sembolu",
+          "heading": "2. Modern Psikoloji ve Bilinçdışı Açısından Güneş",
+          "paragraphs": [
+            "Analitik psikolojide güneş, bilinçli farkındalığı ve kişinin kendi potansiyelini ortaya koyma arzusunu temsil eder. Yoğun stres veya belirsizlik dönemlerinin ardından görülen aydınlık güneş rüyaları, zihnin yeniden denge kurma sürecini yansıtabilir.",
+            "Rüyalar geleceği kesin olarak bildiren bilimsel araçlar değildir; kişinin gündüz meşgul olduğu düşüncelerin, beklentilerin ve duygusal ihtiyaçların sembolik bir dili olarak ele alınmalıdır."
+          ],
+          "callout": {
+            "type": "info",
+            "title": "Rüyaları Yorumlarken Nelere Dikkat Edilmeli?",
+            "message": "Bir rüyayı değerlendirirken \"uyandığımda ne hissettim?\" sorusu en önemli ipucudur. Ferahlık ve huzur bırakan rüyalar içsel motivasyonu desteklerken, kaygı uyandıran rüyalar günlük yaşamdaki stres kaynaklarını gözden geçirme fırsatı sunar."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Rüyada güneşin doğuşunu izlemek ne anlama gelir?",
+        "answer": "Kültürel yorumlarda umut verici yeni bir döneme girilmesi, psikolojik açıdan ise kişinin bir sorunu geride bırakıp yeni bir hedefe odaklanmaya hazır olması şeklinde değerlendirilir."
+      },
+      {
+        "question": "Rüya tabirleri kesin olarak gerçekleşir mi?",
+        "answer": "Hayır. Rüya yorumları kültürel ve sembolik değerlendirmelerdir; geleceğe dair kesin bilgi vermez ve önemli yaşam kararlarında tek başına ölçüt alınmamalıdır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-dgs",
+    "slug": "dgs-nedir-nasil-hazirlanilir-puan-hesaplama-ve-tercih-rehberi",
+    "title": "DGS (Dikey Geçiş Sınavı) Nedir? Ön Lisanstan Lisansa Geçiş, Konu Dağılımı ve Çalışma Rehberi",
+    "description": "2 yıllık meslek yüksekokulu (ön lisans) mezunlarının 4 yıllık lisans bölümlerine geçişini sağlayan DGS’nin soru dağılımı, ÖBP etkisi ve hazırlık stratejisi.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-29",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "DGS",
+      "Dikey Geçiş Sınavı",
+      "ÖSYM",
+      "Ön Lisans",
+      "Üniversite"
+    ],
+    "content": {
+      "lead": "Dikey Geçiş Sınavı (DGS), üniversitelerin 2 yıllık ön lisans programlarından mezun olan veya son sınıfında okuyan öğrencilerin, kendi alanlarıyla uyumlu 4 yıllık lisans bölümlerine geçiş yapabilmesi için ÖSYM tarafından her yıl düzenlenen merkezi sınavdır. Sınavda bilgi ezberinden çok sayısal ve sözel akıl yürütme hızı ölçülür.",
+      "sections": [
+        {
+          "id": "dgs-soru-sayisi-ve-sure-dagilimi",
+          "heading": "1. DGS Soru Dağılımı, Süre ve Puan Türleri (Sayısal, Sözel, Eşit Ağırlık)",
+          "paragraphs": [
+            "DGS’de adaylara Sayısal ve Sözel olmak üzere iki ana test yöneltilir. Sınavda özellikle uzun paragraf, sözel mantık ve sayısal mantık soruları ağırlıktadır; bu nedenle süre yönetimi en kritik belirleyicidir."
+          ],
+          "bullets": [
+            "Sayısal Test (50 Soru): Temel matematik, cebir, problemler, sayısal mantık ve geometri sorularından oluşur.",
+            "Sözel Test (50 Soru): Sözcükte/cümlede anlam, paragraf yorumu ve tablo/sıralama tabanlı sözel mantık sorularını kapsar.",
+            "0,5 Ham Puan Kuralı: DGS puanının hesaplanabilmesi için adayın hem Sayısal hem de Sözel testten en az 1’er net (0,5 ham puan) çıkarması zorunludur; tek testten soru çözmek puan hesaplaması için yeterli değildir.",
+            "Ön Lisans Başarı Puanı (ÖBP): Üniversite mezuniyet not ortalamanız (AGNO) 80 ile çarpılarak ÖBP’ye dönüştürülür ve 0,6 katsayısıyla sınav puanınıza eklenir."
+          ],
+          "callout": {
+            "type": "warning",
+            "title": "Tercih Edip Yerleşen Adaylarda Katsayı Kesintisi",
+            "message": "Bir yıl DGS ile bir lisans programına yerleşirseniz (kayıt yaptırmasanız bile), ertesi yıl tekrar DGS’ye girdiğinizde ÖBP katsayınız 0,60 yerine 0,45 olarak hesaplanır."
+          }
+        },
+        {
+          "id": "dgs-4-adimli-hazirlik-plani",
+          "heading": "2. DGS’ye Hazırlanırken 4 Adımlı Çalışma Stratejisi",
+          "paragraphs": [
+            "DGS kontenjanları YKS’ye kıyasla daha sınırlı olduğu için hedef bölümün geçmiş yıl taban puanlarını ve sıralamalarını inceleyerek net hedefi belirlemek gerekir."
+          ],
+          "steps": [
+            {
+              "title": "1. Adım: ÖSYM Tablo-2 Geçiş Bölümlerini Kontrol Edin",
+              "description": "Mezun olduğunuz ön lisans programından hangi 4 yıllık lisans bölümlerine geçiş hakkınız olduğunu ÖSYM DGS Kılavuzu Tablo-2’den doğrulayın."
+            },
+            {
+              "title": "2. Adım: Problem ve Paragraf Rutini Kurun",
+              "description": "Her gün düzenli olarak 25–30 paragraf ve 20–25 problem sorusu çözerek okuma ve işlem hızınızı artırın."
+            },
+            {
+              "title": "3. Adım: Sözel ve Sayısal Mantık Özel Çalışması Yapın",
+              "description": "Son 5 yılın çıkmış DGS ve ALES mantık sorularını süre tutarak çözün."
+            }
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Alttan dersi kalan öğrenci DGS’ye girebilir mi?",
+        "answer": "Sınava başvurabilir ve girebilir; ancak tercih edip yerleştiği üniversiteye kesin kayıt yaptırabilmesi için kayıt tarihine kadar ön lisans mezuniyet şartlarını (staj dahil) tamamlamış olması gerekir."
+      },
+      {
+        "question": "DGS ile kazanılan bölümde kaçıncı sınıftan başlanır?",
+        "answer": "Başlayacağınız sınıf sabit değildir; yerleştiğiniz üniversitenin intibak komisyonu ön lisansta aldığınız derslerin içerik ve kredilerini inceleyerek muafiyetlerinizi ve başlayacağınız yarıyılı belirler."
+      }
+    ]
+  },
+  {
     "id": "bilgirotasi-cs2-nedir",
     "slug": "counter-strike-2-nedir-yeni-baslayan-rehberi",
     "title": "Counter-Strike 2 (CS2) Nedir? Yeni Başlayanlar İçin Oyun Modları, Ekonomi ve Temel Rehber",
     "description": "Source 2 motoruyla yenilenen Counter-Strike 2’nin oyun kuralları, tur ekonomisi, duman fiziği, Premier modu ve yeni başlayanlar için temel ipuçları.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -303,99 +436,14 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
-    "id": "bilgirotasi-brawl-taktik",
-    "slug": "brawl-stars-oyun-ici-ilerleme-ve-taktik-onerileri",
-    "title": "Brawl Stars’ta Hızlı İlerleme, Kaynak Yönetimi ve Hesap Güvenliği Rehberi",
-    "description": "Brawl Stars’ta altın, güç puanı ve mücevherleri verimli kullanma, karakter geliştirme sırası, oyun modlarına göre seçim ve Supercell ID güvenliği.",
-    "categorySlug": "oyun-donanim",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "5 dk",
-    "coverImage": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Brawl Stars",
-      "Mobil Oyun",
-      "Oyun Rehberi",
-      "Kaynak Yönetimi",
-      "Hesap Güvenliği"
-    ],
-    "content": {
-      "lead": "Brawl Stars’ta karakterlerinizi (Savaşçıları) üst seviyelere taşımak ve kupa yolunda düzenli ilerlemek, oyun içi kaynakları (Altın, Güç Puanı, Mücevher ve Mücadele Bileti ödülleri) doğru planlamaya dayanır. Tüm karakterleri aynı anda 5–6. seviyeye yükseltmek yerine, farklı oyun modlarını kapsayan birkaç ana karakteri tam donanımlı hâle getirmek hem dereceli maçlarda hem de günlük görevlerde çok daha hızlı ilerlemenizi sağlar.",
-      "sections": [
-        {
-          "id": "brawl-stars-kaynak-ve-altin-yonetimi",
-          "heading": "1. Altın ve Güç Puanlarını Nasıl Planlamalısınız?",
-          "paragraphs": [
-            "Oyunda en sık darboğaz yaşanan kaynak Altındır. Bir karakteri 9. seviyeden 11. seviyeye çıkarmak, üzerine Aksesuar (Gadget), Eşya (Gear) ve Yıldız Gücü (Star Power) açmak yüksek miktarda altın gerektirir.",
-            "Bu nedenle elinizdeki altını her yeni açılan karaktere eşit dağıtmak yerine, önce sık oynadığınız 2–3 ana karakteri 9. veya 11. seviyeye ulaştırıp yetenek setini tamamlamaya odaklanın."
-          ],
-          "bullets": [
-            "Günlük Görevler ve Brawl Pass: Ücretsiz Brawl Pass yolundaki görevleri düzenli tamamlamak sezon boyunca en yüksek altın, güç puanı ve Starr Hediyesi kaynağını sunar.",
-            "Kulüp Etkinlikleri: Aktif bir kulübe katılarak topluluk ve kulüp etkinliklerinden ek ilerleme ödülleri kazanın.",
-            "Ustalık (Mastery) Yolu: Sık oynadığınız karakterlerin Ustalık kademelerinin ilk basamakları kolayca ulaşılabilen yüksek miktarda altın ve güç puanı verir."
-          ]
-        },
-        {
-          "id": "harita-ve-mod-secimi-taktikleri",
-          "heading": "2. Harita Yapısına Göre Karakter Seçimi ve Koridor Kontrolü",
-          "paragraphs": [
-            "Her savaşçı her haritada aynı verimi göstermez. Çalıların yoğun olduğu kapalı haritalarda yakın mesafe ve tank karakterler avantajlıyken, açık alanlı Ödül Avı veya Nakavt haritalarında keskin nişancılar öne çıkar.",
-            "3v3 takım modlarında (Elmas Kapmaca, Savaş Topu, Soygun) üç oyuncunun da orta koridora yığılması rakibin yanlardan kuşatma yapmasına yol açar. Maç başında sol, orta ve sağ koridorları paylaşarak alan kontrolü kurun."
-          ],
-          "steps": [
-            {
-              "title": "1. Adım: Maç Öncesi Harita Önizlemesine Bakın",
-              "description": "Etkinlik seçme ekranındaki bilgi simgesine dokunarak haritanın duvar ve çalı dizilimini inceleyin."
-            },
-            {
-              "title": "2. Adım: Menzil ve Duvar Yıkma Dengesini Kurun",
-              "description": "Takımda duvar arkasına atış yapabilen veya duvarları açabilen yeteneklerin bulunup bulunmadığını değerlendirin."
-            },
-            {
-              "title": "3. Adım: Can Yenileme Süresini Bekleyin",
-              "description": "Çatışmada hasar aldığınızda hemen tekrar ateş etmek yerine 3 saniye boyunca saldırıyı keserek canınızın hızla dolmasını sağlayın."
-            }
-          ]
-        },
-        {
-          "id": "brawl-stars-hesap-guvenligi",
-          "heading": "3. Supercell ID ve Hesap Güvenliği: Sahte Vaatlerden Korunma",
-          "paragraphs": [
-            "İnternette veya sosyal medyada \"ücretsiz elmas hilesi\", \"bedava kostüm kodu\" gibi başlıklarla kullanıcı adı, e-posta veya doğrulama kodu isteyen sitelerin tamamı hesap çalma (oltalama) amaçlıdır. Brawl Stars’ta oyun dışı hiçbir web sitesi hesabınıza elmas yükleyemez."
-          ],
-          "callout": {
-            "type": "warning",
-            "title": "Supercell ID Hesap Korumasını Açın",
-            "message": "Oyun içi Ayarlar > Supercell ID menüsünden hesabınızı kendi e-postanıza bağlayın ve \"Hesap Koruması\" özelliğini etkinleştirerek kurtarma kodlarınızı güvenli bir yere kaydedin."
-          }
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Brawl Stars’ta en hızlı altın nasıl kazanılır?",
-        "answer": "Ücretsiz Brawl Pass kademelerini tamamlamak, karakterlerin Ustalık (Mastery) yolundaki ilk altın ödüllerini açmak ve kulüp etkinliklerine katılmak en düzenli altın kaynaklarıdır."
-      },
-      {
-        "question": "Karakterleri hangi sırayla yükseltmek daha mantıklıdır?",
-        "answer": "Tüm karakterleri düşük seviyede bırakmak yerine, dereceli maçlarda ve farklı modlarda kullanabileceğiniz 2–3 çok yönlü karakteri 9–11. seviyeye çıkarıp Aksesuar ve Yıldız Gücü ile tamamlamak daha verimlidir."
-      },
-      {
-        "question": "Ücretsiz elmas veren siteler gerçek mi?",
-        "answer": "Hayır. Oyun dışı hiçbir site veya uygulama ücretsiz elmas veremez; e-posta veya Supercell ID doğrulama kodu isteyen sayfalar hesabınızı ele geçirmeye çalışır."
-      }
-    ]
-  },
-  {
     "id": "bilgirotasi-js-carpim",
     "slug": "javascript-iki-sayiyi-carpma-ornekleri",
     "title": "JavaScript ile İki Sayı Nasıl Çarpılır? Fonksiyon, Form Girdisi ve Ondalık Hesaplama Örnekleri",
     "description": "JavaScript’te * çarpma operatörü kullanımı, HTML input değerlerini sayıya dönüştürme (Number, parseFloat), NaN kontrolü ve ondalık yuvarlama örnekleri.",
     "categorySlug": "teknoloji-mobil",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-10-27",
+    "updatedAt": "2026-10-28",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -474,74 +522,14 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
-    "id": "bilgirotasi-ruya-gunes",
-    "slug": "ruyada-gunes-gormek",
-    "title": "Rüyada Güneş Görmek Ne Anlama Gelir? Geleneksel Yorumlar ve Psikolojik Sembolizm",
-    "description": "Rüyada güneş görmek, güneşin doğduğunu, parladığını veya tutulduğunu görmenin kültürel rüya tabirlerindeki yeri ve psikolojik çağrışımları.",
-    "categorySlug": "pratik-bilgiler",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "5 dk",
-    "coverImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Rüya Tabirleri",
-      "Sembolizm",
-      "Güneş",
-      "Kültür",
-      "Psikoloji"
-    ],
-    "content": {
-      "lead": "Güneş, insanlık tarihinin en eski anlatılarından bu yana yaşam enerjisini, aydınlanmayı, belirsizliklerin dağılmasını ve yeni başlangıçları temsil eden güçlü bir arketiptir. Rüyada güneş görmek de hem geleneksel Anadolu ve Doğu rüya tabirlerinde hem de modern rüya psikolojisinde kişinin iç dünyasındaki motivasyon, umut ve farkındalık düzeyiyle ilişkilendirilir.",
-      "sections": [
-        {
-          "id": "ruyada-gunes-gormek-geleneksel-yorumlar",
-          "heading": "1. Geleneksel Rüya Yorumlarında Güneş İmgesi",
-          "paragraphs": [
-            "Klasik rüya tabiri kaynaklarında berrak bir gökyüzünde parlayan güneş görmek; uzun süredir çözüm bekleyen bir konunun netleşmesine, haneye girecek ferahlığa ve kişinin emeklerinin görünür hâle gelmesine yorulur.",
-            "Ancak rüya yorumlarında tek bir sembol yerine rüyanın bütünü ve rüyayı gören kişinin içinde bulunduğu ruh hâli esas alınır. Güneşin ısıtan ve aydınlatan bir biçimde görülmesi güven duygusunu simgelerken, yakıcı veya bunaltıcı hissedilmesi aşırı sorumluluk baskısına işaret edebilir."
-          ],
-          "bullets": [
-            "Rüyada Güneşin Doğduğunu Görmek: Yeni bir karar aşamasına, ertelenen bir planın hayata geçmesine ve taze bir başlangıç isteğine işaret eder.",
-            "Rüyada Evin İçine Güneş Doğması: Aile içi iletişimin güçlenmesi, huzur ve ortak bir sevincin paylaşılması şeklinde yorumlanır.",
-            "Rüyada Güneş Tutulması veya Bulut Arkasında Güneş: Geçici bir kararsızlık, bilgi eksikliği veya kısa süreli bir kaygı dönemini simgeler."
-          ]
-        },
-        {
-          "id": "psikolojik-acidindan-gunes-sembolu",
-          "heading": "2. Modern Psikoloji ve Bilinçdışı Açısından Güneş",
-          "paragraphs": [
-            "Analitik psikolojide güneş, bilinçli farkındalığı ve kişinin kendi potansiyelini ortaya koyma arzusunu temsil eder. Yoğun stres veya belirsizlik dönemlerinin ardından görülen aydınlık güneş rüyaları, zihnin yeniden denge kurma sürecini yansıtabilir.",
-            "Rüyalar geleceği kesin olarak bildiren bilimsel araçlar değildir; kişinin gündüz meşgul olduğu düşüncelerin, beklentilerin ve duygusal ihtiyaçların sembolik bir dili olarak ele alınmalıdır."
-          ],
-          "callout": {
-            "type": "info",
-            "title": "Rüyaları Yorumlarken Nelere Dikkat Edilmeli?",
-            "message": "Bir rüyayı değerlendirirken \"uyandığımda ne hissettim?\" sorusu en önemli ipucudur. Ferahlık ve huzur bırakan rüyalar içsel motivasyonu desteklerken, kaygı uyandıran rüyalar günlük yaşamdaki stres kaynaklarını gözden geçirme fırsatı sunar."
-          }
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Rüyada güneşin doğuşunu izlemek ne anlama gelir?",
-        "answer": "Kültürel yorumlarda umut verici yeni bir döneme girilmesi, psikolojik açıdan ise kişinin bir sorunu geride bırakıp yeni bir hedefe odaklanmaya hazır olması şeklinde değerlendirilir."
-      },
-      {
-        "question": "Rüya tabirleri kesin olarak gerçekleşir mi?",
-        "answer": "Hayır. Rüya yorumları kültürel ve sembolik değerlendirmelerdir; geleceğe dair kesin bilgi vermez ve önemli yaşam kararlarında tek başına ölçüt alınmamalıdır."
-      }
-    ]
-  },
-  {
     "id": "bilgirotasi-ruya-ari",
     "slug": "ruyada-ari-gormek",
     "title": "Rüyada Arı Görmek Ne Anlama Gelir? Emek, Üretkenlik ve Sembolik Yorumlar",
     "description": "Rüyada bal arısı, arı kovanı veya arı sokması görmenin geleneksel rüya tabirlerindeki anlamları ve çalışma yaşamıyla ilişkisi.",
     "categorySlug": "pratik-bilgiler",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-10-26",
+    "updatedAt": "2026-10-28",
     "readTime": "5 dk",
     "coverImage": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -593,108 +581,139 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
-    "id": "bilgirotasi-ruya-elma",
-    "slug": "ruyada-elma-gormek",
-    "title": "Rüyada Elma Görmek: Kırmızı, Yeşil Elma ve Ağaçtan Elma Toplama Yorumları",
-    "description": "Rüyada kırmızı veya yeşil elma görmek, elma yemek ve ağaçtan elma toplamanın geleneksel kültürdeki ve sembolizmdeki anlamları.",
-    "categorySlug": "pratik-bilgiler",
+    "id": "bilgirotasi-egitim-ales",
+    "slug": "ales-nedir-kimler-girebilir-puan-turleri-ve-gecerlilik-suresi",
+    "title": "ALES Nedir, Kimler Girmeli? Sayısal, Sözel, Eşit Ağırlık Puan Hesaplama ve Geçerlilik Süresi",
+    "description": "Tezli yüksek lisans, doktora ve öğretim görevlisi/araştırma görevlisi başvurularında zorunlu olan ALES’in yapısı, puan türleri ve 5 yıllık geçerlilik süresi.",
+    "categorySlug": "egitim-sinavlar",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "5 dk",
-    "coverImage": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=1200&auto=format&fit=crop&q=80",
+    "publishedAt": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80",
     "tags": [
-      "Rüya Tabirleri",
-      "Elma",
-      "Sembolizm",
-      "Kültürel Yorumlar"
+      "ALES",
+      "Yüksek Lisans",
+      "Akademik Kariyer",
+      "ÖSYM",
+      "Doktora"
     ],
     "content": {
-      "lead": "Anadolu masallarından dünya mitolojisine kadar elma; sağlık, canlılık, barışma, kısmet ve olgunlaşmış emeğin meyvesi olarak kabul edilir (\"Gökten üç elma düştü\" geleneğinde olduğu gibi). Rüyada elma görmek de meyvenin rengine, tadına ve görülme biçimine göre huzur, motivasyon ve olumlu haberlerle ilişkilendirilir.",
+      "lead": "Akademik Personel ve Lisansüstü Eğitimi Giriş Sınavı (ALES), Türkiye’de tezli yüksek lisans ve doktora programlarına başvurmak isteyen adaylar ile üniversitelerin öğretim görevlisi, okutman ve araştırma görevlisi kadrolarına atanacak kişilerin girmesi gereken merkezi sınavdır. Yılda 3 kez (ALES/1, ALES/2, ALES/3) düzenlenir.",
       "sections": [
         {
-          "id": "ruyada-kirmizi-ve-yesil-elma-farki",
-          "heading": "1. Rüyada Kırmızı Elma ve Yeşil Elma Görmek",
+          "id": "ales-soru-sayisi-ve-puan-agirliklari",
+          "heading": "1. ALES Soru Sayısı, Süre ve Puan Türü Ağırlıkları",
           "paragraphs": [
-            "Tatlı ve olgun bir kırmızı elma görmek; canlılık, sevindirici bir gelişme, duygusal yakınlık ve uzun süredir beklenen bir işin olgunlaşması olarak yorumlanır.",
-            "Taze yeşil elma görmek ise yenilenme, sağlık alışkanlıklarına özen gösterme ve henüz filizlenme aşamasında olan yeni bir plan veya eğitim süreciyle bağdaştırılır."
+            "ALES’te adaylara 50 soruluk Sayısal Test ve 50 soruluk Sözel Test olmak üzere toplam 100 soru için 150 dakika (2,5 saat) süre verilir. Her iki testin puan türlerine katkısı farklıdır:"
           ],
           "bullets": [
-            "Ağaçtan Elma Toplamak: Kişinin kendi gayretiyle ulaştığı başarıyı ve adım adım biriktirdiği kazanımları simgeler.",
-            "Birisiyle Elma Paylaşmak: Dostlukların pekişmesine, kırgınlıkların sona ermesine ve ortak paydada buluşmaya işaret eder.",
-            "Çürük veya Ekşi Elma Görmek: Aceleyle verilen bir kararı yeniden gözden geçirme ihtiyacını hatırlatır."
-          ]
-        },
-        {
-          "id": "ruya-yorumlarinda-dengeli-bakis",
-          "heading": "2. Sembolik Yorumları Günlük Yaşamla Dengeli Okumak",
-          "paragraphs": [
-            "Meyve ve doğa imgeleri içeren rüyalar genellikle zihnin dinlenme ve tazelenme ihtiyacını dışa vurur. Rüyayı kesin bir kehanet gibi görmek yerine, yaşamınızdaki hangi hedefe daha çok özen göstermek istediğinizi fark etmek için bir vesile olarak değerlendirebilirsiniz."
-          ]
+            "ALES Sayısal Puanı: Sayısal Testin %75’i + Sözel Testin %25’i alınarak hesaplanır (Mühendislik ve Fen Bilimleri enstitüleri için).",
+            "ALES Sözel Puanı: Sözel Testin %75’i + Sayısal Testin %25’i alınarak hesaplanır (Sosyal Bilimler ve İlahiyat/Edebiyat alanları için).",
+            "ALES Eşit Ağırlık (EA) Puanı: Sayısal Testin %50’si + Sözel Testin %50’si alınarak hesaplanır (İktisadi ve İdari Bilimler, Hukuk, Eğitim Bilimleri alanları için).",
+            "Geçerlilik Süresi: ALES sonuçları açıklandığı tarihten itibaren 5 yıl boyunca geçerlidir; adaylar bu sürede aldıkları en yüksek puanı kullanabilirler."
+          ],
+          "callout": {
+            "type": "tip",
+            "title": "Tezsiz Yüksek Lisans İçin ALES Şart mı?",
+            "message": "YÖK mevzuatına göre tezsiz yüksek lisans programlarına başvurularda ALES puanı şartı aranmamaktadır; ancak tezli yüksek lisans, doktora ve akademik kadro ilanlarında en az 55 (bazı kurumlarda 70+) ALES puanı zorunludur."
+          }
         }
       ]
     },
     "faqs": [
       {
-        "question": "Rüyada dalından kırmızı elma koparmak ne anlama gelir?",
-        "answer": "Geleneksel yorumlarda üzerinde çalışılan bir işin veya hedefin olgunlaşıp sonuç vermesi ve kişinin emeğinin karşılığını alması şeklinde değerlendirilir."
+        "question": "ALES puanı kaç yıl geçerlidir?",
+        "answer": "ALES sonuçları açıklandığı tarihten itibaren 5 (beş) yıl süreyle geçerlidir."
       },
       {
-        "question": "Rüyada elma ağacı görmek nasıl yorumlanır?",
-        "answer": "Kökleri sağlam bir elma ağacı; aile desteğini, kalıcı dostlukları ve uzun vadeli huzuru temsil eden olumlu bir semboldür."
+        "question": "Lisans öğrencileri mezun olmadan ALES’e girebilir mi?",
+        "answer": "Evet, lisans 3. ve 4. sınıf öğrencileri mezun olmadan önce ALES’e girip puanlarını hazır tutabilirler."
       }
     ]
   },
   {
-    "id": "bilgirotasi-ruya-ev",
-    "slug": "ruyada-ev-gormek",
-    "title": "Rüyada Ev Görmek: Yeni Ev, Eski Ev ve Ev Değiştirmenin Sembolik Anlamı",
-    "description": "Rüyada geniş ve aydınlık yeni bir ev görmek, çocukluk evini ziyaret etmek veya ev temizlemenin psikolojik ve geleneksel yorumları.",
-    "categorySlug": "pratik-bilgiler",
+    "id": "bilgirotasi-brawl-taktik",
+    "slug": "brawl-stars-oyun-ici-ilerleme-ve-taktik-onerileri",
+    "title": "Brawl Stars’ta Hızlı İlerleme, Kaynak Yönetimi ve Hesap Güvenliği Rehberi",
+    "description": "Brawl Stars’ta altın, güç puanı ve mücevherleri verimli kullanma, karakter geliştirme sırası, oyun modlarına göre seçim ve Supercell ID güvenliği.",
+    "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-10-25",
+    "updatedAt": "2026-10-25",
     "readTime": "5 dk",
-    "coverImage": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&auto=format&fit=crop&q=80",
     "tags": [
-      "Rüya Tabirleri",
-      "Ev",
-      "Psikoloji",
-      "Sembolizm"
+      "Brawl Stars",
+      "Mobil Oyun",
+      "Oyun Rehberi",
+      "Kaynak Yönetimi",
+      "Hesap Güvenliği"
     ],
     "content": {
-      "lead": "Rüya araştırmalarında ve geleneksel tabirlerde \"ev\", doğrudan insanın kendi iç dünyasını, güvenlik alanını ve aile bağlarını temsil eden en temel semboldür. Evin durumu (aydınlık, ferah, dağınık, eski veya yeni olması) kişinin o dönemde kendini ne kadar güvende ve düzenli hissettiğiyle yakından bağlantılıdır.",
+      "lead": "Brawl Stars’ta karakterlerinizi (Savaşçıları) üst seviyelere taşımak ve kupa yolunda düzenli ilerlemek, oyun içi kaynakları (Altın, Güç Puanı, Mücevher ve Mücadele Bileti ödülleri) doğru planlamaya dayanır. Tüm karakterleri aynı anda 5–6. seviyeye yükseltmek yerine, farklı oyun modlarını kapsayan birkaç ana karakteri tam donanımlı hâle getirmek hem dereceli maçlarda hem de günlük görevlerde çok daha hızlı ilerlemenizi sağlar.",
       "sections": [
         {
-          "id": "ruyada-yeni-ve-eski-ev-gormek",
-          "heading": "1. Rüyada Yeni Ev, Eski Ev ve Bilinmeyen Odalar Görmek",
+          "id": "brawl-stars-kaynak-ve-altin-yonetimi",
+          "heading": "1. Altın ve Güç Puanlarını Nasıl Planlamalısınız?",
           "paragraphs": [
-            "Geniş, güneş alan ve düzenli yeni bir ev görmek; kişinin hayatında yeni bir sayfa açma isteğini, zihinsel ferahlığı ve geleceğe daha güvenle bakmasını simgeler.",
-            "Çocukluk evini veya eski bir evi görmek ise özlem duygusunu, geçmişteki alışkanlıkları hatırlamayı veya eski bir dostluk/konuyla yeniden karşılaşmayı çağrıştırır."
+            "Oyunda en sık darboğaz yaşanan kaynak Altındır. Bir karakteri 9. seviyeden 11. seviyeye çıkarmak, üzerine Aksesuar (Gadget), Eşya (Gear) ve Yıldız Gücü (Star Power) açmak yüksek miktarda altın gerektirir.",
+            "Bu nedenle elinizdeki altını her yeni açılan karaktere eşit dağıtmak yerine, önce sık oynadığınız 2–3 ana karakteri 9. veya 11. seviyeye ulaştırıp yetenek setini tamamlamaya odaklanın."
           ],
           "bullets": [
-            "Evin İçinde Yeni Bir Oda Keşfetmek: Kişinin kendisinde daha önce fark etmediği bir yeteneği, ilgi alanını veya potansiyeli keşfetmesini temsil eder.",
-            "Rüyada Ev Temizlemek ve Тоparlamak: Zihni yoran düşüncelerden arınma, öncelikleri sıraya koyma ve yaşam düzenini sadeleştirme arzusunu yansıtır.",
-            "Rüyada Ev Taşımak: İş, okul, şehir veya düşünce biçimi açısından bir geçiş dönemine hazırlanıldığını gösterir."
+            "Günlük Görevler ve Brawl Pass: Ücretsiz Brawl Pass yolundaki görevleri düzenli tamamlamak sezon boyunca en yüksek altın, güç puanı ve Starr Hediyesi kaynağını sunar.",
+            "Kulüp Etkinlikleri: Aktif bir kulübe katılarak topluluk ve kulüp etkinliklerinden ek ilerleme ödülleri kazanın.",
+            "Ustalık (Mastery) Yolu: Sık oynadığınız karakterlerin Ustalık kademelerinin ilk basamakları kolayca ulaşılabilen yüksek miktarda altın ve güç puanı verir."
           ]
         },
         {
-          "id": "ev-ruyalarini-degerlendirme",
-          "heading": "2. Ev Rüyalarını Kişisel Koşullarla Birlikte Değerlendirme",
+          "id": "harita-ve-mod-secimi-taktikleri",
+          "heading": "2. Harita Yapısına Göre Karakter Seçimi ve Koridor Kontrolü",
           "paragraphs": [
-            "Gerçek hayatta kira kontratı, taşınma, tadilat veya aile içi gündemlerle ilgilenen kişilerin rüyasında ev görmesi son derece doğaldır. Bu nedenle rüyayı yorumlarken önce güncel yaşam gündeminizi dikkate almanız en sağlıklı yaklaşımdır."
+            "Her savaşçı her haritada aynı verimi göstermez. Çalıların yoğun olduğu kapalı haritalarda yakın mesafe ve tank karakterler avantajlıyken, açık alanlı Ödül Avı veya Nakavt haritalarında keskin nişancılar öne çıkar.",
+            "3v3 takım modlarında (Elmas Kapmaca, Savaş Topu, Soygun) üç oyuncunun da orta koridora yığılması rakibin yanlardan kuşatma yapmasına yol açar. Maç başında sol, orta ve sağ koridorları paylaşarak alan kontrolü kurun."
+          ],
+          "steps": [
+            {
+              "title": "1. Adım: Maç Öncesi Harita Önizlemesine Bakın",
+              "description": "Etkinlik seçme ekranındaki bilgi simgesine dokunarak haritanın duvar ve çalı dizilimini inceleyin."
+            },
+            {
+              "title": "2. Adım: Menzil ve Duvar Yıkma Dengesini Kurun",
+              "description": "Takımda duvar arkasına atış yapabilen veya duvarları açabilen yeteneklerin bulunup bulunmadığını değerlendirin."
+            },
+            {
+              "title": "3. Adım: Can Yenileme Süresini Bekleyin",
+              "description": "Çatışmada hasar aldığınızda hemen tekrar ateş etmek yerine 3 saniye boyunca saldırıyı keserek canınızın hızla dolmasını sağlayın."
+            }
           ]
+        },
+        {
+          "id": "brawl-stars-hesap-guvenligi",
+          "heading": "3. Supercell ID ve Hesap Güvenliği: Sahte Vaatlerden Korunma",
+          "paragraphs": [
+            "İnternette veya sosyal medyada \"ücretsiz elmas hilesi\", \"bedava kostüm kodu\" gibi başlıklarla kullanıcı adı, e-posta veya doğrulama kodu isteyen sitelerin tamamı hesap çalma (oltalama) amaçlıdır. Brawl Stars’ta oyun dışı hiçbir web sitesi hesabınıza elmas yükleyemez."
+          ],
+          "callout": {
+            "type": "warning",
+            "title": "Supercell ID Hesap Korumasını Açın",
+            "message": "Oyun içi Ayarlar > Supercell ID menüsünden hesabınızı kendi e-postanıza bağlayın ve \"Hesap Koruması\" özelliğini etkinleştirerek kurtarma kodlarınızı güvenli bir yere kaydedin."
+          }
         }
       ]
     },
     "faqs": [
       {
-        "question": "Rüyada büyük ve aydınlık bir eve girmek ne anlama gelir?",
-        "answer": "Kişinin iç dünyasında rahatlama yaşaması, kaygılarının azalması ve önünde yeni fırsatların açılması şeklinde yorumlanır."
+        "question": "Brawl Stars’ta en hızlı altın nasıl kazanılır?",
+        "answer": "Ücretsiz Brawl Pass kademelerini tamamlamak, karakterlerin Ustalık (Mastery) yolundaki ilk altın ödüllerini açmak ve kulüp etkinliklerine katılmak en düzenli altın kaynaklarıdır."
       },
       {
-        "question": "Rüyada evi dağınık görmek neye işaret eder?",
-        "answer": "Genellikle günlük yaşamda aynı anda çok fazla işle ilgilenmekten kaynaklanan zihinsel yorgunluğu ve öncelikleri düzenleme ihtiyacını yansıtır."
+        "question": "Karakterleri hangi sırayla yükseltmek daha mantıklıdır?",
+        "answer": "Tüm karakterleri düşük seviyede bırakmak yerine, dereceli maçlarda ve farklı modlarda kullanabileceğiniz 2–3 çok yönlü karakteri 9–11. seviyeye çıkarıp Aksesuar ve Yıldız Gücü ile tamamlamak daha verimlidir."
+      },
+      {
+        "question": "Ücretsiz elmas veren siteler gerçek mi?",
+        "answer": "Hayır. Oyun dışı hiçbir site veya uygulama ücretsiz elmas veremez; e-posta veya Supercell ID doğrulama kodu isteyen sayfalar hesabınızı ele geçirmeye çalışır."
       }
     ]
   },
@@ -705,8 +724,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "Kurumsal web sitesi veya e-ticaret projesi yaptırırken ajans seçimi, alan adı sahipliği, mobil hız, SEO altyapısı ve teknik destek sözleşmesi rehberi.",
     "categorySlug": "teknoloji-mobil",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-25",
     "readTime": "7 dk",
     "coverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -779,14 +798,114 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
+    "id": "bilgirotasi-ruya-elma",
+    "slug": "ruyada-elma-gormek",
+    "title": "Rüyada Elma Görmek: Kırmızı, Yeşil Elma ve Ağaçtan Elma Toplama Yorumları",
+    "description": "Rüyada kırmızı veya yeşil elma görmek, elma yemek ve ağaçtan elma toplamanın geleneksel kültürdeki ve sembolizmdeki anlamları.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-25",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Rüya Tabirleri",
+      "Elma",
+      "Sembolizm",
+      "Kültürel Yorumlar"
+    ],
+    "content": {
+      "lead": "Anadolu masallarından dünya mitolojisine kadar elma; sağlık, canlılık, barışma, kısmet ve olgunlaşmış emeğin meyvesi olarak kabul edilir (\"Gökten üç elma düştü\" geleneğinde olduğu gibi). Rüyada elma görmek de meyvenin rengine, tadına ve görülme biçimine göre huzur, motivasyon ve olumlu haberlerle ilişkilendirilir.",
+      "sections": [
+        {
+          "id": "ruyada-kirmizi-ve-yesil-elma-farki",
+          "heading": "1. Rüyada Kırmızı Elma ve Yeşil Elma Görmek",
+          "paragraphs": [
+            "Tatlı ve olgun bir kırmızı elma görmek; canlılık, sevindirici bir gelişme, duygusal yakınlık ve uzun süredir beklenen bir işin olgunlaşması olarak yorumlanır.",
+            "Taze yeşil elma görmek ise yenilenme, sağlık alışkanlıklarına özen gösterme ve henüz filizlenme aşamasında olan yeni bir plan veya eğitim süreciyle bağdaştırılır."
+          ],
+          "bullets": [
+            "Ağaçtan Elma Toplamak: Kişinin kendi gayretiyle ulaştığı başarıyı ve adım adım biriktirdiği kazanımları simgeler.",
+            "Birisiyle Elma Paylaşmak: Dostlukların pekişmesine, kırgınlıkların sona ermesine ve ortak paydada buluşmaya işaret eder.",
+            "Çürük veya Ekşi Elma Görmek: Aceleyle verilen bir kararı yeniden gözden geçirme ihtiyacını hatırlatır."
+          ]
+        },
+        {
+          "id": "ruya-yorumlarinda-dengeli-bakis",
+          "heading": "2. Sembolik Yorumları Günlük Yaşamla Dengeli Okumak",
+          "paragraphs": [
+            "Meyve ve doğa imgeleri içeren rüyalar genellikle zihnin dinlenme ve tazelenme ihtiyacını dışa vurur. Rüyayı kesin bir kehanet gibi görmek yerine, yaşamınızdaki hangi hedefe daha çok özen göstermek istediğinizi fark etmek için bir vesile olarak değerlendirebilirsiniz."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Rüyada dalından kırmızı elma koparmak ne anlama gelir?",
+        "answer": "Geleneksel yorumlarda üzerinde çalışılan bir işin veya hedefin olgunlaşıp sonuç vermesi ve kişinin emeğinin karşılığını alması şeklinde değerlendirilir."
+      },
+      {
+        "question": "Rüyada elma ağacı görmek nasıl yorumlanır?",
+        "answer": "Kökleri sağlam bir elma ağacı; aile desteğini, kalıcı dostlukları ve uzun vadeli huzuru temsil eden olumlu bir semboldür."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-yds-yokdil",
+    "slug": "yds-ve-yokdil-arasindaki-farklar-hangisine-girilmeli",
+    "title": "YDS ve YÖKDİL Arasındaki Farklar Nelerdir? Akademik Dil Sınavı Seçimi ve Hazırlık Stratejisi",
+    "description": "ÖSYM tarafından düzenlenen YDS, e-YDS ve YÖKDİL sınavlarının soru dağılımı, kullanım alanları (dil tazminatı vs yüksek lisans) ve zorluk karşılaştırması.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-22",
+    "updatedAt": "2026-10-25",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "YDS",
+      "YÖKDİL",
+      "Yabancı Dil Sınavı",
+      "ÖSYM",
+      "Yüksek Lisans"
+    ],
+    "content": {
+      "lead": "Yüksek lisans/doktora başvurusu, doçentlik dosyası veya kamu kurumlarında yabancı dil tazminatı için dil puanına ihtiyaç duyan adayların karşısına iki ana sınav çıkar: YDS (Yabancı Dil Bilgisi Seviye Tespit Sınavı) ve YÖKDİL (Yükseköğretim Kurumları Yabancı Dil Sınavı). Her iki sınav da 80 sorudan oluşur, 180 dakika sürer ve yanlışlar doğruyu götürmez; ancak geçerlilik alanları ve soru tipleri birbirinden farklıdır.",
+      "sections": [
+        {
+          "id": "yds-ve-yokdil-temel-farklar",
+          "heading": "1. YDS ile YÖKDİL Arasındaki 4 Kritik Fark",
+          "paragraphs": [
+            "Hangi sınava gireceğinize karar verirken önce puanı kullanacağınız kurumu (üniversite enstitüsü mü, yoksa kamu kurumu / dil tazminatı mı?) netleştirmeniz gerekir."
+          ],
+          "bullets": [
+            "Alan Ayrımı: YÖKDİL; Fen Bilimleri, Sağlık Bilimleri ve Sosyal Bilimler olmak üzere 3 ayrı alanda yapılır (kendi alanınızın kelime dağarcığıyla sınava girersiniz). YDS ise tek bir genel sınavdır.",
+            "Soru Tipleri: YDS’de diyalog tamamlama, yakın anlamlı cümle (restatement) ve durum soruları bulunurken; YÖKDİL’de bu üç soru tipi yoktur, yerine cümle tamamlama, çeviri ve paragraf soruları daha fazladır.",
+            "Kullanım Alanı: YÖKDİL yalnızca yüksek lisans, doktora, TUS/DUS ve akademik kadro/doçentlik başvurularında geçerlidir; kamu kurumlarında yabancı dil tazminatı için YDS (veya e-YDS) puanı istenir.",
+            "Puanlama: Her iki sınavda da 80 soru vardır, her soru 1,25 puan değerindedir ve 4 yanlış 1 doğruyu götürmez (boş soru bırakılmamalıdır)."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Yüksek lisans başvurusu için YDS mi YÖKDİL mi daha avantajlıdır?",
+        "answer": "Kendi uzmanlık alanınıza (Fen, Sağlık veya Sosyal) özgü metinler çıktığı ve diyalog/yakın anlam soruları bulunmadığı için çoğu aday YÖKDİL’de daha hızlı puan artışı yakalamaktadır."
+      },
+      {
+        "question": "YÖKDİL ile dil tazminatı alınabilir mi?",
+        "answer": "Hayır, 375 sayılı KHK kapsamındaki yabancı dil tazminatı ödemelerinde YDS veya e-YDS sonuçları esas alınır."
+      }
+    ]
+  },
+  {
     "id": "bilgirotasi-fortnite-gereksinim",
     "slug": "fortnite-bilgisayar-uyumlulugu-nasil-kontrol-edilir",
     "title": "Fortnite Sistem Gereksinimleri ve PC Performans Modu Ayarları (Kontrol Rehberi)",
     "description": "Fortnite için minimum, önerilen ve rekabetçi PC sistem gereksinimleri, DirectX 12 vs Performans Modu seçimi ve depolama alanı kontrolü.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -855,14 +974,194 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
+    "id": "bilgirotasi-ek-discord-renk",
+    "slug": "discord-renk",
+    "title": "Discord’da İsim Rengi ve Renkli Yazı Nasıl Yapılır? Rol Hiyerarşisi ve ANSI Kod Blokları",
+    "description": "Discord sunucularında kullanıcı adı rengini rol ayarlarıyla değiştirme ve kod blokları (```ansi) kullanarak sohbete renkli metin yazma rehberi.",
+    "categorySlug": "teknoloji-mobil",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-21",
+    "updatedAt": "2026-10-22",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1614680376593-902f749f7ffc?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Discord",
+      "Discord Rol Rengi",
+      "Sosyal Medya",
+      "İpuçları"
+    ],
+    "content": {
+      "lead": "Discord’da bir sunucudaki kullanıcı adınızın (nick) renkli görünmesi kişisel profil ayarlarından değil, o sunucuda size verilen \"Rol\" (Role) ayarlarından ve rollerin yukarıdan aşağıya doğru sıralamasından (hiyerarşisinden) kaynaklanır. Sohbet mesajlarının içinde renkli metin paylaşmak için ise masaüstü sürümünde üçlü ters tırnak (```) kod blokları kullanılır.",
+      "sections": [
+        {
+          "id": "discord-sunucu-isim-rengi-nasil-degistirilir",
+          "heading": "1. Discord Sunucusunda Kullanıcı Adı (Rol) Rengini Değiştirme",
+          "paragraphs": [
+            "Bir kullanıcının birden fazla rolü varsa Discord her zaman rol listesindeki en üstte bulunan (ve rengi varsayılan olmayan) rolün rengini isme yansıtır."
+          ],
+          "steps": [
+            {
+              "title": "1. Adım: Sunucu Ayarları > Roller Menüsüne Girin",
+              "description": "Sunucu yöneticisiyseniz sol üstten Sunucu Ayarları > Roller sekmesini açın."
+            },
+            {
+              "title": "2. Adım: Rol Rengini Seçin veya Özel HEX Kodu Girin",
+              "description": "Düzenlemek istediğiniz role tıklayıp Görünüm sekmesinden hazır bir renk seçin veya #FF5733 gibi özel bir HEX renk kodu yazın."
+            },
+            {
+              "title": "3. Adım: Rol Sıralamasını Kontrol Edin",
+              "description": "Rengin görünmesi için ilgili rolü, renksiz veya diğer rollerin üstüne sürükleyip \"Değişiklikleri Kaydet\" butonuna basın."
+            }
+          ]
+        },
+        {
+          "id": "discord-kod-blogu-ile-renkli-mesaj",
+          "heading": "2. Mesajlarda Kod Bloğu (Markdown) İle Vurgulu Metin Yazma",
+          "paragraphs": [
+            "Masaüstü Discord uygulamasında mesajınızın başına ve sonuna üç adet ters tırnak (```) koyup dil kısaltması yazarak sözdizimi renklendirmesinden yararlanabilirsiniz:"
+          ],
+          "bullets": [
+            "```diff ve satır başında + işareti: Yeşil renkli metin satırı oluşturur.",
+            "```diff ve satır başında - işareti: Kırmızı renkli metin satırı oluşturur.",
+            "```ini ve [Köşeli Parantez]: Mavi/vurgulu başlık metni oluşturur.",
+            "**Kalın Metin** (iki yıldız), *İtalik Metin* (tek yıldız) ve __Altı Çizili__ (iki alt çizgi) ise hem mobilde hem masaüstünde çalışır."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Rol verdiğim halde kullanıcının ismi neden renklenmedi?",
+        "answer": "Kullanıcının üzerinde daha üst sırada yer alan başka bir renkli rol varsa onun rengi baskın gelir; renk rolünü Roller listesinde daha yukarı taşıyın."
+      },
+      {
+        "question": "İsim rengi değiştirdiğini iddia eden harici programlar güvenli mi?",
+        "answer": "Hayır, üçüncü taraf değiştirilmiş Discord istemcileri hem Hizmet Koşulları’na aykırıdır hem de hesap token bilginizi çaldırma riski taşır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-ruya-ev",
+    "slug": "ruyada-ev-gormek",
+    "title": "Rüyada Ev Görmek: Yeni Ev, Eski Ev ve Ev Değiştirmenin Sembolik Anlamı",
+    "description": "Rüyada geniş ve aydınlık yeni bir ev görmek, çocukluk evini ziyaret etmek veya ev temizlemenin psikolojik ve geleneksel yorumları.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-20",
+    "updatedAt": "2026-10-22",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Rüya Tabirleri",
+      "Ev",
+      "Psikoloji",
+      "Sembolizm"
+    ],
+    "content": {
+      "lead": "Rüya araştırmalarında ve geleneksel tabirlerde \"ev\", doğrudan insanın kendi iç dünyasını, güvenlik alanını ve aile bağlarını temsil eden en temel semboldür. Evin durumu (aydınlık, ferah, dağınık, eski veya yeni olması) kişinin o dönemde kendini ne kadar güvende ve düzenli hissettiğiyle yakından bağlantılıdır.",
+      "sections": [
+        {
+          "id": "ruyada-yeni-ve-eski-ev-gormek",
+          "heading": "1. Rüyada Yeni Ev, Eski Ev ve Bilinmeyen Odalar Görmek",
+          "paragraphs": [
+            "Geniş, güneş alan ve düzenli yeni bir ev görmek; kişinin hayatında yeni bir sayfa açma isteğini, zihinsel ferahlığı ve geleceğe daha güvenle bakmasını simgeler.",
+            "Çocukluk evini veya eski bir evi görmek ise özlem duygusunu, geçmişteki alışkanlıkları hatırlamayı veya eski bir dostluk/konuyla yeniden karşılaşmayı çağrıştırır."
+          ],
+          "bullets": [
+            "Evin İçinde Yeni Bir Oda Keşfetmek: Kişinin kendisinde daha önce fark etmediği bir yeteneği, ilgi alanını veya potansiyeli keşfetmesini temsil eder.",
+            "Rüyada Ev Temizlemek ve Тоparlamak: Zihni yoran düşüncelerden arınma, öncelikleri sıraya koyma ve yaşam düzenini sadeleştirme arzusunu yansıtır.",
+            "Rüyada Ev Taşımak: İş, okul, şehir veya düşünce biçimi açısından bir geçiş dönemine hazırlanıldığını gösterir."
+          ]
+        },
+        {
+          "id": "ev-ruyalarini-degerlendirme",
+          "heading": "2. Ev Rüyalarını Kişisel Koşullarla Birlikte Değerlendirme",
+          "paragraphs": [
+            "Gerçek hayatta kira kontratı, taşınma, tadilat veya aile içi gündemlerle ilgilenen kişilerin rüyasında ev görmesi son derece doğaldır. Bu nedenle rüyayı yorumlarken önce güncel yaşam gündeminizi dikkate almanız en sağlıklı yaklaşımdır."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Rüyada büyük ve aydınlık bir eve girmek ne anlama gelir?",
+        "answer": "Kişinin iç dünyasında rahatlama yaşaması, kaygılarının azalması ve önünde yeni fırsatların açılması şeklinde yorumlanır."
+      },
+      {
+        "question": "Rüyada evi dağınık görmek neye işaret eder?",
+        "answer": "Genellikle günlük yaşamda aynı anda çok fazla işle ilgilenmekten kaynaklanan zihinsel yorgunluğu ve öncelikleri düzenleme ihtiyacını yansıtır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-osym-ais",
+    "slug": "osym-ais-aday-islemleri-sistemi-basvuru-ve-tercih-rehberi",
+    "title": "ÖSYM AİS (Aday İşlemleri Sistemi) Başvuru, Fotoğraf Güncelleme ve Sınav Ücreti Ödeme Rehberi",
+    "description": "ais.osym.gov.tr üzerinden e-Devlet ile giriş, sınav başvurusu tamamlama, 50 ay fotoğraf geçerlilik süresi ve ÖSYM Kartlı Ödeme Sistemi (odeme.osym.gov.tr) adımları.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-19",
+    "updatedAt": "2026-10-22",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "ÖSYM",
+      "AİS",
+      "Sınav Başvurusu",
+      "e-Devlet",
+      "Tercih İşlemleri"
+    ],
+    "content": {
+      "lead": "YKS, KPSS, ALES, DGS ve YDS başta olmak üzere ÖSYM tarafından yürütülen tüm sınavların başvuru, tercih ve giriş belgesi işlemleri Aday İşlemleri Sistemi (ais.osym.gov.tr) üzerinden gerçekleştirilir. Başvuruda \"Onaylandı\" yazısını görmek tek başına yeterli değildir; sınav ücreti süresi içinde yatırılmadığında başvuru otomatik olarak iptal olur.",
+      "sections": [
+        {
+          "id": "osym-ais-sinav-basvuru-adimlari",
+          "heading": "1. ÖSYM AİS Üzerinden Adım Adım Sınav Başvurusu ve Ödeme Onayı",
+          "paragraphs": [
+            "ÖSYM şifrenizi unuttuysanız başvuru merkezine gitmenize gerek kalmadan doğrudan \"e-Devlet ile Giriş\" butonunu kullanarak AİS hesabınıza erişebilirsiniz."
+          ],
+          "steps": [
+            {
+              "title": "1. Adım: Profil, Eğitim ve Fotoğraf Bilgisini Kontrol Edin",
+              "description": "Sistemdeki fotoğrafınızın geçerlilik süresinin (50 ay) dolmadığını ve mezuniyet/okul bilgilerinizin güncel olduğunu \"Profilim\" menüsünden kontrol edin."
+            },
+            {
+              "title": "2. Adım: Sınav Merkezini Seçip Başvuruyu Kaydedin",
+              "description": "Başvuru Sürecindekiler sekmesinden ilgili sınavı seçip sınava gireceğiniz il/ilçe tercihlerini tamamlayın."
+            },
+            {
+              "title": "3. Adım: Sınav Ücretini Yatırın (odeme.osym.gov.tr)",
+              "description": "Kılavuzda belirtilen anlaşmalı bankalardan veya ÖSYM e-Ödemeler sayfasından sınav ücretini yatırıp AİS üzerinde \"Ödeme Bilgileri: Ödendi\" ibaresini mutlaka görün."
+            }
+          ],
+          "callout": {
+            "type": "warning",
+            "title": "Geç Başvuru Günlerinde %50 Ek Ücret Uygulanır",
+            "message": "Normal başvuru süresini veya son ödeme saatini (genellikle son gün 23:59) kaçıran adaylar yalnızca \"Geç Başvuru Günü\"nde %50 artırımlı sınav ücreti ödeyerek başvuru yapabilir."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "ÖSYM AİS’teki fotoğrafımı internetten kendim değiştirebilir miyim?",
+        "answer": "T.C. Kimlik Kartı (yeni çipli kimlik) fotoğrafınız sistemde görünüyorsa AİS mobil uygulaması veya web üzerinden \"Kimlik Kartı Fotoğrafını Güncelle\" seçeneğiyle başvuru merkezine gitmeden güncelleyebilirsiniz."
+      },
+      {
+        "question": "Tercih yaptıktan sonra tercih listemi değiştirebilir miyim?",
+        "answer": "Evet, ÖSYM tercih süresi sona erene kadar AİS üzerinden tercihlerinizi dilediğiniz kadar güncelleyip yeniden kaydedebilirsiniz; son kaydettiğiniz liste geçerli olur."
+      }
+    ]
+  },
+  {
     "id": "bilgirotasi-valorant-gereksinim",
     "slug": "valorant-sistem-gereksinimleri-kontrol-rehberi",
     "title": "VALORANT Sistem Gereksinimleri: 60 FPS, 144+ FPS Donanım Tablosu ve Windows 11 TPM 2.0 Kontrolü",
     "description": "VALORANT için minimum ve rekabetçi PC sistem gereksinimleri, işlemci önbelleğinin FPS’e etkisi ve Windows 11 Vanguard TPM 2.0 / Secure Boot uyumluluğu.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-10-18",
+    "updatedAt": "2026-10-18",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -931,117 +1230,44 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
-    "id": "bilgirotasi-gta6-gereksinim",
-    "slug": "gta-6-pc-gereksinimleri-hakkinda-dogrulama-rehberi",
-    "title": "GTA 6 Sistem Gereksinimleri Açıklandı mı? PC Donanım Hazırlığı ve Resmi Bilgi Doğrulama Rehberi",
-    "description": "Grand Theft Auto VI (GTA 6) için resmi çıkış planı, tahmini PC donanım beklentileri, söylenti listelerden kaçınma ve bilgisayar toplama tavsiyeleri.",
-    "categorySlug": "oyun-donanim",
+    "id": "bilgirotasi-ek-twitter-kullanici-adi",
+    "slug": "twitter-kullanici-adi",
+    "title": "X (Twitter) ve Sosyal Medya Kullanıcı Adı Seçme, Değiştirme ve Hesap Güvenliği Rehberi",
+    "description": "X (Twitter) ve Instagram’da kullanıcı adı (@handle) ile görünen ad farkı, kullanıcı adı değiştirme adımları ve kurumsal/kişisel ad seçimi.",
+    "categorySlug": "teknoloji-mobil",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-10-17",
+    "updatedAt": "2026-10-18",
     "readTime": "5 dk",
-    "coverImage": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=1200&auto=format&fit=crop&q=80",
     "tags": [
-      "GTA 6",
-      "Rockstar Games",
-      "Sistem Gereksinimleri",
-      "PC Donanım",
-      "Oyun Dünyası"
+      "X",
+      "Twitter",
+      "Sosyal Medya",
+      "Kullanıcı Adı",
+      "Hesap Güvenliği"
     ],
     "content": {
-      "lead": "Grand Theft Auto VI (GTA 6) için internette yıllardır dolaşan \"kesinleşti\" başlıklı PC sistem gereksinimi tablolarının tamamı tahmine dayalıdır. Rockstar Games oyunlarını geleneksel olarak önce yeni nesil konsollar (PlayStation 5 ve Xbox Series X|S) için yayımlamakta, PC sürümünün teknik gereksinimlerini ise PC çıkış tarihine yakın bir dönemde resmi olarak duyurmaktadır. Bu nedenle doğrulanmamış listelere bakarak aceleyle donanım satın almak bütçe kaybına yol açabilir.",
+      "lead": "X (eski adıyla Twitter) ve diğer sosyal medya platformlarında iki farklı isim alanı bulunur: Birincisi profil bağlantınızı oluşturan benzersiz \"@kullaniciadi\" (handle), ikincisi ise profil fotoğrafınızın altında görünen ve istediğiniz zaman değiştirebileceğiniz \"Görünen Ad\"dır. Kullanıcı adınızı değiştirdiğinizde mevcut takipçileriniz, geçmiş paylaşımlarınız ve mesajlarınız silinmez.",
       "sections": [
         {
-          "id": "gta6-resmi-durum-ve-konsol-temeli",
-          "heading": "1. Yeni Nesil Konsol Donanımı PC Beklentileri Hakkında Ne Söylüyor?",
+          "id": "x-twitter-kullanici-adi-kurallari-ve-degistirme",
+          "heading": "1. X (Twitter) Kullanıcı Adı Kuralları ve Değiştirme Adımları",
           "paragraphs": [
-            "GTA 6’nın geliştirildiği PlayStation 5 ve Xbox Series X konsolları; 8 çekirdekli Zen 2 mimarili işlemci, 16 GB birleşik bellek, ışın izleme (Ray Tracing) destekli RDNA 2 grafik birimi ve yüksek hızlı NVMe SSD mimarisi üzerine kuruludur.",
-            "Bu teknik tablo, ileride yayımlanacak PC sürümünün de mekanik sabit diskleri (HDD) desteklemeyeceğini, DirectStorage benzeri hızlı NVMe SSD teknolojisini ve en az 8 GB VRAM kapasiteli güncel ekran kartlarını temel alacağını göstermektedir."
-          ],
-          "bullets": [
-            "Depolama: Yüksek çözünürlüklü açık dünya kaplamaları nedeniyle PCIe 4.0 NVMe SSD ve 150 GB+ boş alan ihtiyacı öngörülmektedir.",
-            "Bellek (RAM): Açık dünya simülasyonu ve yoğun trafik/kalabalık yapay zekâsı için 16 GB RAM alt sınır, 32 GB RAM ise ideal seviye olarak değerlendirilmektedir.",
-            "Ekran Kartı: Işın izleme ve ölçekleme teknolojilerini (DLSS / FSR / XeSS) destekleyen modern mimarili GPU’lar büyük avantaj sağlayacaktır."
-          ]
-        },
-        {
-          "id": "gta6-icin-simdiden-pc-toplanir-mi",
-          "heading": "2. Sadece GTA 6 İçin Şimdiden Bilgisayar Toplanmalı mı?",
-          "paragraphs": [
-            "Donanım dünyasında her yeni nesil işlemci ve ekran kartı serisi, bir önceki nesle göre aynı bütçede daha yüksek performans ve daha güncel görüntü ölçekleme teknolojileri sunar.",
-            "Eğer mevcut bilgisayarınız bugün oynadığınız oyunlarda size yetiyorsa, yalnızca GTA 6 için şimdiden parça satın almak yerine Rockstar Games’in resmi PC duyurusunu beklemek aynı bütçeyle çok daha güçlü bir sistem kurmanızı sağlar."
-          ],
-          "callout": {
-            "type": "warning",
-            "title": "Sahte \"GTA 6 PC Beta / Ön İndirme\" Dosyalarına Dikkat!",
-            "message": "Rockstar Games’in resmi web sitesi ve doğrulanmış mağaza sayfaları dışında paylaşılan \"GTA 6 PC kurulum dosyası\" veya \"beta erişim aracı\" bağlantılarının tamamı zararlı yazılım içerir; kesinlikle indirmeyin."
-          }
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "GTA 6 resmi PC sistem gereksinimleri açıklandı mı?",
-        "answer": "Resmi PC sistem gereksinimleri yalnızca Rockstar Games tarafından PC sürümü duyurulduğunda kesinleşir; internetteki eski tablolar resmi değildir."
-      },
-      {
-        "question": "GTA 6 HDD (Mekanik Disk) üzerinde çalışır mı?",
-        "answer": "Yeni nesil açık dünya oyun motorları anlık veri akışı için yüksek hızlı NVMe SSD gerektirdiğinden mekanik disklerin yeterli olması beklenmemektedir."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-autocad-gereksinim",
-    "slug": "autocad-bilgisayar-gereksinimleri-nasil-kontrol-edilir",
-    "title": "AutoCAD Sistem Gereksinimleri: 2D Çizim ve 3D Modelleme İçin PC / Laptop Seçim Rehberi",
-    "description": "AutoCAD kurulumu ve akıcı mühendislik/mimarlık çizimleri için gereken işlemci tek çekirdek hızı, RAM kapasitesi, ekran kartı (VRAM) ve SSD gereksinimleri.",
-    "categorySlug": "oyun-donanim",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "AutoCAD",
-      "Autodesk",
-      "Sistem Gereksinimleri",
-      "Mühendislik",
-      "Bilgisayar Seçimi"
-    ],
-    "content": {
-      "lead": "Mimarlık, inşaat, makine ve elektrik mühendisliğinde standart olarak kullanılan AutoCAD’de bilgisayar seçimi yaparken en sık düşülen hata, çok çekirdekli ancak düşük frekanslı işlemcilere öncelik vermektir. AutoCAD’de 2D çizim ve dosya yenileme (REGEN) işlemleri büyük ölçüde işlemcinin tek çekirdek hızına (GHz) bağlıyken, 3D katı modelleme ve nokta bulutu projeleri yüksek RAM ve DirectX 12 uyumlu harici ekran kartı gerektirir.",
-      "sections": [
-        {
-          "id": "autocad-2d-ve-3d-donanim-tablosu",
-          "heading": "1. AutoCAD İçin Temel (2D) ve Önerilen (3D) Donanım Özellikleri",
-          "paragraphs": [
-            "Autodesk’in güncel AutoCAD sürümleri 64-bit işletim sistemi üzerinde çalışır. Öğrenci projeleri ve standart 2D kat planları için orta seviye bir dizüstü bilgisayar yeterliyken, çok katmanlı paftalar ve 3D modeller için en az 16–32 GB RAM tercih edilmelidir."
-          ],
-          "bullets": [
-            "İşlemci (CPU): Temel kullanım için 2.5–2.9 GHz taban hız; akıcı profesyonel kullanım için 3.0 GHz+ taban ve 4.5 GHz+ Turbo hızına sahip güncel Intel Core i5/i7 veya AMD Ryzen 5/7 işlemci.",
-            "Bellek (RAM): Minimum 8 GB; karmaşık DWG dosyaları ve aynı anda birden fazla sekme açmak için önerilen 16 GB veya 32 GB RAM.",
-            "Ekran Kartı (GPU): Temel 2D için 2 GB VRAM (DirectX 11/12); 3D gölgeli görünüm ve büyük modeller için 8 GB VRAM ve 106 GB/sn+ bant genişliğine sahip harici GPU.",
-            "Depolama: Uygulama kurulumu ve geçici önbellek dosyaları için en az 15–20 GB boş alana sahip NVMe SSD."
-          ]
-        },
-        {
-          "id": "autocad-donanim-ivmesi-ve-performans-ayari",
-          "heading": "2. AutoCAD’de Takılmaları Azaltan Donanım İvmesi (GRAPHICSCONFIG) Kontrolü",
-          "paragraphs": [
-            "Güçlü bir ekran kartınız olduğu halde AutoCAD’de yakınlaştırma (zoom/pan) yaparken imleç takılıyorsa, program harici ekran kartı yerine işlemcinin dahili grafik birimini kullanıyor olabilir."
+            "X üzerinde kullanıcı adları en az 4, en fazla 15 karakter uzunluğunda olabilir ve yalnızca harf (A-Z), rakam (0-9) ve alt çizgi (_) içerebilir; boşluk veya nokta kullanılamaz."
           ],
           "steps": [
             {
-              "title": "1. Adım: GRAPHICSCONFIG Komutunu Çalıştırın",
-              "description": "AutoCAD komut satırına GRAPHICSCONFIG yazıp Enter’a basın."
+              "title": "1. Adım: Ayarlar ve Gizlilik Menüsünü Açın",
+              "description": "Sol menüden Daha Fazla > Ayarlar ve Gizlilik > Hesabınız > Hesap Bilgileri adımlarını izleyin."
             },
             {
-              "title": "2. Adım: Aktif Grafik Kartını Doğrulayın",
-              "description": "Açılan pencerede \"Donanım İvmesi\"nin (Hardware Acceleration) açık olduğunu ve harici ekran kartınızın seçili göründüğünü kontrol edin."
+              "title": "2. Adım: Kullanıcı Adı Satırını Seçin",
+              "description": "Şifrenizi doğruladıktan sonra \"Kullanıcı adı\" alanına tıklayın ve yeni adınızı yazın."
             },
             {
-              "title": "3. Adım: Gereksiz Görsel Efektleri Kapatın",
-              "description": "Çok büyük çizimlerde 2D görünüm performansını artırmak için çizgi yumuşatma ve şeffaflık önizlemesini ihtiyacınıza göre sınırlandırın."
+              "title": "3. Adım: Uygunluğu Kontrol Edip Kaydedin",
+              "description": "Seçtiğiniz ad uygunsa Kaydet butonuna basın. Eski kullanıcı adınız boşa düşeceği için profil bağlantınızı kullandığınız diğer sitelerde güncellemeyi unutmayın."
             }
           ]
         }
@@ -1049,12 +1275,12 @@ export const bilgirotasiPosts: Post[] = [
     },
     "faqs": [
       {
-        "question": "AutoCAD için harici ekran kartı şart mı?",
-        "answer": "Yalnızca hafif 2D teknik çizim yapıyorsanız güncel işlemcilerin dahili grafik birimleri işi görebilir; ancak yoğun 2D paftalarda ve 3D modellemede harici ekran kartı (en az 4–8 GB VRAM) büyük fark yaratır."
+        "question": "X kullanıcı adımı değiştirirsem takipçilerim gider mi?",
+        "answer": "Hayır, takipçileriniz, takip ettikleriniz ve eski gönderileriniz yeni kullanıcı adınız altında aynen korunur; yalnızca dışarıdan eski @adınıza yapılan metin etiketlemeleri çalışmaz."
       },
       {
-        "question": "AutoCAD’de işlemci çekirdek sayısı mı yoksa GHz hızı mı daha önemlidir?",
-        "answer": "AutoCAD’de görsel oluşturma (render) dışındaki çizim ve hesaplama işlemlerinin çoğu tek çekirdek üzerinden yürütülür; bu yüzden tek çekirdek (Turbo GHz) performansı yüksek işlemciler daha akıcı çalışır."
+        "question": "Alınmış ancak pasif duran bir kullanıcı adını alabilir miyim?",
+        "answer": "Tescilli bir ticari marka ihlali olmadığı sürece pasif hesapların kullanıcı adları talep üzerine başka kullanıcılara devredilmemektedir; sonuna veya başına kısa bir ek koyarak alternatif türetebilirsiniz."
       }
     ]
   },
@@ -1065,8 +1291,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "Sürdürülebilir bir okuma alışkanlığı kazanmak için tür çeşitliliği kurma, klasik ve çağdaş eserleri dengeleme ve kişisel okuma listesi hazırlama rehberi.",
     "categorySlug": "pratik-bilgiler",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-10-16",
+    "updatedAt": "2026-10-18",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1127,14 +1353,421 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
+    "id": "bilgirotasi-egitim-paragraf",
+    "slug": "tyt-turkce-paragraf-cozme-teknikleri-ve-hizlanma-rehberi",
+    "title": "TYT, KPSS ve ALES Türkçe Paragraf Soruları Nasıl Hızlı Çözülür? Odaklanma ve Zaman Yönetimi",
+    "description": "Sınavlarda paragraf sorularında süre kaybetmemek için önce soru kökünü okuma, ana düşünceyi bulma, yardımcı düşünce eleme ve günlük rutin oluşturma.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-16",
+    "updatedAt": "2026-10-19",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Paragraf Taktikleri",
+      "TYT Türkçe",
+      "KPSS Türkçe",
+      "Hızlı Okuma",
+      "Sınav Rehberi"
+    ],
+    "content": {
+      "lead": "TYT, KPSS, DGS ve ALES’te Türkçe testinin yaklaşık %70–80’ini paragraf ve anlam soruları oluşturur. Paragraf sorularında zaman kaybetmenin en yaygın nedeni metni amaçsızca baştan sona okuyup ardından soru köküne bakmak ve metni ikinci kez okumak zorunda kalmaktır.",
+      "sections": [
+        {
+          "id": "paragraf-soru-tiplerine-gore-cozum-sirasi",
+          "heading": "1. Soru Tipine Göre Okuma Sırası: Önce Soru Kökü mü, Metin mi?",
+          "paragraphs": [
+            "Her paragraf sorusu aynı sırayla çözülmez. \"Ana düşünce / Konu\" soruları ile \"Değinilmemiştir / Çıkarılamaz\" (Yardımcı Düşünce) sorularının çözüm tekniği birbirinden farklıdır:"
+          ],
+          "bullets": [
+            "Her Zaman İlk Adım (Soru Kökü): Önce kalın yazılmış soru kökünü okuyun; metinde ne arayacağınızı bilerek paragrafa çıkın.",
+            "Ana Düşünce Soruları (Vurgulanmak İstenen Nedir?): Metnin özellikle ilk cümlesine (giriş tezi) ve son cümlesine (\"kısacası, oysa, demek ki, bu nedenle\" bağlaçlarından sonraki sonuç yargısına) odaklanın.",
+            "Olumsuz Soru Kökleri (Değinilmemiştir / Ulaşılamaz): Önce şıklara hızlıca göz atıp anahtar kelimeleri işaretleyin, ardından metni okuyarak bulduğunuz şıkları tek tek eleyin.",
+            "Altını Çizme Hatası: Paragrafın tamamının altını kalemle çizmek gözü yavaşlatır; yalnızca zıtlık bağlaçlarını (ancak, ne var ki, buna karşın) ve anahtar kavramları yuvarlak içine alın."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Günde kaç paragraf sorusu çözülmeli?",
+        "answer": "Bir günde 150 soru çözüp 5 gün ara vermek yerine, her sabah zihin açıkken süre tutarak düzenli 25–30 paragraf sorusu çözmek hız ve odaklanmayı kalıcı olarak artırır."
+      },
+      {
+        "question": "İki şık arasında kaldığımda ne yapmalıyım?",
+        "answer": "Kendi kişisel yorumunuzu katmadan yalnızca metindeki kelimelerin sınırları içinde kalın; \"asla, her zaman, yalnızca, tümü\" gibi aşırı genelleme içeren şıklara şüpheyle yaklaşın."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-gta6-gereksinim",
+    "slug": "gta-6-pc-gereksinimleri-hakkinda-dogrulama-rehberi",
+    "title": "GTA 6 Sistem Gereksinimleri Açıklandı mı? PC Donanım Hazırlığı ve Resmi Bilgi Doğrulama Rehberi",
+    "description": "Grand Theft Auto VI (GTA 6) için resmi çıkış planı, tahmini PC donanım beklentileri, söylenti listelerden kaçınma ve bilgisayar toplama tavsiyeleri.",
+    "categorySlug": "oyun-donanim",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "GTA 6",
+      "Rockstar Games",
+      "Sistem Gereksinimleri",
+      "PC Donanım",
+      "Oyun Dünyası"
+    ],
+    "content": {
+      "lead": "Grand Theft Auto VI (GTA 6) için internette yıllardır dolaşan \"kesinleşti\" başlıklı PC sistem gereksinimi tablolarının tamamı tahmine dayalıdır. Rockstar Games oyunlarını geleneksel olarak önce yeni nesil konsollar (PlayStation 5 ve Xbox Series X|S) için yayımlamakta, PC sürümünün teknik gereksinimlerini ise PC çıkış tarihine yakın bir dönemde resmi olarak duyurmaktadır. Bu nedenle doğrulanmamış listelere bakarak aceleyle donanım satın almak bütçe kaybına yol açabilir.",
+      "sections": [
+        {
+          "id": "gta6-resmi-durum-ve-konsol-temeli",
+          "heading": "1. Yeni Nesil Konsol Donanımı PC Beklentileri Hakkında Ne Söylüyor?",
+          "paragraphs": [
+            "GTA 6’nın geliştirildiği PlayStation 5 ve Xbox Series X konsolları; 8 çekirdekli Zen 2 mimarili işlemci, 16 GB birleşik bellek, ışın izleme (Ray Tracing) destekli RDNA 2 grafik birimi ve yüksek hızlı NVMe SSD mimarisi üzerine kuruludur.",
+            "Bu teknik tablo, ileride yayımlanacak PC sürümünün de mekanik sabit diskleri (HDD) desteklemeyeceğini, DirectStorage benzeri hızlı NVMe SSD teknolojisini ve en az 8 GB VRAM kapasiteli güncel ekran kartlarını temel alacağını göstermektedir."
+          ],
+          "bullets": [
+            "Depolama: Yüksek çözünürlüklü açık dünya kaplamaları nedeniyle PCIe 4.0 NVMe SSD ve 150 GB+ boş alan ihtiyacı öngörülmektedir.",
+            "Bellek (RAM): Açık dünya simülasyonu ve yoğun trafik/kalabalık yapay zekâsı için 16 GB RAM alt sınır, 32 GB RAM ise ideal seviye olarak değerlendirilmektedir.",
+            "Ekran Kartı: Işın izleme ve ölçekleme teknolojilerini (DLSS / FSR / XeSS) destekleyen modern mimarili GPU’lar büyük avantaj sağlayacaktır."
+          ]
+        },
+        {
+          "id": "gta6-icin-simdiden-pc-toplanir-mi",
+          "heading": "2. Sadece GTA 6 İçin Şimdiden Bilgisayar Toplanmalı mı?",
+          "paragraphs": [
+            "Donanım dünyasında her yeni nesil işlemci ve ekran kartı serisi, bir önceki nesle göre aynı bütçede daha yüksek performans ve daha güncel görüntü ölçekleme teknolojileri sunar.",
+            "Eğer mevcut bilgisayarınız bugün oynadığınız oyunlarda size yetiyorsa, yalnızca GTA 6 için şimdiden parça satın almak yerine Rockstar Games’in resmi PC duyurusunu beklemek aynı bütçeyle çok daha güçlü bir sistem kurmanızı sağlar."
+          ],
+          "callout": {
+            "type": "warning",
+            "title": "Sahte \"GTA 6 PC Beta / Ön İndirme\" Dosyalarına Dikkat!",
+            "message": "Rockstar Games’in resmi web sitesi ve doğrulanmış mağaza sayfaları dışında paylaşılan \"GTA 6 PC kurulum dosyası\" veya \"beta erişim aracı\" bağlantılarının tamamı zararlı yazılım içerir; kesinlikle indirmeyin."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "GTA 6 resmi PC sistem gereksinimleri açıklandı mı?",
+        "answer": "Resmi PC sistem gereksinimleri yalnızca Rockstar Games tarafından PC sürümü duyurulduğunda kesinleşir; internetteki eski tablolar resmi değildir."
+      },
+      {
+        "question": "GTA 6 HDD (Mekanik Disk) üzerinde çalışır mı?",
+        "answer": "Yeni nesil açık dünya oyun motorları anlık veri akışı için yüksek hızlı NVMe SSD gerektirdiğinden mekanik disklerin yeterli olması beklenmemektedir."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-ay",
+    "slug": "ay-dunyanin-dogal-uydusu-hakkinda-temel-bilgiler",
+    "title": "Ay Hakkında Temel Bilgiler: Dünya’nın Doğal Uydusunun Evreleri, Yapısı ve Gözlem Rehberi",
+    "description": "Ay’ın Dünya’ya uzaklığı, kütleçekim kilidi (neden hep aynı yüzünü görürüz?), 8 ana Ay evresi, gelgit etkisi ve amatör gözlem ipuçları.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-14",
+    "updatedAt": "2026-10-15",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Ay",
+      "Astronomi",
+      "Uzay",
+      "Bilim",
+      "Gökyüzü Gözlemi"
+    ],
+    "content": {
+      "lead": "Dünya’nın tek doğal uydusu olan Ay, yaklaşık 384.400 kilometre ortalama uzaklığıyla gece gökyüzünün en parlak cismidir. Yalnızca takvimlerin hesaplanmasında değil; okyanuslardaki gelgit hareketlerinin oluşmasında ve Dünya’nın eksen eğikliğinin dengede kalmasında da yaşamsal bir rol üstlenir.",
+      "sections": [
+        {
+          "id": "ayin-fiziksel-ozellikleri-ve-ayni-yuzu",
+          "heading": "1. Ay’ın Hep Aynı Yüzünü Görmemizin Nedeni: Kütleçekim Kilidi",
+          "paragraphs": [
+            "Ay’ın çapı yaklaşık 3.474 kilometredir (Dünya’nın çapının yaklaşık dörtte biri). Gökyüzüne baktığımızda Ay’ın her zaman aynı yüzey şekillerini görmemizin nedeni Ay’ın dönmemesi değil, \"kütleçekim kilidi\" (tidal locking) adı verilen fiziksel dengedir.",
+            "Ay’ın kendi ekseni etrafındaki bir tam dönüş süresi ile Dünya etrafındaki yörünge dönüş süresi birbirine eşittir (yaklaşık 27,3 gün). Bu eşzamanlı dönüş nedeniyle Dünya’dan her zaman Ay’ın yakın yüzü görünür."
+          ]
+        },
+        {
+          "id": "ayin-8-evresi-ve-gozlem-zamani",
+          "heading": "2. Ay’ın Evreleri ve Gökyüzü Gözlemi İçin En Uygun Evre",
+          "paragraphs": [
+            "Ay kendisi ışık üretmez; Güneş’ten aldığı ışığı yansıtır. Dünya, Ay ve Güneş’in birbirine göre konumu değiştikçe yaklaşık 29,5 günlük kavuşum (sinodik) döngüsü boyunca Ay’ın aydınlık görünen kısmı değişir.",
+            "Sanılanın aksine dürbün veya teleskopla krater gözlemi yapmak için en iyi zaman Dolunay değildir. Dolunayda Güneş ışığı dik geldiği için gölgeler kaybolur; buna karşılık İlk Dördün ve Son Dördün evrelerinde aydınlık-karanlık sınır hattındaki (terminatör çizgisi) kraterler ve dağlar üç boyutlu gölgeleriyle çok daha net seçilir."
+          ],
+          "bullets": [
+            "Yeniay: Ay, Dünya ile Güneş arasındadır; karanlık yüzü Dünya’ya dönük olduğu için gece gökyüzünde görünmez (derin uzay ve yıldız gözlemi için en karanlık gecelerdir).",
+            "İlk Dördün: Ay’ın sağ yarısı aydınlık görünür; akşam saatlerinde krater gözlemi için idealdir.",
+            "Dolunay: Ay’ın Dünya’ya bakan yüzü tamamen aydınlıktır.",
+            "Son Dördün: Ay’ın sol yarısı aydınlık görünür; gece yarısından sabaha doğru gözlemlenebilir."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Ay Dünya’dan ne kadar uzaktadır?",
+        "answer": "Ay’ın yörüngesi eliptik olduğu için uzaklığı değişir; ortalama uzaklığı yaklaşık 384.400 kilometredir (en yakın noktada ~363.300 km, en uzak noktada ~405.500 km)."
+      },
+      {
+        "question": "Ay’ın karanlık yüzü gerçekten hep karanlık mıdır?",
+        "answer": "Hayır. \"Karanlık yüz\" ifadesi Dünya’dan görünmeyen uzak yüzü (far side) anlatmak için kullanılır; gerçekte Ay’ın uzak yüzü de yakın yüzü kadar Güneş ışığı alır."
+      },
+      {
+        "question": "Dürbünle Ay kraterleri görülebilir mi?",
+        "answer": "Evet, 7x50 veya 10x50 büyütmeli standart bir el dürbünüyle bile özellikle İlk Dördün evresinde Ay denizlerini (Maria) ve büyük kraterleri net biçimde görebilirsiniz."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-matematik",
+    "slug": "tyt-ayt-matematik-temel-atma-ve-problem-cozme-taktikleri",
+    "title": "Sıfırdan TYT ve AYT Matematik Nasıl Çalışılır? Temel Atma, Problemler ve Branş Denemesi Rehberi",
+    "description": "Matematik netlerini artırmak için ilk 12 temel kavram konusu, günlük problem çözme rutini, geometri yaklaşımı ve aşamalı kaynak seçimi.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "TYT Matematik",
+      "AYT Matematik",
+      "Problemler",
+      "YKS Hazırlık",
+      "Ders Çalışma"
+    ],
+    "content": {
+      "lead": "YKS (TYT – AYT), KPSS ve DGS’de sıralamayı en çok değiştiren ders Matematiktir. Matematikte netlerin yükselmemesinin temel sebebi konuyu yalnızca videodan izleyip kalem oynatmadan geçmek ve kendi seviyenizin çok üzerinde zor bir soru bankasıyla başlayıp motivasyon kaybetmektir.",
+      "sections": [
+        {
+          "id": "matematik-3-asamali-calisma-plani",
+          "heading": "1. Matematikte Net Artıran 3 Aşamalı Konu ve Soru Planı",
+          "paragraphs": [
+            "Matematik konuları zincirleme ilerler. İlk 12 temel konuyu (Temel Kavramlar, Rasyonel Sayılar, Birinci Dereceden Denklemler, Eşitsizlikler, Mutlak Değer, Üslü ve Köklü Sayılar, Çarpanlara Ayırma, Oran-Orantı) bitirmeden Problemlere veya AYT Fonksiyon/Türev konularına geçmek zaman kaybettirir."
+          ],
+          "steps": [
+            {
+              "title": "1. Aşama: İlk 12 Temel Cebir Konusu",
+              "description": "İşlem hatası yapmamak ve denklem kurmayı öğrenmek için ilk 12 konuyu kolay-orta seviye bir soru bankasından eksiksiz tamamlayın."
+            },
+            {
+              "title": "2. Aşama: Günlük Problem ve Geometri Rutini",
+              "description": "Oran-Orantı bittiği günden itibaren her gün 15–20 Problem ve 10–15 Geometri sorusunu sabit rutin haline getirin."
+            },
+            {
+              "title": "3. Aşama: Süreli Branş Denemeleri",
+              "description": "Konuların %70’i tamamlandığında haftada 2–3 kez 40 soruluk süreli TYT Matematik branş denemesi çözerek turlama tekniğini geliştirin."
+            }
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Yapamadığım matematik sorusunun çözümünü hemen izlemeli miyim?",
+        "answer": "İlk denemede çözemediğiniz soruya aynı gün akşam veya ertesi gün temiz kafayla bir kez daha 3–4 dakika uğraşın; yine çıkmazsa video çözümünü izleyip ekranı kapatarak çözümü kendi elinizle baştan sona yazın."
+      },
+      {
+        "question": "AYT Matematik çalışmaya ne zaman başlanmalı?",
+        "answer": "TYT’deki ilk 12 temel cebir konusu ve Fonksiyonlar konusu biter bitmez TYT branş denemeleriyle eşzamanlı olarak AYT Matematik konularına başlanmalıdır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-autocad-gereksinim",
+    "slug": "autocad-bilgisayar-gereksinimleri-nasil-kontrol-edilir",
+    "title": "AutoCAD Sistem Gereksinimleri: 2D Çizim ve 3D Modelleme İçin PC / Laptop Seçim Rehberi",
+    "description": "AutoCAD kurulumu ve akıcı mühendislik/mimarlık çizimleri için gereken işlemci tek çekirdek hızı, RAM kapasitesi, ekran kartı (VRAM) ve SSD gereksinimleri.",
+    "categorySlug": "oyun-donanim",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-12",
+    "updatedAt": "2026-10-15",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "AutoCAD",
+      "Autodesk",
+      "Sistem Gereksinimleri",
+      "Mühendislik",
+      "Bilgisayar Seçimi"
+    ],
+    "content": {
+      "lead": "Mimarlık, inşaat, makine ve elektrik mühendisliğinde standart olarak kullanılan AutoCAD’de bilgisayar seçimi yaparken en sık düşülen hata, çok çekirdekli ancak düşük frekanslı işlemcilere öncelik vermektir. AutoCAD’de 2D çizim ve dosya yenileme (REGEN) işlemleri büyük ölçüde işlemcinin tek çekirdek hızına (GHz) bağlıyken, 3D katı modelleme ve nokta bulutu projeleri yüksek RAM ve DirectX 12 uyumlu harici ekran kartı gerektirir.",
+      "sections": [
+        {
+          "id": "autocad-2d-ve-3d-donanim-tablosu",
+          "heading": "1. AutoCAD İçin Temel (2D) ve Önerilen (3D) Donanım Özellikleri",
+          "paragraphs": [
+            "Autodesk’in güncel AutoCAD sürümleri 64-bit işletim sistemi üzerinde çalışır. Öğrenci projeleri ve standart 2D kat planları için orta seviye bir dizüstü bilgisayar yeterliyken, çok katmanlı paftalar ve 3D modeller için en az 16–32 GB RAM tercih edilmelidir."
+          ],
+          "bullets": [
+            "İşlemci (CPU): Temel kullanım için 2.5–2.9 GHz taban hız; akıcı profesyonel kullanım için 3.0 GHz+ taban ve 4.5 GHz+ Turbo hızına sahip güncel Intel Core i5/i7 veya AMD Ryzen 5/7 işlemci.",
+            "Bellek (RAM): Minimum 8 GB; karmaşık DWG dosyaları ve aynı anda birden fazla sekme açmak için önerilen 16 GB veya 32 GB RAM.",
+            "Ekran Kartı (GPU): Temel 2D için 2 GB VRAM (DirectX 11/12); 3D gölgeli görünüm ve büyük modeller için 8 GB VRAM ve 106 GB/sn+ bant genişliğine sahip harici GPU.",
+            "Depolama: Uygulama kurulumu ve geçici önbellek dosyaları için en az 15–20 GB boş alana sahip NVMe SSD."
+          ]
+        },
+        {
+          "id": "autocad-donanim-ivmesi-ve-performans-ayari",
+          "heading": "2. AutoCAD’de Takılmaları Azaltan Donanım İvmesi (GRAPHICSCONFIG) Kontrolü",
+          "paragraphs": [
+            "Güçlü bir ekran kartınız olduğu halde AutoCAD’de yakınlaştırma (zoom/pan) yaparken imleç takılıyorsa, program harici ekran kartı yerine işlemcinin dahili grafik birimini kullanıyor olabilir."
+          ],
+          "steps": [
+            {
+              "title": "1. Adım: GRAPHICSCONFIG Komutunu Çalıştırın",
+              "description": "AutoCAD komut satırına GRAPHICSCONFIG yazıp Enter’a basın."
+            },
+            {
+              "title": "2. Adım: Aktif Grafik Kartını Doğrulayın",
+              "description": "Açılan pencerede \"Donanım İvmesi\"nin (Hardware Acceleration) açık olduğunu ve harici ekran kartınızın seçili göründüğünü kontrol edin."
+            },
+            {
+              "title": "3. Adım: Gereksiz Görsel Efektleri Kapatın",
+              "description": "Çok büyük çizimlerde 2D görünüm performansını artırmak için çizgi yumuşatma ve şeffaflık önizlemesini ihtiyacınıza göre sınırlandırın."
+            }
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "AutoCAD için harici ekran kartı şart mı?",
+        "answer": "Yalnızca hafif 2D teknik çizim yapıyorsanız güncel işlemcilerin dahili grafik birimleri işi görebilir; ancak yoğun 2D paftalarda ve 3D modellemede harici ekran kartı (en az 4–8 GB VRAM) büyük fark yaratır."
+      },
+      {
+        "question": "AutoCAD’de işlemci çekirdek sayısı mı yoksa GHz hızı mı daha önemlidir?",
+        "answer": "AutoCAD’de görsel oluşturma (render) dışındaki çizim ve hesaplama işlemlerinin çoğu tek çekirdek üzerinden yürütülür; bu yüzden tek çekirdek (Turbo GHz) performansı yüksek işlemciler daha akıcı çalışır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-ek-oyun-nickleri",
+    "slug": "oyun-nickleri",
+    "title": "Oyun ve Discord İçin Kullanıcı Adı (Nick) Seçme Rehberi: Akılda Kalıcı İsim Oluşturma Yöntemleri",
+    "description": "Rekabetçi oyunlarda (VALORANT, CS2, LoL) ve Discord’da okunabilir, özgün ve güvenli bir oyuncu adı (nickname) türetme formülleri.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-11",
+    "updatedAt": "2026-10-11",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Oyun Nickleri",
+      "Kullanıcı Adı",
+      "Discord",
+      "Oyun Kültürü"
+    ],
+    "content": {
+      "lead": "Rekabetçi oyunlarda ve topluluk sunucularında seçtiğiniz kullanıcı adı (nickname), takım arkadaşlarınızın maç esnasında size seslenmesini sağlayan dijital kimliğinizdir. Çok uzun, karmaşık sembollerle dolu veya telaffuzu zor isimler yerine 2–3 heceli, özgün ve kişisel verilerinizi açık etmeyen bir ad seçmek en doğru yaklaşımdır.",
+      "sections": [
+        {
+          "id": "ozgun-oyuncu-adi-turetme-yontemleri",
+          "heading": "1. Kendi Özgün Oyuncu Adınızı Türetmek İçin 3 Pratik Formül",
+          "paragraphs": [
+            "Herkesin kullandığı hazır listelerden bir isim kopyaladığınızda çoğu zaman o adın alınmış olduğunu görürsünüz ve sonuna \"12345\" gibi rastgele sayılar eklemek zorunda kalırsınız. Bunun yerine aşağıdaki birleştirme yöntemleriyle tamamen size ait bir ad oluşturabilirsiniz:"
+          ],
+          "bullets": [
+            "Doğa / Astronomi + Kısa Ek: Kuzey, Atlas, Vega, Sirius, Bora, Zephyr, Nova gibi kısa kök kelimeleri sevdiğiniz bir terimle birleştirin.",
+            "İki Kelime Kökünü Kaynaştırma (Portmanteau): İki farklı kelimenin ilk ve son hecelerini birleştirerek 5–7 harfli tek ve benzersiz bir kelime türetin.",
+            "Takım İletişimi Testi: Seçtiğiniz ismi sesli sohbette bir arkadaşınızın 1 saniyede nasıl kısaltacağını düşünün (2 heceli net isimler rekabetçi maçlarda her zaman avantajlıdır)."
+          ],
+          "callout": {
+            "type": "warning",
+            "title": "Kullanıcı Adında Kişisel Bilgi Kullanmayın",
+            "message": "Kullanıcı adınızda tam soyadınızı, doğum yılınızı, plaka kodunuzu veya okul numaranızı kullanmaktan kaçının; bu bilgiler güvenlik sorularınızı tahmin etmek için kullanılabilir."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Riot ID (VALORANT / LoL) ismi ne sıklıkla ücretsiz değiştirilebilir?",
+        "answer": "Riot Games hesap ayarları üzerinden Riot ID ve etiket (#TAG) bilginizi 90 günde bir ücretsiz olarak değiştirebilirsiniz."
+      },
+      {
+        "question": "Şekilli semboller oyunlarda neden bozuk (kutucuk) görünür?",
+        "answer": "Birçok oyun motoru standart dışı Unicode sembollerini desteklemez ve bunları soru işareti veya boş kutu olarak gösterir; bu nedenle standart Latin harfleri en sorunsuz görünümü sağlar."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-pomodoro",
+    "slug": "pomodoro-teknigi-ve-aralikli-tekrar-ile-verimli-ders-calisma",
+    "title": "Pomodoro Tekniği ve Aralıklı Tekrar (Spaced Repetition) İle Kalıcı Ders Çalışma Rehberi",
+    "description": "Masa başında odaklanma süresini artıran 25+5 ve 50+10 Pomodoro blokları ile unutma eğrisini kıran 1-3-7-30 günlük Aralıklı Tekrar yöntemi.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-11",
+    "updatedAt": "2026-10-12",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Pomodoro Tekniği",
+      "Verimli Ders Çalışma",
+      "Aralıklı Tekrar",
+      "Odaklanma",
+      "Eğitim"
+    ],
+    "content": {
+      "lead": "Saatlerce masa başında oturup gün sonunda hiçbir şey hatırlamamanın nedeni süreklilikten yoksun, bölünmüş çalışmadır. Bilimsel öğrenme araştırmaları, dikkati belirli zaman bloklarına bölen \"Pomodoro Tekniği\" ile bilgiyi tam unutulacağı günlerde hatırlatan \"Aralıklı Tekrar\" (Spaced Repetition) yönteminin birlikte kullanıldığında öğrenme kalıcılığını katladığını göstermektedir.",
+      "sections": [
+        {
+          "id": "pomodoro-25-5-ve-50-10-uygulamasi",
+          "heading": "1. Dersin Türüne Göre Pomodoro Blokları: 25+5 mi, 50+10 mu?",
+          "paragraphs": [
+            "Klasik Pomodoro tekniği 25 dakika tam odaklanma + 5 dakika mola şeklinde uygulanır. Ancak matematik problemi veya deneme sınavı çözerken 25. dakikada bölünmek odak akışını kesebileceği için ders türüne göre iki farklı blok kullanabilirsiniz:"
+          ],
+          "bullets": [
+            "25 Dakika Çalışma + 5 Dakika Mola: Ezber, kelime çalışması, kısa konu tekrarı veya derse başlamakta zorlandığınız günlerde idealdir.",
+            "50 Dakika Çalışma + 10 Dakika Mola: Matematik/Fen soru çözümü, uzun paragraf testleri ve konu anlatımı çalışmaları için çok daha verimlidir.",
+            "Molada Telefon Yasağı: 5 veya 10 dakikalık kısa molalarda sosyal medya/kısa video kaydırmak beyni dinlendirmez, aksine yorar. Molada masadan kalkıp su için ve pencereden uzağa bakarak gözlerinizi dinlendirin."
+          ]
+        },
+        {
+          "id": "aralikli-tekrar-1-3-7-21-takvimi",
+          "heading": "2. Ebbinghaus Unutma Eğrisini Kıran \"1 – 3 – 7 – 21\" Tekrar Takvimi",
+          "paragraphs": [
+            "Yeni öğrenilen bir bilginin büyük kısmı tekrar edilmezse ilk 48 saat içinde unutulur. Konuyu baştan sona yeniden okumak yerine şu takvimde 10’ar dakikalık aktif hatırlama testi yapın:"
+          ],
+          "steps": [
+            {
+              "title": "1. Tekrar (Aynı Gün Akşam)",
+              "description": "Gündüz çalıştığınız konunun özet notlarına 10 dakika göz gezdirip kendi cümlelerinizle özetleyin."
+            },
+            {
+              "title": "2. Tekrar (3. Gün)",
+              "description": "Konu anlatımına bakmadan doğrudan 15–20 soruluk bir mini test çözün; sadece takıldığınız formül/kavrama geri dönün."
+            },
+            {
+              "title": "3. Tekrar (7. ve 21. Gün)",
+              "description": "Karma soru testi veya branş denemesi üzerinden konuyu kalıcı hafızaya aktarın."
+            }
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Günde kaç Pomodoro tamamlanmalı?",
+        "answer": "Okul veya iş temposuna göre değişmekle birlikte, 50+10 sisteminde günde 4 ila 6 tam blok (yaklaşık 3,5 – 5 saat saf odaklanmış çalışma) oldukça yüksek verim sağlar."
+      },
+      {
+        "question": "En etkili tekrar yöntemi not okumak mı yoksa soru çözmek mi?",
+        "answer": "Defteri pasif olarak tekrar tekrar okumak yerine kitabı kapatıp \"bu konuda hangi kavramlar vardı?\" diye kendini sınamak (aktif hatırlama) ve soru çözmek çok daha kalıcıdır."
+      }
+    ]
+  },
+  {
     "id": "bilgirotasi-gwen-hikaye",
     "slug": "lol-gwen-karakteri-hikayesi-ve-oyun-rolu",
     "title": "League of Legends Gwen Rehberi: Hikâyesi, Yetenekleri ve Üst Koridor Oynanış İpuçları",
     "description": "LoL şampiyonu Kutsal Terzi Gwen’in Runeterra evrenindeki kökeni, pasif ve yetenek komboları, Kutsal Sis (W) kullanımı ve koridor eşleşmeleri.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-10-10",
+    "updatedAt": "2026-10-12",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1188,62 +1821,100 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
-    "id": "bilgirotasi-ay",
-    "slug": "ay-dunyanin-dogal-uydusu-hakkinda-temel-bilgiler",
-    "title": "Ay Hakkında Temel Bilgiler: Dünya’nın Doğal Uydusunun Evreleri, Yapısı ve Gözlem Rehberi",
-    "description": "Ay’ın Dünya’ya uzaklığı, kütleçekim kilidi (neden hep aynı yüzünü görürüz?), 8 ana Ay evresi, gelgit etkisi ve amatör gözlem ipuçları.",
+    "id": "bilgirotasi-pratik-buzdolabi-kokusu",
+    "slug": "buzdolabi-kokusu-nasil-giderilir-dogal-temizlik-ve-duzenleme",
+    "title": "Buzdolabındaki Kötü Koku Nasıl Giderilir? Karbonat, Kahve ve Doğru Gıda Saklama Yöntemleri",
+    "description": "Buzdolabına sinen ağır yemek, balık ve süt ürünü kokularını kimyasal kullanmadan karbonat, vanilya, Türk kahvesi ve tahliye deliği temizliğiyle giderme rehberi.",
     "categorySlug": "pratik-bilgiler",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?w=1200&auto=format&fit=crop&q=80",
+    "publishedAt": "2026-10-09",
+    "updatedAt": "2026-10-12",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1200&auto=format&fit=crop&q=80",
     "tags": [
-      "Ay",
-      "Astronomi",
-      "Uzay",
-      "Bilim",
-      "Gökyüzü Gözlemi"
+      "Buzdolabı Temizliği",
+      "Koku Giderme",
+      "Pratik Bilgiler",
+      "Ev Yaşam",
+      "Mutfak İpuçları"
     ],
     "content": {
-      "lead": "Dünya’nın tek doğal uydusu olan Ay, yaklaşık 384.400 kilometre ortalama uzaklığıyla gece gökyüzünün en parlak cismidir. Yalnızca takvimlerin hesaplanmasında değil; okyanuslardaki gelgit hareketlerinin oluşmasında ve Dünya’nın eksen eğikliğinin dengede kalmasında da yaşamsal bir rol üstlenir.",
+      "lead": "Buzdolabının kapağını açtığınızda karşılaştığınız ağır koku her zaman bozulmuş bir yemekten kaynaklanmaz; çoğu zaman rafların altındaki görünmeyen sıvı sızıntıları, kapak lastiklerinin (conta) arası veya dolabın arka duvarındaki tıkanmış su tahliye kanalı kokunun asıl merkezidir. Çamaşır suyu gibi keskin kimyasallar gıdalara sindiği için buzdolabı temizliğinde doğal koku tutucular kullanılmalıdır.",
       "sections": [
         {
-          "id": "ayin-fiziksel-ozellikleri-ve-ayni-yuzu",
-          "heading": "1. Ay’ın Hep Aynı Yüzünü Görmemizin Nedeni: Kütleçekim Kilidi",
+          "id": "buzdolabi-kokusunu-kesen-dogal-cozumler",
+          "heading": "1. Karbonatlı Su İle Silme ve Doğal Koku Emici Kâseler",
           "paragraphs": [
-            "Ay’ın çapı yaklaşık 3.474 kilometredir (Dünya’nın çapının yaklaşık dörtte biri). Gökyüzüne baktığımızda Ay’ın her zaman aynı yüzey şekillerini görmemizin nedeni Ay’ın dönmemesi değil, \"kütleçekim kilidi\" (tidal locking) adı verilen fiziksel dengedir.",
-            "Ay’ın kendi ekseni etrafındaki bir tam dönüş süresi ile Dünya etrafındaki yörünge dönüş süresi birbirine eşittir (yaklaşık 27,3 gün). Bu eşzamanlı dönüş nedeniyle Dünya’dan her zaman Ay’ın yakın yüzü görünür."
-          ]
-        },
-        {
-          "id": "ayin-8-evresi-ve-gozlem-zamani",
-          "heading": "2. Ay’ın Evreleri ve Gökyüzü Gözlemi İçin En Uygun Evre",
-          "paragraphs": [
-            "Ay kendisi ışık üretmez; Güneş’ten aldığı ışığı yansıtır. Dünya, Ay ve Güneş’in birbirine göre konumu değiştikçe yaklaşık 29,5 günlük kavuşum (sinodik) döngüsü boyunca Ay’ın aydınlık görünen kısmı değişir.",
-            "Sanılanın aksine dürbün veya teleskopla krater gözlemi yapmak için en iyi zaman Dolunay değildir. Dolunayda Güneş ışığı dik geldiği için gölgeler kaybolur; buna karşılık İlk Dördün ve Son Dördün evrelerinde aydınlık-karanlık sınır hattındaki (terminatör çizgisi) kraterler ve dağlar üç boyutlu gölgeleriyle çok daha net seçilir."
+            "Temizliğe başlamadan önce dolabın fişini çekin (veya tatil moduna alın) ve tüm cam rafları ılık suyun içinde çözündürülmüş 2 yemek kaşığı karbonat ve birkaç damla limon suyu karışımıyla silin."
           ],
           "bullets": [
-            "Yeniay: Ay, Dünya ile Güneş arasındadır; karanlık yüzü Dünya’ya dönük olduğu için gece gökyüzünde görünmez (derin uzay ve yıldız gözlemi için en karanlık gecelerdir).",
-            "İlk Dördün: Ay’ın sağ yarısı aydınlık görünür; akşam saatlerinde krater gözlemi için idealdir.",
-            "Dolunay: Ay’ın Dünya’ya bakan yüzü tamamen aydınlıktır.",
-            "Son Dördün: Ay’ın sol yarısı aydınlık görünür; gece yarısından sabaha doğru gözlemlenebilir."
+            "Açık Karbonat Kâsesi: Küçük bir cam kâseye koyacağınız 3–4 yemek kaşığı karbonat, dolap içindeki asidik ve ağır kokuları maskelemeden doğrudan emer (ayda bir yenileyin).",
+            "Kuru Türk Kahvesi veya Çay Posası: Küçük bir tabakta orta rafa yerleştirilen kuru Türk kahvesi telvesi balık ve soğan/sarımsak kokusunu birkaç saat içinde çeker.",
+            "Elma Sirkesi ve Vanilya: Rafları sildikten sonra pamuğa damlatılmış birkaç damla saf vanilya özütü ferah bir koku bırakır.",
+            "Arka Duvar Su Tahliye Deliği Kontrolü: Sebzelik çekmecesinin hemen üstündeki arka duvarda bulunan küçük su tahliye deliğine süt veya sebze suyu kaçtıysa, ılık sirkeli su ve kulak çubuğu/pipet yardımıyla bu kanalı mutlaka temizleyin."
           ]
         }
       ]
     },
     "faqs": [
       {
-        "question": "Ay Dünya’dan ne kadar uzaktadır?",
-        "answer": "Ay’ın yörüngesi eliptik olduğu için uzaklığı değişir; ortalama uzaklığı yaklaşık 384.400 kilometredir (en yakın noktada ~363.300 km, en uzak noktada ~405.500 km)."
+        "question": "Buzdolabı çamaşır suyuyla silinir mi?",
+        "answer": "Hayır, çamaşır suyu hem plastik aksamı sarartıp çatlatabilir hem de kapalı ortamda kokusu tereyağı, peynir ve açık gıdalara siner; karbonatlı veya beyaz sirkeli ılık su en güvenli çözümdür."
       },
       {
-        "question": "Ay’ın karanlık yüzü gerçekten hep karanlık mıdır?",
-        "answer": "Hayır. \"Karanlık yüz\" ifadesi Dünya’dan görünmeyen uzak yüzü (far side) anlatmak için kullanılır; gerçekte Ay’ın uzak yüzü de yakın yüzü kadar Güneş ışığı alır."
+        "question": "Elektrik kesintisinde dondurucudaki et kokusu nasıl çıkar?",
+        "answer": "Tüm çekmeceleri çıkarıp karbonatlı suyla yıkadıktan sonra dolabın içine aktif kömür veya geniş bir tepsiye yayılmış karbonat ve kahve koyup kapağı 12 saat aralık bırakarak havalandırın."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-yatay-gecis",
+    "slug": "universite-yatay-gecis-sartlari-gno-ve-ek-madde-1-rehberi",
+    "title": "Üniversitede Yatay Geçiş Nasıl Yapılır? GNO (Not Ortalaması) ve Merkezi Yerleştirme (Ek Madde-1)",
+    "description": "Üniversiteler arası yatay geçiş türleri: Genel Not Ortalaması (GNO) ile geçiş ve YKS puanıyla Merkezi Yerleştirme (Ek Madde-1) başvuru tarihleri ve şartları.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-08",
+    "updatedAt": "2026-10-08",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Yatay Geçiş",
+      "Ek Madde-1",
+      "Üniversite",
+      "YÖK",
+      "Eğitim Rehberi"
+    ],
+    "content": {
+      "lead": "Okuduğu üniversiteyi veya bölümü değiştirmek isteyen öğrencilerin önünde YÖK mevzuatına göre iki ana yatay geçiş yolu bulunur: Birincisi dönemlik/yıllık başarıya dayanan \"Kurumlar Arası Genel Not Ortalaması (GNO) ile Yatay Geçiş\", ikincisi ise üniversiteye girdiğiniz yıldaki YKS puanınızı baz alan \"Merkezi Yerleştirme Puanıyla (Ek Madde-1) Yatay Geçiş\"tir.",
+      "sections": [
+        {
+          "id": "gno-ile-ek-madde-1-arasindaki-farklar",
+          "heading": "1. GNO İle Yatay Geçiş ve Ek Madde-1 (MYP) Arasındaki Farklar",
+          "paragraphs": [
+            "İki geçiş türünün şartları, kontenjanları ve başvuru dönemleri birbirinden tamamen bağımsızdır:"
+          ],
+          "bullets": [
+            "Not Ortalaması (GNO) İle Yatay Geçiş: Sadece kendi bölümünüzle aynı (veya eşdeğer) bir bölüme geçebilirsiniz. Genel not ortalamanızın 100 üzerinden en az 60 (4.00 üzerinden genellikle 2.50–3.00+, üniversiteye göre değişir) olması gerekir.",
+            "Merkezi Yerleştirme Puanı (Ek Madde-1): Sınava girdiğiniz yıldaki YKS yerleştirme puanınız, geçmek istediğiniz bölümün o yılki taban puanına eşit veya ondan yüksekse (alttan dersiniz olsa bile ve not ortalamanıza bakılmaksızın) hem başka üniversiteye hem de tamamen farklı bir bölüme (4 yıllıktan 2 yıllığa dahil) geçebilirsiniz.",
+            "Başvuru Dönemi: Güz dönemi başvuruları genellikle Temmuz sonu – Ağustos ortasında her üniversitenin kendi öğrenci işleri portalı üzerinden alınır."
+          ],
+          "callout": {
+            "type": "info",
+            "title": "Ek Madde-1 Hakkı Kaç Kez Kullanılabilir?",
+            "message": "Merkezi yerleştirme puanıyla (Ek Madde-1) yatay geçiş hakkı eğitim hayatı boyunca yalnızca 1 kez kullanılabilir; ancak geçiş yaptıktan sonra vazgeçerseniz bir sonraki dönemde ilk kazandığınız üniversiteye geri dönme hakkınız vardır."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Hazırlık sınıfında veya 1. sınıfın ilk döneminde yatay geçiş yapılır mı?",
+        "answer": "Not ortalaması (GNO) ile hazırlıkta, 1. sınıfın ilk döneminde ve son sınıfın başında yatay geçiş yapılamaz. Ancak Merkezi Yerleştirme Puanı (Ek Madde-1) ile hazırlık ve 1. sınıf dahil geçiş başvurusu yapılabilir."
       },
       {
-        "question": "Dürbünle Ay kraterleri görülebilir mi?",
-        "answer": "Evet, 7x50 veya 10x50 büyütmeli standart bir el dürbünüyle bile özellikle İlk Dördün evresinde Ay denizlerini (Maria) ve büyük kraterleri net biçimde görebilirsiniz."
+        "question": "Yatay geçiş başvurusu için hangi belgeler istenir?",
+        "answer": "Onaylı/barkodlu Transkript (Not Dökümü), Öğrenci Belgesi, Disiplin Cezası Yoktur ibaresi, ÖSYS/YKS Sonuç ve Yerleştirme Belgeleri ile ders içerikleri (intibak için) talep edilir."
       }
     ]
   },
@@ -1254,8 +1925,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "Minecraft’ta 31 demir külçesi ile örs yapımı tarifi, eşya onarma, büyülü kitap birleştirme, isim etiketi yazma ve \"Çok Pahalı!\" (Too Expensive) sınırını aşma.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-10-07",
+    "updatedAt": "2026-10-08",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1587573089734-09cb69c0f2b4?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1325,14 +1996,121 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
+    "id": "bilgirotasi-pratik-kombi-tasarruf",
+    "slug": "kombide-dogalgaz-tasarrufu-saglayan-oda-termostati-ve-petek-ayarlari",
+    "title": "Kışın Doğalgaz Faturasını Düşüren Kombi, Oda Termostatı ve Petek Havası Alma Rehberi",
+    "description": "Kombiyi kapatıp açmak yerine sabit derecede tutma, oda termostatı ve termostatik vana kullanımı ile peteklerin yarısı ısınmadığında hava alma adımları.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-06",
+    "updatedAt": "2026-10-08",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Doğalgaz Tasarrufu",
+      "Kombi Ayarları",
+      "Petek Havası Alma",
+      "Ev Ekonomisi",
+      "Pratik Bilgiler"
+    ],
+    "content": {
+      "lead": "Kış aylarında ısınma giderlerini düşürmek isterken yapılan en büyük hata, evden çıkarken veya gece yatarken kombiyi tamamen kapatıp eve dönünce yüksek derecede tekrar çalıştırmaktır. Soğuyan duvarları, zemini ve tesisat suyunu sıfırdan ısıtmak için kombi saatlerce tam kapasitede (maksimum alev boyunda) çalışır ve sabit düşük ayarda kalmasına göre daha fazla doğalgaz tüketir.",
+      "sections": [
+        {
+          "id": "petek-havasi-nasil-alinir-ve-su-basinci",
+          "heading": "1. Peteğin Üstü Soğuk Altı Sıcaksa: 3 Adımda Petek Havası Alma",
+          "paragraphs": [
+            "Kalorifer peteğinin alt kısmı ısınıp üst kısmı soğuk kalıyorsa peteğin içinde hava birikmiş demektir. Hava biriken bölgeye sıcak su ulaşamadığı için kombi boşa çalışır."
+          ],
+          "steps": [
+            {
+              "title": "1. Adım: Purjör Anahtarı (veya Düz Tornavida) ve Bir Kap Hazırlayın",
+              "description": "Peteğin üst yan köşesindeki küçük hava alma vidasının (purjör) altına su damlamasına karşı küçük bir kâse tutun."
+            },
+            {
+              "title": "2. Adım: Vidayı Saat Yönünün Tersine Çeyrek Tur Çevirin",
+              "description": "Vidayı tamamen sökmeden hafifçe gevşetin; önce \"tısss\" şeklinde hava sesi gelecek, hava bittiğinde kesintisiz su akmaya başlayacaktır. Su geldiği anda vidayı kapatın."
+            },
+            {
+              "title": "3. Adım: Kombi Su Basıncını (1.5 Bar) Kontrol Edin",
+              "description": "Hava alma işleminden sonra kombinin altındaki manometreyi kontrol edin; basınç 1 barın altına düştüyse doldurma musluğuyla 1.5 bar seviyesine tamamlayın."
+            }
+          ],
+          "callout": {
+            "type": "tip",
+            "title": "Oda Termostatı ve 1 Derece Kuralı",
+            "message": "Kombiyi su sıcaklığına göre değil, evin gerçek sıcaklığına göre yöneten bir Oda Termostatı kullanmak ve hedef oda sıcaklığını 23°C yerine 21–22°C’de tutmak aylık tüketimde yaklaşık %6–7’şer tasarruf sağlar."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Kullanılmayan odanın peteğini tamamen kapatmak tasarruf sağlar mı?",
+        "answer": "Tamamen kapatılan soğuk oda, yanındaki sıcak odaların duvarlarından ısı çeker ve kombinin minimum devir dolaşımını zorlar; tamamen kapatmak yerine vanayı en kısık (1 veya kar tanesi) kademede bırakmak daha verimlidir."
+      },
+      {
+        "question": "İdeal kombi su basıncı kaç bar olmalıdır?",
+        "answer": "Kombi tesisat suyu basıncı soğukken 1.5 bar (1.2 ile 1.8 bar aralığında) olmalıdır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-aof",
+    "slug": "acikogretim-aof-sinav-sistemi-harf-notlari-ve-ders-secimi",
+    "title": "Açıköğretim (AÖF, ATA-AÖF, AUZEF) Sınav Sistemi, Çan Eğrisi, Koşullu Geçme ve Ders Seçimi",
+    "description": "Anadolu Üniversitesi AÖF, Atatürk Üniversitesi ATA-AÖF ve İstanbul Üniversitesi AUZEF sınav ağırlıkları, 4 yanlış 1 doğru kuralı ve FF/CD/DD harf notları.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-06",
+    "updatedAt": "2026-10-09",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Açıköğretim",
+      "AÖF",
+      "AUZEF",
+      "ATA-AÖF",
+      "Üniversite"
+    ],
+    "content": {
+      "lead": "Anadolu Üniversitesi (AÖF), İstanbul Üniversitesi (AUZEF) ve Atatürk Üniversitesi (ATA-AÖF) açıköğretim fakültelerinde eğitim gören yüz binlerce öğrenci için dönemi kayıpsız tamamlamanın anahtarı; vize-final ağırlıklarını, 4 yanlışın 1 doğruyu götürme kuralını ve koşullu geçme (CD, DC, DD) not ortalaması barajını doğru takip etmektir.",
+      "sections": [
+        {
+          "id": "aof-vize-final-agirliklari-ve-harf-notlari",
+          "heading": "1. Vize – Final Etki Oranları, Alt Sınır ve AGNO (2.00) Kuralı",
+          "paragraphs": [
+            "Açıköğretim fakültelerinde her ders için dönem içinde 1 Ara Sınav (Vize) ve 1 Dönem Sonu Sınavı (Final) yapılır (fakülteye göre Yaz Okulu veya Bütünleme sınavı da uygulanır). Sınavlarda çoktan seçmeli 20 soru sorulur ve 4 yanlış 1 doğru cevabı götürür."
+          ],
+          "bullets": [
+            "Vize ve Final Ağırlığı: Ara sınav (vize) notunun %30’u, dönem sonu (final) sınav notunun %70’i alınarak başarı puanı hesaplanır.",
+            "Doğrudan Geçer Notlar (AA, AB, BA, BB, BC, CB, CC): Genel not ortalamanız ne olursa olsun bu harf notlarını aldığınız derslerden doğrudan başarılı sayılırsınız.",
+            "Koşullu Geçer Notlar (CD, DC, DD): Dönem sonu Genel Not Ortalamanız (AGNO) 2.00 ve üzerindeyse bu derslerden geçmiş sayılırsınız; AGNO 2.00’ın altındaysa mezun olabilmek için bu dersleri tekrar alıp yükseltmeniz gerekir.",
+            "Kalan Not (FF): Doğrudan başarısız olunan derstir; bir sonraki yıl aynı dönemde tekrar seçilmesi zorunludur."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Açıköğretimde kayıt yenileme nasıl tamamlanır?",
+        "answer": "Kayıt yenileme haftasında önce öğrenci otomasyonundan ders seçimi (ekle-sil) yapılmalı, ardından oluşan dönem öğretim gideri/materyal ücreti bankaya yatırılmalıdır; sadece para yatırmak veya sadece ders seçmek tek başına yeterli değildir."
+      },
+      {
+        "question": "İkinci Üniversite (Sınavsız Açıköğretim) başvurusu kimler için geçerlidir?",
+        "answer": "Herhangi bir örgün veya açıköğretim ön lisans/lisans programında halen öğrenci olanlar veya mezun olanlar YKS’ye girmeden İkinci Üniversite kapsamında açıköğretim bölümlerine kayıt yaptırabilir."
+      }
+    ]
+  },
+  {
     "id": "bilgirotasi-ek-minecraft-huni",
     "slug": "minecraft-huni",
     "title": "Minecraft’ta Huni (Hopper) Nasıl Yapılır? Otomatik Sandık ve Fırın Bağlama Rehberi",
     "description": "Minecraft’ta 5 demir külçesi ve 1 sandık ile huni (hopper) yapımı, sandığa bağlama (Shift + sağ tık), otomatik fırın sistemi ve redstone kilitleme.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-10-05",
+    "updatedAt": "2026-10-05",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1398,14 +2176,113 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
+    "id": "bilgirotasi-pratik-kabin-bagaji",
+    "slug": "ucak-bileti-ve-valiz-hazirlama-kabin-bagaji-sivi-kurallari",
+    "title": "Uçak Yolculuğunda Kabin Bagajı (El Bagajı) Kuralları, 100 ml Sıvı Sınırı ve Valiz Hazırlama",
+    "description": "Yurt içi ve yurt dışı uçuşlarda kabin bagajı ölçüleri (55x40x23 cm), 100 ml sıvı/parfüm kuralı, powerbank taşıma şartları ve valiz yerleştirme tüyoları.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-04",
+    "updatedAt": "2026-10-05",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Uçak Yolculuğu",
+      "Kabin Bagajı",
+      "Seyahat Rehberi",
+      "Valiz Hazırlama",
+      "Pratik Bilgiler"
+    ],
+    "content": {
+      "lead": "Havalimanı güvenlik kontrol noktasında zaman kaybetmemek ve parfüm, krem veya kişisel bakım ürünlerinizin çöpe atılmasını önlemek için uluslararası havacılık kurallarındaki \"Kabin Bagajı (El Bagajı) 100 ml Sıvı Kuralı\" ile batarya (Powerbank) taşıma kısıtlamalarını valizinizi kapatmadan önce bilmeniz gerekir.",
+      "sections": [
+        {
+          "id": "kabin-bagaji-100-ml-sivi-ve-powerbank-kurallari",
+          "heading": "1. Kabin Bagajında 100 ml Sıvı Sınırı ve Powerbank Kuralı",
+          "paragraphs": [
+            "Uçağın içine yanınızda aldığınız kabin valizinde (standart ölçü: 55x40x23 cm, 8 kg) sıvı, jel ve aerosol ürünler yalnızca belirli ambalaj sınırlarıyla taşınabilir. Burada kriter içindeki sıvı miktarı değil, şişenin üzerindeki toplam hacim yazısıdır (örneğin içinde 20 ml kalmış 200 ml’lik parfüm şişesi kabine alınmaz)."
+          ],
+          "bullets": [
+            "100 ml Şişe ve 1 Litrelik Kilitli Poşet Kuralı: Şampuan, parfüm, diş macunu, güneş kremi ve deodorantların her biri en fazla 100 ml’lik kutularda olmalı ve toplamda 1 litrelik (20x20 cm) şeffaf kilitli poşetin içine sığmalıdır.",
+            "Powerbank ve Yedek Lityum Piller: Yangın güvenliği nedeniyle Powerbank, dizüstü bilgisayar ve yedek lityum bataryalar uçak altı (kargo) valizine kesinlikle verilmez; yalnızca yanınızdaki kabin bagajında taşınmalıdır.",
+            "İstisnalar: Bebek maması/sütü (bebek uçaktaysa yolculuk süresine yetecek miktarda) ve reçeteli/raporlu sıvı ilaçlar 100 ml sınırından muaftır."
+          ]
+        },
+        {
+          "id": "valizde-yer-kazandiran-rulo-yontemi",
+          "heading": "2. Valizde Kırışıklığı Önleyen ve %30 Yer Açan \"Rulo Yöntemi\"",
+          "paragraphs": [
+            "Kıyafetleri üst üste katlamak yerine tişört, kazak ve pantolonları sıkıca rulo (silindir) şeklinde sararak valizin tabanına yan yana dizmek hem boşlukları sıfırlar hem de kat izi oluşmasını engeller. Ayakkabıların içine çorapları yerleştirip valizin tekerlek kısmına (en alt ağırlık merkezine) koymak valizin devrilmesini de önler."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Powerbank uçak altı bagajına (bavula) konulabilir mi?",
+        "answer": "Hayır, lityum iyon batarya içeren powerbank ve elektronik sigara/yedek pil gibi cihazlar kargo bölümüne verilemez; kabin bagajında (el çantasında) taşınması zorunludur."
+      },
+      {
+        "question": "150 ml parfüm şişesinin yarısı boşsa kabine alınır mı?",
+        "answer": "Hayır, güvenlik kontrolünde şişenin içindeki kalan miktara değil, şişenin üzerinde yazan maksimum kapasiteye (100 ml ve altı olmasına) bakılır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-erasmus",
+    "slug": "erasmus-basvurusu-nasil-yapilir-dil-sinavi-ve-hibe-sartlari",
+    "title": "Erasmus+ Öğrenim ve Staj Başvurusu Nasıl Yapılır? AGNO Şartı, Dil Sınavı ve Hibe Puanlaması",
+    "description": "Üniversite öğrencileri için Erasmus+ yurt dışı eğitim ve staj başvurusu, 2.20 / 2.50 not ortalaması barajı, Turnaportal başvurusu ve hibe hesaplama.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-03",
+    "updatedAt": "2026-10-05",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Erasmus",
+      "Yurt Dışı Eğitim",
+      "Üniversite",
+      "Turnaportal",
+      "Burs ve Hibe"
+    ],
+    "content": {
+      "lead": "Erasmus+ programı, Türkiye’deki üniversite öğrencilerinin Avrupa’daki anlaşmalı bir üniversitede 1 veya 2 dönem eğitim görmesini (Öğrenim Hareketliliği) ya da yurt dışındaki bir kurum/şirkette 2 ila 12 ay staj yapmasını (Staj Hareketliliği) destekleyen değişim programıdır. Başvurular Türkiye Ulusal Ajansı’nın merkezi sistemi olan Turnaportal (turnaportal.ua.gov.tr) üzerinden e-Devlet ile alınır.",
+      "sections": [
+        {
+          "id": "erasmus-basvuru-sartlari-ve-puan-hesaplama",
+          "heading": "1. Erasmus Başvuru Şartları (AGNO) ve Yerleştirme Puanı Formülü",
+          "paragraphs": [
+            "Erasmus+ seçmelerinde adayların sıralaması tamamen şeffaf bir matematiksel formülle yapılır: Akademik Genel Not Ortalamasının (AGNO) %50’si + Yabancı Dil Sınavı Puanının %50’si toplanarak Erasmus yerleştirme puanı oluşturulur."
+          ],
+          "bullets": [
+            "Asgari Not Ortalaması (AGNO): Ön lisans ve lisans öğrencileri için en az 2.20 / 4.00; yüksek lisans ve doktora öğrencileri için en az 2.50 / 4.00 ortalamaya sahip olmak gerekir.",
+            "AKTS (ECTS) Yükü Şartı: Öğrenim hareketliliğine başvuracak öğrencinin gideceği dönemde en az 30 AKTS’lik ders yükünün bulunması şarttır.",
+            "Mezuniyet Sonrası Staj Fırsatı: Son sınıf öğrencileri henüz mezun olmadan başvuru yapmaları koşuluyla, mezun olduktan sonraki 12 ay içinde de Erasmus+ staj hareketliliğinden yararlanabilirler."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Erasmus kazanan her öğrenciye hibe (maddi destek) çıkar mı?",
+        "answer": "Üniversitelerin Ulusal Ajans’tan aldığı bütçe kontenjanına göre en yüksek puanlı adaylar \"Hibeli\" seçilir; kontenjan dışındaki adaylar ise isterlerse \"Hibesiz (Zero-Grant)\" statüsüyle programa katılabilir."
+      },
+      {
+        "question": "1. sınıf öğrencileri Erasmus’a başvurabilir mi?",
+        "answer": "Evet, 1. sınıfın ilk dönem not ortalaması (AGNO) oluştuğunda Bahar dönemindeki ilana başvurup 2. sınıfta yurt dışına gidebilirler."
+      }
+    ]
+  },
+  {
     "id": "bilgirotasi-ek-minecraft-keep-inventory",
     "slug": "minecraft-keep-inventory",
     "title": "Minecraft Eşya Gitmeme Kodu (keepInventory): Ölünce Envanteri Koruma Ayarı Nasıl Açılır?",
     "description": "Minecraft Java ve Bedrock sürümlerinde ölünce eşyaların ve deneyim puanlarının düşmesini engelleyen /gamerule keepInventory true komutu rehberi.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-10-02",
+    "updatedAt": "2026-10-05",
     "readTime": "5 dk",
     "coverImage": "https://images.unsplash.com/photo-1587573089734-09cb69c0f2b4?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1464,14 +2341,112 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
+    "id": "bilgirotasi-pratik-ev-butcesi",
+    "slug": "aylik-ev-butcesi-nasil-yapilir-50-30-20-tasarruf-kurali",
+    "title": "Kişisel ve Aile Bütçesi Nasıl Planlanır? 50 / 30 / 20 Kuralı İle Harcama Takibi ve Birikim Rehberi",
+    "description": "Ay sonunda maaşın nereye gittiğini bulmak, görünmez abonelik giderlerini kesmek ve 50/30/20 bütçe yöntemiyle acil durum fonu oluşturma rehberi.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-01",
+    "updatedAt": "2026-10-01",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Bütçe Planlama",
+      "Tasarruf",
+      "Ev Ekonomisi",
+      "50 30 20 Kuralı",
+      "Pratik Bilgiler"
+    ],
+    "content": {
+      "lead": "Geliriniz ne olursa olsun harcamaları kayıt altına almadığınızda \"küçük görünmez giderler\" (kullanılmayan dijital abonelikler, plansız market alışverişleri ve kredi kartı asgari ödeme faizleri) ay sonunda birikim yapmanızı imkânsız hâle getirir. Bütçe yönetiminde en kolay uygulanabilen yöntem, geliri üç net sepete ayıran \"50 / 30 / 20 Kuralı\" ve \"Önce Kendine Öde\" prensibidir.",
+      "sections": [
+        {
+          "id": "50-30-20-butce-kurali-nasil-uygulanir",
+          "heading": "1. Geliri 3 Sepete Ayıran 50 / 30 / 20 Bütçe Dağılımı",
+          "paragraphs": [
+            "Aylık net elinize geçen toplam geliri (maaş, burs veya ek gelirler) karmaşık tablolar yerine üç ana başlık altında sınıflandırabilirsiniz (koşullarınıza göre 60 / 20 / 20 şeklinde de esnetilebilir):"
+          ],
+          "bullets": [
+            "%50 Zorunlu İhtiyaçlar: Kira/konut ödemesi, elektrik-su-doğalgaz-internet faturaları, temel mutfak/market alışverişi ve ulaşım giderleri.",
+            "%30 Kişisel İstekler ve Yaşam Kalitesi: Dışarıda yeme-içme, giyim, hobi, kültür-sanat ve eğlence harcamaları.",
+            "%20 Birikim, Yatırım ve Borç Kapatma: Maaş yatar yatmaz (ay sonunda kalanı değil, ilk gün!) ayrılan acil durum fonu ve birikim payı."
+          ],
+          "callout": {
+            "type": "tip",
+            "title": "24 Saat Bekleme Kuralı (Dürtüsel Alışverişe Karşı)",
+            "message": "İnternette indirimde gördüğünüz ve acil ihtiyaç olmayan bir ürünü sepete ekledikten sonra satın almadan önce 24 saat bekleyin; ertesi gün hâlâ gerçekten ihtiyacınız olduğunu düşünüyorsanız bütçeniz dahilinde alın."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Acil durum fonu ne kadar olmalıdır?",
+        "answer": "Beklenmedik sağlık, arıza veya iş değişikliği durumlarında borçlanmamak için en az 3 ila 6 aylık zorunlu yaşam gideriniz tutarında kolay erişilebilir bir acil durum fonu hedeflenmelidir."
+      },
+      {
+        "question": "Market alışverişinde bütçe aşımı nasıl önlenir?",
+        "answer": "Markete mutlaka tok karnına ve elinizde yazılı bir haftalık yemek/ihtiyaç listesiyle gitmek, birim fiyat (kg/litre fiyatı) etiketi karşılaştırması yapmak plansız harcamayı %25–30 azaltır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-deneme-analizi",
+    "slug": "deneme-sinavi-analizi-nasil-yapilir-yanlis-defteri-tutma",
+    "title": "Deneme Sınavı Analizi Nasıl Yapılır? Net Artıran Yanlış Defteri ve Konu Takip Rehberi",
+    "description": "YKS, KPSS ve LGS deneme sınavlarından sonra yanlışları 3 kategoride (Bilgi Eksikliği, Dikkat Hatası, Süre Yetişmemesi) analiz etme ve net artırma yöntemi.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-01",
+    "updatedAt": "2026-10-02",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Deneme Analizi",
+      "YKS",
+      "KPSS",
+      "Ders Çalışma",
+      "Net Artırma"
+    ],
+    "content": {
+      "lead": "Bir deneme sınavını çözmek öğrenmenin yalnızca yarısıdır; asıl net artışını sağlayan kısım sınav bittikten sonra yapılan 45 dakikalık \"Deneme Analizi\"dir. Deneme kitapçığının üzerine sadece doğru-yanlış sayısını yazıp kitapçığı rafa kaldırmak, aynı konu eksiklerini aylarca tekrar etmenize yol açar.",
+      "sections": [
+        {
+          "id": "yanlis-ve-bos-sorulari-3-gruba-ayirma",
+          "heading": "1. Yanlış ve Boş Soruları \"B – D – S\" Koduyla Sınıflandırma",
+          "paragraphs": [
+            "Deneme kontrolünü yaptıktan sonra yanlış yaptığınız, boş bıraktığınız ve şans eseri doğru işaretlediğiniz her sorunun yanına nedenini belirten bir harf kodu koyun:"
+          ],
+          "bullets": [
+            "B (Bilgi / Konu Eksikliği): Konuyu hiç bilmediğiniz veya formülü unuttuğunuz sorular. Aynı konudan 2 deneme üst üste \"B\" çıkıyorsa o konuya 1 saatlik mini tekrar ve 2 test soru çözümü planlayın.",
+            "D (Dikkat ve İşlem Hatası): Konuyu bildiğiniz halde soru kökündeki \"değildir\" ifadesini görmemekten veya dört işlem hatasından kaçan sorular.",
+            "S (Süre ve Turlama Hatası): Çözebileceğiniz halde tek bir zor soruya 4–5 dakika takılıp sınav sonunda göremediğiniz kolay sorular.",
+            "Soru Kesme / Yanlış Defteri: Çözümünü öğrendiğiniz kaliteli soruları kesip (veya fotoğrafını çekip) ders bazlı bir klasörde biriktirin ve her Pazar sabahı bu soruları tekrar çözün."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Deneme analizi sınavdan ne kadar sonra yapılmalı?",
+        "answer": "Soruları çözerken ne düşündüğünüzü unutmamak için analiz mutlaka sınavın yapıldığı gün (kısa bir dinlenmenin hemen ardından) tamamlanmalıdır."
+      },
+      {
+        "question": "Doğru yaptığım sorulara da bakmalı mıyım?",
+        "answer": "Emin olarak çözdüklerinize bakmanıza gerek yoktur; ancak iki şık arasında kalıp işaretlediğiniz doğruların yanına sınav anında bir yıldız (*) koyup analiz sırasında çözümünü mutlaka kontrol etmelisiniz."
+      }
+    ]
+  },
+  {
     "id": "bilgirotasi-ek-minecraft-iksir",
     "slug": "minecraft-iksir",
     "title": "Minecraft İksir Yapımı Rehberi: İksir Standı, Garip İksir ve Temel İksir Tarifleri Tablosu",
     "description": "Minecraft’ta Blaze Çubuğu ile İksir Standı (Brewing Stand) yapımı, Nether Yumrusu ile Garip İksir hazırlama ve Gece Görüşü, Ateş Direnci, Kuvvet iksiri tarifleri.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-30",
+    "updatedAt": "2026-10-02",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1536,14 +2511,133 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
+    "id": "bilgirotasi-pratik-camasir-makinesi",
+    "slug": "camasir-makinesinde-kirec-ve-koku-onleme-bakim-rehberi",
+    "title": "Çamaşır Makinesinde Kötü Koku ve Kireçlenme Nasıl Önlenir? Kazan Temizliği ve Bakım Rehberi",
+    "description": "Çamaşır makinesinden gelen rutubet kokusunu, körük lastiği küflenmesini ve deterjan çekmecesi kalıntılarını limon tuzu, beyaz sirke ve doğru bakımla giderme.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-09-29",
+    "updatedAt": "2026-10-02",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Çamaşır Makinesi Bakımı",
+      "Ev Temizliği",
+      "Kazan Temizliği",
+      "Pratik Bilgiler"
+    ],
+    "content": {
+      "lead": "Yıkanan çamaşırların güzel kokmak yerine ağır ve nemli kokmasının en yaygın sebebi; sürekli düşük sıcaklıkta (30–40°C) yıkama yapılması, aşırı yumuşatıcı kullanımı ve yıkama biter bitmez makine kapağının kapatılmasıdır. Ayda bir kez uygulayacağınız 4 aşamalı bakım ile hem kokuyu tamamen yok edebilir hem de rezistansın kireçlenmesini önleyebilirsiniz.",
+      "sections": [
+        {
+          "id": "camasir-makinesi-4-adimli-kazan-ve-lastik-temizligi",
+          "heading": "1. Koku ve Kireci Yok Eden 4 Adımlı Aylık Makine Bakımı",
+          "paragraphs": [
+            "Makinenin içindeki görünmeyen deterjan ve yumuşatıcı tabakası zamanla kapak körük lastiğinin altında ve deterjan kanalında bakteri/küf oluşturur."
+          ],
+          "steps": [
+            {
+              "title": "1. Adım: Deterjan Çekmecesini Çıkarıp Yıkayın",
+              "description": "Çekmecenin ortasındaki mavi mandalına basarak çekmeceyi tamamen çıkarın ve arkasındaki yumuşatıcı kalıntılarını ılık su ve eski bir diş fırçasıyla temizleyin."
+            },
+            {
+              "title": "2. Adım: Kapak Körük Lastiğini Kurulayın",
+              "description": "Kapak çevresindeki gri contanın iç kıvrımlarını beyaz sirkeli veya karbonatlı bezle silip içinde biriken su ve havları alın."
+            },
+            {
+              "title": "3. Adım: Ayda Bir Boş Kazan Temizliği Çalıştırın",
+              "description": "Makine boşken ana yıkama gözüne 1 çay bardağı beyaz sirke ve 1 yemek kaşığı limon tuzu (veya karbonat) koyup \"Kazan Temizleme\" ya da 90°C Pamuklu programda boş çalıştırın."
+            },
+            {
+              "title": "4. Adım: Sağ Alttaki Pompa Filtresini Boşaltın",
+              "description": "Makinenin sağ alt köşesindeki küçük kapağı açıp tahliye hortumuyla suyu bir kaba boşaltın, ardından filtreyi çevirerek içindeki bozuk para, düğme ve tüy yumaklarını temizleyin."
+            }
+          ],
+          "callout": {
+            "type": "warning",
+            "title": "Yıkama Bitince Kapağı Hemen Kapatmayın!",
+            "message": "Çamaşırları çıkardıktan sonra hem makine kapağını hem de deterjan çekmecesini 2–3 saat hafif aralık bırakarak kazan içinin tamamen kurumasını sağlayın; rutubet kokusunu önleyen en etkili alışkanlık budur."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Fazla deterjan veya yumuşatıcı koymak çamaşırları daha temiz yapar mı?",
+        "answer": "Tam aksine, ölçekten fazla konulan deterjan durulanamaz; hem kıyafetlerin liflerinde sertlik bırakır hem de kazan içinde çamurlaşarak koku üretir."
+      },
+      {
+        "question": "Pompa filtresi ne sıklıkla temizlenmeli?",
+        "answer": "Su tahliyesinin yavaşlamaması ve pompanın sıkışmaması için 2–3 ayda bir sağ alt filtre kapağı açılarak kontrol edilmelidir."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-msu",
+    "slug": "msu-milli-savunma-universitesi-sinavi-basvuru-ve-mulakat-asamalari",
+    "title": "MSÜ (Milli Savunma Üniversitesi) Sınavı Nedir? Başvuru Şartları, YKS Zorunluluğu ve Aşamalar",
+    "description": "Harp Okulları ve Astsubay Meslek Yüksekokulları için düzenlenen MSÜ sınavının soru dağılımı, yaş/boy-kilo şartları, FYT (Spor) ve mülakat süreci.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-09-28",
+    "updatedAt": "2026-09-28",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "MSÜ",
+      "Milli Savunma Üniversitesi",
+      "ÖSYM",
+      "TYT Prova",
+      "Sınav Rehberi"
+    ],
+    "content": {
+      "lead": "Milli Savunma Üniversitesi Askeri Öğrenci Aday Belirleme Sınavı (MSÜ), Kara, Deniz ve Hava Harp Okulları ile Astsubay Meslek Yüksekokullarında eğitim görmek isteyen adaylar için ÖSYM tarafından her yıl Mart ayında düzenlenen sınavdır. Soru yapısı (120 soru, 165 dakika) TYT ile birebir aynı formatta olduğu için sivil üniversite hedefleyen YKS adayları tarafından da en gerçekçi Türkiye geneli TYT provası olarak değerlendirilir.",
+      "sections": [
+        {
+          "id": "msu-soru-dagilimi-ve-yks-sarti",
+          "heading": "1. MSÜ Soru Dağılımı ve Askeri Öğrencilik İçin YKS Şartı",
+          "paragraphs": [
+            "MSÜ sınavında Türkçe (40), Sosyal Bilimler (20), Temel Matematik (40) ve Fen Bilimleri (20) olmak üzere toplam 120 soru yer alır.",
+            "Askeri öğrenci olmak isteyen adayların yalnızca MSÜ sınavına girmesi yeterli değildir! Harp Okulları için aynı yıl yapılacak YKS’nin hem TYT hem AYT oturumlarına; Astsubay Meslek Yüksekokulları için ise en azından TYT oturumuna girilmesi yasal zorunluluktur."
+          ],
+          "steps": [
+            {
+              "title": "1. Aşama: ÖSYM MSÜ Yazılı Sınavı ve Tercih",
+              "description": "Mart ayında MSÜ sınavına girilir, ardından Personel Temin (PERTEM) sistemi üzerinden okul tercihleri yapılır."
+            },
+            {
+              "title": "2. Aşama: YKS (TYT / AYT) Oturumları",
+              "description": "Haziran ayındaki YKS oturumlarına katılarak yerleştirme puanının hesaplanması sağlanır."
+            },
+            {
+              "title": "3. Aşama: 2. Seçim Aşamaları (FYT, Mülakat ve Sağlık)",
+              "description": "Çağrılan adaylar Fiziki Yeterlilik Testi (şınav, mekik, 400m koşu), sözlü mülakat ve tam teşekküllü hastane sağlık kurulu raporu aşamalarından geçer."
+            }
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "MSÜ sınavına girip askeri tercih yapmazsam YKS puanım etkilenir mi?",
+        "answer": "Hayır, hiç etkilenmez. MSÜ sınavına sadece kendinizi gerçek sınav atmosferinde denemek için girebilirsiniz; tercih yapmadığınız sürece hiçbir askeri yükümlülük doğmaz."
+      },
+      {
+        "question": "MSÜ puanı sivil üniversite tercihlerinde kullanılır mı?",
+        "answer": "Hayır, sivil üniversite tercihlerinde yalnızca Haziran ayında yapılan YKS (TYT/AYT/YDT) puanları kullanılır."
+      }
+    ]
+  },
+  {
     "id": "bilgirotasi-ek-minecraft-renk-kodlari",
     "slug": "minecraft-renk-kodlari",
     "title": "Minecraft Renk ve Biçimlendirme Kodları Tablosu (§ İşareti ile Tabela ve Sohbet Renklendirme)",
     "description": "Minecraft’ta tabela, kitap, sunucu adı (MOTD) ve sohbette renkli, kalın ve italik yazı yazmak için kullanılan §0–§f renk kodları tam listesi.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-27",
+    "updatedAt": "2026-09-28",
     "readTime": "5 dk",
     "coverImage": "https://images.unsplash.com/photo-1587573089734-09cb69c0f2b4?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1594,8 +2688,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "VALORANT’taki 4 ana ajan rolünün (Düellocu, Öncü, Kontrol Uzmanı, Gözcü) görevleri, ideal takım kompozisyonu ve oyun tarzınıza göre ajan seçimi.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-26",
+    "updatedAt": "2026-09-28",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1647,8 +2741,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "VALORANT’ın Gözcü ajanı Sage’in yetenek kullanımı, duvar açıları, Can Küresi önceliği ve Diriltme (Ulti) zamanlaması üzerine kapsamlı rehber.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-26",
+    "updatedAt": "2026-09-29",
     "readTime": "5 dk",
     "coverImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1692,8 +2786,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "Brimstone ile harita kontrolü kurma, dumanları koridorla hizalama (flush smoke), Spike sonrası Yakıcı (Molly) ve Uydu Saldırısı zamanlaması.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-25",
+    "updatedAt": "2026-09-25",
     "readTime": "5 dk",
     "coverImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1738,8 +2832,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "VALORANT’ta yanlışlıkla alınan silah kaplamalarını (skin) ve ajan kontratlarını Riot Destek üzerinden iade etme koşulları, Radyanit Puanı uyarısı.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-24",
+    "updatedAt": "2026-09-25",
     "readTime": "5 dk",
     "coverImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1796,8 +2890,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "VALORANT mağazasındaki Seçkin, İhtişamlı, Üstün, Ultra ve Özel (Select, Deluxe, Premium, Exclusive, Ultra) kostüm kademeleri ve Gece Pazarı kuralları.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-23",
+    "updatedAt": "2026-09-25",
     "readTime": "5 dk",
     "coverImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1848,8 +2942,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "VALORANT’ta ücretsiz ajan açma yöntemleri, Kingdom Kredisi (KC) biriktirme sınırı (10.000 KC), yeni sezon Ajan Alım Etkinliği ve Xbox Game Pass avantajı.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-22",
+    "updatedAt": "2026-09-25",
     "readTime": "5 dk",
     "coverImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1894,8 +2988,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "Counter-Strike 2’deki harita bazlı 18 rekabetçi rütbe (Gümüş’ten Dünyaca Seçkin’e) ve Premier modundaki renkli CS Derecesi (ELO) tablosu.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-21",
+    "updatedAt": "2026-09-21",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1957,8 +3051,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "Source 2 motorlu Counter-Strike 2 için minimum ve 144+ FPS önerilen PC sistem gereksinimleri, DirectX 11 / Shader Model 5.0 şartı ve depolama boyutu.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-21",
+    "updatedAt": "2026-09-22",
     "readTime": "5 dk",
     "coverImage": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -1996,186 +3090,14 @@ export const bilgirotasiPosts: Post[] = [
     ]
   },
   {
-    "id": "bilgirotasi-ek-discord-renk",
-    "slug": "discord-renk",
-    "title": "Discord’da İsim Rengi ve Renkli Yazı Nasıl Yapılır? Rol Hiyerarşisi ve ANSI Kod Blokları",
-    "description": "Discord sunucularında kullanıcı adı rengini rol ayarlarıyla değiştirme ve kod blokları (```ansi) kullanarak sohbete renkli metin yazma rehberi.",
-    "categorySlug": "teknoloji-mobil",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "5 dk",
-    "coverImage": "https://images.unsplash.com/photo-1614680376593-902f749f7ffc?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Discord",
-      "Discord Rol Rengi",
-      "Sosyal Medya",
-      "İpuçları"
-    ],
-    "content": {
-      "lead": "Discord’da bir sunucudaki kullanıcı adınızın (nick) renkli görünmesi kişisel profil ayarlarından değil, o sunucuda size verilen \"Rol\" (Role) ayarlarından ve rollerin yukarıdan aşağıya doğru sıralamasından (hiyerarşisinden) kaynaklanır. Sohbet mesajlarının içinde renkli metin paylaşmak için ise masaüstü sürümünde üçlü ters tırnak (```) kod blokları kullanılır.",
-      "sections": [
-        {
-          "id": "discord-sunucu-isim-rengi-nasil-degistirilir",
-          "heading": "1. Discord Sunucusunda Kullanıcı Adı (Rol) Rengini Değiştirme",
-          "paragraphs": [
-            "Bir kullanıcının birden fazla rolü varsa Discord her zaman rol listesindeki en üstte bulunan (ve rengi varsayılan olmayan) rolün rengini isme yansıtır."
-          ],
-          "steps": [
-            {
-              "title": "1. Adım: Sunucu Ayarları > Roller Menüsüne Girin",
-              "description": "Sunucu yöneticisiyseniz sol üstten Sunucu Ayarları > Roller sekmesini açın."
-            },
-            {
-              "title": "2. Adım: Rol Rengini Seçin veya Özel HEX Kodu Girin",
-              "description": "Düzenlemek istediğiniz role tıklayıp Görünüm sekmesinden hazır bir renk seçin veya #FF5733 gibi özel bir HEX renk kodu yazın."
-            },
-            {
-              "title": "3. Adım: Rol Sıralamasını Kontrol Edin",
-              "description": "Rengin görünmesi için ilgili rolü, renksiz veya diğer rollerin üstüne sürükleyip \"Değişiklikleri Kaydet\" butonuna basın."
-            }
-          ]
-        },
-        {
-          "id": "discord-kod-blogu-ile-renkli-mesaj",
-          "heading": "2. Mesajlarda Kod Bloğu (Markdown) İle Vurgulu Metin Yazma",
-          "paragraphs": [
-            "Masaüstü Discord uygulamasında mesajınızın başına ve sonuna üç adet ters tırnak (```) koyup dil kısaltması yazarak sözdizimi renklendirmesinden yararlanabilirsiniz:"
-          ],
-          "bullets": [
-            "```diff ve satır başında + işareti: Yeşil renkli metin satırı oluşturur.",
-            "```diff ve satır başında - işareti: Kırmızı renkli metin satırı oluşturur.",
-            "```ini ve [Köşeli Parantez]: Mavi/vurgulu başlık metni oluşturur.",
-            "**Kalın Metin** (iki yıldız), *İtalik Metin* (tek yıldız) ve __Altı Çizili__ (iki alt çizgi) ise hem mobilde hem masaüstünde çalışır."
-          ]
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Rol verdiğim halde kullanıcının ismi neden renklenmedi?",
-        "answer": "Kullanıcının üzerinde daha üst sırada yer alan başka bir renkli rol varsa onun rengi baskın gelir; renk rolünü Roller listesinde daha yukarı taşıyın."
-      },
-      {
-        "question": "İsim rengi değiştirdiğini iddia eden harici programlar güvenli mi?",
-        "answer": "Hayır, üçüncü taraf değiştirilmiş Discord istemcileri hem Hizmet Koşulları’na aykırıdır hem de hesap token bilginizi çaldırma riski taşır."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-ek-oyun-nickleri",
-    "slug": "oyun-nickleri",
-    "title": "Oyun ve Discord İçin Kullanıcı Adı (Nick) Seçme Rehberi: Akılda Kalıcı İsim Oluşturma Yöntemleri",
-    "description": "Rekabetçi oyunlarda (VALORANT, CS2, LoL) ve Discord’da okunabilir, özgün ve güvenli bir oyuncu adı (nickname) türetme formülleri.",
-    "categorySlug": "pratik-bilgiler",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "5 dk",
-    "coverImage": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Oyun Nickleri",
-      "Kullanıcı Adı",
-      "Discord",
-      "Oyun Kültürü"
-    ],
-    "content": {
-      "lead": "Rekabetçi oyunlarda ve topluluk sunucularında seçtiğiniz kullanıcı adı (nickname), takım arkadaşlarınızın maç esnasında size seslenmesini sağlayan dijital kimliğinizdir. Çok uzun, karmaşık sembollerle dolu veya telaffuzu zor isimler yerine 2–3 heceli, özgün ve kişisel verilerinizi açık etmeyen bir ad seçmek en doğru yaklaşımdır.",
-      "sections": [
-        {
-          "id": "ozgun-oyuncu-adi-turetme-yontemleri",
-          "heading": "1. Kendi Özgün Oyuncu Adınızı Türetmek İçin 3 Pratik Formül",
-          "paragraphs": [
-            "Herkesin kullandığı hazır listelerden bir isim kopyaladığınızda çoğu zaman o adın alınmış olduğunu görürsünüz ve sonuna \"12345\" gibi rastgele sayılar eklemek zorunda kalırsınız. Bunun yerine aşağıdaki birleştirme yöntemleriyle tamamen size ait bir ad oluşturabilirsiniz:"
-          ],
-          "bullets": [
-            "Doğa / Astronomi + Kısa Ek: Kuzey, Atlas, Vega, Sirius, Bora, Zephyr, Nova gibi kısa kök kelimeleri sevdiğiniz bir terimle birleştirin.",
-            "İki Kelime Kökünü Kaynaştırma (Portmanteau): İki farklı kelimenin ilk ve son hecelerini birleştirerek 5–7 harfli tek ve benzersiz bir kelime türetin.",
-            "Takım İletişimi Testi: Seçtiğiniz ismi sesli sohbette bir arkadaşınızın 1 saniyede nasıl kısaltacağını düşünün (2 heceli net isimler rekabetçi maçlarda her zaman avantajlıdır)."
-          ],
-          "callout": {
-            "type": "warning",
-            "title": "Kullanıcı Adında Kişisel Bilgi Kullanmayın",
-            "message": "Kullanıcı adınızda tam soyadınızı, doğum yılınızı, plaka kodunuzu veya okul numaranızı kullanmaktan kaçının; bu bilgiler güvenlik sorularınızı tahmin etmek için kullanılabilir."
-          }
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Riot ID (VALORANT / LoL) ismi ne sıklıkla ücretsiz değiştirilebilir?",
-        "answer": "Riot Games hesap ayarları üzerinden Riot ID ve etiket (#TAG) bilginizi 90 günde bir ücretsiz olarak değiştirebilirsiniz."
-      },
-      {
-        "question": "Şekilli semboller oyunlarda neden bozuk (kutucuk) görünür?",
-        "answer": "Birçok oyun motoru standart dışı Unicode sembollerini desteklemez ve bunları soru işareti veya boş kutu olarak gösterir; bu nedenle standart Latin harfleri en sorunsuz görünümü sağlar."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-ek-twitter-kullanici-adi",
-    "slug": "twitter-kullanici-adi",
-    "title": "X (Twitter) ve Sosyal Medya Kullanıcı Adı Seçme, Değiştirme ve Hesap Güvenliği Rehberi",
-    "description": "X (Twitter) ve Instagram’da kullanıcı adı (@handle) ile görünen ad farkı, kullanıcı adı değiştirme adımları ve kurumsal/kişisel ad seçimi.",
-    "categorySlug": "teknoloji-mobil",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "5 dk",
-    "coverImage": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "X",
-      "Twitter",
-      "Sosyal Medya",
-      "Kullanıcı Adı",
-      "Hesap Güvenliği"
-    ],
-    "content": {
-      "lead": "X (eski adıyla Twitter) ve diğer sosyal medya platformlarında iki farklı isim alanı bulunur: Birincisi profil bağlantınızı oluşturan benzersiz \"@kullaniciadi\" (handle), ikincisi ise profil fotoğrafınızın altında görünen ve istediğiniz zaman değiştirebileceğiniz \"Görünen Ad\"dır. Kullanıcı adınızı değiştirdiğinizde mevcut takipçileriniz, geçmiş paylaşımlarınız ve mesajlarınız silinmez.",
-      "sections": [
-        {
-          "id": "x-twitter-kullanici-adi-kurallari-ve-degistirme",
-          "heading": "1. X (Twitter) Kullanıcı Adı Kuralları ve Değiştirme Adımları",
-          "paragraphs": [
-            "X üzerinde kullanıcı adları en az 4, en fazla 15 karakter uzunluğunda olabilir ve yalnızca harf (A-Z), rakam (0-9) ve alt çizgi (_) içerebilir; boşluk veya nokta kullanılamaz."
-          ],
-          "steps": [
-            {
-              "title": "1. Adım: Ayarlar ve Gizlilik Menüsünü Açın",
-              "description": "Sol menüden Daha Fazla > Ayarlar ve Gizlilik > Hesabınız > Hesap Bilgileri adımlarını izleyin."
-            },
-            {
-              "title": "2. Adım: Kullanıcı Adı Satırını Seçin",
-              "description": "Şifrenizi doğruladıktan sonra \"Kullanıcı adı\" alanına tıklayın ve yeni adınızı yazın."
-            },
-            {
-              "title": "3. Adım: Uygunluğu Kontrol Edip Kaydedin",
-              "description": "Seçtiğiniz ad uygunsa Kaydet butonuna basın. Eski kullanıcı adınız boşa düşeceği için profil bağlantınızı kullandığınız diğer sitelerde güncellemeyi unutmayın."
-            }
-          ]
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "X kullanıcı adımı değiştirirsem takipçilerim gider mi?",
-        "answer": "Hayır, takipçileriniz, takip ettikleriniz ve eski gönderileriniz yeni kullanıcı adınız altında aynen korunur; yalnızca dışarıdan eski @adınıza yapılan metin etiketlemeleri çalışmaz."
-      },
-      {
-        "question": "Alınmış ancak pasif duran bir kullanıcı adını alabilir miyim?",
-        "answer": "Tescilli bir ticari marka ihlali olmadığı sürece pasif hesapların kullanıcı adları talep üzerine başka kullanıcılara devredilmemektedir; sonuna veya başına kısa bir ek koyarak alternatif türetebilirsiniz."
-      }
-    ]
-  },
-  {
     "id": "bilgirotasi-ek-smurf-anlami",
     "slug": "smurf-anlami",
     "title": "Oyunlarda Smurf (Smurf Hesap) Ne Demek? Rekabetçi Eşleştirme (MMR) ve Kurallar",
     "description": "VALORANT, LoL ve CS2 gibi rekabetçi oyunlarda Smurf (Şirin) hesap teriminin kökeni, anlamı, MMR sistemi ve oyun şirketlerinin yaklaşımı.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-20",
+    "updatedAt": "2026-09-22",
     "readTime": "5 dk",
     "coverImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -2220,8 +3142,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "LoL üst koridorda Teemo’ya karşı kazanmanın yolları: İkinci Şans rünü, Doran’ın Kalkanı, Kâhin Merceği kullanımı ve Teemo’yu ezebilen şampiyonlar.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-19",
+    "updatedAt": "2026-09-22",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -2266,8 +3188,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "Clash of Clans’ta Belediye Binası 8 ve 10 seviyelerinde Cehennem Kulesi, Hava Savunması, Klan Kalesi ve tuzak yerleşimi ilkeleri.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-18",
+    "updatedAt": "2026-09-18",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -2312,8 +3234,8 @@ export const bilgirotasiPosts: Post[] = [
     "description": "Açık dünya hayatta kalma oyunları Sons of the Forest ve Subnautica: Below Zero için gereken işlemci, RAM, ekran kartı ve SSD kurulum rehberi.",
     "categorySlug": "oyun-donanim",
     "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "publishedAt": "2026-09-17",
+    "updatedAt": "2026-09-18",
     "readTime": "6 dk",
     "coverImage": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1200&auto=format&fit=crop&q=80",
     "tags": [
@@ -2357,928 +3279,6 @@ export const bilgirotasiPosts: Post[] = [
       {
         "question": "Büyük üs inşa ettikten sonra FPS düşmesi nasıl azaltılır?",
         "answer": "Gölge mesafesini, su yansımalarını ve sis kalitesini Orta/Düşük seviyeye çekmek ve DLSS/FSR görüntü ölçekleme teknolojisini \"Kalite\" modunda açmak FPS’i önemli ölçüde rahatlatır."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-egitim-dgs",
-    "slug": "dgs-nedir-nasil-hazirlanilir-puan-hesaplama-ve-tercih-rehberi",
-    "title": "DGS (Dikey Geçiş Sınavı) Nedir? Ön Lisanstan Lisansa Geçiş, Konu Dağılımı ve Çalışma Rehberi",
-    "description": "2 yıllık meslek yüksekokulu (ön lisans) mezunlarının 4 yıllık lisans bölümlerine geçişini sağlayan DGS’nin soru dağılımı, ÖBP etkisi ve hazırlık stratejisi.",
-    "categorySlug": "egitim-sinavlar",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "DGS",
-      "Dikey Geçiş Sınavı",
-      "ÖSYM",
-      "Ön Lisans",
-      "Üniversite"
-    ],
-    "content": {
-      "lead": "Dikey Geçiş Sınavı (DGS), üniversitelerin 2 yıllık ön lisans programlarından mezun olan veya son sınıfında okuyan öğrencilerin, kendi alanlarıyla uyumlu 4 yıllık lisans bölümlerine geçiş yapabilmesi için ÖSYM tarafından her yıl düzenlenen merkezi sınavdır. Sınavda bilgi ezberinden çok sayısal ve sözel akıl yürütme hızı ölçülür.",
-      "sections": [
-        {
-          "id": "dgs-soru-sayisi-ve-sure-dagilimi",
-          "heading": "1. DGS Soru Dağılımı, Süre ve Puan Türleri (Sayısal, Sözel, Eşit Ağırlık)",
-          "paragraphs": [
-            "DGS’de adaylara Sayısal ve Sözel olmak üzere iki ana test yöneltilir. Sınavda özellikle uzun paragraf, sözel mantık ve sayısal mantık soruları ağırlıktadır; bu nedenle süre yönetimi en kritik belirleyicidir."
-          ],
-          "bullets": [
-            "Sayısal Test (50 Soru): Temel matematik, cebir, problemler, sayısal mantık ve geometri sorularından oluşur.",
-            "Sözel Test (50 Soru): Sözcükte/cümlede anlam, paragraf yorumu ve tablo/sıralama tabanlı sözel mantık sorularını kapsar.",
-            "0,5 Ham Puan Kuralı: DGS puanının hesaplanabilmesi için adayın hem Sayısal hem de Sözel testten en az 1’er net (0,5 ham puan) çıkarması zorunludur; tek testten soru çözmek puan hesaplaması için yeterli değildir.",
-            "Ön Lisans Başarı Puanı (ÖBP): Üniversite mezuniyet not ortalamanız (AGNO) 80 ile çarpılarak ÖBP’ye dönüştürülür ve 0,6 katsayısıyla sınav puanınıza eklenir."
-          ],
-          "callout": {
-            "type": "warning",
-            "title": "Tercih Edip Yerleşen Adaylarda Katsayı Kesintisi",
-            "message": "Bir yıl DGS ile bir lisans programına yerleşirseniz (kayıt yaptırmasanız bile), ertesi yıl tekrar DGS’ye girdiğinizde ÖBP katsayınız 0,60 yerine 0,45 olarak hesaplanır."
-          }
-        },
-        {
-          "id": "dgs-4-adimli-hazirlik-plani",
-          "heading": "2. DGS’ye Hazırlanırken 4 Adımlı Çalışma Stratejisi",
-          "paragraphs": [
-            "DGS kontenjanları YKS’ye kıyasla daha sınırlı olduğu için hedef bölümün geçmiş yıl taban puanlarını ve sıralamalarını inceleyerek net hedefi belirlemek gerekir."
-          ],
-          "steps": [
-            {
-              "title": "1. Adım: ÖSYM Tablo-2 Geçiş Bölümlerini Kontrol Edin",
-              "description": "Mezun olduğunuz ön lisans programından hangi 4 yıllık lisans bölümlerine geçiş hakkınız olduğunu ÖSYM DGS Kılavuzu Tablo-2’den doğrulayın."
-            },
-            {
-              "title": "2. Adım: Problem ve Paragraf Rutini Kurun",
-              "description": "Her gün düzenli olarak 25–30 paragraf ve 20–25 problem sorusu çözerek okuma ve işlem hızınızı artırın."
-            },
-            {
-              "title": "3. Adım: Sözel ve Sayısal Mantık Özel Çalışması Yapın",
-              "description": "Son 5 yılın çıkmış DGS ve ALES mantık sorularını süre tutarak çözün."
-            }
-          ]
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Alttan dersi kalan öğrenci DGS’ye girebilir mi?",
-        "answer": "Sınava başvurabilir ve girebilir; ancak tercih edip yerleştiği üniversiteye kesin kayıt yaptırabilmesi için kayıt tarihine kadar ön lisans mezuniyet şartlarını (staj dahil) tamamlamış olması gerekir."
-      },
-      {
-        "question": "DGS ile kazanılan bölümde kaçıncı sınıftan başlanır?",
-        "answer": "Başlayacağınız sınıf sabit değildir; yerleştiğiniz üniversitenin intibak komisyonu ön lisansta aldığınız derslerin içerik ve kredilerini inceleyerek muafiyetlerinizi ve başlayacağınız yarıyılı belirler."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-egitim-ales",
-    "slug": "ales-nedir-kimler-girebilir-puan-turleri-ve-gecerlilik-suresi",
-    "title": "ALES Nedir, Kimler Girmeli? Sayısal, Sözel, Eşit Ağırlık Puan Hesaplama ve Geçerlilik Süresi",
-    "description": "Tezli yüksek lisans, doktora ve öğretim görevlisi/araştırma görevlisi başvurularında zorunlu olan ALES’in yapısı, puan türleri ve 5 yıllık geçerlilik süresi.",
-    "categorySlug": "egitim-sinavlar",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "ALES",
-      "Yüksek Lisans",
-      "Akademik Kariyer",
-      "ÖSYM",
-      "Doktora"
-    ],
-    "content": {
-      "lead": "Akademik Personel ve Lisansüstü Eğitimi Giriş Sınavı (ALES), Türkiye’de tezli yüksek lisans ve doktora programlarına başvurmak isteyen adaylar ile üniversitelerin öğretim görevlisi, okutman ve araştırma görevlisi kadrolarına atanacak kişilerin girmesi gereken merkezi sınavdır. Yılda 3 kez (ALES/1, ALES/2, ALES/3) düzenlenir.",
-      "sections": [
-        {
-          "id": "ales-soru-sayisi-ve-puan-agirliklari",
-          "heading": "1. ALES Soru Sayısı, Süre ve Puan Türü Ağırlıkları",
-          "paragraphs": [
-            "ALES’te adaylara 50 soruluk Sayısal Test ve 50 soruluk Sözel Test olmak üzere toplam 100 soru için 150 dakika (2,5 saat) süre verilir. Her iki testin puan türlerine katkısı farklıdır:"
-          ],
-          "bullets": [
-            "ALES Sayısal Puanı: Sayısal Testin %75’i + Sözel Testin %25’i alınarak hesaplanır (Mühendislik ve Fen Bilimleri enstitüleri için).",
-            "ALES Sözel Puanı: Sözel Testin %75’i + Sayısal Testin %25’i alınarak hesaplanır (Sosyal Bilimler ve İlahiyat/Edebiyat alanları için).",
-            "ALES Eşit Ağırlık (EA) Puanı: Sayısal Testin %50’si + Sözel Testin %50’si alınarak hesaplanır (İktisadi ve İdari Bilimler, Hukuk, Eğitim Bilimleri alanları için).",
-            "Geçerlilik Süresi: ALES sonuçları açıklandığı tarihten itibaren 5 yıl boyunca geçerlidir; adaylar bu sürede aldıkları en yüksek puanı kullanabilirler."
-          ],
-          "callout": {
-            "type": "tip",
-            "title": "Tezsiz Yüksek Lisans İçin ALES Şart mı?",
-            "message": "YÖK mevzuatına göre tezsiz yüksek lisans programlarına başvurularda ALES puanı şartı aranmamaktadır; ancak tezli yüksek lisans, doktora ve akademik kadro ilanlarında en az 55 (bazı kurumlarda 70+) ALES puanı zorunludur."
-          }
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "ALES puanı kaç yıl geçerlidir?",
-        "answer": "ALES sonuçları açıklandığı tarihten itibaren 5 (beş) yıl süreyle geçerlidir."
-      },
-      {
-        "question": "Lisans öğrencileri mezun olmadan ALES’e girebilir mi?",
-        "answer": "Evet, lisans 3. ve 4. sınıf öğrencileri mezun olmadan önce ALES’e girip puanlarını hazır tutabilirler."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-egitim-yds-yokdil",
-    "slug": "yds-ve-yokdil-arasindaki-farklar-hangisine-girilmeli",
-    "title": "YDS ve YÖKDİL Arasındaki Farklar Nelerdir? Akademik Dil Sınavı Seçimi ve Hazırlık Stratejisi",
-    "description": "ÖSYM tarafından düzenlenen YDS, e-YDS ve YÖKDİL sınavlarının soru dağılımı, kullanım alanları (dil tazminatı vs yüksek lisans) ve zorluk karşılaştırması.",
-    "categorySlug": "egitim-sinavlar",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "YDS",
-      "YÖKDİL",
-      "Yabancı Dil Sınavı",
-      "ÖSYM",
-      "Yüksek Lisans"
-    ],
-    "content": {
-      "lead": "Yüksek lisans/doktora başvurusu, doçentlik dosyası veya kamu kurumlarında yabancı dil tazminatı için dil puanına ihtiyaç duyan adayların karşısına iki ana sınav çıkar: YDS (Yabancı Dil Bilgisi Seviye Tespit Sınavı) ve YÖKDİL (Yükseköğretim Kurumları Yabancı Dil Sınavı). Her iki sınav da 80 sorudan oluşur, 180 dakika sürer ve yanlışlar doğruyu götürmez; ancak geçerlilik alanları ve soru tipleri birbirinden farklıdır.",
-      "sections": [
-        {
-          "id": "yds-ve-yokdil-temel-farklar",
-          "heading": "1. YDS ile YÖKDİL Arasındaki 4 Kritik Fark",
-          "paragraphs": [
-            "Hangi sınava gireceğinize karar verirken önce puanı kullanacağınız kurumu (üniversite enstitüsü mü, yoksa kamu kurumu / dil tazminatı mı?) netleştirmeniz gerekir."
-          ],
-          "bullets": [
-            "Alan Ayrımı: YÖKDİL; Fen Bilimleri, Sağlık Bilimleri ve Sosyal Bilimler olmak üzere 3 ayrı alanda yapılır (kendi alanınızın kelime dağarcığıyla sınava girersiniz). YDS ise tek bir genel sınavdır.",
-            "Soru Tipleri: YDS’de diyalog tamamlama, yakın anlamlı cümle (restatement) ve durum soruları bulunurken; YÖKDİL’de bu üç soru tipi yoktur, yerine cümle tamamlama, çeviri ve paragraf soruları daha fazladır.",
-            "Kullanım Alanı: YÖKDİL yalnızca yüksek lisans, doktora, TUS/DUS ve akademik kadro/doçentlik başvurularında geçerlidir; kamu kurumlarında yabancı dil tazminatı için YDS (veya e-YDS) puanı istenir.",
-            "Puanlama: Her iki sınavda da 80 soru vardır, her soru 1,25 puan değerindedir ve 4 yanlış 1 doğruyu götürmez (boş soru bırakılmamalıdır)."
-          ]
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Yüksek lisans başvurusu için YDS mi YÖKDİL mi daha avantajlıdır?",
-        "answer": "Kendi uzmanlık alanınıza (Fen, Sağlık veya Sosyal) özgü metinler çıktığı ve diyalog/yakın anlam soruları bulunmadığı için çoğu aday YÖKDİL’de daha hızlı puan artışı yakalamaktadır."
-      },
-      {
-        "question": "YÖKDİL ile dil tazminatı alınabilir mi?",
-        "answer": "Hayır, 375 sayılı KHK kapsamındaki yabancı dil tazminatı ödemelerinde YDS veya e-YDS sonuçları esas alınır."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-egitim-osym-ais",
-    "slug": "osym-ais-aday-islemleri-sistemi-basvuru-ve-tercih-rehberi",
-    "title": "ÖSYM AİS (Aday İşlemleri Sistemi) Başvuru, Fotoğraf Güncelleme ve Sınav Ücreti Ödeme Rehberi",
-    "description": "ais.osym.gov.tr üzerinden e-Devlet ile giriş, sınav başvurusu tamamlama, 50 ay fotoğraf geçerlilik süresi ve ÖSYM Kartlı Ödeme Sistemi (odeme.osym.gov.tr) adımları.",
-    "categorySlug": "egitim-sinavlar",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "5 dk",
-    "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "ÖSYM",
-      "AİS",
-      "Sınav Başvurusu",
-      "e-Devlet",
-      "Tercih İşlemleri"
-    ],
-    "content": {
-      "lead": "YKS, KPSS, ALES, DGS ve YDS başta olmak üzere ÖSYM tarafından yürütülen tüm sınavların başvuru, tercih ve giriş belgesi işlemleri Aday İşlemleri Sistemi (ais.osym.gov.tr) üzerinden gerçekleştirilir. Başvuruda \"Onaylandı\" yazısını görmek tek başına yeterli değildir; sınav ücreti süresi içinde yatırılmadığında başvuru otomatik olarak iptal olur.",
-      "sections": [
-        {
-          "id": "osym-ais-sinav-basvuru-adimlari",
-          "heading": "1. ÖSYM AİS Üzerinden Adım Adım Sınav Başvurusu ve Ödeme Onayı",
-          "paragraphs": [
-            "ÖSYM şifrenizi unuttuysanız başvuru merkezine gitmenize gerek kalmadan doğrudan \"e-Devlet ile Giriş\" butonunu kullanarak AİS hesabınıza erişebilirsiniz."
-          ],
-          "steps": [
-            {
-              "title": "1. Adım: Profil, Eğitim ve Fotoğraf Bilgisini Kontrol Edin",
-              "description": "Sistemdeki fotoğrafınızın geçerlilik süresinin (50 ay) dolmadığını ve mezuniyet/okul bilgilerinizin güncel olduğunu \"Profilim\" menüsünden kontrol edin."
-            },
-            {
-              "title": "2. Adım: Sınav Merkezini Seçip Başvuruyu Kaydedin",
-              "description": "Başvuru Sürecindekiler sekmesinden ilgili sınavı seçip sınava gireceğiniz il/ilçe tercihlerini tamamlayın."
-            },
-            {
-              "title": "3. Adım: Sınav Ücretini Yatırın (odeme.osym.gov.tr)",
-              "description": "Kılavuzda belirtilen anlaşmalı bankalardan veya ÖSYM e-Ödemeler sayfasından sınav ücretini yatırıp AİS üzerinde \"Ödeme Bilgileri: Ödendi\" ibaresini mutlaka görün."
-            }
-          ],
-          "callout": {
-            "type": "warning",
-            "title": "Geç Başvuru Günlerinde %50 Ek Ücret Uygulanır",
-            "message": "Normal başvuru süresini veya son ödeme saatini (genellikle son gün 23:59) kaçıran adaylar yalnızca \"Geç Başvuru Günü\"nde %50 artırımlı sınav ücreti ödeyerek başvuru yapabilir."
-          }
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "ÖSYM AİS’teki fotoğrafımı internetten kendim değiştirebilir miyim?",
-        "answer": "T.C. Kimlik Kartı (yeni çipli kimlik) fotoğrafınız sistemde görünüyorsa AİS mobil uygulaması veya web üzerinden \"Kimlik Kartı Fotoğrafını Güncelle\" seçeneğiyle başvuru merkezine gitmeden güncelleyebilirsiniz."
-      },
-      {
-        "question": "Tercih yaptıktan sonra tercih listemi değiştirebilir miyim?",
-        "answer": "Evet, ÖSYM tercih süresi sona erene kadar AİS üzerinden tercihlerinizi dilediğiniz kadar güncelleyip yeniden kaydedebilirsiniz; son kaydettiğiniz liste geçerli olur."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-egitim-paragraf",
-    "slug": "tyt-turkce-paragraf-cozme-teknikleri-ve-hizlanma-rehberi",
-    "title": "TYT, KPSS ve ALES Türkçe Paragraf Soruları Nasıl Hızlı Çözülür? Odaklanma ve Zaman Yönetimi",
-    "description": "Sınavlarda paragraf sorularında süre kaybetmemek için önce soru kökünü okuma, ana düşünceyi bulma, yardımcı düşünce eleme ve günlük rutin oluşturma.",
-    "categorySlug": "egitim-sinavlar",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Paragraf Taktikleri",
-      "TYT Türkçe",
-      "KPSS Türkçe",
-      "Hızlı Okuma",
-      "Sınav Rehberi"
-    ],
-    "content": {
-      "lead": "TYT, KPSS, DGS ve ALES’te Türkçe testinin yaklaşık %70–80’ini paragraf ve anlam soruları oluşturur. Paragraf sorularında zaman kaybetmenin en yaygın nedeni metni amaçsızca baştan sona okuyup ardından soru köküne bakmak ve metni ikinci kez okumak zorunda kalmaktır.",
-      "sections": [
-        {
-          "id": "paragraf-soru-tiplerine-gore-cozum-sirasi",
-          "heading": "1. Soru Tipine Göre Okuma Sırası: Önce Soru Kökü mü, Metin mi?",
-          "paragraphs": [
-            "Her paragraf sorusu aynı sırayla çözülmez. \"Ana düşünce / Konu\" soruları ile \"Değinilmemiştir / Çıkarılamaz\" (Yardımcı Düşünce) sorularının çözüm tekniği birbirinden farklıdır:"
-          ],
-          "bullets": [
-            "Her Zaman İlk Adım (Soru Kökü): Önce kalın yazılmış soru kökünü okuyun; metinde ne arayacağınızı bilerek paragrafa çıkın.",
-            "Ana Düşünce Soruları (Vurgulanmak İstenen Nedir?): Metnin özellikle ilk cümlesine (giriş tezi) ve son cümlesine (\"kısacası, oysa, demek ki, bu nedenle\" bağlaçlarından sonraki sonuç yargısına) odaklanın.",
-            "Olumsuz Soru Kökleri (Değinilmemiştir / Ulaşılamaz): Önce şıklara hızlıca göz atıp anahtar kelimeleri işaretleyin, ardından metni okuyarak bulduğunuz şıkları tek tek eleyin.",
-            "Altını Çizme Hatası: Paragrafın tamamının altını kalemle çizmek gözü yavaşlatır; yalnızca zıtlık bağlaçlarını (ancak, ne var ki, buna karşın) ve anahtar kavramları yuvarlak içine alın."
-          ]
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Günde kaç paragraf sorusu çözülmeli?",
-        "answer": "Bir günde 150 soru çözüp 5 gün ara vermek yerine, her sabah zihin açıkken süre tutarak düzenli 25–30 paragraf sorusu çözmek hız ve odaklanmayı kalıcı olarak artırır."
-      },
-      {
-        "question": "İki şık arasında kaldığımda ne yapmalıyım?",
-        "answer": "Kendi kişisel yorumunuzu katmadan yalnızca metindeki kelimelerin sınırları içinde kalın; \"asla, her zaman, yalnızca, tümü\" gibi aşırı genelleme içeren şıklara şüpheyle yaklaşın."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-egitim-matematik",
-    "slug": "tyt-ayt-matematik-temel-atma-ve-problem-cozme-taktikleri",
-    "title": "Sıfırdan TYT ve AYT Matematik Nasıl Çalışılır? Temel Atma, Problemler ve Branş Denemesi Rehberi",
-    "description": "Matematik netlerini artırmak için ilk 12 temel kavram konusu, günlük problem çözme rutini, geometri yaklaşımı ve aşamalı kaynak seçimi.",
-    "categorySlug": "egitim-sinavlar",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "TYT Matematik",
-      "AYT Matematik",
-      "Problemler",
-      "YKS Hazırlık",
-      "Ders Çalışma"
-    ],
-    "content": {
-      "lead": "YKS (TYT – AYT), KPSS ve DGS’de sıralamayı en çok değiştiren ders Matematiktir. Matematikte netlerin yükselmemesinin temel sebebi konuyu yalnızca videodan izleyip kalem oynatmadan geçmek ve kendi seviyenizin çok üzerinde zor bir soru bankasıyla başlayıp motivasyon kaybetmektir.",
-      "sections": [
-        {
-          "id": "matematik-3-asamali-calisma-plani",
-          "heading": "1. Matematikte Net Artıran 3 Aşamalı Konu ve Soru Planı",
-          "paragraphs": [
-            "Matematik konuları zincirleme ilerler. İlk 12 temel konuyu (Temel Kavramlar, Rasyonel Sayılar, Birinci Dereceden Denklemler, Eşitsizlikler, Mutlak Değer, Üslü ve Köklü Sayılar, Çarpanlara Ayırma, Oran-Orantı) bitirmeden Problemlere veya AYT Fonksiyon/Türev konularına geçmek zaman kaybettirir."
-          ],
-          "steps": [
-            {
-              "title": "1. Aşama: İlk 12 Temel Cebir Konusu",
-              "description": "İşlem hatası yapmamak ve denklem kurmayı öğrenmek için ilk 12 konuyu kolay-orta seviye bir soru bankasından eksiksiz tamamlayın."
-            },
-            {
-              "title": "2. Aşama: Günlük Problem ve Geometri Rutini",
-              "description": "Oran-Orantı bittiği günden itibaren her gün 15–20 Problem ve 10–15 Geometri sorusunu sabit rutin haline getirin."
-            },
-            {
-              "title": "3. Aşama: Süreli Branş Denemeleri",
-              "description": "Konuların %70’i tamamlandığında haftada 2–3 kez 40 soruluk süreli TYT Matematik branş denemesi çözerek turlama tekniğini geliştirin."
-            }
-          ]
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Yapamadığım matematik sorusunun çözümünü hemen izlemeli miyim?",
-        "answer": "İlk denemede çözemediğiniz soruya aynı gün akşam veya ertesi gün temiz kafayla bir kez daha 3–4 dakika uğraşın; yine çıkmazsa video çözümünü izleyip ekranı kapatarak çözümü kendi elinizle baştan sona yazın."
-      },
-      {
-        "question": "AYT Matematik çalışmaya ne zaman başlanmalı?",
-        "answer": "TYT’deki ilk 12 temel cebir konusu ve Fonksiyonlar konusu biter bitmez TYT branş denemeleriyle eşzamanlı olarak AYT Matematik konularına başlanmalıdır."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-egitim-pomodoro",
-    "slug": "pomodoro-teknigi-ve-aralikli-tekrar-ile-verimli-ders-calisma",
-    "title": "Pomodoro Tekniği ve Aralıklı Tekrar (Spaced Repetition) İle Kalıcı Ders Çalışma Rehberi",
-    "description": "Masa başında odaklanma süresini artıran 25+5 ve 50+10 Pomodoro blokları ile unutma eğrisini kıran 1-3-7-30 günlük Aralıklı Tekrar yöntemi.",
-    "categorySlug": "egitim-sinavlar",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Pomodoro Tekniği",
-      "Verimli Ders Çalışma",
-      "Aralıklı Tekrar",
-      "Odaklanma",
-      "Eğitim"
-    ],
-    "content": {
-      "lead": "Saatlerce masa başında oturup gün sonunda hiçbir şey hatırlamamanın nedeni süreklilikten yoksun, bölünmüş çalışmadır. Bilimsel öğrenme araştırmaları, dikkati belirli zaman bloklarına bölen \"Pomodoro Tekniği\" ile bilgiyi tam unutulacağı günlerde hatırlatan \"Aralıklı Tekrar\" (Spaced Repetition) yönteminin birlikte kullanıldığında öğrenme kalıcılığını katladığını göstermektedir.",
-      "sections": [
-        {
-          "id": "pomodoro-25-5-ve-50-10-uygulamasi",
-          "heading": "1. Dersin Türüne Göre Pomodoro Blokları: 25+5 mi, 50+10 mu?",
-          "paragraphs": [
-            "Klasik Pomodoro tekniği 25 dakika tam odaklanma + 5 dakika mola şeklinde uygulanır. Ancak matematik problemi veya deneme sınavı çözerken 25. dakikada bölünmek odak akışını kesebileceği için ders türüne göre iki farklı blok kullanabilirsiniz:"
-          ],
-          "bullets": [
-            "25 Dakika Çalışma + 5 Dakika Mola: Ezber, kelime çalışması, kısa konu tekrarı veya derse başlamakta zorlandığınız günlerde idealdir.",
-            "50 Dakika Çalışma + 10 Dakika Mola: Matematik/Fen soru çözümü, uzun paragraf testleri ve konu anlatımı çalışmaları için çok daha verimlidir.",
-            "Molada Telefon Yasağı: 5 veya 10 dakikalık kısa molalarda sosyal medya/kısa video kaydırmak beyni dinlendirmez, aksine yorar. Molada masadan kalkıp su için ve pencereden uzağa bakarak gözlerinizi dinlendirin."
-          ]
-        },
-        {
-          "id": "aralikli-tekrar-1-3-7-21-takvimi",
-          "heading": "2. Ebbinghaus Unutma Eğrisini Kıran \"1 – 3 – 7 – 21\" Tekrar Takvimi",
-          "paragraphs": [
-            "Yeni öğrenilen bir bilginin büyük kısmı tekrar edilmezse ilk 48 saat içinde unutulur. Konuyu baştan sona yeniden okumak yerine şu takvimde 10’ar dakikalık aktif hatırlama testi yapın:"
-          ],
-          "steps": [
-            {
-              "title": "1. Tekrar (Aynı Gün Akşam)",
-              "description": "Gündüz çalıştığınız konunun özet notlarına 10 dakika göz gezdirip kendi cümlelerinizle özetleyin."
-            },
-            {
-              "title": "2. Tekrar (3. Gün)",
-              "description": "Konu anlatımına bakmadan doğrudan 15–20 soruluk bir mini test çözün; sadece takıldığınız formül/kavrama geri dönün."
-            },
-            {
-              "title": "3. Tekrar (7. ve 21. Gün)",
-              "description": "Karma soru testi veya branş denemesi üzerinden konuyu kalıcı hafızaya aktarın."
-            }
-          ]
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Günde kaç Pomodoro tamamlanmalı?",
-        "answer": "Okul veya iş temposuna göre değişmekle birlikte, 50+10 sisteminde günde 4 ila 6 tam blok (yaklaşık 3,5 – 5 saat saf odaklanmış çalışma) oldukça yüksek verim sağlar."
-      },
-      {
-        "question": "En etkili tekrar yöntemi not okumak mı yoksa soru çözmek mi?",
-        "answer": "Defteri pasif olarak tekrar tekrar okumak yerine kitabı kapatıp \"bu konuda hangi kavramlar vardı?\" diye kendini sınamak (aktif hatırlama) ve soru çözmek çok daha kalıcıdır."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-egitim-yatay-gecis",
-    "slug": "universite-yatay-gecis-sartlari-gno-ve-ek-madde-1-rehberi",
-    "title": "Üniversitede Yatay Geçiş Nasıl Yapılır? GNO (Not Ortalaması) ve Merkezi Yerleştirme (Ek Madde-1)",
-    "description": "Üniversiteler arası yatay geçiş türleri: Genel Not Ortalaması (GNO) ile geçiş ve YKS puanıyla Merkezi Yerleştirme (Ek Madde-1) başvuru tarihleri ve şartları.",
-    "categorySlug": "egitim-sinavlar",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Yatay Geçiş",
-      "Ek Madde-1",
-      "Üniversite",
-      "YÖK",
-      "Eğitim Rehberi"
-    ],
-    "content": {
-      "lead": "Okuduğu üniversiteyi veya bölümü değiştirmek isteyen öğrencilerin önünde YÖK mevzuatına göre iki ana yatay geçiş yolu bulunur: Birincisi dönemlik/yıllık başarıya dayanan \"Kurumlar Arası Genel Not Ortalaması (GNO) ile Yatay Geçiş\", ikincisi ise üniversiteye girdiğiniz yıldaki YKS puanınızı baz alan \"Merkezi Yerleştirme Puanıyla (Ek Madde-1) Yatay Geçiş\"tir.",
-      "sections": [
-        {
-          "id": "gno-ile-ek-madde-1-arasindaki-farklar",
-          "heading": "1. GNO İle Yatay Geçiş ve Ek Madde-1 (MYP) Arasındaki Farklar",
-          "paragraphs": [
-            "İki geçiş türünün şartları, kontenjanları ve başvuru dönemleri birbirinden tamamen bağımsızdır:"
-          ],
-          "bullets": [
-            "Not Ortalaması (GNO) İle Yatay Geçiş: Sadece kendi bölümünüzle aynı (veya eşdeğer) bir bölüme geçebilirsiniz. Genel not ortalamanızın 100 üzerinden en az 60 (4.00 üzerinden genellikle 2.50–3.00+, üniversiteye göre değişir) olması gerekir.",
-            "Merkezi Yerleştirme Puanı (Ek Madde-1): Sınava girdiğiniz yıldaki YKS yerleştirme puanınız, geçmek istediğiniz bölümün o yılki taban puanına eşit veya ondan yüksekse (alttan dersiniz olsa bile ve not ortalamanıza bakılmaksızın) hem başka üniversiteye hem de tamamen farklı bir bölüme (4 yıllıktan 2 yıllığa dahil) geçebilirsiniz.",
-            "Başvuru Dönemi: Güz dönemi başvuruları genellikle Temmuz sonu – Ağustos ortasında her üniversitenin kendi öğrenci işleri portalı üzerinden alınır."
-          ],
-          "callout": {
-            "type": "info",
-            "title": "Ek Madde-1 Hakkı Kaç Kez Kullanılabilir?",
-            "message": "Merkezi yerleştirme puanıyla (Ek Madde-1) yatay geçiş hakkı eğitim hayatı boyunca yalnızca 1 kez kullanılabilir; ancak geçiş yaptıktan sonra vazgeçerseniz bir sonraki dönemde ilk kazandığınız üniversiteye geri dönme hakkınız vardır."
-          }
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Hazırlık sınıfında veya 1. sınıfın ilk döneminde yatay geçiş yapılır mı?",
-        "answer": "Not ortalaması (GNO) ile hazırlıkta, 1. sınıfın ilk döneminde ve son sınıfın başında yatay geçiş yapılamaz. Ancak Merkezi Yerleştirme Puanı (Ek Madde-1) ile hazırlık ve 1. sınıf dahil geçiş başvurusu yapılabilir."
-      },
-      {
-        "question": "Yatay geçiş başvurusu için hangi belgeler istenir?",
-        "answer": "Onaylı/barkodlu Transkript (Not Dökümü), Öğrenci Belgesi, Disiplin Cezası Yoktur ibaresi, ÖSYS/YKS Sonuç ve Yerleştirme Belgeleri ile ders içerikleri (intibak için) talep edilir."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-egitim-aof",
-    "slug": "acikogretim-aof-sinav-sistemi-harf-notlari-ve-ders-secimi",
-    "title": "Açıköğretim (AÖF, ATA-AÖF, AUZEF) Sınav Sistemi, Çan Eğrisi, Koşullu Geçme ve Ders Seçimi",
-    "description": "Anadolu Üniversitesi AÖF, Atatürk Üniversitesi ATA-AÖF ve İstanbul Üniversitesi AUZEF sınav ağırlıkları, 4 yanlış 1 doğru kuralı ve FF/CD/DD harf notları.",
-    "categorySlug": "egitim-sinavlar",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Açıköğretim",
-      "AÖF",
-      "AUZEF",
-      "ATA-AÖF",
-      "Üniversite"
-    ],
-    "content": {
-      "lead": "Anadolu Üniversitesi (AÖF), İstanbul Üniversitesi (AUZEF) ve Atatürk Üniversitesi (ATA-AÖF) açıköğretim fakültelerinde eğitim gören yüz binlerce öğrenci için dönemi kayıpsız tamamlamanın anahtarı; vize-final ağırlıklarını, 4 yanlışın 1 doğruyu götürme kuralını ve koşullu geçme (CD, DC, DD) not ortalaması barajını doğru takip etmektir.",
-      "sections": [
-        {
-          "id": "aof-vize-final-agirliklari-ve-harf-notlari",
-          "heading": "1. Vize – Final Etki Oranları, Alt Sınır ve AGNO (2.00) Kuralı",
-          "paragraphs": [
-            "Açıköğretim fakültelerinde her ders için dönem içinde 1 Ara Sınav (Vize) ve 1 Dönem Sonu Sınavı (Final) yapılır (fakülteye göre Yaz Okulu veya Bütünleme sınavı da uygulanır). Sınavlarda çoktan seçmeli 20 soru sorulur ve 4 yanlış 1 doğru cevabı götürür."
-          ],
-          "bullets": [
-            "Vize ve Final Ağırlığı: Ara sınav (vize) notunun %30’u, dönem sonu (final) sınav notunun %70’i alınarak başarı puanı hesaplanır.",
-            "Doğrudan Geçer Notlar (AA, AB, BA, BB, BC, CB, CC): Genel not ortalamanız ne olursa olsun bu harf notlarını aldığınız derslerden doğrudan başarılı sayılırsınız.",
-            "Koşullu Geçer Notlar (CD, DC, DD): Dönem sonu Genel Not Ortalamanız (AGNO) 2.00 ve üzerindeyse bu derslerden geçmiş sayılırsınız; AGNO 2.00’ın altındaysa mezun olabilmek için bu dersleri tekrar alıp yükseltmeniz gerekir.",
-            "Kalan Not (FF): Doğrudan başarısız olunan derstir; bir sonraki yıl aynı dönemde tekrar seçilmesi zorunludur."
-          ]
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Açıköğretimde kayıt yenileme nasıl tamamlanır?",
-        "answer": "Kayıt yenileme haftasında önce öğrenci otomasyonundan ders seçimi (ekle-sil) yapılmalı, ardından oluşan dönem öğretim gideri/materyal ücreti bankaya yatırılmalıdır; sadece para yatırmak veya sadece ders seçmek tek başına yeterli değildir."
-      },
-      {
-        "question": "İkinci Üniversite (Sınavsız Açıköğretim) başvurusu kimler için geçerlidir?",
-        "answer": "Herhangi bir örgün veya açıköğretim ön lisans/lisans programında halen öğrenci olanlar veya mezun olanlar YKS’ye girmeden İkinci Üniversite kapsamında açıköğretim bölümlerine kayıt yaptırabilir."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-egitim-erasmus",
-    "slug": "erasmus-basvurusu-nasil-yapilir-dil-sinavi-ve-hibe-sartlari",
-    "title": "Erasmus+ Öğrenim ve Staj Başvurusu Nasıl Yapılır? AGNO Şartı, Dil Sınavı ve Hibe Puanlaması",
-    "description": "Üniversite öğrencileri için Erasmus+ yurt dışı eğitim ve staj başvurusu, 2.20 / 2.50 not ortalaması barajı, Turnaportal başvurusu ve hibe hesaplama.",
-    "categorySlug": "egitim-sinavlar",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Erasmus",
-      "Yurt Dışı Eğitim",
-      "Üniversite",
-      "Turnaportal",
-      "Burs ve Hibe"
-    ],
-    "content": {
-      "lead": "Erasmus+ programı, Türkiye’deki üniversite öğrencilerinin Avrupa’daki anlaşmalı bir üniversitede 1 veya 2 dönem eğitim görmesini (Öğrenim Hareketliliği) ya da yurt dışındaki bir kurum/şirkette 2 ila 12 ay staj yapmasını (Staj Hareketliliği) destekleyen değişim programıdır. Başvurular Türkiye Ulusal Ajansı’nın merkezi sistemi olan Turnaportal (turnaportal.ua.gov.tr) üzerinden e-Devlet ile alınır.",
-      "sections": [
-        {
-          "id": "erasmus-basvuru-sartlari-ve-puan-hesaplama",
-          "heading": "1. Erasmus Başvuru Şartları (AGNO) ve Yerleştirme Puanı Formülü",
-          "paragraphs": [
-            "Erasmus+ seçmelerinde adayların sıralaması tamamen şeffaf bir matematiksel formülle yapılır: Akademik Genel Not Ortalamasının (AGNO) %50’si + Yabancı Dil Sınavı Puanının %50’si toplanarak Erasmus yerleştirme puanı oluşturulur."
-          ],
-          "bullets": [
-            "Asgari Not Ortalaması (AGNO): Ön lisans ve lisans öğrencileri için en az 2.20 / 4.00; yüksek lisans ve doktora öğrencileri için en az 2.50 / 4.00 ortalamaya sahip olmak gerekir.",
-            "AKTS (ECTS) Yükü Şartı: Öğrenim hareketliliğine başvuracak öğrencinin gideceği dönemde en az 30 AKTS’lik ders yükünün bulunması şarttır.",
-            "Mezuniyet Sonrası Staj Fırsatı: Son sınıf öğrencileri henüz mezun olmadan başvuru yapmaları koşuluyla, mezun olduktan sonraki 12 ay içinde de Erasmus+ staj hareketliliğinden yararlanabilirler."
-          ]
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Erasmus kazanan her öğrenciye hibe (maddi destek) çıkar mı?",
-        "answer": "Üniversitelerin Ulusal Ajans’tan aldığı bütçe kontenjanına göre en yüksek puanlı adaylar \"Hibeli\" seçilir; kontenjan dışındaki adaylar ise isterlerse \"Hibesiz (Zero-Grant)\" statüsüyle programa katılabilir."
-      },
-      {
-        "question": "1. sınıf öğrencileri Erasmus’a başvurabilir mi?",
-        "answer": "Evet, 1. sınıfın ilk dönem not ortalaması (AGNO) oluştuğunda Bahar dönemindeki ilana başvurup 2. sınıfta yurt dışına gidebilirler."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-egitim-deneme-analizi",
-    "slug": "deneme-sinavi-analizi-nasil-yapilir-yanlis-defteri-tutma",
-    "title": "Deneme Sınavı Analizi Nasıl Yapılır? Net Artıran Yanlış Defteri ve Konu Takip Rehberi",
-    "description": "YKS, KPSS ve LGS deneme sınavlarından sonra yanlışları 3 kategoride (Bilgi Eksikliği, Dikkat Hatası, Süre Yetişmemesi) analiz etme ve net artırma yöntemi.",
-    "categorySlug": "egitim-sinavlar",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "5 dk",
-    "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Deneme Analizi",
-      "YKS",
-      "KPSS",
-      "Ders Çalışma",
-      "Net Artırma"
-    ],
-    "content": {
-      "lead": "Bir deneme sınavını çözmek öğrenmenin yalnızca yarısıdır; asıl net artışını sağlayan kısım sınav bittikten sonra yapılan 45 dakikalık \"Deneme Analizi\"dir. Deneme kitapçığının üzerine sadece doğru-yanlış sayısını yazıp kitapçığı rafa kaldırmak, aynı konu eksiklerini aylarca tekrar etmenize yol açar.",
-      "sections": [
-        {
-          "id": "yanlis-ve-bos-sorulari-3-gruba-ayirma",
-          "heading": "1. Yanlış ve Boş Soruları \"B – D – S\" Koduyla Sınıflandırma",
-          "paragraphs": [
-            "Deneme kontrolünü yaptıktan sonra yanlış yaptığınız, boş bıraktığınız ve şans eseri doğru işaretlediğiniz her sorunun yanına nedenini belirten bir harf kodu koyun:"
-          ],
-          "bullets": [
-            "B (Bilgi / Konu Eksikliği): Konuyu hiç bilmediğiniz veya formülü unuttuğunuz sorular. Aynı konudan 2 deneme üst üste \"B\" çıkıyorsa o konuya 1 saatlik mini tekrar ve 2 test soru çözümü planlayın.",
-            "D (Dikkat ve İşlem Hatası): Konuyu bildiğiniz halde soru kökündeki \"değildir\" ifadesini görmemekten veya dört işlem hatasından kaçan sorular.",
-            "S (Süre ve Turlama Hatası): Çözebileceğiniz halde tek bir zor soruya 4–5 dakika takılıp sınav sonunda göremediğiniz kolay sorular.",
-            "Soru Kesme / Yanlış Defteri: Çözümünü öğrendiğiniz kaliteli soruları kesip (veya fotoğrafını çekip) ders bazlı bir klasörde biriktirin ve her Pazar sabahı bu soruları tekrar çözün."
-          ]
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Deneme analizi sınavdan ne kadar sonra yapılmalı?",
-        "answer": "Soruları çözerken ne düşündüğünüzü unutmamak için analiz mutlaka sınavın yapıldığı gün (kısa bir dinlenmenin hemen ardından) tamamlanmalıdır."
-      },
-      {
-        "question": "Doğru yaptığım sorulara da bakmalı mıyım?",
-        "answer": "Emin olarak çözdüklerinize bakmanıza gerek yoktur; ancak iki şık arasında kalıp işaretlediğiniz doğruların yanına sınav anında bir yıldız (*) koyup analiz sırasında çözümünü mutlaka kontrol etmelisiniz."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-egitim-msu",
-    "slug": "msu-milli-savunma-universitesi-sinavi-basvuru-ve-mulakat-asamalari",
-    "title": "MSÜ (Milli Savunma Üniversitesi) Sınavı Nedir? Başvuru Şartları, YKS Zorunluluğu ve Aşamalar",
-    "description": "Harp Okulları ve Astsubay Meslek Yüksekokulları için düzenlenen MSÜ sınavının soru dağılımı, yaş/boy-kilo şartları, FYT (Spor) ve mülakat süreci.",
-    "categorySlug": "egitim-sinavlar",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "MSÜ",
-      "Milli Savunma Üniversitesi",
-      "ÖSYM",
-      "TYT Prova",
-      "Sınav Rehberi"
-    ],
-    "content": {
-      "lead": "Milli Savunma Üniversitesi Askeri Öğrenci Aday Belirleme Sınavı (MSÜ), Kara, Deniz ve Hava Harp Okulları ile Astsubay Meslek Yüksekokullarında eğitim görmek isteyen adaylar için ÖSYM tarafından her yıl Mart ayında düzenlenen sınavdır. Soru yapısı (120 soru, 165 dakika) TYT ile birebir aynı formatta olduğu için sivil üniversite hedefleyen YKS adayları tarafından da en gerçekçi Türkiye geneli TYT provası olarak değerlendirilir.",
-      "sections": [
-        {
-          "id": "msu-soru-dagilimi-ve-yks-sarti",
-          "heading": "1. MSÜ Soru Dağılımı ve Askeri Öğrencilik İçin YKS Şartı",
-          "paragraphs": [
-            "MSÜ sınavında Türkçe (40), Sosyal Bilimler (20), Temel Matematik (40) ve Fen Bilimleri (20) olmak üzere toplam 120 soru yer alır.",
-            "Askeri öğrenci olmak isteyen adayların yalnızca MSÜ sınavına girmesi yeterli değildir! Harp Okulları için aynı yıl yapılacak YKS’nin hem TYT hem AYT oturumlarına; Astsubay Meslek Yüksekokulları için ise en azından TYT oturumuna girilmesi yasal zorunluluktur."
-          ],
-          "steps": [
-            {
-              "title": "1. Aşama: ÖSYM MSÜ Yazılı Sınavı ve Tercih",
-              "description": "Mart ayında MSÜ sınavına girilir, ardından Personel Temin (PERTEM) sistemi üzerinden okul tercihleri yapılır."
-            },
-            {
-              "title": "2. Aşama: YKS (TYT / AYT) Oturumları",
-              "description": "Haziran ayındaki YKS oturumlarına katılarak yerleştirme puanının hesaplanması sağlanır."
-            },
-            {
-              "title": "3. Aşama: 2. Seçim Aşamaları (FYT, Mülakat ve Sağlık)",
-              "description": "Çağrılan adaylar Fiziki Yeterlilik Testi (şınav, mekik, 400m koşu), sözlü mülakat ve tam teşekküllü hastane sağlık kurulu raporu aşamalarından geçer."
-            }
-          ]
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "MSÜ sınavına girip askeri tercih yapmazsam YKS puanım etkilenir mi?",
-        "answer": "Hayır, hiç etkilenmez. MSÜ sınavına sadece kendinizi gerçek sınav atmosferinde denemek için girebilirsiniz; tercih yapmadığınız sürece hiçbir askeri yükümlülük doğmaz."
-      },
-      {
-        "question": "MSÜ puanı sivil üniversite tercihlerinde kullanılır mı?",
-        "answer": "Hayır, sivil üniversite tercihlerinde yalnızca Haziran ayında yapılan YKS (TYT/AYT/YDT) puanları kullanılır."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-pratik-buzdolabi-kokusu",
-    "slug": "buzdolabi-kokusu-nasil-giderilir-dogal-temizlik-ve-duzenleme",
-    "title": "Buzdolabındaki Kötü Koku Nasıl Giderilir? Karbonat, Kahve ve Doğru Gıda Saklama Yöntemleri",
-    "description": "Buzdolabına sinen ağır yemek, balık ve süt ürünü kokularını kimyasal kullanmadan karbonat, vanilya, Türk kahvesi ve tahliye deliği temizliğiyle giderme rehberi.",
-    "categorySlug": "pratik-bilgiler",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "5 dk",
-    "coverImage": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Buzdolabı Temizliği",
-      "Koku Giderme",
-      "Pratik Bilgiler",
-      "Ev Yaşam",
-      "Mutfak İpuçları"
-    ],
-    "content": {
-      "lead": "Buzdolabının kapağını açtığınızda karşılaştığınız ağır koku her zaman bozulmuş bir yemekten kaynaklanmaz; çoğu zaman rafların altındaki görünmeyen sıvı sızıntıları, kapak lastiklerinin (conta) arası veya dolabın arka duvarındaki tıkanmış su tahliye kanalı kokunun asıl merkezidir. Çamaşır suyu gibi keskin kimyasallar gıdalara sindiği için buzdolabı temizliğinde doğal koku tutucular kullanılmalıdır.",
-      "sections": [
-        {
-          "id": "buzdolabi-kokusunu-kesen-dogal-cozumler",
-          "heading": "1. Karbonatlı Su İle Silme ve Doğal Koku Emici Kâseler",
-          "paragraphs": [
-            "Temizliğe başlamadan önce dolabın fişini çekin (veya tatil moduna alın) ve tüm cam rafları ılık suyun içinde çözündürülmüş 2 yemek kaşığı karbonat ve birkaç damla limon suyu karışımıyla silin."
-          ],
-          "bullets": [
-            "Açık Karbonat Kâsesi: Küçük bir cam kâseye koyacağınız 3–4 yemek kaşığı karbonat, dolap içindeki asidik ve ağır kokuları maskelemeden doğrudan emer (ayda bir yenileyin).",
-            "Kuru Türk Kahvesi veya Çay Posası: Küçük bir tabakta orta rafa yerleştirilen kuru Türk kahvesi telvesi balık ve soğan/sarımsak kokusunu birkaç saat içinde çeker.",
-            "Elma Sirkesi ve Vanilya: Rafları sildikten sonra pamuğa damlatılmış birkaç damla saf vanilya özütü ferah bir koku bırakır.",
-            "Arka Duvar Su Tahliye Deliği Kontrolü: Sebzelik çekmecesinin hemen üstündeki arka duvarda bulunan küçük su tahliye deliğine süt veya sebze suyu kaçtıysa, ılık sirkeli su ve kulak çubuğu/pipet yardımıyla bu kanalı mutlaka temizleyin."
-          ]
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Buzdolabı çamaşır suyuyla silinir mi?",
-        "answer": "Hayır, çamaşır suyu hem plastik aksamı sarartıp çatlatabilir hem de kapalı ortamda kokusu tereyağı, peynir ve açık gıdalara siner; karbonatlı veya beyaz sirkeli ılık su en güvenli çözümdür."
-      },
-      {
-        "question": "Elektrik kesintisinde dondurucudaki et kokusu nasıl çıkar?",
-        "answer": "Tüm çekmeceleri çıkarıp karbonatlı suyla yıkadıktan sonra dolabın içine aktif kömür veya geniş bir tepsiye yayılmış karbonat ve kahve koyup kapağı 12 saat aralık bırakarak havalandırın."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-pratik-kombi-tasarruf",
-    "slug": "kombide-dogalgaz-tasarrufu-saglayan-oda-termostati-ve-petek-ayarlari",
-    "title": "Kışın Doğalgaz Faturasını Düşüren Kombi, Oda Termostatı ve Petek Havası Alma Rehberi",
-    "description": "Kombiyi kapatıp açmak yerine sabit derecede tutma, oda termostatı ve termostatik vana kullanımı ile peteklerin yarısı ısınmadığında hava alma adımları.",
-    "categorySlug": "pratik-bilgiler",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Doğalgaz Tasarrufu",
-      "Kombi Ayarları",
-      "Petek Havası Alma",
-      "Ev Ekonomisi",
-      "Pratik Bilgiler"
-    ],
-    "content": {
-      "lead": "Kış aylarında ısınma giderlerini düşürmek isterken yapılan en büyük hata, evden çıkarken veya gece yatarken kombiyi tamamen kapatıp eve dönünce yüksek derecede tekrar çalıştırmaktır. Soğuyan duvarları, zemini ve tesisat suyunu sıfırdan ısıtmak için kombi saatlerce tam kapasitede (maksimum alev boyunda) çalışır ve sabit düşük ayarda kalmasına göre daha fazla doğalgaz tüketir.",
-      "sections": [
-        {
-          "id": "petek-havasi-nasil-alinir-ve-su-basinci",
-          "heading": "1. Peteğin Üstü Soğuk Altı Sıcaksa: 3 Adımda Petek Havası Alma",
-          "paragraphs": [
-            "Kalorifer peteğinin alt kısmı ısınıp üst kısmı soğuk kalıyorsa peteğin içinde hava birikmiş demektir. Hava biriken bölgeye sıcak su ulaşamadığı için kombi boşa çalışır."
-          ],
-          "steps": [
-            {
-              "title": "1. Adım: Purjör Anahtarı (veya Düz Tornavida) ve Bir Kap Hazırlayın",
-              "description": "Peteğin üst yan köşesindeki küçük hava alma vidasının (purjör) altına su damlamasına karşı küçük bir kâse tutun."
-            },
-            {
-              "title": "2. Adım: Vidayı Saat Yönünün Tersine Çeyrek Tur Çevirin",
-              "description": "Vidayı tamamen sökmeden hafifçe gevşetin; önce \"tısss\" şeklinde hava sesi gelecek, hava bittiğinde kesintisiz su akmaya başlayacaktır. Su geldiği anda vidayı kapatın."
-            },
-            {
-              "title": "3. Adım: Kombi Su Basıncını (1.5 Bar) Kontrol Edin",
-              "description": "Hava alma işleminden sonra kombinin altındaki manometreyi kontrol edin; basınç 1 barın altına düştüyse doldurma musluğuyla 1.5 bar seviyesine tamamlayın."
-            }
-          ],
-          "callout": {
-            "type": "tip",
-            "title": "Oda Termostatı ve 1 Derece Kuralı",
-            "message": "Kombiyi su sıcaklığına göre değil, evin gerçek sıcaklığına göre yöneten bir Oda Termostatı kullanmak ve hedef oda sıcaklığını 23°C yerine 21–22°C’de tutmak aylık tüketimde yaklaşık %6–7’şer tasarruf sağlar."
-          }
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Kullanılmayan odanın peteğini tamamen kapatmak tasarruf sağlar mı?",
-        "answer": "Tamamen kapatılan soğuk oda, yanındaki sıcak odaların duvarlarından ısı çeker ve kombinin minimum devir dolaşımını zorlar; tamamen kapatmak yerine vanayı en kısık (1 veya kar tanesi) kademede bırakmak daha verimlidir."
-      },
-      {
-        "question": "İdeal kombi su basıncı kaç bar olmalıdır?",
-        "answer": "Kombi tesisat suyu basıncı soğukken 1.5 bar (1.2 ile 1.8 bar aralığında) olmalıdır."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-pratik-kabin-bagaji",
-    "slug": "ucak-bileti-ve-valiz-hazirlama-kabin-bagaji-sivi-kurallari",
-    "title": "Uçak Yolculuğunda Kabin Bagajı (El Bagajı) Kuralları, 100 ml Sıvı Sınırı ve Valiz Hazırlama",
-    "description": "Yurt içi ve yurt dışı uçuşlarda kabin bagajı ölçüleri (55x40x23 cm), 100 ml sıvı/parfüm kuralı, powerbank taşıma şartları ve valiz yerleştirme tüyoları.",
-    "categorySlug": "pratik-bilgiler",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Uçak Yolculuğu",
-      "Kabin Bagajı",
-      "Seyahat Rehberi",
-      "Valiz Hazırlama",
-      "Pratik Bilgiler"
-    ],
-    "content": {
-      "lead": "Havalimanı güvenlik kontrol noktasında zaman kaybetmemek ve parfüm, krem veya kişisel bakım ürünlerinizin çöpe atılmasını önlemek için uluslararası havacılık kurallarındaki \"Kabin Bagajı (El Bagajı) 100 ml Sıvı Kuralı\" ile batarya (Powerbank) taşıma kısıtlamalarını valizinizi kapatmadan önce bilmeniz gerekir.",
-      "sections": [
-        {
-          "id": "kabin-bagaji-100-ml-sivi-ve-powerbank-kurallari",
-          "heading": "1. Kabin Bagajında 100 ml Sıvı Sınırı ve Powerbank Kuralı",
-          "paragraphs": [
-            "Uçağın içine yanınızda aldığınız kabin valizinde (standart ölçü: 55x40x23 cm, 8 kg) sıvı, jel ve aerosol ürünler yalnızca belirli ambalaj sınırlarıyla taşınabilir. Burada kriter içindeki sıvı miktarı değil, şişenin üzerindeki toplam hacim yazısıdır (örneğin içinde 20 ml kalmış 200 ml’lik parfüm şişesi kabine alınmaz)."
-          ],
-          "bullets": [
-            "100 ml Şişe ve 1 Litrelik Kilitli Poşet Kuralı: Şampuan, parfüm, diş macunu, güneş kremi ve deodorantların her biri en fazla 100 ml’lik kutularda olmalı ve toplamda 1 litrelik (20x20 cm) şeffaf kilitli poşetin içine sığmalıdır.",
-            "Powerbank ve Yedek Lityum Piller: Yangın güvenliği nedeniyle Powerbank, dizüstü bilgisayar ve yedek lityum bataryalar uçak altı (kargo) valizine kesinlikle verilmez; yalnızca yanınızdaki kabin bagajında taşınmalıdır.",
-            "İstisnalar: Bebek maması/sütü (bebek uçaktaysa yolculuk süresine yetecek miktarda) ve reçeteli/raporlu sıvı ilaçlar 100 ml sınırından muaftır."
-          ]
-        },
-        {
-          "id": "valizde-yer-kazandiran-rulo-yontemi",
-          "heading": "2. Valizde Kırışıklığı Önleyen ve %30 Yer Açan \"Rulo Yöntemi\"",
-          "paragraphs": [
-            "Kıyafetleri üst üste katlamak yerine tişört, kazak ve pantolonları sıkıca rulo (silindir) şeklinde sararak valizin tabanına yan yana dizmek hem boşlukları sıfırlar hem de kat izi oluşmasını engeller. Ayakkabıların içine çorapları yerleştirip valizin tekerlek kısmına (en alt ağırlık merkezine) koymak valizin devrilmesini de önler."
-          ]
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Powerbank uçak altı bagajına (bavula) konulabilir mi?",
-        "answer": "Hayır, lityum iyon batarya içeren powerbank ve elektronik sigara/yedek pil gibi cihazlar kargo bölümüne verilemez; kabin bagajında (el çantasında) taşınması zorunludur."
-      },
-      {
-        "question": "150 ml parfüm şişesinin yarısı boşsa kabine alınır mı?",
-        "answer": "Hayır, güvenlik kontrolünde şişenin içindeki kalan miktara değil, şişenin üzerinde yazan maksimum kapasiteye (100 ml ve altı olmasına) bakılır."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-pratik-ev-butcesi",
-    "slug": "aylik-ev-butcesi-nasil-yapilir-50-30-20-tasarruf-kurali",
-    "title": "Kişisel ve Aile Bütçesi Nasıl Planlanır? 50 / 30 / 20 Kuralı İle Harcama Takibi ve Birikim Rehberi",
-    "description": "Ay sonunda maaşın nereye gittiğini bulmak, görünmez abonelik giderlerini kesmek ve 50/30/20 bütçe yöntemiyle acil durum fonu oluşturma rehberi.",
-    "categorySlug": "pratik-bilgiler",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "6 dk",
-    "coverImage": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Bütçe Planlama",
-      "Tasarruf",
-      "Ev Ekonomisi",
-      "50 30 20 Kuralı",
-      "Pratik Bilgiler"
-    ],
-    "content": {
-      "lead": "Geliriniz ne olursa olsun harcamaları kayıt altına almadığınızda \"küçük görünmez giderler\" (kullanılmayan dijital abonelikler, plansız market alışverişleri ve kredi kartı asgari ödeme faizleri) ay sonunda birikim yapmanızı imkânsız hâle getirir. Bütçe yönetiminde en kolay uygulanabilen yöntem, geliri üç net sepete ayıran \"50 / 30 / 20 Kuralı\" ve \"Önce Kendine Öde\" prensibidir.",
-      "sections": [
-        {
-          "id": "50-30-20-butce-kurali-nasil-uygulanir",
-          "heading": "1. Geliri 3 Sepete Ayıran 50 / 30 / 20 Bütçe Dağılımı",
-          "paragraphs": [
-            "Aylık net elinize geçen toplam geliri (maaş, burs veya ek gelirler) karmaşık tablolar yerine üç ana başlık altında sınıflandırabilirsiniz (koşullarınıza göre 60 / 20 / 20 şeklinde de esnetilebilir):"
-          ],
-          "bullets": [
-            "%50 Zorunlu İhtiyaçlar: Kira/konut ödemesi, elektrik-su-doğalgaz-internet faturaları, temel mutfak/market alışverişi ve ulaşım giderleri.",
-            "%30 Kişisel İstekler ve Yaşam Kalitesi: Dışarıda yeme-içme, giyim, hobi, kültür-sanat ve eğlence harcamaları.",
-            "%20 Birikim, Yatırım ve Borç Kapatma: Maaş yatar yatmaz (ay sonunda kalanı değil, ilk gün!) ayrılan acil durum fonu ve birikim payı."
-          ],
-          "callout": {
-            "type": "tip",
-            "title": "24 Saat Bekleme Kuralı (Dürtüsel Alışverişe Karşı)",
-            "message": "İnternette indirimde gördüğünüz ve acil ihtiyaç olmayan bir ürünü sepete ekledikten sonra satın almadan önce 24 saat bekleyin; ertesi gün hâlâ gerçekten ihtiyacınız olduğunu düşünüyorsanız bütçeniz dahilinde alın."
-          }
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Acil durum fonu ne kadar olmalıdır?",
-        "answer": "Beklenmedik sağlık, arıza veya iş değişikliği durumlarında borçlanmamak için en az 3 ila 6 aylık zorunlu yaşam gideriniz tutarında kolay erişilebilir bir acil durum fonu hedeflenmelidir."
-      },
-      {
-        "question": "Market alışverişinde bütçe aşımı nasıl önlenir?",
-        "answer": "Markete mutlaka tok karnına ve elinizde yazılı bir haftalık yemek/ihtiyaç listesiyle gitmek, birim fiyat (kg/litre fiyatı) etiketi karşılaştırması yapmak plansız harcamayı %25–30 azaltır."
-      }
-    ]
-  },
-  {
-    "id": "bilgirotasi-pratik-camasir-makinesi",
-    "slug": "camasir-makinesinde-kirec-ve-koku-onleme-bakim-rehberi",
-    "title": "Çamaşır Makinesinde Kötü Koku ve Kireçlenme Nasıl Önlenir? Kazan Temizliği ve Bakım Rehberi",
-    "description": "Çamaşır makinesinden gelen rutubet kokusunu, körük lastiği küflenmesini ve deterjan çekmecesi kalıntılarını limon tuzu, beyaz sirke ve doğru bakımla giderme.",
-    "categorySlug": "pratik-bilgiler",
-    "authorId": "author-1",
-    "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
-    "readTime": "5 dk",
-    "coverImage": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=1200&auto=format&fit=crop&q=80",
-    "tags": [
-      "Çamaşır Makinesi Bakımı",
-      "Ev Temizliği",
-      "Kazan Temizliği",
-      "Pratik Bilgiler"
-    ],
-    "content": {
-      "lead": "Yıkanan çamaşırların güzel kokmak yerine ağır ve nemli kokmasının en yaygın sebebi; sürekli düşük sıcaklıkta (30–40°C) yıkama yapılması, aşırı yumuşatıcı kullanımı ve yıkama biter bitmez makine kapağının kapatılmasıdır. Ayda bir kez uygulayacağınız 4 aşamalı bakım ile hem kokuyu tamamen yok edebilir hem de rezistansın kireçlenmesini önleyebilirsiniz.",
-      "sections": [
-        {
-          "id": "camasir-makinesi-4-adimli-kazan-ve-lastik-temizligi",
-          "heading": "1. Koku ve Kireci Yok Eden 4 Adımlı Aylık Makine Bakımı",
-          "paragraphs": [
-            "Makinenin içindeki görünmeyen deterjan ve yumuşatıcı tabakası zamanla kapak körük lastiğinin altında ve deterjan kanalında bakteri/küf oluşturur."
-          ],
-          "steps": [
-            {
-              "title": "1. Adım: Deterjan Çekmecesini Çıkarıp Yıkayın",
-              "description": "Çekmecenin ortasındaki mavi mandalına basarak çekmeceyi tamamen çıkarın ve arkasındaki yumuşatıcı kalıntılarını ılık su ve eski bir diş fırçasıyla temizleyin."
-            },
-            {
-              "title": "2. Adım: Kapak Körük Lastiğini Kurulayın",
-              "description": "Kapak çevresindeki gri contanın iç kıvrımlarını beyaz sirkeli veya karbonatlı bezle silip içinde biriken su ve havları alın."
-            },
-            {
-              "title": "3. Adım: Ayda Bir Boş Kazan Temizliği Çalıştırın",
-              "description": "Makine boşken ana yıkama gözüne 1 çay bardağı beyaz sirke ve 1 yemek kaşığı limon tuzu (veya karbonat) koyup \"Kazan Temizleme\" ya da 90°C Pamuklu programda boş çalıştırın."
-            },
-            {
-              "title": "4. Adım: Sağ Alttaki Pompa Filtresini Boşaltın",
-              "description": "Makinenin sağ alt köşesindeki küçük kapağı açıp tahliye hortumuyla suyu bir kaba boşaltın, ardından filtreyi çevirerek içindeki bozuk para, düğme ve tüy yumaklarını temizleyin."
-            }
-          ],
-          "callout": {
-            "type": "warning",
-            "title": "Yıkama Bitince Kapağı Hemen Kapatmayın!",
-            "message": "Çamaşırları çıkardıktan sonra hem makine kapağını hem de deterjan çekmecesini 2–3 saat hafif aralık bırakarak kazan içinin tamamen kurumasını sağlayın; rutubet kokusunu önleyen en etkili alışkanlık budur."
-          }
-        }
-      ]
-    },
-    "faqs": [
-      {
-        "question": "Fazla deterjan veya yumuşatıcı koymak çamaşırları daha temiz yapar mı?",
-        "answer": "Tam aksine, ölçekten fazla konulan deterjan durulanamaz; hem kıyafetlerin liflerinde sertlik bırakır hem de kazan içinde çamurlaşarak koku üretir."
-      },
-      {
-        "question": "Pompa filtresi ne sıklıkla temizlenmeli?",
-        "answer": "Su tahliyesinin yavaşlamaması ve pompanın sıkışmaması için 2–3 ayda bir sağ alt filtre kapağı açılarak kontrol edilmelidir."
       }
     ]
   }
