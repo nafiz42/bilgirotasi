@@ -11,8 +11,8 @@
  */
 
 export const ADS_CONFIG = {
-  // Reklam afişlerinin sitede gösterim durumu (true: reklam alanları aktif ve yayında)
-  enabled: true,
+  // Reklam afişlerinin sitede gösterim durumu (false: reklam alanları pasif, boş kutu görünmez)
+  enabled: false,
 
   // AdSense site doğrulama / onay scripti ve meta etiketi (true: <head>'e eklenir)
   enableVerificationScript: true,
