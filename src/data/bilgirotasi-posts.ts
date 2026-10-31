@@ -475,7 +475,7 @@ export const bilgirotasiPosts: Post[] = [
   },
   {
     "id": "bilgirotasi-ruya-gunes",
-    "slug": "rüyada-gunes-gormek",
+    "slug": "ruyada-gunes-gormek",
     "title": "Rüyada Güneş Görmek Ne Anlama Gelir? Geleneksel Yorumlar ve Psikolojik Sembolizm",
     "description": "Rüyada güneş görmek, güneşin doğduğunu, parladığını veya tutulduğunu görmenin kültürel rüya tabirlerindeki yeri ve psikolojik çağrışımları.",
     "categorySlug": "pratik-bilgiler",
@@ -2357,6 +2357,928 @@ export const bilgirotasiPosts: Post[] = [
       {
         "question": "Büyük üs inşa ettikten sonra FPS düşmesi nasıl azaltılır?",
         "answer": "Gölge mesafesini, su yansımalarını ve sis kalitesini Orta/Düşük seviyeye çekmek ve DLSS/FSR görüntü ölçekleme teknolojisini \"Kalite\" modunda açmak FPS’i önemli ölçüde rahatlatır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-dgs",
+    "slug": "dgs-nedir-nasil-hazirlanilir-puan-hesaplama-ve-tercih-rehberi",
+    "title": "DGS (Dikey Geçiş Sınavı) Nedir? Ön Lisanstan Lisansa Geçiş, Konu Dağılımı ve Çalışma Rehberi",
+    "description": "2 yıllık meslek yüksekokulu (ön lisans) mezunlarının 4 yıllık lisans bölümlerine geçişini sağlayan DGS’nin soru dağılımı, ÖBP etkisi ve hazırlık stratejisi.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "DGS",
+      "Dikey Geçiş Sınavı",
+      "ÖSYM",
+      "Ön Lisans",
+      "Üniversite"
+    ],
+    "content": {
+      "lead": "Dikey Geçiş Sınavı (DGS), üniversitelerin 2 yıllık ön lisans programlarından mezun olan veya son sınıfında okuyan öğrencilerin, kendi alanlarıyla uyumlu 4 yıllık lisans bölümlerine geçiş yapabilmesi için ÖSYM tarafından her yıl düzenlenen merkezi sınavdır. Sınavda bilgi ezberinden çok sayısal ve sözel akıl yürütme hızı ölçülür.",
+      "sections": [
+        {
+          "id": "dgs-soru-sayisi-ve-sure-dagilimi",
+          "heading": "1. DGS Soru Dağılımı, Süre ve Puan Türleri (Sayısal, Sözel, Eşit Ağırlık)",
+          "paragraphs": [
+            "DGS’de adaylara Sayısal ve Sözel olmak üzere iki ana test yöneltilir. Sınavda özellikle uzun paragraf, sözel mantık ve sayısal mantık soruları ağırlıktadır; bu nedenle süre yönetimi en kritik belirleyicidir."
+          ],
+          "bullets": [
+            "Sayısal Test (50 Soru): Temel matematik, cebir, problemler, sayısal mantık ve geometri sorularından oluşur.",
+            "Sözel Test (50 Soru): Sözcükte/cümlede anlam, paragraf yorumu ve tablo/sıralama tabanlı sözel mantık sorularını kapsar.",
+            "0,5 Ham Puan Kuralı: DGS puanının hesaplanabilmesi için adayın hem Sayısal hem de Sözel testten en az 1’er net (0,5 ham puan) çıkarması zorunludur; tek testten soru çözmek puan hesaplaması için yeterli değildir.",
+            "Ön Lisans Başarı Puanı (ÖBP): Üniversite mezuniyet not ortalamanız (AGNO) 80 ile çarpılarak ÖBP’ye dönüştürülür ve 0,6 katsayısıyla sınav puanınıza eklenir."
+          ],
+          "callout": {
+            "type": "warning",
+            "title": "Tercih Edip Yerleşen Adaylarda Katsayı Kesintisi",
+            "message": "Bir yıl DGS ile bir lisans programına yerleşirseniz (kayıt yaptırmasanız bile), ertesi yıl tekrar DGS’ye girdiğinizde ÖBP katsayınız 0,60 yerine 0,45 olarak hesaplanır."
+          }
+        },
+        {
+          "id": "dgs-4-adimli-hazirlik-plani",
+          "heading": "2. DGS’ye Hazırlanırken 4 Adımlı Çalışma Stratejisi",
+          "paragraphs": [
+            "DGS kontenjanları YKS’ye kıyasla daha sınırlı olduğu için hedef bölümün geçmiş yıl taban puanlarını ve sıralamalarını inceleyerek net hedefi belirlemek gerekir."
+          ],
+          "steps": [
+            {
+              "title": "1. Adım: ÖSYM Tablo-2 Geçiş Bölümlerini Kontrol Edin",
+              "description": "Mezun olduğunuz ön lisans programından hangi 4 yıllık lisans bölümlerine geçiş hakkınız olduğunu ÖSYM DGS Kılavuzu Tablo-2’den doğrulayın."
+            },
+            {
+              "title": "2. Adım: Problem ve Paragraf Rutini Kurun",
+              "description": "Her gün düzenli olarak 25–30 paragraf ve 20–25 problem sorusu çözerek okuma ve işlem hızınızı artırın."
+            },
+            {
+              "title": "3. Adım: Sözel ve Sayısal Mantık Özel Çalışması Yapın",
+              "description": "Son 5 yılın çıkmış DGS ve ALES mantık sorularını süre tutarak çözün."
+            }
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Alttan dersi kalan öğrenci DGS’ye girebilir mi?",
+        "answer": "Sınava başvurabilir ve girebilir; ancak tercih edip yerleştiği üniversiteye kesin kayıt yaptırabilmesi için kayıt tarihine kadar ön lisans mezuniyet şartlarını (staj dahil) tamamlamış olması gerekir."
+      },
+      {
+        "question": "DGS ile kazanılan bölümde kaçıncı sınıftan başlanır?",
+        "answer": "Başlayacağınız sınıf sabit değildir; yerleştiğiniz üniversitenin intibak komisyonu ön lisansta aldığınız derslerin içerik ve kredilerini inceleyerek muafiyetlerinizi ve başlayacağınız yarıyılı belirler."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-ales",
+    "slug": "ales-nedir-kimler-girebilir-puan-turleri-ve-gecerlilik-suresi",
+    "title": "ALES Nedir, Kimler Girmeli? Sayısal, Sözel, Eşit Ağırlık Puan Hesaplama ve Geçerlilik Süresi",
+    "description": "Tezli yüksek lisans, doktora ve öğretim görevlisi/araştırma görevlisi başvurularında zorunlu olan ALES’in yapısı, puan türleri ve 5 yıllık geçerlilik süresi.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "ALES",
+      "Yüksek Lisans",
+      "Akademik Kariyer",
+      "ÖSYM",
+      "Doktora"
+    ],
+    "content": {
+      "lead": "Akademik Personel ve Lisansüstü Eğitimi Giriş Sınavı (ALES), Türkiye’de tezli yüksek lisans ve doktora programlarına başvurmak isteyen adaylar ile üniversitelerin öğretim görevlisi, okutman ve araştırma görevlisi kadrolarına atanacak kişilerin girmesi gereken merkezi sınavdır. Yılda 3 kez (ALES/1, ALES/2, ALES/3) düzenlenir.",
+      "sections": [
+        {
+          "id": "ales-soru-sayisi-ve-puan-agirliklari",
+          "heading": "1. ALES Soru Sayısı, Süre ve Puan Türü Ağırlıkları",
+          "paragraphs": [
+            "ALES’te adaylara 50 soruluk Sayısal Test ve 50 soruluk Sözel Test olmak üzere toplam 100 soru için 150 dakika (2,5 saat) süre verilir. Her iki testin puan türlerine katkısı farklıdır:"
+          ],
+          "bullets": [
+            "ALES Sayısal Puanı: Sayısal Testin %75’i + Sözel Testin %25’i alınarak hesaplanır (Mühendislik ve Fen Bilimleri enstitüleri için).",
+            "ALES Sözel Puanı: Sözel Testin %75’i + Sayısal Testin %25’i alınarak hesaplanır (Sosyal Bilimler ve İlahiyat/Edebiyat alanları için).",
+            "ALES Eşit Ağırlık (EA) Puanı: Sayısal Testin %50’si + Sözel Testin %50’si alınarak hesaplanır (İktisadi ve İdari Bilimler, Hukuk, Eğitim Bilimleri alanları için).",
+            "Geçerlilik Süresi: ALES sonuçları açıklandığı tarihten itibaren 5 yıl boyunca geçerlidir; adaylar bu sürede aldıkları en yüksek puanı kullanabilirler."
+          ],
+          "callout": {
+            "type": "tip",
+            "title": "Tezsiz Yüksek Lisans İçin ALES Şart mı?",
+            "message": "YÖK mevzuatına göre tezsiz yüksek lisans programlarına başvurularda ALES puanı şartı aranmamaktadır; ancak tezli yüksek lisans, doktora ve akademik kadro ilanlarında en az 55 (bazı kurumlarda 70+) ALES puanı zorunludur."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "ALES puanı kaç yıl geçerlidir?",
+        "answer": "ALES sonuçları açıklandığı tarihten itibaren 5 (beş) yıl süreyle geçerlidir."
+      },
+      {
+        "question": "Lisans öğrencileri mezun olmadan ALES’e girebilir mi?",
+        "answer": "Evet, lisans 3. ve 4. sınıf öğrencileri mezun olmadan önce ALES’e girip puanlarını hazır tutabilirler."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-yds-yokdil",
+    "slug": "yds-ve-yokdil-arasindaki-farklar-hangisine-girilmeli",
+    "title": "YDS ve YÖKDİL Arasındaki Farklar Nelerdir? Akademik Dil Sınavı Seçimi ve Hazırlık Stratejisi",
+    "description": "ÖSYM tarafından düzenlenen YDS, e-YDS ve YÖKDİL sınavlarının soru dağılımı, kullanım alanları (dil tazminatı vs yüksek lisans) ve zorluk karşılaştırması.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "YDS",
+      "YÖKDİL",
+      "Yabancı Dil Sınavı",
+      "ÖSYM",
+      "Yüksek Lisans"
+    ],
+    "content": {
+      "lead": "Yüksek lisans/doktora başvurusu, doçentlik dosyası veya kamu kurumlarında yabancı dil tazminatı için dil puanına ihtiyaç duyan adayların karşısına iki ana sınav çıkar: YDS (Yabancı Dil Bilgisi Seviye Tespit Sınavı) ve YÖKDİL (Yükseköğretim Kurumları Yabancı Dil Sınavı). Her iki sınav da 80 sorudan oluşur, 180 dakika sürer ve yanlışlar doğruyu götürmez; ancak geçerlilik alanları ve soru tipleri birbirinden farklıdır.",
+      "sections": [
+        {
+          "id": "yds-ve-yokdil-temel-farklar",
+          "heading": "1. YDS ile YÖKDİL Arasındaki 4 Kritik Fark",
+          "paragraphs": [
+            "Hangi sınava gireceğinize karar verirken önce puanı kullanacağınız kurumu (üniversite enstitüsü mü, yoksa kamu kurumu / dil tazminatı mı?) netleştirmeniz gerekir."
+          ],
+          "bullets": [
+            "Alan Ayrımı: YÖKDİL; Fen Bilimleri, Sağlık Bilimleri ve Sosyal Bilimler olmak üzere 3 ayrı alanda yapılır (kendi alanınızın kelime dağarcığıyla sınava girersiniz). YDS ise tek bir genel sınavdır.",
+            "Soru Tipleri: YDS’de diyalog tamamlama, yakın anlamlı cümle (restatement) ve durum soruları bulunurken; YÖKDİL’de bu üç soru tipi yoktur, yerine cümle tamamlama, çeviri ve paragraf soruları daha fazladır.",
+            "Kullanım Alanı: YÖKDİL yalnızca yüksek lisans, doktora, TUS/DUS ve akademik kadro/doçentlik başvurularında geçerlidir; kamu kurumlarında yabancı dil tazminatı için YDS (veya e-YDS) puanı istenir.",
+            "Puanlama: Her iki sınavda da 80 soru vardır, her soru 1,25 puan değerindedir ve 4 yanlış 1 doğruyu götürmez (boş soru bırakılmamalıdır)."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Yüksek lisans başvurusu için YDS mi YÖKDİL mi daha avantajlıdır?",
+        "answer": "Kendi uzmanlık alanınıza (Fen, Sağlık veya Sosyal) özgü metinler çıktığı ve diyalog/yakın anlam soruları bulunmadığı için çoğu aday YÖKDİL’de daha hızlı puan artışı yakalamaktadır."
+      },
+      {
+        "question": "YÖKDİL ile dil tazminatı alınabilir mi?",
+        "answer": "Hayır, 375 sayılı KHK kapsamındaki yabancı dil tazminatı ödemelerinde YDS veya e-YDS sonuçları esas alınır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-osym-ais",
+    "slug": "osym-ais-aday-islemleri-sistemi-basvuru-ve-tercih-rehberi",
+    "title": "ÖSYM AİS (Aday İşlemleri Sistemi) Başvuru, Fotoğraf Güncelleme ve Sınav Ücreti Ödeme Rehberi",
+    "description": "ais.osym.gov.tr üzerinden e-Devlet ile giriş, sınav başvurusu tamamlama, 50 ay fotoğraf geçerlilik süresi ve ÖSYM Kartlı Ödeme Sistemi (odeme.osym.gov.tr) adımları.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "ÖSYM",
+      "AİS",
+      "Sınav Başvurusu",
+      "e-Devlet",
+      "Tercih İşlemleri"
+    ],
+    "content": {
+      "lead": "YKS, KPSS, ALES, DGS ve YDS başta olmak üzere ÖSYM tarafından yürütülen tüm sınavların başvuru, tercih ve giriş belgesi işlemleri Aday İşlemleri Sistemi (ais.osym.gov.tr) üzerinden gerçekleştirilir. Başvuruda \"Onaylandı\" yazısını görmek tek başına yeterli değildir; sınav ücreti süresi içinde yatırılmadığında başvuru otomatik olarak iptal olur.",
+      "sections": [
+        {
+          "id": "osym-ais-sinav-basvuru-adimlari",
+          "heading": "1. ÖSYM AİS Üzerinden Adım Adım Sınav Başvurusu ve Ödeme Onayı",
+          "paragraphs": [
+            "ÖSYM şifrenizi unuttuysanız başvuru merkezine gitmenize gerek kalmadan doğrudan \"e-Devlet ile Giriş\" butonunu kullanarak AİS hesabınıza erişebilirsiniz."
+          ],
+          "steps": [
+            {
+              "title": "1. Adım: Profil, Eğitim ve Fotoğraf Bilgisini Kontrol Edin",
+              "description": "Sistemdeki fotoğrafınızın geçerlilik süresinin (50 ay) dolmadığını ve mezuniyet/okul bilgilerinizin güncel olduğunu \"Profilim\" menüsünden kontrol edin."
+            },
+            {
+              "title": "2. Adım: Sınav Merkezini Seçip Başvuruyu Kaydedin",
+              "description": "Başvuru Sürecindekiler sekmesinden ilgili sınavı seçip sınava gireceğiniz il/ilçe tercihlerini tamamlayın."
+            },
+            {
+              "title": "3. Adım: Sınav Ücretini Yatırın (odeme.osym.gov.tr)",
+              "description": "Kılavuzda belirtilen anlaşmalı bankalardan veya ÖSYM e-Ödemeler sayfasından sınav ücretini yatırıp AİS üzerinde \"Ödeme Bilgileri: Ödendi\" ibaresini mutlaka görün."
+            }
+          ],
+          "callout": {
+            "type": "warning",
+            "title": "Geç Başvuru Günlerinde %50 Ek Ücret Uygulanır",
+            "message": "Normal başvuru süresini veya son ödeme saatini (genellikle son gün 23:59) kaçıran adaylar yalnızca \"Geç Başvuru Günü\"nde %50 artırımlı sınav ücreti ödeyerek başvuru yapabilir."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "ÖSYM AİS’teki fotoğrafımı internetten kendim değiştirebilir miyim?",
+        "answer": "T.C. Kimlik Kartı (yeni çipli kimlik) fotoğrafınız sistemde görünüyorsa AİS mobil uygulaması veya web üzerinden \"Kimlik Kartı Fotoğrafını Güncelle\" seçeneğiyle başvuru merkezine gitmeden güncelleyebilirsiniz."
+      },
+      {
+        "question": "Tercih yaptıktan sonra tercih listemi değiştirebilir miyim?",
+        "answer": "Evet, ÖSYM tercih süresi sona erene kadar AİS üzerinden tercihlerinizi dilediğiniz kadar güncelleyip yeniden kaydedebilirsiniz; son kaydettiğiniz liste geçerli olur."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-paragraf",
+    "slug": "tyt-turkce-paragraf-cozme-teknikleri-ve-hizlanma-rehberi",
+    "title": "TYT, KPSS ve ALES Türkçe Paragraf Soruları Nasıl Hızlı Çözülür? Odaklanma ve Zaman Yönetimi",
+    "description": "Sınavlarda paragraf sorularında süre kaybetmemek için önce soru kökünü okuma, ana düşünceyi bulma, yardımcı düşünce eleme ve günlük rutin oluşturma.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Paragraf Taktikleri",
+      "TYT Türkçe",
+      "KPSS Türkçe",
+      "Hızlı Okuma",
+      "Sınav Rehberi"
+    ],
+    "content": {
+      "lead": "TYT, KPSS, DGS ve ALES’te Türkçe testinin yaklaşık %70–80’ini paragraf ve anlam soruları oluşturur. Paragraf sorularında zaman kaybetmenin en yaygın nedeni metni amaçsızca baştan sona okuyup ardından soru köküne bakmak ve metni ikinci kez okumak zorunda kalmaktır.",
+      "sections": [
+        {
+          "id": "paragraf-soru-tiplerine-gore-cozum-sirasi",
+          "heading": "1. Soru Tipine Göre Okuma Sırası: Önce Soru Kökü mü, Metin mi?",
+          "paragraphs": [
+            "Her paragraf sorusu aynı sırayla çözülmez. \"Ana düşünce / Konu\" soruları ile \"Değinilmemiştir / Çıkarılamaz\" (Yardımcı Düşünce) sorularının çözüm tekniği birbirinden farklıdır:"
+          ],
+          "bullets": [
+            "Her Zaman İlk Adım (Soru Kökü): Önce kalın yazılmış soru kökünü okuyun; metinde ne arayacağınızı bilerek paragrafa çıkın.",
+            "Ana Düşünce Soruları (Vurgulanmak İstenen Nedir?): Metnin özellikle ilk cümlesine (giriş tezi) ve son cümlesine (\"kısacası, oysa, demek ki, bu nedenle\" bağlaçlarından sonraki sonuç yargısına) odaklanın.",
+            "Olumsuz Soru Kökleri (Değinilmemiştir / Ulaşılamaz): Önce şıklara hızlıca göz atıp anahtar kelimeleri işaretleyin, ardından metni okuyarak bulduğunuz şıkları tek tek eleyin.",
+            "Altını Çizme Hatası: Paragrafın tamamının altını kalemle çizmek gözü yavaşlatır; yalnızca zıtlık bağlaçlarını (ancak, ne var ki, buna karşın) ve anahtar kavramları yuvarlak içine alın."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Günde kaç paragraf sorusu çözülmeli?",
+        "answer": "Bir günde 150 soru çözüp 5 gün ara vermek yerine, her sabah zihin açıkken süre tutarak düzenli 25–30 paragraf sorusu çözmek hız ve odaklanmayı kalıcı olarak artırır."
+      },
+      {
+        "question": "İki şık arasında kaldığımda ne yapmalıyım?",
+        "answer": "Kendi kişisel yorumunuzu katmadan yalnızca metindeki kelimelerin sınırları içinde kalın; \"asla, her zaman, yalnızca, tümü\" gibi aşırı genelleme içeren şıklara şüpheyle yaklaşın."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-matematik",
+    "slug": "tyt-ayt-matematik-temel-atma-ve-problem-cozme-taktikleri",
+    "title": "Sıfırdan TYT ve AYT Matematik Nasıl Çalışılır? Temel Atma, Problemler ve Branş Denemesi Rehberi",
+    "description": "Matematik netlerini artırmak için ilk 12 temel kavram konusu, günlük problem çözme rutini, geometri yaklaşımı ve aşamalı kaynak seçimi.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "TYT Matematik",
+      "AYT Matematik",
+      "Problemler",
+      "YKS Hazırlık",
+      "Ders Çalışma"
+    ],
+    "content": {
+      "lead": "YKS (TYT – AYT), KPSS ve DGS’de sıralamayı en çok değiştiren ders Matematiktir. Matematikte netlerin yükselmemesinin temel sebebi konuyu yalnızca videodan izleyip kalem oynatmadan geçmek ve kendi seviyenizin çok üzerinde zor bir soru bankasıyla başlayıp motivasyon kaybetmektir.",
+      "sections": [
+        {
+          "id": "matematik-3-asamali-calisma-plani",
+          "heading": "1. Matematikte Net Artıran 3 Aşamalı Konu ve Soru Planı",
+          "paragraphs": [
+            "Matematik konuları zincirleme ilerler. İlk 12 temel konuyu (Temel Kavramlar, Rasyonel Sayılar, Birinci Dereceden Denklemler, Eşitsizlikler, Mutlak Değer, Üslü ve Köklü Sayılar, Çarpanlara Ayırma, Oran-Orantı) bitirmeden Problemlere veya AYT Fonksiyon/Türev konularına geçmek zaman kaybettirir."
+          ],
+          "steps": [
+            {
+              "title": "1. Aşama: İlk 12 Temel Cebir Konusu",
+              "description": "İşlem hatası yapmamak ve denklem kurmayı öğrenmek için ilk 12 konuyu kolay-orta seviye bir soru bankasından eksiksiz tamamlayın."
+            },
+            {
+              "title": "2. Aşama: Günlük Problem ve Geometri Rutini",
+              "description": "Oran-Orantı bittiği günden itibaren her gün 15–20 Problem ve 10–15 Geometri sorusunu sabit rutin haline getirin."
+            },
+            {
+              "title": "3. Aşama: Süreli Branş Denemeleri",
+              "description": "Konuların %70’i tamamlandığında haftada 2–3 kez 40 soruluk süreli TYT Matematik branş denemesi çözerek turlama tekniğini geliştirin."
+            }
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Yapamadığım matematik sorusunun çözümünü hemen izlemeli miyim?",
+        "answer": "İlk denemede çözemediğiniz soruya aynı gün akşam veya ertesi gün temiz kafayla bir kez daha 3–4 dakika uğraşın; yine çıkmazsa video çözümünü izleyip ekranı kapatarak çözümü kendi elinizle baştan sona yazın."
+      },
+      {
+        "question": "AYT Matematik çalışmaya ne zaman başlanmalı?",
+        "answer": "TYT’deki ilk 12 temel cebir konusu ve Fonksiyonlar konusu biter bitmez TYT branş denemeleriyle eşzamanlı olarak AYT Matematik konularına başlanmalıdır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-pomodoro",
+    "slug": "pomodoro-teknigi-ve-aralikli-tekrar-ile-verimli-ders-calisma",
+    "title": "Pomodoro Tekniği ve Aralıklı Tekrar (Spaced Repetition) İle Kalıcı Ders Çalışma Rehberi",
+    "description": "Masa başında odaklanma süresini artıran 25+5 ve 50+10 Pomodoro blokları ile unutma eğrisini kıran 1-3-7-30 günlük Aralıklı Tekrar yöntemi.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Pomodoro Tekniği",
+      "Verimli Ders Çalışma",
+      "Aralıklı Tekrar",
+      "Odaklanma",
+      "Eğitim"
+    ],
+    "content": {
+      "lead": "Saatlerce masa başında oturup gün sonunda hiçbir şey hatırlamamanın nedeni süreklilikten yoksun, bölünmüş çalışmadır. Bilimsel öğrenme araştırmaları, dikkati belirli zaman bloklarına bölen \"Pomodoro Tekniği\" ile bilgiyi tam unutulacağı günlerde hatırlatan \"Aralıklı Tekrar\" (Spaced Repetition) yönteminin birlikte kullanıldığında öğrenme kalıcılığını katladığını göstermektedir.",
+      "sections": [
+        {
+          "id": "pomodoro-25-5-ve-50-10-uygulamasi",
+          "heading": "1. Dersin Türüne Göre Pomodoro Blokları: 25+5 mi, 50+10 mu?",
+          "paragraphs": [
+            "Klasik Pomodoro tekniği 25 dakika tam odaklanma + 5 dakika mola şeklinde uygulanır. Ancak matematik problemi veya deneme sınavı çözerken 25. dakikada bölünmek odak akışını kesebileceği için ders türüne göre iki farklı blok kullanabilirsiniz:"
+          ],
+          "bullets": [
+            "25 Dakika Çalışma + 5 Dakika Mola: Ezber, kelime çalışması, kısa konu tekrarı veya derse başlamakta zorlandığınız günlerde idealdir.",
+            "50 Dakika Çalışma + 10 Dakika Mola: Matematik/Fen soru çözümü, uzun paragraf testleri ve konu anlatımı çalışmaları için çok daha verimlidir.",
+            "Molada Telefon Yasağı: 5 veya 10 dakikalık kısa molalarda sosyal medya/kısa video kaydırmak beyni dinlendirmez, aksine yorar. Molada masadan kalkıp su için ve pencereden uzağa bakarak gözlerinizi dinlendirin."
+          ]
+        },
+        {
+          "id": "aralikli-tekrar-1-3-7-21-takvimi",
+          "heading": "2. Ebbinghaus Unutma Eğrisini Kıran \"1 – 3 – 7 – 21\" Tekrar Takvimi",
+          "paragraphs": [
+            "Yeni öğrenilen bir bilginin büyük kısmı tekrar edilmezse ilk 48 saat içinde unutulur. Konuyu baştan sona yeniden okumak yerine şu takvimde 10’ar dakikalık aktif hatırlama testi yapın:"
+          ],
+          "steps": [
+            {
+              "title": "1. Tekrar (Aynı Gün Akşam)",
+              "description": "Gündüz çalıştığınız konunun özet notlarına 10 dakika göz gezdirip kendi cümlelerinizle özetleyin."
+            },
+            {
+              "title": "2. Tekrar (3. Gün)",
+              "description": "Konu anlatımına bakmadan doğrudan 15–20 soruluk bir mini test çözün; sadece takıldığınız formül/kavrama geri dönün."
+            },
+            {
+              "title": "3. Tekrar (7. ve 21. Gün)",
+              "description": "Karma soru testi veya branş denemesi üzerinden konuyu kalıcı hafızaya aktarın."
+            }
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Günde kaç Pomodoro tamamlanmalı?",
+        "answer": "Okul veya iş temposuna göre değişmekle birlikte, 50+10 sisteminde günde 4 ila 6 tam blok (yaklaşık 3,5 – 5 saat saf odaklanmış çalışma) oldukça yüksek verim sağlar."
+      },
+      {
+        "question": "En etkili tekrar yöntemi not okumak mı yoksa soru çözmek mi?",
+        "answer": "Defteri pasif olarak tekrar tekrar okumak yerine kitabı kapatıp \"bu konuda hangi kavramlar vardı?\" diye kendini sınamak (aktif hatırlama) ve soru çözmek çok daha kalıcıdır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-yatay-gecis",
+    "slug": "universite-yatay-gecis-sartlari-gno-ve-ek-madde-1-rehberi",
+    "title": "Üniversitede Yatay Geçiş Nasıl Yapılır? GNO (Not Ortalaması) ve Merkezi Yerleştirme (Ek Madde-1)",
+    "description": "Üniversiteler arası yatay geçiş türleri: Genel Not Ortalaması (GNO) ile geçiş ve YKS puanıyla Merkezi Yerleştirme (Ek Madde-1) başvuru tarihleri ve şartları.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Yatay Geçiş",
+      "Ek Madde-1",
+      "Üniversite",
+      "YÖK",
+      "Eğitim Rehberi"
+    ],
+    "content": {
+      "lead": "Okuduğu üniversiteyi veya bölümü değiştirmek isteyen öğrencilerin önünde YÖK mevzuatına göre iki ana yatay geçiş yolu bulunur: Birincisi dönemlik/yıllık başarıya dayanan \"Kurumlar Arası Genel Not Ortalaması (GNO) ile Yatay Geçiş\", ikincisi ise üniversiteye girdiğiniz yıldaki YKS puanınızı baz alan \"Merkezi Yerleştirme Puanıyla (Ek Madde-1) Yatay Geçiş\"tir.",
+      "sections": [
+        {
+          "id": "gno-ile-ek-madde-1-arasindaki-farklar",
+          "heading": "1. GNO İle Yatay Geçiş ve Ek Madde-1 (MYP) Arasındaki Farklar",
+          "paragraphs": [
+            "İki geçiş türünün şartları, kontenjanları ve başvuru dönemleri birbirinden tamamen bağımsızdır:"
+          ],
+          "bullets": [
+            "Not Ortalaması (GNO) İle Yatay Geçiş: Sadece kendi bölümünüzle aynı (veya eşdeğer) bir bölüme geçebilirsiniz. Genel not ortalamanızın 100 üzerinden en az 60 (4.00 üzerinden genellikle 2.50–3.00+, üniversiteye göre değişir) olması gerekir.",
+            "Merkezi Yerleştirme Puanı (Ek Madde-1): Sınava girdiğiniz yıldaki YKS yerleştirme puanınız, geçmek istediğiniz bölümün o yılki taban puanına eşit veya ondan yüksekse (alttan dersiniz olsa bile ve not ortalamanıza bakılmaksızın) hem başka üniversiteye hem de tamamen farklı bir bölüme (4 yıllıktan 2 yıllığa dahil) geçebilirsiniz.",
+            "Başvuru Dönemi: Güz dönemi başvuruları genellikle Temmuz sonu – Ağustos ortasında her üniversitenin kendi öğrenci işleri portalı üzerinden alınır."
+          ],
+          "callout": {
+            "type": "info",
+            "title": "Ek Madde-1 Hakkı Kaç Kez Kullanılabilir?",
+            "message": "Merkezi yerleştirme puanıyla (Ek Madde-1) yatay geçiş hakkı eğitim hayatı boyunca yalnızca 1 kez kullanılabilir; ancak geçiş yaptıktan sonra vazgeçerseniz bir sonraki dönemde ilk kazandığınız üniversiteye geri dönme hakkınız vardır."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Hazırlık sınıfında veya 1. sınıfın ilk döneminde yatay geçiş yapılır mı?",
+        "answer": "Not ortalaması (GNO) ile hazırlıkta, 1. sınıfın ilk döneminde ve son sınıfın başında yatay geçiş yapılamaz. Ancak Merkezi Yerleştirme Puanı (Ek Madde-1) ile hazırlık ve 1. sınıf dahil geçiş başvurusu yapılabilir."
+      },
+      {
+        "question": "Yatay geçiş başvurusu için hangi belgeler istenir?",
+        "answer": "Onaylı/barkodlu Transkript (Not Dökümü), Öğrenci Belgesi, Disiplin Cezası Yoktur ibaresi, ÖSYS/YKS Sonuç ve Yerleştirme Belgeleri ile ders içerikleri (intibak için) talep edilir."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-aof",
+    "slug": "acikogretim-aof-sinav-sistemi-harf-notlari-ve-ders-secimi",
+    "title": "Açıköğretim (AÖF, ATA-AÖF, AUZEF) Sınav Sistemi, Çan Eğrisi, Koşullu Geçme ve Ders Seçimi",
+    "description": "Anadolu Üniversitesi AÖF, Atatürk Üniversitesi ATA-AÖF ve İstanbul Üniversitesi AUZEF sınav ağırlıkları, 4 yanlış 1 doğru kuralı ve FF/CD/DD harf notları.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Açıköğretim",
+      "AÖF",
+      "AUZEF",
+      "ATA-AÖF",
+      "Üniversite"
+    ],
+    "content": {
+      "lead": "Anadolu Üniversitesi (AÖF), İstanbul Üniversitesi (AUZEF) ve Atatürk Üniversitesi (ATA-AÖF) açıköğretim fakültelerinde eğitim gören yüz binlerce öğrenci için dönemi kayıpsız tamamlamanın anahtarı; vize-final ağırlıklarını, 4 yanlışın 1 doğruyu götürme kuralını ve koşullu geçme (CD, DC, DD) not ortalaması barajını doğru takip etmektir.",
+      "sections": [
+        {
+          "id": "aof-vize-final-agirliklari-ve-harf-notlari",
+          "heading": "1. Vize – Final Etki Oranları, Alt Sınır ve AGNO (2.00) Kuralı",
+          "paragraphs": [
+            "Açıköğretim fakültelerinde her ders için dönem içinde 1 Ara Sınav (Vize) ve 1 Dönem Sonu Sınavı (Final) yapılır (fakülteye göre Yaz Okulu veya Bütünleme sınavı da uygulanır). Sınavlarda çoktan seçmeli 20 soru sorulur ve 4 yanlış 1 doğru cevabı götürür."
+          ],
+          "bullets": [
+            "Vize ve Final Ağırlığı: Ara sınav (vize) notunun %30’u, dönem sonu (final) sınav notunun %70’i alınarak başarı puanı hesaplanır.",
+            "Doğrudan Geçer Notlar (AA, AB, BA, BB, BC, CB, CC): Genel not ortalamanız ne olursa olsun bu harf notlarını aldığınız derslerden doğrudan başarılı sayılırsınız.",
+            "Koşullu Geçer Notlar (CD, DC, DD): Dönem sonu Genel Not Ortalamanız (AGNO) 2.00 ve üzerindeyse bu derslerden geçmiş sayılırsınız; AGNO 2.00’ın altındaysa mezun olabilmek için bu dersleri tekrar alıp yükseltmeniz gerekir.",
+            "Kalan Not (FF): Doğrudan başarısız olunan derstir; bir sonraki yıl aynı dönemde tekrar seçilmesi zorunludur."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Açıköğretimde kayıt yenileme nasıl tamamlanır?",
+        "answer": "Kayıt yenileme haftasında önce öğrenci otomasyonundan ders seçimi (ekle-sil) yapılmalı, ardından oluşan dönem öğretim gideri/materyal ücreti bankaya yatırılmalıdır; sadece para yatırmak veya sadece ders seçmek tek başına yeterli değildir."
+      },
+      {
+        "question": "İkinci Üniversite (Sınavsız Açıköğretim) başvurusu kimler için geçerlidir?",
+        "answer": "Herhangi bir örgün veya açıköğretim ön lisans/lisans programında halen öğrenci olanlar veya mezun olanlar YKS’ye girmeden İkinci Üniversite kapsamında açıköğretim bölümlerine kayıt yaptırabilir."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-erasmus",
+    "slug": "erasmus-basvurusu-nasil-yapilir-dil-sinavi-ve-hibe-sartlari",
+    "title": "Erasmus+ Öğrenim ve Staj Başvurusu Nasıl Yapılır? AGNO Şartı, Dil Sınavı ve Hibe Puanlaması",
+    "description": "Üniversite öğrencileri için Erasmus+ yurt dışı eğitim ve staj başvurusu, 2.20 / 2.50 not ortalaması barajı, Turnaportal başvurusu ve hibe hesaplama.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Erasmus",
+      "Yurt Dışı Eğitim",
+      "Üniversite",
+      "Turnaportal",
+      "Burs ve Hibe"
+    ],
+    "content": {
+      "lead": "Erasmus+ programı, Türkiye’deki üniversite öğrencilerinin Avrupa’daki anlaşmalı bir üniversitede 1 veya 2 dönem eğitim görmesini (Öğrenim Hareketliliği) ya da yurt dışındaki bir kurum/şirkette 2 ila 12 ay staj yapmasını (Staj Hareketliliği) destekleyen değişim programıdır. Başvurular Türkiye Ulusal Ajansı’nın merkezi sistemi olan Turnaportal (turnaportal.ua.gov.tr) üzerinden e-Devlet ile alınır.",
+      "sections": [
+        {
+          "id": "erasmus-basvuru-sartlari-ve-puan-hesaplama",
+          "heading": "1. Erasmus Başvuru Şartları (AGNO) ve Yerleştirme Puanı Formülü",
+          "paragraphs": [
+            "Erasmus+ seçmelerinde adayların sıralaması tamamen şeffaf bir matematiksel formülle yapılır: Akademik Genel Not Ortalamasının (AGNO) %50’si + Yabancı Dil Sınavı Puanının %50’si toplanarak Erasmus yerleştirme puanı oluşturulur."
+          ],
+          "bullets": [
+            "Asgari Not Ortalaması (AGNO): Ön lisans ve lisans öğrencileri için en az 2.20 / 4.00; yüksek lisans ve doktora öğrencileri için en az 2.50 / 4.00 ortalamaya sahip olmak gerekir.",
+            "AKTS (ECTS) Yükü Şartı: Öğrenim hareketliliğine başvuracak öğrencinin gideceği dönemde en az 30 AKTS’lik ders yükünün bulunması şarttır.",
+            "Mezuniyet Sonrası Staj Fırsatı: Son sınıf öğrencileri henüz mezun olmadan başvuru yapmaları koşuluyla, mezun olduktan sonraki 12 ay içinde de Erasmus+ staj hareketliliğinden yararlanabilirler."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Erasmus kazanan her öğrenciye hibe (maddi destek) çıkar mı?",
+        "answer": "Üniversitelerin Ulusal Ajans’tan aldığı bütçe kontenjanına göre en yüksek puanlı adaylar \"Hibeli\" seçilir; kontenjan dışındaki adaylar ise isterlerse \"Hibesiz (Zero-Grant)\" statüsüyle programa katılabilir."
+      },
+      {
+        "question": "1. sınıf öğrencileri Erasmus’a başvurabilir mi?",
+        "answer": "Evet, 1. sınıfın ilk dönem not ortalaması (AGNO) oluştuğunda Bahar dönemindeki ilana başvurup 2. sınıfta yurt dışına gidebilirler."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-deneme-analizi",
+    "slug": "deneme-sinavi-analizi-nasil-yapilir-yanlis-defteri-tutma",
+    "title": "Deneme Sınavı Analizi Nasıl Yapılır? Net Artıran Yanlış Defteri ve Konu Takip Rehberi",
+    "description": "YKS, KPSS ve LGS deneme sınavlarından sonra yanlışları 3 kategoride (Bilgi Eksikliği, Dikkat Hatası, Süre Yetişmemesi) analiz etme ve net artırma yöntemi.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Deneme Analizi",
+      "YKS",
+      "KPSS",
+      "Ders Çalışma",
+      "Net Artırma"
+    ],
+    "content": {
+      "lead": "Bir deneme sınavını çözmek öğrenmenin yalnızca yarısıdır; asıl net artışını sağlayan kısım sınav bittikten sonra yapılan 45 dakikalık \"Deneme Analizi\"dir. Deneme kitapçığının üzerine sadece doğru-yanlış sayısını yazıp kitapçığı rafa kaldırmak, aynı konu eksiklerini aylarca tekrar etmenize yol açar.",
+      "sections": [
+        {
+          "id": "yanlis-ve-bos-sorulari-3-gruba-ayirma",
+          "heading": "1. Yanlış ve Boş Soruları \"B – D – S\" Koduyla Sınıflandırma",
+          "paragraphs": [
+            "Deneme kontrolünü yaptıktan sonra yanlış yaptığınız, boş bıraktığınız ve şans eseri doğru işaretlediğiniz her sorunun yanına nedenini belirten bir harf kodu koyun:"
+          ],
+          "bullets": [
+            "B (Bilgi / Konu Eksikliği): Konuyu hiç bilmediğiniz veya formülü unuttuğunuz sorular. Aynı konudan 2 deneme üst üste \"B\" çıkıyorsa o konuya 1 saatlik mini tekrar ve 2 test soru çözümü planlayın.",
+            "D (Dikkat ve İşlem Hatası): Konuyu bildiğiniz halde soru kökündeki \"değildir\" ifadesini görmemekten veya dört işlem hatasından kaçan sorular.",
+            "S (Süre ve Turlama Hatası): Çözebileceğiniz halde tek bir zor soruya 4–5 dakika takılıp sınav sonunda göremediğiniz kolay sorular.",
+            "Soru Kesme / Yanlış Defteri: Çözümünü öğrendiğiniz kaliteli soruları kesip (veya fotoğrafını çekip) ders bazlı bir klasörde biriktirin ve her Pazar sabahı bu soruları tekrar çözün."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Deneme analizi sınavdan ne kadar sonra yapılmalı?",
+        "answer": "Soruları çözerken ne düşündüğünüzü unutmamak için analiz mutlaka sınavın yapıldığı gün (kısa bir dinlenmenin hemen ardından) tamamlanmalıdır."
+      },
+      {
+        "question": "Doğru yaptığım sorulara da bakmalı mıyım?",
+        "answer": "Emin olarak çözdüklerinize bakmanıza gerek yoktur; ancak iki şık arasında kalıp işaretlediğiniz doğruların yanına sınav anında bir yıldız (*) koyup analiz sırasında çözümünü mutlaka kontrol etmelisiniz."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-egitim-msu",
+    "slug": "msu-milli-savunma-universitesi-sinavi-basvuru-ve-mulakat-asamalari",
+    "title": "MSÜ (Milli Savunma Üniversitesi) Sınavı Nedir? Başvuru Şartları, YKS Zorunluluğu ve Aşamalar",
+    "description": "Harp Okulları ve Astsubay Meslek Yüksekokulları için düzenlenen MSÜ sınavının soru dağılımı, yaş/boy-kilo şartları, FYT (Spor) ve mülakat süreci.",
+    "categorySlug": "egitim-sinavlar",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "MSÜ",
+      "Milli Savunma Üniversitesi",
+      "ÖSYM",
+      "TYT Prova",
+      "Sınav Rehberi"
+    ],
+    "content": {
+      "lead": "Milli Savunma Üniversitesi Askeri Öğrenci Aday Belirleme Sınavı (MSÜ), Kara, Deniz ve Hava Harp Okulları ile Astsubay Meslek Yüksekokullarında eğitim görmek isteyen adaylar için ÖSYM tarafından her yıl Mart ayında düzenlenen sınavdır. Soru yapısı (120 soru, 165 dakika) TYT ile birebir aynı formatta olduğu için sivil üniversite hedefleyen YKS adayları tarafından da en gerçekçi Türkiye geneli TYT provası olarak değerlendirilir.",
+      "sections": [
+        {
+          "id": "msu-soru-dagilimi-ve-yks-sarti",
+          "heading": "1. MSÜ Soru Dağılımı ve Askeri Öğrencilik İçin YKS Şartı",
+          "paragraphs": [
+            "MSÜ sınavında Türkçe (40), Sosyal Bilimler (20), Temel Matematik (40) ve Fen Bilimleri (20) olmak üzere toplam 120 soru yer alır.",
+            "Askeri öğrenci olmak isteyen adayların yalnızca MSÜ sınavına girmesi yeterli değildir! Harp Okulları için aynı yıl yapılacak YKS’nin hem TYT hem AYT oturumlarına; Astsubay Meslek Yüksekokulları için ise en azından TYT oturumuna girilmesi yasal zorunluluktur."
+          ],
+          "steps": [
+            {
+              "title": "1. Aşama: ÖSYM MSÜ Yazılı Sınavı ve Tercih",
+              "description": "Mart ayında MSÜ sınavına girilir, ardından Personel Temin (PERTEM) sistemi üzerinden okul tercihleri yapılır."
+            },
+            {
+              "title": "2. Aşama: YKS (TYT / AYT) Oturumları",
+              "description": "Haziran ayındaki YKS oturumlarına katılarak yerleştirme puanının hesaplanması sağlanır."
+            },
+            {
+              "title": "3. Aşama: 2. Seçim Aşamaları (FYT, Mülakat ve Sağlık)",
+              "description": "Çağrılan adaylar Fiziki Yeterlilik Testi (şınav, mekik, 400m koşu), sözlü mülakat ve tam teşekküllü hastane sağlık kurulu raporu aşamalarından geçer."
+            }
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "MSÜ sınavına girip askeri tercih yapmazsam YKS puanım etkilenir mi?",
+        "answer": "Hayır, hiç etkilenmez. MSÜ sınavına sadece kendinizi gerçek sınav atmosferinde denemek için girebilirsiniz; tercih yapmadığınız sürece hiçbir askeri yükümlülük doğmaz."
+      },
+      {
+        "question": "MSÜ puanı sivil üniversite tercihlerinde kullanılır mı?",
+        "answer": "Hayır, sivil üniversite tercihlerinde yalnızca Haziran ayında yapılan YKS (TYT/AYT/YDT) puanları kullanılır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-pratik-buzdolabi-kokusu",
+    "slug": "buzdolabi-kokusu-nasil-giderilir-dogal-temizlik-ve-duzenleme",
+    "title": "Buzdolabındaki Kötü Koku Nasıl Giderilir? Karbonat, Kahve ve Doğru Gıda Saklama Yöntemleri",
+    "description": "Buzdolabına sinen ağır yemek, balık ve süt ürünü kokularını kimyasal kullanmadan karbonat, vanilya, Türk kahvesi ve tahliye deliği temizliğiyle giderme rehberi.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Buzdolabı Temizliği",
+      "Koku Giderme",
+      "Pratik Bilgiler",
+      "Ev Yaşam",
+      "Mutfak İpuçları"
+    ],
+    "content": {
+      "lead": "Buzdolabının kapağını açtığınızda karşılaştığınız ağır koku her zaman bozulmuş bir yemekten kaynaklanmaz; çoğu zaman rafların altındaki görünmeyen sıvı sızıntıları, kapak lastiklerinin (conta) arası veya dolabın arka duvarındaki tıkanmış su tahliye kanalı kokunun asıl merkezidir. Çamaşır suyu gibi keskin kimyasallar gıdalara sindiği için buzdolabı temizliğinde doğal koku tutucular kullanılmalıdır.",
+      "sections": [
+        {
+          "id": "buzdolabi-kokusunu-kesen-dogal-cozumler",
+          "heading": "1. Karbonatlı Su İle Silme ve Doğal Koku Emici Kâseler",
+          "paragraphs": [
+            "Temizliğe başlamadan önce dolabın fişini çekin (veya tatil moduna alın) ve tüm cam rafları ılık suyun içinde çözündürülmüş 2 yemek kaşığı karbonat ve birkaç damla limon suyu karışımıyla silin."
+          ],
+          "bullets": [
+            "Açık Karbonat Kâsesi: Küçük bir cam kâseye koyacağınız 3–4 yemek kaşığı karbonat, dolap içindeki asidik ve ağır kokuları maskelemeden doğrudan emer (ayda bir yenileyin).",
+            "Kuru Türk Kahvesi veya Çay Posası: Küçük bir tabakta orta rafa yerleştirilen kuru Türk kahvesi telvesi balık ve soğan/sarımsak kokusunu birkaç saat içinde çeker.",
+            "Elma Sirkesi ve Vanilya: Rafları sildikten sonra pamuğa damlatılmış birkaç damla saf vanilya özütü ferah bir koku bırakır.",
+            "Arka Duvar Su Tahliye Deliği Kontrolü: Sebzelik çekmecesinin hemen üstündeki arka duvarda bulunan küçük su tahliye deliğine süt veya sebze suyu kaçtıysa, ılık sirkeli su ve kulak çubuğu/pipet yardımıyla bu kanalı mutlaka temizleyin."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Buzdolabı çamaşır suyuyla silinir mi?",
+        "answer": "Hayır, çamaşır suyu hem plastik aksamı sarartıp çatlatabilir hem de kapalı ortamda kokusu tereyağı, peynir ve açık gıdalara siner; karbonatlı veya beyaz sirkeli ılık su en güvenli çözümdür."
+      },
+      {
+        "question": "Elektrik kesintisinde dondurucudaki et kokusu nasıl çıkar?",
+        "answer": "Tüm çekmeceleri çıkarıp karbonatlı suyla yıkadıktan sonra dolabın içine aktif kömür veya geniş bir tepsiye yayılmış karbonat ve kahve koyup kapağı 12 saat aralık bırakarak havalandırın."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-pratik-kombi-tasarruf",
+    "slug": "kombide-dogalgaz-tasarrufu-saglayan-oda-termostati-ve-petek-ayarlari",
+    "title": "Kışın Doğalgaz Faturasını Düşüren Kombi, Oda Termostatı ve Petek Havası Alma Rehberi",
+    "description": "Kombiyi kapatıp açmak yerine sabit derecede tutma, oda termostatı ve termostatik vana kullanımı ile peteklerin yarısı ısınmadığında hava alma adımları.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Doğalgaz Tasarrufu",
+      "Kombi Ayarları",
+      "Petek Havası Alma",
+      "Ev Ekonomisi",
+      "Pratik Bilgiler"
+    ],
+    "content": {
+      "lead": "Kış aylarında ısınma giderlerini düşürmek isterken yapılan en büyük hata, evden çıkarken veya gece yatarken kombiyi tamamen kapatıp eve dönünce yüksek derecede tekrar çalıştırmaktır. Soğuyan duvarları, zemini ve tesisat suyunu sıfırdan ısıtmak için kombi saatlerce tam kapasitede (maksimum alev boyunda) çalışır ve sabit düşük ayarda kalmasına göre daha fazla doğalgaz tüketir.",
+      "sections": [
+        {
+          "id": "petek-havasi-nasil-alinir-ve-su-basinci",
+          "heading": "1. Peteğin Üstü Soğuk Altı Sıcaksa: 3 Adımda Petek Havası Alma",
+          "paragraphs": [
+            "Kalorifer peteğinin alt kısmı ısınıp üst kısmı soğuk kalıyorsa peteğin içinde hava birikmiş demektir. Hava biriken bölgeye sıcak su ulaşamadığı için kombi boşa çalışır."
+          ],
+          "steps": [
+            {
+              "title": "1. Adım: Purjör Anahtarı (veya Düz Tornavida) ve Bir Kap Hazırlayın",
+              "description": "Peteğin üst yan köşesindeki küçük hava alma vidasının (purjör) altına su damlamasına karşı küçük bir kâse tutun."
+            },
+            {
+              "title": "2. Adım: Vidayı Saat Yönünün Tersine Çeyrek Tur Çevirin",
+              "description": "Vidayı tamamen sökmeden hafifçe gevşetin; önce \"tısss\" şeklinde hava sesi gelecek, hava bittiğinde kesintisiz su akmaya başlayacaktır. Su geldiği anda vidayı kapatın."
+            },
+            {
+              "title": "3. Adım: Kombi Su Basıncını (1.5 Bar) Kontrol Edin",
+              "description": "Hava alma işleminden sonra kombinin altındaki manometreyi kontrol edin; basınç 1 barın altına düştüyse doldurma musluğuyla 1.5 bar seviyesine tamamlayın."
+            }
+          ],
+          "callout": {
+            "type": "tip",
+            "title": "Oda Termostatı ve 1 Derece Kuralı",
+            "message": "Kombiyi su sıcaklığına göre değil, evin gerçek sıcaklığına göre yöneten bir Oda Termostatı kullanmak ve hedef oda sıcaklığını 23°C yerine 21–22°C’de tutmak aylık tüketimde yaklaşık %6–7’şer tasarruf sağlar."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Kullanılmayan odanın peteğini tamamen kapatmak tasarruf sağlar mı?",
+        "answer": "Tamamen kapatılan soğuk oda, yanındaki sıcak odaların duvarlarından ısı çeker ve kombinin minimum devir dolaşımını zorlar; tamamen kapatmak yerine vanayı en kısık (1 veya kar tanesi) kademede bırakmak daha verimlidir."
+      },
+      {
+        "question": "İdeal kombi su basıncı kaç bar olmalıdır?",
+        "answer": "Kombi tesisat suyu basıncı soğukken 1.5 bar (1.2 ile 1.8 bar aralığında) olmalıdır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-pratik-kabin-bagaji",
+    "slug": "ucak-bileti-ve-valiz-hazirlama-kabin-bagaji-sivi-kurallari",
+    "title": "Uçak Yolculuğunda Kabin Bagajı (El Bagajı) Kuralları, 100 ml Sıvı Sınırı ve Valiz Hazırlama",
+    "description": "Yurt içi ve yurt dışı uçuşlarda kabin bagajı ölçüleri (55x40x23 cm), 100 ml sıvı/parfüm kuralı, powerbank taşıma şartları ve valiz yerleştirme tüyoları.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Uçak Yolculuğu",
+      "Kabin Bagajı",
+      "Seyahat Rehberi",
+      "Valiz Hazırlama",
+      "Pratik Bilgiler"
+    ],
+    "content": {
+      "lead": "Havalimanı güvenlik kontrol noktasında zaman kaybetmemek ve parfüm, krem veya kişisel bakım ürünlerinizin çöpe atılmasını önlemek için uluslararası havacılık kurallarındaki \"Kabin Bagajı (El Bagajı) 100 ml Sıvı Kuralı\" ile batarya (Powerbank) taşıma kısıtlamalarını valizinizi kapatmadan önce bilmeniz gerekir.",
+      "sections": [
+        {
+          "id": "kabin-bagaji-100-ml-sivi-ve-powerbank-kurallari",
+          "heading": "1. Kabin Bagajında 100 ml Sıvı Sınırı ve Powerbank Kuralı",
+          "paragraphs": [
+            "Uçağın içine yanınızda aldığınız kabin valizinde (standart ölçü: 55x40x23 cm, 8 kg) sıvı, jel ve aerosol ürünler yalnızca belirli ambalaj sınırlarıyla taşınabilir. Burada kriter içindeki sıvı miktarı değil, şişenin üzerindeki toplam hacim yazısıdır (örneğin içinde 20 ml kalmış 200 ml’lik parfüm şişesi kabine alınmaz)."
+          ],
+          "bullets": [
+            "100 ml Şişe ve 1 Litrelik Kilitli Poşet Kuralı: Şampuan, parfüm, diş macunu, güneş kremi ve deodorantların her biri en fazla 100 ml’lik kutularda olmalı ve toplamda 1 litrelik (20x20 cm) şeffaf kilitli poşetin içine sığmalıdır.",
+            "Powerbank ve Yedek Lityum Piller: Yangın güvenliği nedeniyle Powerbank, dizüstü bilgisayar ve yedek lityum bataryalar uçak altı (kargo) valizine kesinlikle verilmez; yalnızca yanınızdaki kabin bagajında taşınmalıdır.",
+            "İstisnalar: Bebek maması/sütü (bebek uçaktaysa yolculuk süresine yetecek miktarda) ve reçeteli/raporlu sıvı ilaçlar 100 ml sınırından muaftır."
+          ]
+        },
+        {
+          "id": "valizde-yer-kazandiran-rulo-yontemi",
+          "heading": "2. Valizde Kırışıklığı Önleyen ve %30 Yer Açan \"Rulo Yöntemi\"",
+          "paragraphs": [
+            "Kıyafetleri üst üste katlamak yerine tişört, kazak ve pantolonları sıkıca rulo (silindir) şeklinde sararak valizin tabanına yan yana dizmek hem boşlukları sıfırlar hem de kat izi oluşmasını engeller. Ayakkabıların içine çorapları yerleştirip valizin tekerlek kısmına (en alt ağırlık merkezine) koymak valizin devrilmesini de önler."
+          ]
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Powerbank uçak altı bagajına (bavula) konulabilir mi?",
+        "answer": "Hayır, lityum iyon batarya içeren powerbank ve elektronik sigara/yedek pil gibi cihazlar kargo bölümüne verilemez; kabin bagajında (el çantasında) taşınması zorunludur."
+      },
+      {
+        "question": "150 ml parfüm şişesinin yarısı boşsa kabine alınır mı?",
+        "answer": "Hayır, güvenlik kontrolünde şişenin içindeki kalan miktara değil, şişenin üzerinde yazan maksimum kapasiteye (100 ml ve altı olmasına) bakılır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-pratik-ev-butcesi",
+    "slug": "aylik-ev-butcesi-nasil-yapilir-50-30-20-tasarruf-kurali",
+    "title": "Kişisel ve Aile Bütçesi Nasıl Planlanır? 50 / 30 / 20 Kuralı İle Harcama Takibi ve Birikim Rehberi",
+    "description": "Ay sonunda maaşın nereye gittiğini bulmak, görünmez abonelik giderlerini kesmek ve 50/30/20 bütçe yöntemiyle acil durum fonu oluşturma rehberi.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "6 dk",
+    "coverImage": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Bütçe Planlama",
+      "Tasarruf",
+      "Ev Ekonomisi",
+      "50 30 20 Kuralı",
+      "Pratik Bilgiler"
+    ],
+    "content": {
+      "lead": "Geliriniz ne olursa olsun harcamaları kayıt altına almadığınızda \"küçük görünmez giderler\" (kullanılmayan dijital abonelikler, plansız market alışverişleri ve kredi kartı asgari ödeme faizleri) ay sonunda birikim yapmanızı imkânsız hâle getirir. Bütçe yönetiminde en kolay uygulanabilen yöntem, geliri üç net sepete ayıran \"50 / 30 / 20 Kuralı\" ve \"Önce Kendine Öde\" prensibidir.",
+      "sections": [
+        {
+          "id": "50-30-20-butce-kurali-nasil-uygulanir",
+          "heading": "1. Geliri 3 Sepete Ayıran 50 / 30 / 20 Bütçe Dağılımı",
+          "paragraphs": [
+            "Aylık net elinize geçen toplam geliri (maaş, burs veya ek gelirler) karmaşık tablolar yerine üç ana başlık altında sınıflandırabilirsiniz (koşullarınıza göre 60 / 20 / 20 şeklinde de esnetilebilir):"
+          ],
+          "bullets": [
+            "%50 Zorunlu İhtiyaçlar: Kira/konut ödemesi, elektrik-su-doğalgaz-internet faturaları, temel mutfak/market alışverişi ve ulaşım giderleri.",
+            "%30 Kişisel İstekler ve Yaşam Kalitesi: Dışarıda yeme-içme, giyim, hobi, kültür-sanat ve eğlence harcamaları.",
+            "%20 Birikim, Yatırım ve Borç Kapatma: Maaş yatar yatmaz (ay sonunda kalanı değil, ilk gün!) ayrılan acil durum fonu ve birikim payı."
+          ],
+          "callout": {
+            "type": "tip",
+            "title": "24 Saat Bekleme Kuralı (Dürtüsel Alışverişe Karşı)",
+            "message": "İnternette indirimde gördüğünüz ve acil ihtiyaç olmayan bir ürünü sepete ekledikten sonra satın almadan önce 24 saat bekleyin; ertesi gün hâlâ gerçekten ihtiyacınız olduğunu düşünüyorsanız bütçeniz dahilinde alın."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Acil durum fonu ne kadar olmalıdır?",
+        "answer": "Beklenmedik sağlık, arıza veya iş değişikliği durumlarında borçlanmamak için en az 3 ila 6 aylık zorunlu yaşam gideriniz tutarında kolay erişilebilir bir acil durum fonu hedeflenmelidir."
+      },
+      {
+        "question": "Market alışverişinde bütçe aşımı nasıl önlenir?",
+        "answer": "Markete mutlaka tok karnına ve elinizde yazılı bir haftalık yemek/ihtiyaç listesiyle gitmek, birim fiyat (kg/litre fiyatı) etiketi karşılaştırması yapmak plansız harcamayı %25–30 azaltır."
+      }
+    ]
+  },
+  {
+    "id": "bilgirotasi-pratik-camasir-makinesi",
+    "slug": "camasir-makinesinde-kirec-ve-koku-onleme-bakim-rehberi",
+    "title": "Çamaşır Makinesinde Kötü Koku ve Kireçlenme Nasıl Önlenir? Kazan Temizliği ve Bakım Rehberi",
+    "description": "Çamaşır makinesinden gelen rutubet kokusunu, körük lastiği küflenmesini ve deterjan çekmecesi kalıntılarını limon tuzu, beyaz sirke ve doğru bakımla giderme.",
+    "categorySlug": "pratik-bilgiler",
+    "authorId": "author-1",
+    "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
+    "readTime": "5 dk",
+    "coverImage": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Çamaşır Makinesi Bakımı",
+      "Ev Temizliği",
+      "Kazan Temizliği",
+      "Pratik Bilgiler"
+    ],
+    "content": {
+      "lead": "Yıkanan çamaşırların güzel kokmak yerine ağır ve nemli kokmasının en yaygın sebebi; sürekli düşük sıcaklıkta (30–40°C) yıkama yapılması, aşırı yumuşatıcı kullanımı ve yıkama biter bitmez makine kapağının kapatılmasıdır. Ayda bir kez uygulayacağınız 4 aşamalı bakım ile hem kokuyu tamamen yok edebilir hem de rezistansın kireçlenmesini önleyebilirsiniz.",
+      "sections": [
+        {
+          "id": "camasir-makinesi-4-adimli-kazan-ve-lastik-temizligi",
+          "heading": "1. Koku ve Kireci Yok Eden 4 Adımlı Aylık Makine Bakımı",
+          "paragraphs": [
+            "Makinenin içindeki görünmeyen deterjan ve yumuşatıcı tabakası zamanla kapak körük lastiğinin altında ve deterjan kanalında bakteri/küf oluşturur."
+          ],
+          "steps": [
+            {
+              "title": "1. Adım: Deterjan Çekmecesini Çıkarıp Yıkayın",
+              "description": "Çekmecenin ortasındaki mavi mandalına basarak çekmeceyi tamamen çıkarın ve arkasındaki yumuşatıcı kalıntılarını ılık su ve eski bir diş fırçasıyla temizleyin."
+            },
+            {
+              "title": "2. Adım: Kapak Körük Lastiğini Kurulayın",
+              "description": "Kapak çevresindeki gri contanın iç kıvrımlarını beyaz sirkeli veya karbonatlı bezle silip içinde biriken su ve havları alın."
+            },
+            {
+              "title": "3. Adım: Ayda Bir Boş Kazan Temizliği Çalıştırın",
+              "description": "Makine boşken ana yıkama gözüne 1 çay bardağı beyaz sirke ve 1 yemek kaşığı limon tuzu (veya karbonat) koyup \"Kazan Temizleme\" ya da 90°C Pamuklu programda boş çalıştırın."
+            },
+            {
+              "title": "4. Adım: Sağ Alttaki Pompa Filtresini Boşaltın",
+              "description": "Makinenin sağ alt köşesindeki küçük kapağı açıp tahliye hortumuyla suyu bir kaba boşaltın, ardından filtreyi çevirerek içindeki bozuk para, düğme ve tüy yumaklarını temizleyin."
+            }
+          ],
+          "callout": {
+            "type": "warning",
+            "title": "Yıkama Bitince Kapağı Hemen Kapatmayın!",
+            "message": "Çamaşırları çıkardıktan sonra hem makine kapağını hem de deterjan çekmecesini 2–3 saat hafif aralık bırakarak kazan içinin tamamen kurumasını sağlayın; rutubet kokusunu önleyen en etkili alışkanlık budur."
+          }
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Fazla deterjan veya yumuşatıcı koymak çamaşırları daha temiz yapar mı?",
+        "answer": "Tam aksine, ölçekten fazla konulan deterjan durulanamaz; hem kıyafetlerin liflerinde sertlik bırakır hem de kazan içinde çamurlaşarak koku üretir."
+      },
+      {
+        "question": "Pompa filtresi ne sıklıkla temizlenmeli?",
+        "answer": "Su tahliyesinin yavaşlamaması ve pompanın sıkışmaması için 2–3 ayda bir sağ alt filtre kapağı açılarak kontrol edilmelidir."
       }
     ]
   }
