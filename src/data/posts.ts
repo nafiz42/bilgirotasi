@@ -1,5 +1,5 @@
 import { Post } from '@/types';
-import { infoburadaPosts } from './infoburada-posts';
+import { bilgirotasiPosts } from './bilgirotasi-posts';
 
 const originalPosts: Post[] = [
   {
@@ -8,7 +8,7 @@ const originalPosts: Post[] = [
     title: 'KYK Burs ve Kredi Taahhütname Onayı Nasıl Yapılır? (Adım Adım)',
     description: 'KYK burs veya öğrenim kredisi kazanan öğrencilerin e-Devlet üzerinden yapması gereken taahhütname onayı adımları ve dikkat edilmesi gerekenler.',
     categorySlug: 'e-devlet-basvurular',
-    authorId: 'author-2',
+    authorId: 'author-1',
     publishedAt: '2026-10-07',
     updatedAt: '2026-10-21',
     readTime: '4 dk',
@@ -200,7 +200,7 @@ const originalPosts: Post[] = [
     title: 'Valorant Van 1067 Hatası ve TPM 2.0 Çözümü (Windows 10 / 11)',
     description: 'Valorant açılırken görülen Van 1067 ve Vanguard TPM 2.0 / Secure Boot hatalarında uygulanabilecek kontrol adımları.',
     categorySlug: 'oyun-donanim',
-    authorId: 'author-3',
+    authorId: 'author-1',
     publishedAt: '2026-10-07',
     updatedAt: '2026-10-21',
     readTime: '5 dk',
@@ -281,7 +281,7 @@ const originalPosts: Post[] = [
     title: 'e-Devlet İkametgah (Yerleşim Yeri) Belgesi Nasıl Alınır? (Barkodlu ve Ücretsiz)',
     description: 'e-Devlet kapısı üzerinden resmi kurumlara vermek üzere barkodlu ikametgah (yerleşim yeri ve diğer adres) belgesi alma adımları.',
     categorySlug: 'e-devlet-basvurular',
-    authorId: 'author-2',
+    authorId: 'author-1',
     publishedAt: '2026-10-07',
     updatedAt: '2026-10-21',
     readTime: '3 dk',
@@ -369,7 +369,7 @@ const originalPosts: Post[] = [
     title: 'KYK Burs ve Öğrenim Kredisi Başvurusu Nasıl Yapılır? (Adım Adım 2026)',
     description: 'Gençlik ve Spor Bakanlığı (GSB) KYK burs ve öğrenim kredisi başvuru şartları, e-Devlet başvuru ekranı ve onay taahhütname adımları.',
     categorySlug: 'e-devlet-basvurular',
-    authorId: 'author-2',
+    authorId: 'author-1',
     publishedAt: '2026-09-28',
     updatedAt: '2026-10-21',
     readTime: '6 dk',
@@ -639,7 +639,7 @@ const originalPosts: Post[] = [
     title: 'iPhone ve Android’de Pil Tüketimini Azaltmaya Yardımcı Ayarlar',
     description: 'Telefon şarjınızın çabuk bitmesini önleyin: Arka plan yenilemeleri, ekran parlaklığı, şarj döngüsü ve pil sağlığı koruma teknikleri.',
     categorySlug: 'teknoloji-mobil',
-    authorId: 'author-3',
+    authorId: 'author-1',
     publishedAt: '2026-09-20',
     updatedAt: '2026-10-21',
     readTime: '6 dk',
@@ -690,7 +690,7 @@ const originalPosts: Post[] = [
     title: 'PC Oyunlarında FPS Artırma ve Giriş Gecikmesini (Input Lag) Azaltma Rehberi',
     description: 'Windows 11/10 oyun modu, ekran kartı denetim masası ayarları, RAM optimizasyonu ve FPS artırma tüyoları.',
     categorySlug: 'oyun-donanim',
-    authorId: 'author-3',
+    authorId: 'author-1',
     publishedAt: '2026-10-02',
     updatedAt: '2026-10-21',
     readTime: '7 dk',
@@ -764,7 +764,7 @@ const originalPosts: Post[] = [
     title: 'Ekran Kartı Sürücü Güncelleme ve DDU ile Temiz Kurulum Rehberi',
     description: 'NVIDIA, AMD ve Intel grafik sürücüsü nasıl güncellenir? DDU (Display Driver Uninstaller) ile çökmeleri önleme kılavuzu.',
     categorySlug: 'oyun-donanim',
-    authorId: 'author-3',
+    authorId: 'author-1',
     publishedAt: '2026-09-18',
     updatedAt: '2026-09-30',
     readTime: '5 dk',
@@ -802,7 +802,7 @@ const originalPosts: Post[] = [
     title: 'Steam Oyunu Açılmıyorsa Kontrol Edilebilecek Çözüm Adımları',
     description: 'Steam başlatılıyor diyor ama oyun açılmıyor mu? Dosya bütünlüğü doğrulama, DirectX ve Visual C++ onarım adımları.',
     categorySlug: 'oyun-donanim',
-    authorId: 'author-3',
+    authorId: 'author-1',
     publishedAt: '2026-09-05',
     updatedAt: '2026-09-24',
     readTime: '4 dk',
@@ -839,7 +839,7 @@ const originalPosts: Post[] = [
     title: 'YKS Çalışma Programı Hazırlama ve Net Artırma Taktikleri (TYT-AYT)',
     description: 'Haftalık ders dağılımı, konu tekrarları, deneme analizi ve çalışma süresini gerçekçi biçimde planlama önerileri.',
     categorySlug: 'egitim-sinavlar',
-    authorId: 'author-2',
+    authorId: 'author-1',
     publishedAt: '2026-09-26',
     updatedAt: '2026-10-22',
     readTime: '8 dk',
@@ -921,7 +921,7 @@ const originalPosts: Post[] = [
     title: 'KPSS Puan Türleri ve Kadro Dağılımı Kapsamlı Rehber (P1, P2, P3, P93, P94)',
     description: 'Hangi KPSS puanı ile hangi memurluklara başvurulur? Lisans, önlisans ve ortaöğretim kadroları arasındaki farklar.',
     categorySlug: 'egitim-sinavlar',
-    authorId: 'author-2',
+    authorId: 'author-1',
     publishedAt: '2026-09-12',
     updatedAt: '2026-09-27',
     readTime: '6 dk',
@@ -958,7 +958,7 @@ const originalPosts: Post[] = [
     title: 'Üniversite Kayıt İçin Gerekli Belgeler ve e-Kayıt Adımları',
     description: 'YKS tercih sonuçları sonrası e-Devlet üzerinden üniversiteye elektronik kayıt (e-kayıt) yapma ve gerekli evraklar listesi.',
     categorySlug: 'egitim-sinavlar',
-    authorId: 'author-2',
+    authorId: 'author-1',
     publishedAt: '2026-08-20',
     updatedAt: '2026-09-15',
     readTime: '5 dk',
@@ -1124,7 +1124,7 @@ const originalPosts: Post[] = [
     title: 'PC Oyunlarında Takılma ve FPS Düşüşü: Adım Adım Teşhis Rehberi',
     description: 'Oyun içi takılma, anlık FPS düşüşü ve uzun yükleme sorunlarını güvenli sırayla ayırt edip çözmek için ölçülebilir kontrol listesi.',
     categorySlug: 'oyun-donanim',
-    authorId: 'author-3',
+    authorId: 'author-1',
     publishedAt: '2026-10-22',
     updatedAt: '2026-10-22',
     readTime: '7 dk',
@@ -1143,30 +1143,40 @@ const originalPosts: Post[] = [
     content: {
       lead: 'Takılma her zaman ekran kartının yetersiz olduğu anlamına gelmez. FPS sayısı, takılmanın ne zaman başladığı ve hangi oyunda görüldüğü birlikte değerlendirildiğinde sorun; shader derleme, sıcaklık, arka plan yükü, oyun dosyası veya ağ gecikmesi olarak ayrıştırılabilir.',
       sections: [
-        { id: 'sorunu-tanimla', heading: 'Önce Sorunun Türünü Ayırın', paragraphs: [
-          'FPS sürekli düşükse çözünürlük ve grafik ayarları sistem kapasitesini aşıyor olabilir. FPS yüksek görünürken görüntü aralıklı donuyorsa frametime sıçraması, shader derlemesi, veri akışı veya arka plan işi olasılıkları düşünülür. Yalnızca çevrimiçi maçta oyuncular ışınlanıyor ya da komutlar geç işleniyorsa FPS’den çok ping ve paket kaybını kontrol edin.',
-          'Aynı sahnede kısa bir test yapın ve değişiklikleri tek tek uygulayın. Her seferinde birkaç ayarı birden değiştirmek hangi adımın etkili olduğunu anlamayı zorlaştırır.'
-        ] },
-        { id: 'ilk-olcum', heading: 'Aynı Sahneyi Kullanarak Basit Ölçüm Yapın', paragraphs: [
-          'Oyunun yerleşik performans göstergesini veya güvenilir bir FPS sayacını açın. Mümkünse ortalama FPS yanında frametime grafiğini de izleyin; tek bir ortalama kısa takılmaları saklayabilir. Karşılaştırma için aynı kayıt, eğitim alanı veya tekrarlanabilir sahneyi kullanın ve test süresini benzer tutun.',
-          'Test sırasında sıcaklık ve kullanım değerlerine bakacaksanız üretici yazılımı veya Windows’un araçlarını tercih edin. Bilinmeyen “FPS artırıcı” programları kurmayın; bindirme araçları bazı oyunlarla çakışabileceği için sorun giderirken gereksiz overlay’leri geçici olarak kapatıp tekrar karşılaştırın.'
-        ] },
-        { id: 'shader-ve-ilk-acilis', heading: 'İlk Açılışta veya Güncellemeden Sonra Takılıyorsa', paragraphs: [
-          'Bazı oyunlar ilk çalıştırmada veya grafik sürücüsü/oyun güncellemesinden sonra shader derler. Bu sırada kısa süreli takılma görülebilir. Oyunun menüsünde derleme göstergesi varsa bitmesini bekleyin; tekrar eden takılmaların oyuna özgü bilinen bir sorun olup olmadığını oyunun resmi destek notlarında ve PCGamingWiki’nin ilgili oyun sayfasında kontrol edin.',
-          'Shader önbelleğini gelişigüzel silmek sorunu çözmek yerine derlemeyi yeniden başlatabilir. Bu adımı ancak oyunun veya GPU üreticisinin soruna özel talimatı varsa uygulayın.'
-        ], callout: { type: 'tip', title: 'İlk testte sabırlı olun', message: 'Sürücü ya da oyun güncellemesinden sonraki ilk açılışı sonraki oturumlarla karşılaştırın; tek seferlik derleme takılmasını kalıcı performans sorunu sanmayın.' } },
-        { id: 'guvenli-kontrol-sirasi', heading: 'Güvenli Sorun Giderme Sırası', paragraphs: ['Aşağıdaki basamakları sırayla deneyin; her adımdan sonra aynı sahnede yeniden ölçün:'], steps: [
-          { title: 'Oyunu ve bilgisayarı yeniden başlatın', description: 'Geçici takılma veya askıda kalmış işlem olup olmadığını ayırın.' },
-          { title: 'Sistem gereksinimlerini ve güç modunu kontrol edin', description: 'Dizüstünde adaptörün bağlı olduğuna, oyunun doğru GPU’yu kullandığına ve güç tasarruf modunun performansı sınırlamadığına bakın.' },
-          { title: 'Sıcaklık ve arka plan yükünü gözleyin', description: 'Görev Yöneticisi’nde CPU, GPU, bellek ve disk kullanımına bakın. Isı artarken saat hızları düşüyorsa hava kanallarını kapatmadığınızdan emin olun; cihazı açıp müdahale etmek yerine üretici servisine başvurun.' },
-          { title: 'Grafik ayarlarını tek tek düşürün', description: 'Önce ışın izleme, gölge, görüş mesafesi ve doku ayarlarını karşılaştırın. Her değişiklikten sonra aynı sahnede test edin.' },
-          { title: 'Oyun dosyalarını doğrulayın', description: 'Steam’de Kütüphane > oyuna sağ tık > Özellikler > Yüklü Dosyalar > Dosyaların bütünlüğünü doğrula yolunu kullanın. İşlem birkaç dakika sürebilir.' },
-          { title: 'Güncellemeleri kontrollü uygulayın', description: 'Windows ve ekran kartı sürücülerini resmi kanallardan güncelleyin. Sorun bir sürücü güncellemesinin hemen ardından başladıysa üreticinin geri alma yönergesini izleyin.' }
-        ] },
-        { id: 'ne-zaman-destek', heading: 'Ne Zaman Oyunun Desteğine Başvurmalı?', paragraphs: [
-          'Sorun yalnızca tek oyunda yaşanıyorsa oyun sürümü, hata mesajı, sistem özellikleri ve tekrar üretme adımlarını not edip oyunun resmi destek kanalına iletin. Birden fazla oyunda çökme, görüntü bozulması, yeniden başlama veya mavi ekran varsa donanım ve sürücü incelemesi gerekebilir; rastgele BIOS ayarı değiştirmeyin.',
-          'Bu rehber genel teşhis sırası sunar. Her oyunun motoru, sürümü ve bilgisayar bileşenleri farklı olduğundan tek bir ayar tüm sistemlerde aynı sonucu vermez.'
-        ] }
+        {
+          id: 'sorunu-tanimla', heading: 'Önce Sorunun Türünü Ayırın', paragraphs: [
+            'FPS sürekli düşükse çözünürlük ve grafik ayarları sistem kapasitesini aşıyor olabilir. FPS yüksek görünürken görüntü aralıklı donuyorsa frametime sıçraması, shader derlemesi, veri akışı veya arka plan işi olasılıkları düşünülür. Yalnızca çevrimiçi maçta oyuncular ışınlanıyor ya da komutlar geç işleniyorsa FPS’den çok ping ve paket kaybını kontrol edin.',
+            'Aynı sahnede kısa bir test yapın ve değişiklikleri tek tek uygulayın. Her seferinde birkaç ayarı birden değiştirmek hangi adımın etkili olduğunu anlamayı zorlaştırır.'
+          ]
+        },
+        {
+          id: 'ilk-olcum', heading: 'Aynı Sahneyi Kullanarak Basit Ölçüm Yapın', paragraphs: [
+            'Oyunun yerleşik performans göstergesini veya güvenilir bir FPS sayacını açın. Mümkünse ortalama FPS yanında frametime grafiğini de izleyin; tek bir ortalama kısa takılmaları saklayabilir. Karşılaştırma için aynı kayıt, eğitim alanı veya tekrarlanabilir sahneyi kullanın ve test süresini benzer tutun.',
+            'Test sırasında sıcaklık ve kullanım değerlerine bakacaksanız üretici yazılımı veya Windows’un araçlarını tercih edin. Bilinmeyen “FPS artırıcı” programları kurmayın; bindirme araçları bazı oyunlarla çakışabileceği için sorun giderirken gereksiz overlay’leri geçici olarak kapatıp tekrar karşılaştırın.'
+          ]
+        },
+        {
+          id: 'shader-ve-ilk-acilis', heading: 'İlk Açılışta veya Güncellemeden Sonra Takılıyorsa', paragraphs: [
+            'Bazı oyunlar ilk çalıştırmada veya grafik sürücüsü/oyun güncellemesinden sonra shader derler. Bu sırada kısa süreli takılma görülebilir. Oyunun menüsünde derleme göstergesi varsa bitmesini bekleyin; tekrar eden takılmaların oyuna özgü bilinen bir sorun olup olmadığını oyunun resmi destek notlarında ve PCGamingWiki’nin ilgili oyun sayfasında kontrol edin.',
+            'Shader önbelleğini gelişigüzel silmek sorunu çözmek yerine derlemeyi yeniden başlatabilir. Bu adımı ancak oyunun veya GPU üreticisinin soruna özel talimatı varsa uygulayın.'
+          ], callout: { type: 'tip', title: 'İlk testte sabırlı olun', message: 'Sürücü ya da oyun güncellemesinden sonraki ilk açılışı sonraki oturumlarla karşılaştırın; tek seferlik derleme takılmasını kalıcı performans sorunu sanmayın.' }
+        },
+        {
+          id: 'guvenli-kontrol-sirasi', heading: 'Güvenli Sorun Giderme Sırası', paragraphs: ['Aşağıdaki basamakları sırayla deneyin; her adımdan sonra aynı sahnede yeniden ölçün:'], steps: [
+            { title: 'Oyunu ve bilgisayarı yeniden başlatın', description: 'Geçici takılma veya askıda kalmış işlem olup olmadığını ayırın.' },
+            { title: 'Sistem gereksinimlerini ve güç modunu kontrol edin', description: 'Dizüstünde adaptörün bağlı olduğuna, oyunun doğru GPU’yu kullandığına ve güç tasarruf modunun performansı sınırlamadığına bakın.' },
+            { title: 'Sıcaklık ve arka plan yükünü gözleyin', description: 'Görev Yöneticisi’nde CPU, GPU, bellek ve disk kullanımına bakın. Isı artarken saat hızları düşüyorsa hava kanallarını kapatmadığınızdan emin olun; cihazı açıp müdahale etmek yerine üretici servisine başvurun.' },
+            { title: 'Grafik ayarlarını tek tek düşürün', description: 'Önce ışın izleme, gölge, görüş mesafesi ve doku ayarlarını karşılaştırın. Her değişiklikten sonra aynı sahnede test edin.' },
+            { title: 'Oyun dosyalarını doğrulayın', description: 'Steam’de Kütüphane > oyuna sağ tık > Özellikler > Yüklü Dosyalar > Dosyaların bütünlüğünü doğrula yolunu kullanın. İşlem birkaç dakika sürebilir.' },
+            { title: 'Güncellemeleri kontrollü uygulayın', description: 'Windows ve ekran kartı sürücülerini resmi kanallardan güncelleyin. Sorun bir sürücü güncellemesinin hemen ardından başladıysa üreticinin geri alma yönergesini izleyin.' }
+          ]
+        },
+        {
+          id: 'ne-zaman-destek', heading: 'Ne Zaman Oyunun Desteğine Başvurmalı?', paragraphs: [
+            'Sorun yalnızca tek oyunda yaşanıyorsa oyun sürümü, hata mesajı, sistem özellikleri ve tekrar üretme adımlarını not edip oyunun resmi destek kanalına iletin. Birden fazla oyunda çökme, görüntü bozulması, yeniden başlama veya mavi ekran varsa donanım ve sürücü incelemesi gerekebilir; rastgele BIOS ayarı değiştirmeyin.',
+            'Bu rehber genel teşhis sırası sunar. Her oyunun motoru, sürümü ve bilgisayar bileşenleri farklı olduğundan tek bir ayar tüm sistemlerde aynı sonucu vermez.'
+          ]
+        }
       ]
     },
     faqs: [
@@ -1194,23 +1204,31 @@ const originalPosts: Post[] = [
     content: {
       lead: 'Dizüstü bilgisayarın şarjı eskisine göre daha çabuk bitiyorsa Windows’un battery report raporu pil kapasitesi ve kullanım geçmişi hakkında başlangıç verisi sağlar. Rapor tek başına arızayı teşhis etmez; kapasiteyi ve kullanım alışkanlığını anlamaya yardımcı olur.',
       sections: [
-        { id: 'rapor-olustur', heading: 'Battery Report Nasıl Oluşturulur?', paragraphs: ['Komut İstemi’ni açıp Windows’un yerleşik rapor komutunu çalıştırın. Yönetici yetkisi gerekirse istemi yönetici olarak açın. Raporun kaydedildiği konum komut çıktısında gösterilir.'], steps: [
-          { title: 'Başlat menüsünde Komut İstemi’ni arayın', description: 'Windows aramasına Komut İstemi yazın; gerekirse yönetici olarak çalıştırın.' },
-          { title: 'Rapor komutunu girin', description: 'powercfg /batteryreport yazıp Enter’a basın.' },
-          { title: 'HTML raporunu açın', description: 'Komut çıktısında belirtilen dosya yoluna gidip battery-report.html dosyasını tarayıcıda açın.' }
-        ] },
-        { id: 'kapasite-karsilastir', heading: 'Design Capacity ve Full Charge Capacity Ne Anlama Gelir?', paragraphs: [
-          'Design Capacity pilin tasarlanmış kapasitesini, Full Charge Capacity ise raporun ölçtüğü mevcut tam dolum kapasitesini gösterir. İkinci değer zamanla düşebilir. Yaklaşık sağlık oranı için Full Charge Capacity değerini Design Capacity değerine bölüp 100 ile çarpabilirsiniz; bu yalnızca kabaca karşılaştırma sağlar.',
-          'Örnek: tasarım kapasitesi 50.000 mWh, tam dolum kapasitesi 40.000 mWh ise rapor değerleri yaklaşık yüzde 80 oranına karşılık gelir. Üretici ölçüm yöntemi, sıcaklık ve pilin durumu sonucu etkileyebilir; tek ölçümü kesin arıza kararı saymayın.'
-        ] },
-        { id: 'kullanim-gecmisi', heading: 'Usage History ve Battery Usage Bölümlerini İnceleyin', paragraphs: [
-          'Usage History bölümündeki süre ve kapasite kayıtları, pil kullanımının zamanla nasıl değiştiğini görmeye yardımcı olur. Battery Usage yakın dönem tüketimini gösterir. Şarjın hızla düştüğü saatlerde hangi uygulamaların açık olduğunu Windows Ayarları’ndaki güç/pil kullanım ekranıyla birlikte inceleyin.',
-          'Eski bir rapor son durumu yansıtmayabilir. Ölçümü karşılaştıracaksanız bilgisayarı normal kullanımda birkaç kez kullanıp raporu yeniden oluşturun ve aynı koşulları not edin.'
-        ] },
-        { id: 'pil-omru-ve-servis', heading: 'Pil Ömrünü Uzatmak ve Servis Gerektiren Durumlar', paragraphs: [
-          'Ekran parlaklığını ihtiyacınıza göre azaltmak, kullanılmayan kablosuz bağlantıları kapatmak ve gereksiz arka plan uygulamalarını sınırlamak tüketimi azaltabilir. Pil şişmesi, kasada açıklık, olağandışı ısınma veya koku fark ederseniz cihazı kullanmayı bırakıp üretici servisinden destek alın; pili delmeyin veya kendiniz sökmeyin.',
-          'Şarj kapasitesi belirgin düşmüşse cihaz üreticisinin pil tanılama aracını ve garanti koşullarını kontrol edin. Battery report bir bakım/garanti kararı yerine geçmez.'
-        ], callout: { type: 'warning', title: 'Fiziksel pil hasarında', message: 'Şişmiş ya da hasarlı pili kullanmaya devam etmeyin ve kendiniz açmaya çalışmayın; üretici veya yetkili servisten yardım alın.' } }
+        {
+          id: 'rapor-olustur', heading: 'Battery Report Nasıl Oluşturulur?', paragraphs: ['Komut İstemi’ni açıp Windows’un yerleşik rapor komutunu çalıştırın. Yönetici yetkisi gerekirse istemi yönetici olarak açın. Raporun kaydedildiği konum komut çıktısında gösterilir.'], steps: [
+            { title: 'Başlat menüsünde Komut İstemi’ni arayın', description: 'Windows aramasına Komut İstemi yazın; gerekirse yönetici olarak çalıştırın.' },
+            { title: 'Rapor komutunu girin', description: 'powercfg /batteryreport yazıp Enter’a basın.' },
+            { title: 'HTML raporunu açın', description: 'Komut çıktısında belirtilen dosya yoluna gidip battery-report.html dosyasını tarayıcıda açın.' }
+          ]
+        },
+        {
+          id: 'kapasite-karsilastir', heading: 'Design Capacity ve Full Charge Capacity Ne Anlama Gelir?', paragraphs: [
+            'Design Capacity pilin tasarlanmış kapasitesini, Full Charge Capacity ise raporun ölçtüğü mevcut tam dolum kapasitesini gösterir. İkinci değer zamanla düşebilir. Yaklaşık sağlık oranı için Full Charge Capacity değerini Design Capacity değerine bölüp 100 ile çarpabilirsiniz; bu yalnızca kabaca karşılaştırma sağlar.',
+            'Örnek: tasarım kapasitesi 50.000 mWh, tam dolum kapasitesi 40.000 mWh ise rapor değerleri yaklaşık yüzde 80 oranına karşılık gelir. Üretici ölçüm yöntemi, sıcaklık ve pilin durumu sonucu etkileyebilir; tek ölçümü kesin arıza kararı saymayın.'
+          ]
+        },
+        {
+          id: 'kullanim-gecmisi', heading: 'Usage History ve Battery Usage Bölümlerini İnceleyin', paragraphs: [
+            'Usage History bölümündeki süre ve kapasite kayıtları, pil kullanımının zamanla nasıl değiştiğini görmeye yardımcı olur. Battery Usage yakın dönem tüketimini gösterir. Şarjın hızla düştüğü saatlerde hangi uygulamaların açık olduğunu Windows Ayarları’ndaki güç/pil kullanım ekranıyla birlikte inceleyin.',
+            'Eski bir rapor son durumu yansıtmayabilir. Ölçümü karşılaştıracaksanız bilgisayarı normal kullanımda birkaç kez kullanıp raporu yeniden oluşturun ve aynı koşulları not edin.'
+          ]
+        },
+        {
+          id: 'pil-omru-ve-servis', heading: 'Pil Ömrünü Uzatmak ve Servis Gerektiren Durumlar', paragraphs: [
+            'Ekran parlaklığını ihtiyacınıza göre azaltmak, kullanılmayan kablosuz bağlantıları kapatmak ve gereksiz arka plan uygulamalarını sınırlamak tüketimi azaltabilir. Pil şişmesi, kasada açıklık, olağandışı ısınma veya koku fark ederseniz cihazı kullanmayı bırakıp üretici servisinden destek alın; pili delmeyin veya kendiniz sökmeyin.',
+            'Şarj kapasitesi belirgin düşmüşse cihaz üreticisinin pil tanılama aracını ve garanti koşullarını kontrol edin. Battery report bir bakım/garanti kararı yerine geçmez.'
+          ], callout: { type: 'warning', title: 'Fiziksel pil hasarında', message: 'Şişmiş ya da hasarlı pili kullanmaya devam etmeyin ve kendiniz açmaya çalışmayın; üretici veya yetkili servisten yardım alın.' }
+        }
       ]
     },
     faqs: [
@@ -1224,7 +1242,7 @@ const originalPosts: Post[] = [
     title: 'e-Devlet İki Aşamalı Giriş Nasıl Açılır? Güvenlik Rehberi',
     description: 'e-Devlet hesabında iki aşamalı girişi web ve mobil uygulamadan etkinleştirme, telefon doğrulama ve giriş kodu sorunları.',
     categorySlug: 'e-devlet-basvurular',
-    authorId: 'author-2',
+    authorId: 'author-1',
     publishedAt: '2026-10-22',
     updatedAt: '2026-10-22',
     readTime: '5 dk',
@@ -1240,26 +1258,36 @@ const originalPosts: Post[] = [
     content: {
       lead: 'İki aşamalı giriş, e-Devlet şifresine ek olarak kimlikle doğrulanmış cep telefonuna gönderilen tek kullanımlık kodla oturum açılmasını sağlar. Ayarları yalnızca resmi turkiye.gov.tr sitesi veya resmi mobil uygulama üzerinden yönetin.',
       sections: [
-        { id: 'gerekenler', heading: 'Etkinleştirmeden Önce Gerekenler', paragraphs: [
-          'e-Devlet Kapısı yardım sayfasına göre hesabınızda kimlikle doğrulanmış, yurt içi bir cep telefonu numarası bulunmalıdır. Numaranız eskiyse önce resmi hesap ayarlarından güncelleyin; başkasına ait numarayı hesabınıza bağlamayın.',
-          'SMS kodu hesabın güvenlik adımının parçasıdır. Kodu isteyen arama, mesaj veya bağlantılara karşı dikkatli olun; e-Devlet çalışanı olduğunu söyleyen kişilere doğrulama kodunuzu paylaşmayın.'
-        ] },
-        { id: 'webden-acma', heading: 'Tarayıcıdan İki Aşamalı Girişi Açma', paragraphs: ['Resmi adresi kendiniz yazarak açın ve hesabınıza giriş yaptıktan sonra şu yolu izleyin:'], steps: [
-          { title: 'Güvenlik ayarlarına gidin', description: 'Hesap menüsündeki Güvenlik ve Ayarlar / Şifre ve Güvenlik Ayarlarım sayfasını açın.' },
-          { title: 'İki Aşamalı Giriş İşlemleri’ni seçin', description: 'İki aşamalı giriş alanında Aktif seçeneğini işaretleyip kullanım şartlarını okuyun ve onay kutusunu seçin.' },
-          { title: 'Ayarı kaydedin', description: 'Ayarları Kaydet düğmesine basın. Kimlikle doğrulanmış telefonunuza gelen SMS kodunu ekrana girin.' },
-          { title: 'Doğrulamayı tamamlayın', description: 'Doğrula düğmesine bastıktan sonra ayarın etkin olduğunu aynı ekrandan kontrol edin.' }
-        ] },
-        { id: 'uygulamadan-acma', heading: 'Mobil Uygulamadan Etkinleştirme', paragraphs: [
-          'Resmi e-Devlet Kapısı uygulamasında hesabınıza giriş yapın. Profilim > Ayarlar > İki Aşamalı Giriş İşlemleri bölümüne gidin, kullanım şartlarını onaylayıp İki Aşamalı Girişi Aç düğmesine dokunun ve kayıtlı telefonunuza gelen kodu doğrulayın. Uygulama sürümüne göre menü adı veya yeri değişebilir; ekrandaki güncel resmi yönlendirmeyi izleyin.'
-        ] },
-        { id: 'sorun-giderme', heading: 'SMS Kodu Gelmiyor veya Girişte Sorun Çıkıyorsa', paragraphs: [
-          'Önce telefonda sinyal bulunduğunu, numaranın doğru ve kimlikle doğrulanmış olduğunu kontrol edin. Kısa süre bekleyip yeniden kod isteme seçeneği varsa yalnızca resmi giriş sayfasındaki işlemi kullanın. Numara değiştiyse veya hesabınıza erişemiyorsanız e-Devlet Kapısı’nın resmi iletişim/yardım kanalına başvurun.',
-          'Kayıtlı numaraya erişiminiz yokken e-posta ya da arama yoluyla gelen “hesabınızı açalım” tekliflerine güvenmeyin. Şifrenizi ve SMS kodunu kimseyle paylaşmayın; adres çubuğunda turkiye.gov.tr alan adını kontrol edin.'
-        ], callout: { type: 'warning', title: 'Doğrulama kodunu paylaşmayın', message: 'Tek kullanımlık SMS kodu hesabınıza giriş izni verebilir. Resmi giriş ekranı dışında hiçbir kişi veya siteyle paylaşmayın.' } },
-        { id: 'kapatma-ve-yedek', heading: 'Telefonunuza Erişiminiz Kesilirse', paragraphs: [
-          'İki aşamalı giriş ayarını değiştirme veya kapatma işlemlerini yalnızca e-Devlet’in kendi güvenlik ayarlarından yapın. Telefon kaybında önce mobil operatörünüzle hattınızı güvene alın; başka bir cihazdan hesabınıza erişemiyorsanız resmi yardım kanallarını kullanın. Menü ve kurtarma seçenekleri değişebildiği için üçüncü tarafların paylaştığı kodları veya uygulamaları kullanmayın.'
-        ] }
+        {
+          id: 'gerekenler', heading: 'Etkinleştirmeden Önce Gerekenler', paragraphs: [
+            'e-Devlet Kapısı yardım sayfasına göre hesabınızda kimlikle doğrulanmış, yurt içi bir cep telefonu numarası bulunmalıdır. Numaranız eskiyse önce resmi hesap ayarlarından güncelleyin; başkasına ait numarayı hesabınıza bağlamayın.',
+            'SMS kodu hesabın güvenlik adımının parçasıdır. Kodu isteyen arama, mesaj veya bağlantılara karşı dikkatli olun; e-Devlet çalışanı olduğunu söyleyen kişilere doğrulama kodunuzu paylaşmayın.'
+          ]
+        },
+        {
+          id: 'webden-acma', heading: 'Tarayıcıdan İki Aşamalı Girişi Açma', paragraphs: ['Resmi adresi kendiniz yazarak açın ve hesabınıza giriş yaptıktan sonra şu yolu izleyin:'], steps: [
+            { title: 'Güvenlik ayarlarına gidin', description: 'Hesap menüsündeki Güvenlik ve Ayarlar / Şifre ve Güvenlik Ayarlarım sayfasını açın.' },
+            { title: 'İki Aşamalı Giriş İşlemleri’ni seçin', description: 'İki aşamalı giriş alanında Aktif seçeneğini işaretleyip kullanım şartlarını okuyun ve onay kutusunu seçin.' },
+            { title: 'Ayarı kaydedin', description: 'Ayarları Kaydet düğmesine basın. Kimlikle doğrulanmış telefonunuza gelen SMS kodunu ekrana girin.' },
+            { title: 'Doğrulamayı tamamlayın', description: 'Doğrula düğmesine bastıktan sonra ayarın etkin olduğunu aynı ekrandan kontrol edin.' }
+          ]
+        },
+        {
+          id: 'uygulamadan-acma', heading: 'Mobil Uygulamadan Etkinleştirme', paragraphs: [
+            'Resmi e-Devlet Kapısı uygulamasında hesabınıza giriş yapın. Profilim > Ayarlar > İki Aşamalı Giriş İşlemleri bölümüne gidin, kullanım şartlarını onaylayıp İki Aşamalı Girişi Aç düğmesine dokunun ve kayıtlı telefonunuza gelen kodu doğrulayın. Uygulama sürümüne göre menü adı veya yeri değişebilir; ekrandaki güncel resmi yönlendirmeyi izleyin.'
+          ]
+        },
+        {
+          id: 'sorun-giderme', heading: 'SMS Kodu Gelmiyor veya Girişte Sorun Çıkıyorsa', paragraphs: [
+            'Önce telefonda sinyal bulunduğunu, numaranın doğru ve kimlikle doğrulanmış olduğunu kontrol edin. Kısa süre bekleyip yeniden kod isteme seçeneği varsa yalnızca resmi giriş sayfasındaki işlemi kullanın. Numara değiştiyse veya hesabınıza erişemiyorsanız e-Devlet Kapısı’nın resmi iletişim/yardım kanalına başvurun.',
+            'Kayıtlı numaraya erişiminiz yokken e-posta ya da arama yoluyla gelen “hesabınızı açalım” tekliflerine güvenmeyin. Şifrenizi ve SMS kodunu kimseyle paylaşmayın; adres çubuğunda turkiye.gov.tr alan adını kontrol edin.'
+          ], callout: { type: 'warning', title: 'Doğrulama kodunu paylaşmayın', message: 'Tek kullanımlık SMS kodu hesabınıza giriş izni verebilir. Resmi giriş ekranı dışında hiçbir kişi veya siteyle paylaşmayın.' }
+        },
+        {
+          id: 'kapatma-ve-yedek', heading: 'Telefonunuza Erişiminiz Kesilirse', paragraphs: [
+            'İki aşamalı giriş ayarını değiştirme veya kapatma işlemlerini yalnızca e-Devlet’in kendi güvenlik ayarlarından yapın. Telefon kaybında önce mobil operatörünüzle hattınızı güvene alın; başka bir cihazdan hesabınıza erişemiyorsanız resmi yardım kanallarını kullanın. Menü ve kurtarma seçenekleri değişebildiği için üçüncü tarafların paylaştığı kodları veya uygulamaları kullanmayın.'
+          ]
+        }
       ]
     },
     faqs: [
@@ -1273,7 +1301,7 @@ const originalPosts: Post[] = [
     title: 'Steam Cloud Eşitleme Çakışması: Kayıt Dosyanızı Korumak',
     description: 'Steam yerel kayıt ile bulut kaydı uyuşmadığında doğru sürümü seçme, çevrimdışı oturum riskini anlama ve ilerlemeyi koruma adımları.',
     categorySlug: 'oyun-donanim',
-    authorId: 'author-3',
+    authorId: 'author-1',
     publishedAt: '2026-10-22',
     updatedAt: '2026-10-22',
     readTime: '5 dk',
@@ -1288,24 +1316,32 @@ const originalPosts: Post[] = [
     content: {
       lead: 'Steam Cloud çakışması, bilgisayardaki kayıtla buluttaki kayıt farklı olduğunda çıkar. Yanlış sürümü seçmek ilerlemenin üzerine yazabilir; önce hangi kaydın son oynadığınız oturuma ait olduğunu belirleyin.',
       sections: [
-        { id: 'bulut-kaydi-nasil-calisir', heading: 'Steam Cloud Her Oyunda Aynı Şekilde Çalışmaz', paragraphs: [
-          'Steam Cloud, oyuna bağlı olarak kayıt dosyalarını, ayarları veya başka kullanıcı verilerini saklayabilir. Her oyun desteklemez ve hangi dosyaların eşitlendiğini geliştirici belirler. Oyunun mağaza sayfasında Steam Cloud desteğini, oyun özelliklerinde ise eşitleme ayarını kontrol edin.',
-          'Çevrimdışı modda oynanan oturum buluta gönderilmeden kalabilir. Son oynadığınız cihazı ve tarihi hatırlamak bu yüzden önemlidir.'
-        ] },
-        { id: 'cakisma-ekrani', heading: 'Çakışma Ekranında Hangi Kaydı Seçmeli?', paragraphs: [
-          'Steam iki farklı sürüm gördüğünde yerel dosya ve bulut kaydının tarih/saat bilgilerini gösterir. En son ilerlemenizi yaptığınız oturumu ve o oturumun hangi cihazda gerçekleştiğini karşılaştırın. Son oynadığınız kayıt yerelse yerel sürüm; başka cihazda buluta gönderildiyse bulut sürümü doğru olabilir. Yalnızca “en yeni görünen” tarihe güvenmeden önce cihaz saatinin doğru olup olmadığını da hesaba katın.',
-          'Karar veremiyorsanız oyunu hemen başlatıp seçeneklerden birini seçmeyin. Önce Steam’in resmi yardım yönergesini okuyun ve mümkünse mevcut yerel kayıt klasörünü başka bir yere kopyalayarak yedekleyin; kayıt klasörünün yeri oyuna göre değişir.'
-        ], callout: { type: 'warning', title: 'Üzerine yazma riski', message: 'Çakışma penceresini gelişigüzel kapatıp oyunu başlatmak kayıtların üzerine yazılmasına neden olabilir. İlerlemeyi hangi cihazda yaptığınızı doğrulamadan seçim yapmayın.' } },
-        { id: 'esitleme-hatasi', heading: 'Cloud Eşitleme Hatası Varsa', paragraphs: ['Steam, eşitleme başarısızken oyunu başlatmanın yerel ve bulut dosyaları arasında yeni bir çakışma yaratabileceği konusunda uyarıyor. Şu kontrolleri sırayla yapın:'], steps: [
-          { title: 'Steam bağlantısını ve hizmet durumunu kontrol edin', description: 'Steam’i çevrimiçi moda alın; internet bağlantısının çalıştığını doğrulayın.' },
-          { title: 'Açık oturumları kapatın', description: 'Aynı oyunun başka bilgisayarda açık olmadığından ve önceki oturumun eşitlemesinin tamamlandığından emin olun.' },
-          { title: 'Oyunun Cloud ayarına bakın', description: 'Kütüphane’de oyuna sağ tıklayıp Özellikler > Genel içindeki Steam Cloud seçeneğini kontrol edin.' },
-          { title: 'Son değişiklikleri yedekleyin', description: 'Oyuna özgü kayıt dosyalarını bulup kopyalayın; konum oyun ve işletim sistemine göre değişir.' },
-          { title: 'Hata sürerse resmi Steam desteğine başvurun', description: 'Oyunu tekrar tekrar başlatmak yerine hata mesajını ve kullandığınız cihazları not ederek Steam’in yönergesini izleyin.' }
-        ] },
-        { id: 'desteklemeyen-oyun', heading: 'Oyun Steam Cloud Kullanmadığında', paragraphs: [
-          'Bulut kaydı yoksa ilerleme yalnızca yerel cihazda veya oyunun kendi hesabında tutulabilir. Yeni bilgisayara geçmeden önce geliştiricinin kayıt taşıma talimatlarını bulun ve eski cihaza erişiminiz varken yedek alın. Steam Cloud her oyunun kayıtlarını geri getiremez.'
-        ] }
+        {
+          id: 'bulut-kaydi-nasil-calisir', heading: 'Steam Cloud Her Oyunda Aynı Şekilde Çalışmaz', paragraphs: [
+            'Steam Cloud, oyuna bağlı olarak kayıt dosyalarını, ayarları veya başka kullanıcı verilerini saklayabilir. Her oyun desteklemez ve hangi dosyaların eşitlendiğini geliştirici belirler. Oyunun mağaza sayfasında Steam Cloud desteğini, oyun özelliklerinde ise eşitleme ayarını kontrol edin.',
+            'Çevrimdışı modda oynanan oturum buluta gönderilmeden kalabilir. Son oynadığınız cihazı ve tarihi hatırlamak bu yüzden önemlidir.'
+          ]
+        },
+        {
+          id: 'cakisma-ekrani', heading: 'Çakışma Ekranında Hangi Kaydı Seçmeli?', paragraphs: [
+            'Steam iki farklı sürüm gördüğünde yerel dosya ve bulut kaydının tarih/saat bilgilerini gösterir. En son ilerlemenizi yaptığınız oturumu ve o oturumun hangi cihazda gerçekleştiğini karşılaştırın. Son oynadığınız kayıt yerelse yerel sürüm; başka cihazda buluta gönderildiyse bulut sürümü doğru olabilir. Yalnızca “en yeni görünen” tarihe güvenmeden önce cihaz saatinin doğru olup olmadığını da hesaba katın.',
+            'Karar veremiyorsanız oyunu hemen başlatıp seçeneklerden birini seçmeyin. Önce Steam’in resmi yardım yönergesini okuyun ve mümkünse mevcut yerel kayıt klasörünü başka bir yere kopyalayarak yedekleyin; kayıt klasörünün yeri oyuna göre değişir.'
+          ], callout: { type: 'warning', title: 'Üzerine yazma riski', message: 'Çakışma penceresini gelişigüzel kapatıp oyunu başlatmak kayıtların üzerine yazılmasına neden olabilir. İlerlemeyi hangi cihazda yaptığınızı doğrulamadan seçim yapmayın.' }
+        },
+        {
+          id: 'esitleme-hatasi', heading: 'Cloud Eşitleme Hatası Varsa', paragraphs: ['Steam, eşitleme başarısızken oyunu başlatmanın yerel ve bulut dosyaları arasında yeni bir çakışma yaratabileceği konusunda uyarıyor. Şu kontrolleri sırayla yapın:'], steps: [
+            { title: 'Steam bağlantısını ve hizmet durumunu kontrol edin', description: 'Steam’i çevrimiçi moda alın; internet bağlantısının çalıştığını doğrulayın.' },
+            { title: 'Açık oturumları kapatın', description: 'Aynı oyunun başka bilgisayarda açık olmadığından ve önceki oturumun eşitlemesinin tamamlandığından emin olun.' },
+            { title: 'Oyunun Cloud ayarına bakın', description: 'Kütüphane’de oyuna sağ tıklayıp Özellikler > Genel içindeki Steam Cloud seçeneğini kontrol edin.' },
+            { title: 'Son değişiklikleri yedekleyin', description: 'Oyuna özgü kayıt dosyalarını bulup kopyalayın; konum oyun ve işletim sistemine göre değişir.' },
+            { title: 'Hata sürerse resmi Steam desteğine başvurun', description: 'Oyunu tekrar tekrar başlatmak yerine hata mesajını ve kullandığınız cihazları not ederek Steam’in yönergesini izleyin.' }
+          ]
+        },
+        {
+          id: 'desteklemeyen-oyun', heading: 'Oyun Steam Cloud Kullanmadığında', paragraphs: [
+            'Bulut kaydı yoksa ilerleme yalnızca yerel cihazda veya oyunun kendi hesabında tutulabilir. Yeni bilgisayara geçmeden önce geliştiricinin kayıt taşıma talimatlarını bulun ve eski cihaza erişiminiz varken yedek alın. Steam Cloud her oyunun kayıtlarını geri getiremez.'
+          ]
+        }
       ]
     },
     faqs: [
@@ -1334,26 +1370,34 @@ const originalPosts: Post[] = [
     content: {
       lead: 'Disk alanı azaldığında Windows güncellemeleri ve uygulama kurulumları sorun çıkarabilir. Önce hangi kategorilerin yer kapladığını görün, ardından kaldırılacak dosyaları tek tek inceleyin; “temizle” düğmesine gelişigüzel basmayın.',
       sections: [
-        { id: 'ne-kadar-yer-var', heading: 'Önce Kullanılan Alanı ve Büyük Dosyaları Bulun', paragraphs: [
-          'Dosya Gezgini’nde Bu Bilgisayar bölümünü açarak disklerde kalan boş alanı görün. Windows Ayarları > Sistem > Depolama ekranı geçici dosyalar, uygulamalar ve diğer kategorilerin yaklaşık kullanımını gösterir.',
-          'Kişisel dosyaları Dosya Gezgini’nde boyuta göre sıralayın. Eski videolar, kurulum dosyaları ve büyük arşivler çok yer kaplayabilir; silmek yerine harici diske taşımak isteyebilirsiniz.'
-        ] },
-        { id: 'cleanup-recommendations', heading: 'Temizleme Önerilerini İnceleyin', paragraphs: [
-          'Windows 11’de Ayarlar > Sistem > Depolama > Temizleme önerileri bölümünde geçici dosyalar, büyük/kullanılmayan dosyalar ve kullanılmayan uygulamalar ayrı listelenebilir. Her kategoriyi açıp seçilen öğelerin ne olduğunu kontrol edin. Windows 10’da seçeneklerin adı veya konumu farklı olabilir.'
-        ] },
-        { id: 'storage-sense-ayari', heading: 'Storage Sense’i Ayarlarken Dikkat Edin', paragraphs: [
-          'Storage Sense, sistem sürücüsündeki (genellikle C:) belirli geçici dosyaları ve Geri Dönüşüm Kutusu içeriğini otomatik temizleyebilir. Microsoft’un belirttiği varsayılanlarda İndirilenler klasörü silinmez; ancak ayardan İndirilenler için süre seçerseniz açılmayan dosyalar kaldırılabilir. Bu seçeneği etkinleştirmeden önce klasörünüzü gözden geçirin.',
-          'OneDrive bulut dosyaları için “yalnızca çevrimiçi” ayarı, dosyayı buluttan kalıcı silmekten farklıdır; internet olduğunda tekrar indirilebilir. Yine de yerel kopya sizin için önemliyse “bu cihazda her zaman tut” seçeneğini ve senkronizasyon durumunu kontrol edin.'
-        ], steps: [
-          { title: 'Ayarlar > Sistem > Depolama’yı açın', description: 'Storage Sense’i etkinleştirmeden önce geçici dosyalar ve diğer kategorilerin içeriğine bakın.' },
-          { title: 'Storage Sense ayarlarına girin', description: 'Çalışma sıklığını, Geri Dönüşüm Kutusu ve İndirilenler için ayrı saklama sürelerini inceleyin.' },
-          { title: 'İlk temizliği elle başlatın', description: 'Önerilen dosyaları seçip neyin kaldırılacağını kontrol ettikten sonra temizleyin.' },
-          { title: 'Sonucu tekrar ölçün', description: 'Depolama ekranını yenileyip açılan alanı kontrol edin; yeterli alan oluştuysa diğer temizleme adımlarına geçmeyin.' }
-        ] },
-        { id: 'windows-old-uyarisi', heading: 'Windows.old ve Geri Dönüşüm Kutusu Uyarısı', paragraphs: [
-          'Önceki Windows kurulum dosyalarını silmek, önceki sürüme geri dönme seçeneğini kaldırabilir. Geri Dönüşüm Kutusu’nu boşaltmak da içindeki dosyaları geri alınamaz biçimde siler. Bu bölümlerdeki içeriği gerçekten istemediğinizden emin olmadan temizlemeyin.',
-          'Temizlikten sonra alan hâlâ dolu görünüyorsa tüm geçici klasörleri elle silmek yerine Windows’un depolama önerilerini ve Microsoft destek yönergelerini izleyin.'
-        ], callout: { type: 'warning', title: 'Önemli dosyaları yedekleyin', message: 'İndirilenler, Geri Dönüşüm Kutusu veya Windows.old içeriğini temizlemek dosyaları ya da geri dönme seçeneğini kalıcı olarak kaldırabilir.' } }
+        {
+          id: 'ne-kadar-yer-var', heading: 'Önce Kullanılan Alanı ve Büyük Dosyaları Bulun', paragraphs: [
+            'Dosya Gezgini’nde Bu Bilgisayar bölümünü açarak disklerde kalan boş alanı görün. Windows Ayarları > Sistem > Depolama ekranı geçici dosyalar, uygulamalar ve diğer kategorilerin yaklaşık kullanımını gösterir.',
+            'Kişisel dosyaları Dosya Gezgini’nde boyuta göre sıralayın. Eski videolar, kurulum dosyaları ve büyük arşivler çok yer kaplayabilir; silmek yerine harici diske taşımak isteyebilirsiniz.'
+          ]
+        },
+        {
+          id: 'cleanup-recommendations', heading: 'Temizleme Önerilerini İnceleyin', paragraphs: [
+            'Windows 11’de Ayarlar > Sistem > Depolama > Temizleme önerileri bölümünde geçici dosyalar, büyük/kullanılmayan dosyalar ve kullanılmayan uygulamalar ayrı listelenebilir. Her kategoriyi açıp seçilen öğelerin ne olduğunu kontrol edin. Windows 10’da seçeneklerin adı veya konumu farklı olabilir.'
+          ]
+        },
+        {
+          id: 'storage-sense-ayari', heading: 'Storage Sense’i Ayarlarken Dikkat Edin', paragraphs: [
+            'Storage Sense, sistem sürücüsündeki (genellikle C:) belirli geçici dosyaları ve Geri Dönüşüm Kutusu içeriğini otomatik temizleyebilir. Microsoft’un belirttiği varsayılanlarda İndirilenler klasörü silinmez; ancak ayardan İndirilenler için süre seçerseniz açılmayan dosyalar kaldırılabilir. Bu seçeneği etkinleştirmeden önce klasörünüzü gözden geçirin.',
+            'OneDrive bulut dosyaları için “yalnızca çevrimiçi” ayarı, dosyayı buluttan kalıcı silmekten farklıdır; internet olduğunda tekrar indirilebilir. Yine de yerel kopya sizin için önemliyse “bu cihazda her zaman tut” seçeneğini ve senkronizasyon durumunu kontrol edin.'
+          ], steps: [
+            { title: 'Ayarlar > Sistem > Depolama’yı açın', description: 'Storage Sense’i etkinleştirmeden önce geçici dosyalar ve diğer kategorilerin içeriğine bakın.' },
+            { title: 'Storage Sense ayarlarına girin', description: 'Çalışma sıklığını, Geri Dönüşüm Kutusu ve İndirilenler için ayrı saklama sürelerini inceleyin.' },
+            { title: 'İlk temizliği elle başlatın', description: 'Önerilen dosyaları seçip neyin kaldırılacağını kontrol ettikten sonra temizleyin.' },
+            { title: 'Sonucu tekrar ölçün', description: 'Depolama ekranını yenileyip açılan alanı kontrol edin; yeterli alan oluştuysa diğer temizleme adımlarına geçmeyin.' }
+          ]
+        },
+        {
+          id: 'windows-old-uyarisi', heading: 'Windows.old ve Geri Dönüşüm Kutusu Uyarısı', paragraphs: [
+            'Önceki Windows kurulum dosyalarını silmek, önceki sürüme geri dönme seçeneğini kaldırabilir. Geri Dönüşüm Kutusu’nu boşaltmak da içindeki dosyaları geri alınamaz biçimde siler. Bu bölümlerdeki içeriği gerçekten istemediğinizden emin olmadan temizlemeyin.',
+            'Temizlikten sonra alan hâlâ dolu görünüyorsa tüm geçici klasörleri elle silmek yerine Windows’un depolama önerilerini ve Microsoft destek yönergelerini izleyin.'
+          ], callout: { type: 'warning', title: 'Önemli dosyaları yedekleyin', message: 'İndirilenler, Geri Dönüşüm Kutusu veya Windows.old içeriğini temizlemek dosyaları ya da geri dönme seçeneğini kalıcı olarak kaldırabilir.' }
+        }
       ]
     },
     faqs: [
@@ -1382,26 +1426,34 @@ const originalPosts: Post[] = [
     content: {
       lead: 'Android telefonda boş alan azaldığında önce Depolama ayarlarından nelerin yer kapladığını görün. Önbelleği ve kişisel dosyaları ayırt edin; fotoğraf veya indirme silmeden önce yedeğin gerçekten tamamlandığını kontrol edin.',
       sections: [
-        { id: 'depolama-analizi', heading: 'Telefon Hafızasında Nelerin Yer Kapladığını Bulun', paragraphs: [
-          'Ayarlar > Depolama ekranında uygulamalar, fotoğraflar, videolar, indirilenler ve sistem alanının dağılımını inceleyin. Android üreticisine göre menü adı değişebilir. Büyük uygulamalar arasında kullanılmayanları belirleyin; uygulamayı kaldırmak yerel verilerini de silebilir.'
-        ] },
-        { id: 'files-by-google-temizleme', heading: 'Files by Google Önerilerini Gözden Geçirin', paragraphs: [
-          'Files by Google yüklüyse Temizle sekmesindeki önerileri kullanabilirsiniz. Google’ın yardımına göre uygulama gereksiz dosyaları bulmaya ve dosyalara göz atmaya yardımcı olur. Her öneride hangi dosyaların seçildiğini açıp kontrol edin; öneri, dosyanın sizin için önemsiz olduğu anlamına gelmez.',
-          'İndirilenler klasöründe belge, bilet, makbuz veya çevrimdışı dosyalar bulunabilir. Tanımadığınız klasörleri topluca silmek yerine dosya adını ve içeriğini kontrol edin.'
-        ], steps: [
-          { title: 'Depolama ekranını açın', description: 'Ayarlar’da Depolama bölümünden dolu kategoriyi tespit edin.' },
-          { title: 'Files by Google’da Temizle’yi açın', description: 'Öneri kartlarının içindeki dosya listesini tek tek gözden geçirin.' },
-          { title: 'Yalnızca emin olduklarınızı seçin', description: 'Silinecek öğeleri seçip onay ekranındaki dosya adlarını yeniden kontrol edin.' },
-          { title: 'Boş alanı tekrar kontrol edin', description: 'İşlem bittikten sonra Depolama ekranında açılan alanı ölçün.' }
-        ] },
-        { id: 'fotograf-yedekleme', heading: 'Fotoğraf ve Videoları Silmeden Önce Yedek Durumunu Doğrulayın', paragraphs: [
-          'Bulut yedekleme kullanıyorsanız uygulamada yüklemenin tamamlandığını ve doğru Google hesabının seçili olduğunu kontrol edin. Senkronizasyon beklemede olan içerik telefondan silinirse yedek kopya olmayabilir. Önemli dosyaları ayrıca bilgisayara veya harici ortama kopyalayabilirsiniz.',
-          'Google Fotoğraflar’da cihazdan yer açma işlemi yerel kopyaları kaldırabilir; bulut yedekleme durumu, çöp kutusu ve çevrimdışı erişim beklentinizi önceden kontrol edin. İşlem sonrası bazı içerikler internet olmadan görünmeyebilir.'
-        ], callout: { type: 'warning', title: 'Yedek kontrolü yapın', message: 'Fotoğraf ve videoları silmeden önce yüklemenin tamamlandığını farklı bir cihazdan veya web arayüzünden kontrol edin.' } },
-        { id: 'onbellek-ve-veri', heading: 'Önbelleği Temizlemek ile Uygulama Verisini Silmek Farklıdır', paragraphs: [
-          'Önbellek, uygulamanın yeniden oluşturabileceği geçici dosyalardır; temizlenince uygulama bazı içerikleri yeniden indirebilir. Depolamayı temizle/veriyi sil seçeneği ise oturum bilgileri, ayarlar veya yerel kayıtlar gibi kalıcı uygulama verilerini kaldırabilir. Özellikle mesajlaşma, not, oyun ve kimlik doğrulama uygulamalarında yedek almadan veri silmeyin.',
-          'Depolama alanı sürekli hızla doluyorsa büyük video kayıtlarını, çevrimdışı müzik/harita indirmelerini ve mesajlaşma uygulamalarının medya klasörlerini ayrı ayrı inceleyin.'
-        ] }
+        {
+          id: 'depolama-analizi', heading: 'Telefon Hafızasında Nelerin Yer Kapladığını Bulun', paragraphs: [
+            'Ayarlar > Depolama ekranında uygulamalar, fotoğraflar, videolar, indirilenler ve sistem alanının dağılımını inceleyin. Android üreticisine göre menü adı değişebilir. Büyük uygulamalar arasında kullanılmayanları belirleyin; uygulamayı kaldırmak yerel verilerini de silebilir.'
+          ]
+        },
+        {
+          id: 'files-by-google-temizleme', heading: 'Files by Google Önerilerini Gözden Geçirin', paragraphs: [
+            'Files by Google yüklüyse Temizle sekmesindeki önerileri kullanabilirsiniz. Google’ın yardımına göre uygulama gereksiz dosyaları bulmaya ve dosyalara göz atmaya yardımcı olur. Her öneride hangi dosyaların seçildiğini açıp kontrol edin; öneri, dosyanın sizin için önemsiz olduğu anlamına gelmez.',
+            'İndirilenler klasöründe belge, bilet, makbuz veya çevrimdışı dosyalar bulunabilir. Tanımadığınız klasörleri topluca silmek yerine dosya adını ve içeriğini kontrol edin.'
+          ], steps: [
+            { title: 'Depolama ekranını açın', description: 'Ayarlar’da Depolama bölümünden dolu kategoriyi tespit edin.' },
+            { title: 'Files by Google’da Temizle’yi açın', description: 'Öneri kartlarının içindeki dosya listesini tek tek gözden geçirin.' },
+            { title: 'Yalnızca emin olduklarınızı seçin', description: 'Silinecek öğeleri seçip onay ekranındaki dosya adlarını yeniden kontrol edin.' },
+            { title: 'Boş alanı tekrar kontrol edin', description: 'İşlem bittikten sonra Depolama ekranında açılan alanı ölçün.' }
+          ]
+        },
+        {
+          id: 'fotograf-yedekleme', heading: 'Fotoğraf ve Videoları Silmeden Önce Yedek Durumunu Doğrulayın', paragraphs: [
+            'Bulut yedekleme kullanıyorsanız uygulamada yüklemenin tamamlandığını ve doğru Google hesabının seçili olduğunu kontrol edin. Senkronizasyon beklemede olan içerik telefondan silinirse yedek kopya olmayabilir. Önemli dosyaları ayrıca bilgisayara veya harici ortama kopyalayabilirsiniz.',
+            'Google Fotoğraflar’da cihazdan yer açma işlemi yerel kopyaları kaldırabilir; bulut yedekleme durumu, çöp kutusu ve çevrimdışı erişim beklentinizi önceden kontrol edin. İşlem sonrası bazı içerikler internet olmadan görünmeyebilir.'
+          ], callout: { type: 'warning', title: 'Yedek kontrolü yapın', message: 'Fotoğraf ve videoları silmeden önce yüklemenin tamamlandığını farklı bir cihazdan veya web arayüzünden kontrol edin.' }
+        },
+        {
+          id: 'onbellek-ve-veri', heading: 'Önbelleği Temizlemek ile Uygulama Verisini Silmek Farklıdır', paragraphs: [
+            'Önbellek, uygulamanın yeniden oluşturabileceği geçici dosyalardır; temizlenince uygulama bazı içerikleri yeniden indirebilir. Depolamayı temizle/veriyi sil seçeneği ise oturum bilgileri, ayarlar veya yerel kayıtlar gibi kalıcı uygulama verilerini kaldırabilir. Özellikle mesajlaşma, not, oyun ve kimlik doğrulama uygulamalarında yedek almadan veri silmeyin.',
+            'Depolama alanı sürekli hızla doluyorsa büyük video kayıtlarını, çevrimdışı müzik/harita indirmelerini ve mesajlaşma uygulamalarının medya klasörlerini ayrı ayrı inceleyin.'
+          ]
+        }
       ]
     },
     faqs: [
@@ -1411,7 +1463,7 @@ const originalPosts: Post[] = [
   }
 ];
 
-export const posts: Post[] = [...infoburadaPosts, ...originalPosts];
+export const posts: Post[] = [...bilgirotasiPosts, ...originalPosts];
 
 export function getAllPosts(): Post[] {
   return [...posts].sort(

@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     'burs başvurusu',
     'pratik bilgiler'
   ],
-  authors: [{ name: 'Bilgi Rotası Editör Ekibi' }],
+  authors: [{ name: 'Bilgi Rotası' }],
   creator: 'Bilgi Rotası',
   publisher: 'Bilgi Rotası',
   formatDetection: {

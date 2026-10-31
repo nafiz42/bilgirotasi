@@ -234,7 +234,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     dateModified: updDate,
     author: {
       '@type': 'Organization',
-      name: author?.name || 'Bilgi Rotası Editörü',
+      name: author?.name || 'Bilgi Rotası',
       url: 'https://www.bilgirotasi.tr/hakkimizda'
     },
     publisher: {
