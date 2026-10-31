@@ -56,6 +56,7 @@ export interface Post {
           id: string;
           heading: string;
           paragraphs: string[];
+          bullets?: string[];
           steps?: PostStep[];
           callout?: {
             type: 'info' | 'warning' | 'tip';

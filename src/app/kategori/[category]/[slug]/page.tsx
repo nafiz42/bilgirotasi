@@ -53,6 +53,7 @@ interface NormalizedContent {
     id: string;
     heading: string;
     paragraphs: string[];
+    bullets?: string[];
     steps?: { title: string; description: string }[];
     callout?: {
       type: 'info' | 'warning' | 'tip';
@@ -386,6 +387,21 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                           </div>
                         ))}
                       </div>
+                    )}
+
+                    {/* Bullets List */}
+                    {section.bullets && section.bullets.length > 0 && (
+                      <ul className="space-y-2.5 my-4 p-4 sm:p-5 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-800">
+                        {section.bullets.map((bullet, bIdx) => (
+                          <li
+                            key={bIdx}
+                            className="flex items-start gap-2.5 text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed"
+                          >
+                            <span className="w-1.5 h-1.5 rounded-full bg-blue-600 dark:bg-blue-400 mt-2 shrink-0" />
+                            <span>{bullet}</span>
+                          </li>
+                        ))}
+                      </ul>
                     )}
 
                     {/* Callouts (tip / warning / info) */}

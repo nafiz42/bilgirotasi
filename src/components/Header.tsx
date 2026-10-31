@@ -112,7 +112,7 @@ export default function Header() {
               </div>
 
               {/* Direct Category Badges on Desktop */}
-              {categories.slice(0, 3).map((c) => (
+              {categories.slice(0, 2).map((c) => (
                 <Link
                   key={c.id}
                   href={`/kategori/${c.slug}`}
@@ -128,9 +128,35 @@ export default function Header() {
 
               <Link
                 href="/hakkimizda"
-                className="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                  pathname === '/hakkimizda'
+                    ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/40 font-semibold'
+                    : 'text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100/50 dark:hover:bg-slate-800/50'
+                }`}
               >
                 Hakkımızda
+              </Link>
+
+              <Link
+                href="/gizlilik-politikasi"
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                  pathname === '/gizlilik-politikasi'
+                    ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/40 font-semibold'
+                    : 'text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100/50 dark:hover:bg-slate-800/50'
+                }`}
+              >
+                Gizlilik Politikası
+              </Link>
+
+              <Link
+                href="/iletisim"
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                  pathname === '/iletisim'
+                    ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/40 font-semibold'
+                    : 'text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100/50 dark:hover:bg-slate-800/50'
+                }`}
+              >
+                İletişim
               </Link>
             </nav>
 
