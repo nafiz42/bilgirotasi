@@ -1,13 +1,11 @@
 import React from 'react';
-import Link from 'next/link';
 import {
   Sparkles,
-  ArrowRight,
   TrendingUp,
   FolderOpen
 } from 'lucide-react';
 import { categories } from '@/data/categories';
-import { posts, getAllPosts, getFeaturedPosts, getPostsByCategory } from '@/data/posts';
+import { posts, getAllPosts, getFeaturedPosts } from '@/data/posts';
 import ArticleCard from '@/components/ArticleCard';
 import CategoryCard from '@/components/CategoryCard';
 import SidebarWidgets from '@/components/SidebarWidgets';
@@ -17,7 +15,14 @@ export default function HomePage() {
   const featuredPosts = getFeaturedPosts();
   const mainHeroPost = featuredPosts[0] || posts[0];
   const sideHeroPosts = featuredPosts.slice(1, 3);
-  const recentPosts = getAllPosts().slice(0, 6);
+
+  const heroIds = new Set([
+    mainHeroPost?.id,
+    ...sideHeroPosts.map((p) => p.id)
+  ]);
+
+  // Öne çıkanların altındaki diğer tüm yazılar
+  const otherPosts = getAllPosts().filter((p) => !heroIds.has(p.id));
 
   return (
     <div className="space-y-12">
@@ -56,7 +61,41 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 2. 5 ANA KATEGORİ IZGARASI */}
+      {/* 2. DİĞER YAZILAR (LİSTE GÖRÜNÜMÜ) & YAN MENÜ */}
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 pt-2">
+        {/* Main Content Area (8 Cols) - Liste Şeklinde Diğer Yazılar */}
+        <div className="lg:col-span-8 space-y-6">
+          <div className="flex items-center justify-between pb-3 border-b border-slate-200 dark:border-slate-800">
+            <div className="flex items-center gap-2">
+              <TrendingUp className="w-5 h-5 text-blue-600 dark:text-blue-400" />
+              <h2 className="text-xl font-black text-slate-900 dark:text-white">
+                Diğer Yazılar ve Rehberler
+              </h2>
+            </div>
+            <span className="text-xs font-semibold text-slate-400">
+              {otherPosts.length} Rehber
+            </span>
+          </div>
+
+          <div className="space-y-5">
+            {otherPosts.map((post, idx) => (
+              <React.Fragment key={post.id}>
+                <ArticleCard post={post} variant="horizontal" />
+                {idx === 5 && (
+                  <AdBanner type="article-footer" label="Sponsorlu İçerik" />
+                )}
+              </React.Fragment>
+            ))}
+          </div>
+        </div>
+
+        {/* Sidebar Area (4 Cols) */}
+        <aside className="lg:col-span-4">
+          <SidebarWidgets />
+        </aside>
+      </div>
+
+      {/* 3. 5 ANA KATEGORİ IZGARASI */}
       <section aria-label="Popüler Kategoriler" className="space-y-6 pt-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
@@ -76,78 +115,6 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-
-      {/* 3. İÇERİK & SIDEBAR DÜZENİ */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 pt-4">
-        
-        {/* Main Content Area (8 Cols) */}
-        <div className="lg:col-span-8 space-y-10">
-          
-          {/* Son Eklenen Rehberler */}
-          <section aria-label="Son Eklenen Rehberler" className="space-y-6">
-            <div className="flex items-center justify-between pb-3 border-b border-slate-200 dark:border-slate-800">
-              <div className="flex items-center gap-2">
-                <TrendingUp className="w-5 h-5 text-blue-600 dark:text-blue-400" />
-                <h2 className="text-xl font-black text-slate-900 dark:text-white">
-                  En Yeni Rehberler
-                </h2>
-              </div>
-              <span className="text-xs font-semibold text-slate-400">
-                Rehberler ve kullanım bilgileri
-              </span>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {recentPosts.map((post) => (
-                <ArticleCard key={post.id} post={post} variant="standard" />
-              ))}
-            </div>
-          </section>
-
-          {/* Mid-Feed In-Article Ad Banner (Arka planda hazır) */}
-          <AdBanner type="article-footer" label="Sponsorlu İçerik" />
-
-          {/* Kategorilere Göre Öne Çıkanlar (e-Devlet & Teknoloji Özel Blokları) */}
-          <section className="space-y-8">
-            {categories.slice(0, 2).map((cat) => {
-              const catPosts = getPostsByCategory(cat.slug).slice(0, 3);
-              return (
-                <div key={cat.id} className="space-y-4">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <h3 className="text-lg font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
-                        <span className="w-2.5 h-2.5 rounded-full bg-blue-600" />
-                        {cat.title}
-                      </h3>
-                      <p className="text-xs text-slate-500 dark:text-slate-400">
-                        {cat.description}
-                      </p>
-                    </div>
-                    <Link
-                      href={`/kategori/${cat.slug}`}
-                      className="text-xs font-semibold text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1 shrink-0"
-                    >
-                      Tümünü Gör ({posts.filter((p) => p.categorySlug === cat.slug).length})
-                      <ArrowRight className="w-3.5 h-3.5" />
-                    </Link>
-                  </div>
-
-                  <div className="space-y-3">
-                    {catPosts.map((post) => (
-                      <ArticleCard key={post.id} post={post} variant="horizontal" />
-                    ))}
-                  </div>
-                </div>
-              );
-            })}
-          </section>
-        </div>
-
-        {/* Sidebar Area (4 Cols) */}
-        <aside className="lg:col-span-4">
-          <SidebarWidgets />
-        </aside>
-      </div>
     </div>
   );
 }
