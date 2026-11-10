@@ -5,8 +5,8 @@ export const authors: Author[] = [
     id: 'author-1',
     name: 'Bilgi Rotası',
     avatar: '',
-    role: 'Yayın ekibi',
-    bio: 'Rehberler, konunun türüne göre ilgili kurumların veya hizmet sağlayıcıların yayımladığı bilgilere dayanır. Değişebilen işlemlerde kullanıcıların resmi kaynağı kontrol etmesi önerilir.'
+    role: 'Editör ve Araştırma Ekibi',
+    bio: 'Bilgi Rotası editör ekibi; e-Devlet başvuruları, ÖSYM sınav süreçleri, donanım/yazılım optimizasyonu ve günlük yaşam rehberlerini birincil resmi kaynakları ve uygulama ekranlarını test ederek hazırlar.'
   }
 ];
 

@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { posts } from '@/data/posts';
 import { categories } from '@/data/categories';
+import { tools } from '@/data/tools';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.bilgirotasi.tr';
@@ -12,6 +13,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 1.0
+    },
+    {
+      url: `${baseUrl}/araclar`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9
     },
     {
       url: `${baseUrl}/hakkimizda`,
@@ -39,7 +46,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   ];
 
-  // 2. Category Pages
+  // 2. Interactive Tool Pages
+  const toolPages: MetadataRoute.Sitemap = tools.map((tool) => ({
+    url: `${baseUrl}/araclar/${tool.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.9
+  }));
+
+  // 3. Category Pages
   const categoryPages: MetadataRoute.Sitemap = categories.map((cat) => ({
     url: `${baseUrl}/kategori/${cat.slug}`,
     lastModified: new Date(),
@@ -47,7 +62,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9
   }));
 
-  // 3. Post Pages
+  // 4. Post Pages
   const postPages: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${baseUrl}/kategori/${post.categorySlug}/${post.slug}`,
     lastModified: new Date(post.updatedAt || post.publishedAt || post.date || new Date()),
@@ -55,5 +70,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8
   }));
 
-  return [...staticPages, ...categoryPages, ...postPages];
+  return [...staticPages, ...toolPages, ...categoryPages, ...postPages];
 }

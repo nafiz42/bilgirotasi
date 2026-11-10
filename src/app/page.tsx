@@ -1,11 +1,15 @@
 import React from 'react';
+import Link from 'next/link';
 import {
   Sparkles,
   TrendingUp,
-  FolderOpen
+  FolderOpen,
+  Calculator,
+  ArrowRight
 } from 'lucide-react';
 import { categories } from '@/data/categories';
 import { posts, getAllPosts, getFeaturedPosts } from '@/data/posts';
+import { tools } from '@/data/tools';
 import ArticleCard from '@/components/ArticleCard';
 import CategoryCard from '@/components/CategoryCard';
 import SidebarWidgets from '@/components/SidebarWidgets';
@@ -58,6 +62,60 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* 1.5. İNTERAKTİF HESAPLAMA VE PRATİK ARAÇLAR VİTRİNİ */}
+      <section
+        aria-label="Hesaplama ve Pratik Araçlar"
+        className="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-blue-50/90 via-indigo-50/50 to-white dark:from-slate-900 dark:via-blue-950/30 dark:to-slate-900 border border-blue-200/80 dark:border-blue-900/60 space-y-5"
+      >
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="space-y-1">
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-blue-600 text-white text-[11px] font-bold">
+              <Calculator className="w-3.5 h-3.5" />
+              Ücretsiz Dijital Araçlar
+            </span>
+            <h2 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white tracking-tight">
+              Hesaplama ve Pratik Sorgulama Araçları
+            </h2>
+          </div>
+          <Link
+            href="/araclar"
+            className="inline-flex items-center gap-1.5 text-xs font-extrabold text-blue-600 dark:text-blue-400 hover:underline"
+          >
+            Tüm Araçları Aç ({tools.length}) <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {tools.map((tool) => (
+            <Link
+              key={tool.id}
+              href={`/araclar/${tool.slug}`}
+              className="group p-4 rounded-2xl bg-white dark:bg-slate-900/90 border border-slate-200/80 dark:border-slate-800 hover:border-blue-500/60 shadow-2xs hover:shadow-md transition-all flex flex-col justify-between gap-3"
+            >
+              <div className="space-y-1.5">
+                <div className="flex items-center justify-between">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
+                    {tool.categoryLabel}
+                  </span>
+                  <span className="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
+                    {tool.badge}
+                  </span>
+                </div>
+                <h3 className="text-sm font-extrabold text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                  {tool.shortTitle}
+                </h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 leading-relaxed">
+                  {tool.description}
+                </p>
+              </div>
+              <span className="inline-flex items-center gap-1 text-xs font-bold text-blue-600 dark:text-blue-400">
+                Hemen Hesapla <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              </span>
+            </Link>
+          ))}
         </div>
       </section>
 

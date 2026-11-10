@@ -14,7 +14,8 @@ import {
   Gamepad2,
   GraduationCap,
   Lightbulb,
-  Sparkles
+  Sparkles,
+  Calculator
 } from 'lucide-react';
 import { categories } from '@/data/categories';
 import ThemeToggle from '@/components/ThemeToggle';
@@ -127,6 +128,18 @@ export default function Header() {
               ))}
 
               <Link
+                href="/araclar"
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-colors ${
+                  pathname.startsWith('/araclar')
+                    ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/40'
+                    : 'text-blue-600 dark:text-blue-400 hover:bg-blue-50/70 dark:hover:bg-blue-950/30'
+                }`}
+              >
+                <Calculator className="w-3.5 h-3.5" />
+                Hesaplama Araçları
+              </Link>
+
+              <Link
                 href="/hakkimizda"
                 className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
                   pathname === '/hakkimizda'
@@ -209,6 +222,13 @@ export default function Header() {
                 {c.title}
               </Link>
             ))}
+            <Link
+              href="/araclar"
+              className="shrink-0 inline-flex items-center gap-1 text-xs px-3 py-1 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-all font-semibold shadow-2xs"
+            >
+              <Calculator className="w-3 h-3" />
+              Hesaplama Araçları
+            </Link>
           </div>
         </div>
 
@@ -222,6 +242,14 @@ export default function Header() {
                 className="block px-3 py-2 rounded-xl text-sm font-semibold text-slate-800 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
               >
                 Ana Sayfa
+              </Link>
+              <Link
+                href="/araclar"
+                onClick={() => setMobileMenuOpen(false)}
+                className="flex items-center gap-2 px-3 py-2 rounded-xl text-sm font-bold text-blue-600 dark:text-blue-400 bg-blue-50/70 dark:bg-blue-950/40"
+              >
+                <Calculator className="w-4 h-4" />
+                <span>Hesaplama Araçları</span>
               </Link>
               <div className="pt-2 pb-1 px-3 text-[11px] font-bold tracking-wider uppercase text-slate-400">
                 Kategoriler

@@ -54,39 +54,47 @@ export default function Footer() {
           {/* Quick Links / Guide */}
           <div className="space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900 dark:text-slate-100">
-              Popüler Rehberler
+              Hesaplama Araçları
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
                 <Link
-                  href="/kategori/e-devlet-basvurular/kyk-burs-ve-ogrenim-kredisi-basvurusu-nasil-yapilir"
+                  href="/araclar/vize-final-not-hesaplama"
                   className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 >
-                  KYK Burs Başvurusu
+                  Vize &amp; Final Not Hesaplama
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/kategori/oyun-donanim/oyunlarda-fps-artirma-ve-gecikme-azaltma-rehberi"
+                  href="/araclar/tyt-ayt-dgs-net-hesaplama"
                   className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 >
-                  Oyunlarda FPS Artırma
+                  TYT / AYT / DGS Net Hesaplama
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/kategori/e-devlet-basvurular/e-devlet-uzerinden-ikametgah-adresi-degistirme-rehberi"
+                  href="/araclar/internet-indirme-suresi-hesaplama"
                   className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 >
-                  Online İkametgah Değiştirme
+                  İnternet İndirme Süresi
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/kategori/egitim-sinavlar/yks-calisma-programi-hazirlama-ve-net-artirma-taktikleri"
+                  href="/araclar/kdv-ve-yuzde-hesaplama"
                   className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 >
-                  YKS Çalışma Takvim &amp; Netler
+                  KDV Dahil / Hariç Hesaplama
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/araclar"
+                  className="font-semibold text-blue-600 dark:text-blue-400 hover:underline transition-colors"
+                >
+                  Tüm Araçları Gör &rarr;
                 </Link>
               </li>
             </ul>

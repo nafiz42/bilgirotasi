@@ -375,7 +375,7 @@ const originalPosts: Post[] = [
     readTime: '6 dk',
     featured: true,
     trending: true,
-    coverImage: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&auto=format&fit=crop&q=80',
+    coverImage: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&auto=format&fit=crop&q=80',
     tags: ['KYK Bursu', 'e-Devlet', 'Öğrenim Kredisi', 'GSB', 'Üniversite'],
     sources: [
       { title: 'GSB: Burs ve kredi genel bilgileri', url: 'https://kygm.gsb.gov.tr/sayfalar/2441/2390/genel-bilgiler.aspx' },
@@ -531,97 +531,159 @@ const originalPosts: Post[] = [
   {
     id: 'post-3',
     slug: 'sosyal-yardim-basvurusu-e-devlet-sorgulama-adimlari',
-    title: 'Sosyal Yardım Başvurusu ve Sorgulama e-Devlet Adımları',
-    description: 'Aile ve Sosyal Hizmetler Bakanlığı elektrik tüketim desteği, aile destek paketi ve nakdi yardım başvuru rehberi.',
+    title: 'Sosyal Yardım Başvurusu ve Sorgulama e-Devlet Adımları (Aile Bakanlığı)',
+    description: 'Aile ve Sosyal Hizmetler Bakanlığı sosyal yardım başvurusu nasıl yapılır? e-Devlet başvuru formu doldurma, SYDV değerlendirme süreci ve PTT ödeme sorgulama rehberi.',
     categorySlug: 'e-devlet-basvurular',
     authorId: 'author-1',
     publishedAt: '2026-10-19',
     updatedAt: '2026-10-21',
-    readTime: '5 dk',
+    readTime: '6 dk',
     featured: false,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&auto=format&fit=crop&q=80',
-    tags: ['Sosyal Yardım', 'Aile Destek', 'e-Devlet', 'Bakanlık'],
+    tags: ['Sosyal Yardım', 'Aile Destek', 'e-Devlet', 'SYDV', 'PTT Ödeme Sorgulama'],
     sources: [
       { title: 'e-Devlet: Sosyal yardım başvuru hizmeti', url: 'https://www.turkiye.gov.tr/ashb-sosyal-yardim-basvuru-hizmeti' },
-      { title: 'Aile ve Sosyal Hizmetler Bakanlığı', url: 'https://www.aile.gov.tr/sygm/' }
+      { title: 'Aile ve Sosyal Hizmetler Bakanlığı SYGM', url: 'https://www.aile.gov.tr/sygm/' }
     ],
     content: {
-      lead: 'Devletin ihtiyaç sahibi ailelere sağladığı nakdi destekler ve sosyal yardımlar için e-Devlet üzerinden kolayca başvuru yapılabilmektedir.',
+      lead: 'Aile ve Sosyal Hizmetler Bakanlığı (ASHB) tarafından dar gelirli hanelere sağlanan nakdi ve ayni sosyal yardımlar için başvurular, il veya ilçe vakıflarına gitmeye gerek kalmadan e-Devlet Kapısı üzerinden alınmaktadır. Bu rehberde başvuru formunun doğru doldurulmasını, hane gelir kriterinin nasıl hesaplandığını ve PTT ödeme sorgulama adımlarını bulabilirsiniz.',
       sections: [
         {
           id: 'yardim-turleri',
-          heading: 'Başvurulabilecek Sosyal Yardım Programları',
+          heading: '1. e-Devlet Üzerinden Başvurulabilecek Sosyal Yardım Türleri',
           paragraphs: [
-            'Yardım programları, başvuru dönemleri ve koşulları zaman içinde değişebilir. Eski haberlerde veya başka rehberlerde adı geçen bir desteğin hâlen açık olduğunu varsaymayın; e-Devlet başvuru ekranında listelenen güncel programı ve koşullarını inceleyin.'
+            'Bakanlığın Sosyal Yardımlar Genel Müdürlüğü (SYGM) çatısı altında yürüttüğü destekler; hanenin gelir durumuna, evde eğitim gören öğrenci varlığına, yaşlı veya engelli birey bulunmasına göre farklı başlıklara ayrılır.',
+            'Başvuru ekranında tek bir "Sosyal Yardım Başvuru Formu" doldurulur; Sosyal Yardımlaşma ve Dayanışma Vakfı (SYDV) uzmanları hanenin durumuna uygun olan yardım programlarını bu tek başvuru üzerinden değerlendirir.'
+          ],
+          bullets: [
+            'Barınma, Gıda ve Yakacak Yardımları: Hane geliri asgari ücretin üçte birinin altında olan ailelere yönelik temel ihtiyaç destekleri.',
+            'Şartlı Eğitim ve Şartlı Sağlık Yardımları (ŞEY/ŞSY): Sosyal güvencesi olmayan ailelerin çocuklarının okula devamı ve sağlık kontrolleri karşılığında verilen düzenli ödemeler.',
+            'Elektrik ve Doğal Gaz Tüketim Desteği: Düzenli sosyal yardım hak sahibi olan hanelerin fatura yükünü hafifletmek için PTT üzerinden sağlanan indirim desteği.',
+            'Engelli, Yaşlı (65 Yaş) ve Kronik Hastalık Yardımları: 2022 sayılı Kanun kapsamında bağlanan düzenli aylıklar.'
           ]
         },
         {
           id: 'basvuru-yapma',
-          heading: 'Sosyal Yardım Başvuru Ekranı',
+          heading: '2. Adım Adım e-Devlet Sosyal Yardım Başvurusu Nasıl Yapılır?',
           paragraphs: [
-            'e-Devlet’te "Sosyal Yardım Başvuru Hizmeti"ni arayın. Başvuruyu kendi hesabınızdan açın, ekrandaki bilgilendirmeyi okuyun ve yalnızca sorulan bilgileri doğru biçimde doldurun. Başvuruyu gönderdikten sonra ekrandaki takip bilgilerini saklayın ve durumu aynı hizmetten kontrol edin.',
-            'Başvurunun gönderilmesi yardımın kesin olarak bağlanacağı anlamına gelmez. Değerlendirme, ilgili programın koşullarına ve yetkili vakfın incelemesine göre yapılır.'
+            'Aynı hanede yaşayan bireylerden yalnızca bir kişinin (tercihen hane reisinin veya faturası üzerine kayıtlı olan kişinin) başvuru yapması yeterlidir; mükerrer başvurular süreci hızlandırmaz.'
+          ],
+          steps: [
+            {
+              title: '1. Adım: e-Devlet Hizmet Ekranını Açın',
+              description: 'turkiye.gov.tr adresine giriş yapın ve arama kutusuna "Sosyal Yardım Başvuru Hizmeti" (Aile ve Sosyal Hizmetler Bakanlığı) yazarak ilgili sayfaya gidin.'
+            },
+            {
+              title: '2. Adım: Yeni Başvuru Butonuna Tıklayın',
+              description: 'Sağ üst köşede yer alan "Yeni Başvuru" düğmesine tıklayın ve aydınlatma/açık rıza metinlerini okuyup onaylayın.'
+            },
+            {
+              title: '3. Adım: İletişim ve İkamet Bilgilerini Doğrulayın',
+              description: 'MERNİS üzerindeki açık adresinizi ve aktif kullandığınız cep telefonu numaranızı kontrol edin; bilgilendirme SMS’leri bu numaraya gönderilir.'
+            },
+            {
+              title: '4. Adım: Hane Gelir ve Sosyal Durum Sorularını Yanıtlayın',
+              description: 'Evde yaşayan kişi sayısı, kira durumu, aylık toplam gelir, varsa kronik hastalık veya öğrenci bilgilerini eksiksiz doldurun ve açıklama kutusuna ihtiyacınızı net bir dille yazın.'
+            }
+          ],
+          callout: {
+            type: 'warning',
+            title: 'Bütünleşik Sosyal Yardım Bilgi Sistemi (BSYBS) Kontrolü',
+            message: 'Beyan ettiğiniz bilgiler; SGK, Gelir İdaresi, Tapu, EGM (araç kaydı) ve banka sistemlerinden otomatik olarak teyit edilir. Yanlış beyanda bulunulması başvurunun reddedilmesine yol açar.'
+          }
+        },
+        {
+          id: 'basvuru-ve-odeme-sorgulama',
+          heading: '3. Başvuru Sonucu ve PTT Sosyal Yardım Ödemesi Sorgulama',
+          paragraphs: [
+            'Başvurunuz tamamlandıktan sonra ikamet ettiğiniz ilçedeki Sosyal Yardımlaşma ve Dayanışma Vakfı (SYDV) Mütevelli Heyeti dosyayı inceler. Gerekli görülmesi halinde sosyal inceleme görevlileri hane ziyareti gerçekleştirebilir.',
+            'Başvurunuzun aşamasını e-Devlet’teki "Sosyal Yardım Bilgileri Sorgulama" ekranından, adınıza yatmış bir ödeme olup olmadığını ise "PTT Üzerinden Yapılan Kurum Ödemeleri Sorgulama" hizmetinden takip edebilirsiniz.'
           ]
         }
       ]
     },
     faqs: [
       {
-        question: 'Sosyal yardım başvurusu ne kadar sürede sonuçlanır?',
-        answer: 'Değerlendirme süresi yardım programına ve başvuru yoğunluğuna göre değişir. Başvurunuzun durumunu e-Devlet’teki ilgili hizmetten veya bağlı olduğunuz Sosyal Yardımlaşma ve Dayanışma Vakfından takip edin.'
+        question: 'Sosyal yardım başvurusu kaç günde sonuçlanır?',
+        answer: 'SYDV Mütevelli Heyeti toplantı takvimine ve ilçedeki başvuru yoğunluğuna bağlı olarak başvurular genellikle 15 ile 30 iş günü içerisinde karara bağlanır.'
+      },
+      {
+        question: 'Aynı evden birden fazla kişi başvuru yapabilir mi?',
+        answer: 'Sosyal yardımlar kişi bazlı değil "hane bazlı" değerlendirilir. Bu nedenle aynı ikametgah adresinden tek bir yetişkinin başvuru yapması yeterlidir.'
+      },
+      {
+        question: 'Hane içinde kişi başına düşen gelir sınırı nasıl hesaplanır?',
+        answer: 'Haneye giren tüm resmi gelirlerin (maaş, kira geliri, emekli aylığı vb.) toplamı, o adreste ikamet eden toplam kişi sayısına bölünür. Çoğu temel sosyal yardımda bu tutarın net asgari ücretin 1/3’ünden az olması şartı aranır.'
       }
     ]
   },
   {
     id: 'post-4',
     slug: 'whatsapp-kaybolan-mesajlar-ve-medya-gizliligi-ayarlari',
-    title: 'WhatsApp Kaybolan Mesajlar ve Medya Gizliliği Ayarları Rehberi',
-    description: 'WhatsApp üzerinde gönderdiğiniz fotoğrafların kaydedilmesini önleme, mesajların 24 saatte silinmesi ve gizlilik güvenlik kalkanı.',
+    title: 'WhatsApp Kaybolan Mesajlar, Sohbet Kilidi ve Medya Gizliliği Rehberi',
+    description: 'WhatsApp üzerinde gönderdiğiniz fotoğrafların kaydedilmesini önleme, mesajların 24 saatte silinmesi, sohbet kilidi ve IP adresi gizleme ayarları.',
     categorySlug: 'teknoloji-mobil',
     authorId: 'author-1',
     publishedAt: '2026-10-18',
     updatedAt: '2026-10-20',
-    readTime: '4 dk',
+    readTime: '6 dk',
     featured: true,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1614680376593-902f749f7ffc?w=1200&auto=format&fit=crop&q=80',
-    tags: ['WhatsApp', 'Gizlilik', 'Akıllı Telefon', 'Android', 'iOS'],
+    tags: ['WhatsApp', 'Gizlilik', 'Sohbet Kilidi', 'Android', 'iOS'],
     sources: [
       { title: 'WhatsApp Yardım Merkezi: Kaybolan mesajlar', url: 'https://faq.whatsapp.com/673193694148537/' },
       { title: 'WhatsApp Yardım Merkezi', url: 'https://faq.whatsapp.com/' }
     ],
     content: {
-      lead: 'Kişisel verilerinizi korumak ve sohbetlerinizin başkalarının eline geçmesini engellemek için WhatsApp gizlilik özelliklerini doğru yapılandırmanız şarttır.',
+      lead: 'Kişisel verilerinizi korumak, gönderdiğiniz özel belge veya fotoğrafların karşı tarafın galerisine otomatik kaydedilmesini önlemek ve hassas yazışmalarınızı şifrelemek için WhatsApp’ın yerleşik gizlilik araçlarını doğru yapılandırmanız gerekir. İşte Android ve iPhone için kapsamlı WhatsApp güvenlik rehberi.',
       sections: [
         {
           id: 'kaybolan-mesajlar-nasil-acilir',
-          heading: 'Kaybolan Mesajlar Özelliğini Etkinleştirme',
+          heading: '1. Süreli (Kaybolan) Mesajlar Özelliğini Etkinleştirme',
           paragraphs: [
-            'WhatsApp kaybolan mesajlar özelliği sayesinde belirlediğiniz sürenin (24 saat, 7 gün veya 90 gün) ardından gönderilen mesajlar otomatik olarak sohbetten silinir.',
-            'Bu ayarı tek bir sohbet için veya tüm yeni sohbetler için varsayılan olarak ayarlayabilirsiniz.'
+            'WhatsApp süreli mesajlar özelliği sayesinde belirlediğiniz sürenin (24 saat, 7 gün veya 90 gün) ardından gönderilen tüm yeni mesajlar hem sizin hem de karşı tarafın sohbet ekranından otomatik olarak kaldırılır.',
+            'Bu ayarı yalnızca belirli bir kişi/grup için açabileceğiniz gibi, Ayarlar > Gizlilik > Varsayılan Mesaj Süresi menüsünden yeni başlayacak tüm sohbetler için standart hale de getirebilirsiniz.'
           ],
           steps: [
             {
-              title: '1. Sohbet veya Grup Bilgisine Girin',
-              description: 'Mesajlaştığınız kişinin veya grubun adına dokunarak profil detaylarını açın.'
+              title: '1. Adım: Sohbet veya Grup Bilgisine Girin',
+              description: 'Mesajlaştığınız kişinin veya grubun üst kısımdaki adına dokunarak profil detaylarını açın.'
             },
             {
-              title: '2. "Süreli Mesajlar" Seçeneğini Seçin',
-              description: 'Aşağı kaydırarak "Süreli Mesajlar / Kaybolan Mesajlar" başlığına tıklayın.'
+              title: '2. Adım: "Süreli Mesajlar" Seçeneğine Dokunun',
+              description: 'Ekranı aşağı kaydırarak "Süreli Mesajlar" (Disappearing Messages) başlığını seçin.'
             },
             {
-              title: '3. Süreyi Belirleyin',
-              description: '24 saat, 7 gün veya 90 gün seçeneklerinden birini seçin.'
+              title: '3. Adım: Silinme Süresini Belirleyin',
+              description: '24 saat, 7 gün veya 90 gün seçeneklerinden birini işaretleyin. Seçim yapıldığında sohbet ekranında bir zamanlayıcı simgesi belirecektir.'
             }
           ]
         },
         {
           id: 'tek-seferlik-goruntuleme',
-          heading: 'Bir Kez Görüntülenen Medya ve Ekran Görüntüsü Engeli',
+          heading: '2. Bir Kez Görüntülenen Medya ve Ekran Görüntüsü Koruması',
           paragraphs: [
-            'Hassas bir fotoğraf veya video gönderirken metin kutusundaki "1" simgesine basarak tek seferlik görüntüleme modunu aktif hale getirebilirsiniz.',
-            'Karşı taraf bu medyayı galerisine kaydedemez ve ekran görüntüsü alamaz.'
+            'Kimlik fotoğrafı, dekont veya özel bir görsel gönderirken görselin karşı tarafın telefon galerisine kaydedilmesini istemiyorsanız "Bir Kez Görüntüle" (View Once) özelliğini kullanmalısınız.',
+            'Fotoğrafı veya videoyu seçtikten sonra açıklama satırının sağındaki daire içindeki "1" simgesine dokunup gönderdiğinizde, alıcı dosyayı yalnızca bir defa açabilir; medya galeriye inmez, iletilemez ve WhatsApp tarafından ekran görüntüsü alınması doğrudan engellenir.'
+          ],
+          callout: {
+            type: 'warning',
+            title: 'Harici Kamera Uyarısı',
+            message: 'WhatsApp uygulama içinden ekran görüntüsü (screenshot) ve ekran kaydı alınmasını tamamen engeller; ancak alıcının başka bir telefon kamerasıyla ekrandan fotoğraf çekmesini teknik olarak engelleyemez. Bu nedenle yalnızca güvendiğiniz kişilerle paylaşım yapın.'
+          }
+        },
+        {
+          id: 'sohbet-kilidi-ve-gelismis-gizlilik',
+          heading: '3. Sohbet Kilidi (Gizli Kod) ve Aramada IP Adresini Koruma',
+          paragraphs: [
+            'Telefonunuzu başkalarıyla paylaşmanız gerektiğinde özel sohbetlerinizi Face ID, parmak izi veya yalnızca sizin bildiğiniz bir "Gizli Kod" ile ayrı bir klasöre taşıyabilirsiniz. Ayrıca sesli/görüntülü aramalarda konumunuzun tahmin edilmesini önlemek için IP korumasını açabilirsiniz.'
+          ],
+          bullets: [
+            'Sohbet Kilidi: Kişi profiline girip "Sohbet Kilidi"ni açtığınızda sohbet ana listeden gizlenir ve yalnızca arama çubuğuna belirlediğiniz gizli kodu yazdığınızda görünür.',
+            'Aramalarda IP Adresini Koru: Ayarlar > Gizlilik > Gelişmiş > "Aramalarda IP adresini koru" seçeneğini açarak aramaların doğrudan uçtan uca değil WhatsApp sunucuları üzerinden aktarılmasını sağlayabilirsiniz.',
+            'Bilinmeyen Kullanıcıların Aramalarını Sessize Al: Ayarlar > Gizlilik > Aramalar menüsünden rehberinizde olmayan numaralardan gelen spam aramaları otomatik susturabilirsiniz.'
           ]
         }
       ]
@@ -629,58 +691,88 @@ const originalPosts: Post[] = [
     faqs: [
       {
         question: 'Kaybolan mesajlar silinmeden önce yedeklenirse ne olur?',
-        answer: 'Mesaj süresi dolmadan önce yapılan yedeklemelerde yer alır; ancak yedek geri yüklendiğinde mesajın süresi dolmuşsa doğrudan silinir.'
+        answer: 'Mesajın süresi dolmadan önce Google Drive veya iCloud yedeği alınırsa mesaj yedekte yer alır; ancak yedek yeni bir telefona geri yüklendiğinde süre dolmuşsa mesaj otomatik olarak silinir.'
+      },
+      {
+        question: 'Bir kez görüntülenen fotoğraf açılmazsa ne kadar süre bekler?',
+        answer: 'Gönderilen tek seferlik medya alıcı tarafından 14 gün boyunca hiç açılmazsa sohbetten otomatik olarak silinir ve süresi dolar.'
+      },
+      {
+        question: 'Karşı taraf tek seferlik fotoğrafın ekran görüntüsünü alırsa bildirim gelir mi?',
+        answer: 'Güncel WhatsApp sürümlerinde tek seferlik medyada ekran görüntüsü alma işlemi siyah ekranla doğrudan engellenmektedir; yani karşı taraf ekran görüntüsü alamaz.'
       }
     ]
   },
   {
     id: 'post-5',
     slug: 'iphone-ve-android-pil-omrunu-uzatma-yontemleri',
-    title: 'iPhone ve Android’de Pil Tüketimini Azaltmaya Yardımcı Ayarlar',
-    description: 'Telefon şarjınızın çabuk bitmesini önleyin: Arka plan yenilemeleri, ekran parlaklığı, şarj döngüsü ve pil sağlığı koruma teknikleri.',
+    title: 'iPhone ve Android’de Pil Ömrünü Uzatma ve Batarya Sağlığını Koruma Rehberi',
+    description: 'Telefon şarjınızın çabuk bitmesini önleyin: Arka plan uygulama yenilemeleri, 120Hz ekran ayarları, 20-80 şarj kuralı ve pil sağlığı koruma yöntemleri.',
     categorySlug: 'teknoloji-mobil',
     authorId: 'author-1',
     publishedAt: '2026-10-16',
     updatedAt: '2026-10-18',
-    readTime: '6 dk',
+    readTime: '7 dk',
     featured: false,
     trending: true,
-    coverImage: 'https://images.unsplash.com/photo-1511707171634-5f897ff02597?w=1200&auto=format&fit=crop&q=80',
-    tags: ['Pil Sağlığı', 'Batarya', 'iPhone', 'Samsung', 'Şarj'],
+    coverImage: 'https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=1200&auto=format&fit=crop&q=80',
+    tags: ['Pil Sağlığı', 'Batarya', 'iPhone', 'Android', 'Şarj Ömrü'],
     sources: [
-      { title: 'Apple: iPhone pilinin daha çabuk bitmesi', url: 'https://support.apple.com/en-euro/120745' },
-      { title: 'Google Pixel Yardım', url: 'https://support.google.com/pixelphone/' }
+      { title: 'Apple: iPhone pilini ve performansını anlama', url: 'https://support.apple.com/tr-tr/101575' },
+      { title: 'Google Android Yardım: Pil ömrünü uzatma', url: 'https://support.google.com/android/answer/7664692?hl=tr' }
     ],
     content: {
-      lead: 'Akıllı telefon bataryaları zamanla kimyasal olarak yıpranır. Ekran, bağlantı ve arka plan etkinliklerini gözden geçirmek günlük tüketimi azaltabilir; elde edilecek fark kullanım alışkanlığına ve cihaza göre değişir.',
+      lead: 'Akıllı telefonlarda kullanılan lityum-iyon bataryalar hem günlük yazılım ayarlarından hem de şarj ve sıcaklık alışkanlıklarından doğrudan etkilenir. Gün içinde şarjınızın erken bitmesini önlemek ve maksimum pil kapasitesini (Pil Sağlığı %) yıllarca korumak için uygulayabileceğiniz en etkili adımları derledik.',
       sections: [
         {
           id: 'temel-ayarlar',
-          heading: 'Pil Tüketen Kritik Ayarları Kapatın',
+          heading: '1. Günlük Şarj Tüketimini Azaltan Kritik Sistem Ayarları',
           paragraphs: [
-            'Önce Ayarlar > Pil bölümündeki kullanım dökümünü inceleyin. Ekran, sinyal gücü, oyun ve video gibi etkenlerin tüketimi cihaz ve kullanıma göre farklılaşır.',
-            'Konum erişimini uygulama bazında gözden geçirin; sürekli konum gerekmeyen uygulamalara "uygulamayı kullanırken" izni vermek gizliliği de destekler. Menü adları Android üreticisine ve iOS sürümüne göre değişebilir.'
+            'Telefonun ekranı ve arka planda sürekli veri/konum senkronizasyonu yapan uygulamalar toplam pil tüketiminin %70’inden fazlasını oluşturur. İşlevsellikten ödün vermeden şu ayarları optimize edebilirsiniz:'
+          ],
+          steps: [
+            {
+              title: '1. Adım: Arkalanda Uygulama Yenilemeyi Sınırlandırın',
+              description: 'iPhone’da Ayarlar > Genel > Arka Planda Uygulama Yenile menüsünden, Android’de ise Ayarlar > Pil > Arka Plan Kullanım Sınırları bölümünden anlık bildirim almanız gerekmeyen sosyal medya ve alışveriş uygulamalarını uyku moduna alın.'
+            },
+            {
+              title: '2. Adım: Konum İzinlerini "Uygulamayı Kullanırken" Yapın',
+              description: 'Ayarlar > Gizlilik > Konum Servisleri altında "Her Zaman" iznine sahip uygulamaları kontrol edin ve yalnızca harita/navigasyon dışındakileri "Uygulamayı Kullanırken" olarak değiştirin.'
+            },
+            {
+              title: '3. Adım: Koyu Mod (Dark Mode) ve Otomatik Parlaklığı Açın',
+              description: 'OLED ve AMOLED ekranlı telefonlarda siyah pikseller tamamen kapatıldığı için Koyu Mod kullanımı ekran pil tüketimini %15 ila %25 oranında azaltır.'
+            }
           ]
         },
         {
           id: 'sarj-ve-isi',
-          heading: 'Şarj Alışkanlığı ve Isı',
+          heading: '2. Batarya Sağlığını (Maksimum Kapasiteyi) Koruyan Şarj Kuralları',
           paragraphs: [
-            'Her telefon için geçerli, pil ömrünü iki katına çıkaran sabit bir yüzde kuralı yoktur. Aşırı sıcak pil sağlığını olumsuz etkileyebilir; cihazı sıcak ortamda bırakmamaya ve üreticinin şarj önerilerini izlemeye çalışın.',
-            'Desteklenen iPhone modellerinde İyileştirilmiş Pil Şarjı veya şarj sınırı özellikleri pilin uzun süre tam dolu kalmasını azaltabilir. Android’de benzer özelliklerin adı ve kullanılabilirliği üreticiye göre değişir.'
+            'Lityum-iyon pillerin kimyasal ömrünü en hızlı tüketen iki faktör "yüksek ısı (35°C üzeri)" ve "pilin %0’a kadar tamamen boşaltılması ya da saatlerce %100’de yüksek voltajda bekletilmesi"dir.',
+            'Modern iPhone modellerindeki "İyileştirilmiş Pil Şarjı / %80 Sınırı" ve Samsung/Android cihazlardaki "Pili Koru (%80 Maksimum)" özelliklerini mutlaka aktif hale getirin.'
+          ],
+          bullets: [
+            '%20 – %80 Şarj Aralığı: Günlük kullanımda şarja %20 civarında takıp %80–%85 seviyesinde çekmek, döngü yıpranmasını en aza indirir.',
+            'Şarjdayken Oyun Oynamaktan Kaçının: Hızlı şarj esnasında oluşan ısı ile işlemci/GPU ısısı birleştiğinde batarya sıcaklığı 42°C üzerine çıkar ve kalıcı kapasite kaybı yaşanır.',
+            'Sertifikalı Adaptör ve Kablo Kullanımı: PD (Power Delivery) veya PPS destekli orijinal/lisanslı adaptörler voltajı kademeli olarak düşürerek bataryayı korur.'
           ],
           callout: {
             type: 'tip',
-            title: 'Cihazınızın ayarlarını kontrol edin',
-            message: 'Pil sağlığı ve şarj ayarlarının adını, modelinize ait üretici destek sayfasından doğrulayın.'
+            title: '5G ve Zayıf Sinyal Etkisi',
+            message: 'Bulunduğunuz bölgede 5G çekim gücü zayıfsa telefon sürekli baz istasyonu aradığı için normalden iki kat fazla pil harcar. Mobil Veri ayarlarından "5G Otomatik" veya "LTE/4.5G" modunu seçmek pil süresini belirgin şekilde uzatır.'
           }
         }
       ]
     },
     faqs: [
       {
-        question: 'Hızlı şarj pil sağlığını bozar mı?',
-        answer: 'Modern şarj cihazları ve telefonlar voltajı akıllıca ayarlar; ancak aşırı ısınma olursa pil sağlığı olumsuz etkilenebilir. Şarj olurken telefonla oyun oynamamaya özen gösterin.'
+        question: 'Hızlı şarj adaptörü kullanmak pil sağlığını bozar mı?',
+        answer: 'Hayır, kaliteli ve PD/PPS standartlarına uygun hızlı şarj adaptörleri pil %80’e ulaşana kadar yüksek hızda, %80’den sonra ise yavaş (damlama) modunda şarj eder. Ancak şarj sırasında kılıf çok kalınsa veya oyun oynanıyorsa oluşan ısı pile zarar verir.'
+      },
+      {
+        question: 'Pil sağlığı yüzde kaçın altına düştüğünde batarya değişimi gerekir?',
+        answer: 'Üreticiler (Apple ve Samsung dahil) maksimum pil kapasitesi %80’in altına düştüğünde hem ekran süresinin kısalması hem de ani kapanmaların önlenmesi için batarya değişimi önermektedir.'
       }
     ]
   },
@@ -696,7 +788,7 @@ const originalPosts: Post[] = [
     readTime: '7 dk',
     featured: true,
     trending: true,
-    coverImage: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80',
+    coverImage: 'https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=1200&auto=format&fit=crop&q=80',
     tags: ['FPS Artırma', 'NVIDIA', 'AMD', 'Oyun', 'Windows 11', 'Donanım'],
     sources: [
       { title: 'Microsoft: Windows 11 pencere modunda oyun iyileştirmeleri', url: 'https://support.microsoft.com/en-us/windows/hardware/display-graphics/optimizations-for-windowed-games-in-windows-11' }
@@ -761,75 +853,153 @@ const originalPosts: Post[] = [
   {
     id: 'post-8',
     slug: 'ekran-karti-surucu-guncelleme-ve-temiz-kurulum-rehberi',
-    title: 'Ekran Kartı Sürücü Güncelleme ve DDU ile Temiz Kurulum Rehberi',
-    description: 'NVIDIA, AMD ve Intel grafik sürücüsü nasıl güncellenir? DDU (Display Driver Uninstaller) ile çökmeleri önleme kılavuzu.',
+    title: 'Ekran Kartı Sürücü Güncelleme ve DDU ile Temiz Kurulum Rehberi (NVIDIA & AMD)',
+    description: 'NVIDIA GeForce, AMD Radeon ve Intel Arc ekran kartı sürücüsü nasıl güncellenir? Güvenli Modda DDU ile eski sürücü kalıntılarını silme ve temiz kurulum adımları.',
     categorySlug: 'oyun-donanim',
     authorId: 'author-1',
     publishedAt: '2026-10-12',
     updatedAt: '2026-10-14',
-    readTime: '5 dk',
+    readTime: '7 dk',
     featured: false,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=1200&auto=format&fit=crop&q=80',
-    tags: ['Ekran Kartı', 'DDU', 'Sürücü', 'NVIDIA', 'AMD'],
+    tags: ['Ekran Kartı', 'DDU', 'Sürücü Güncelleme', 'NVIDIA', 'AMD'],
     sources: [
       { title: 'Microsoft: Windows sürücü güncellemeleri', url: 'https://support.microsoft.com/en-us/windows/hardware/drivers/automatically-get-recommended-and-updated-hardware-drivers' },
-      { title: 'NVIDIA sürücü indirmeleri', url: 'https://www.nvidia.com/Download/index.aspx' },
-      { title: 'AMD sürücü ve destek', url: 'https://www.amd.com/en/support/download/drivers.html' }
+      { title: 'NVIDIA Resmi Sürücü İndirme Sayfası', url: 'https://www.nvidia.com/Download/index.aspx' },
+      { title: 'AMD Radeon Sürücü ve Destek', url: 'https://www.amd.com/en/support/download/drivers.html' }
     ],
     content: {
-      lead: 'Eski sürücü kalıntıları mavi ekran hatalarına ve oyun içi ani takılmalara (stuttering) yol açabilir. DDU programı ile sıfırdan temiz kurulum yapmanın adımları.',
+      lead: 'Oyunlarda ani FPS düşüşleri (stuttering), siyah ekran, DXGI_ERROR_DEVICE_HUNG çökmeleri veya yeni bir ekran kartına geçiş sonrası yaşanan mavi ekran hatalarının en yaygın nedeni bozulmuş grafik sürücüsü kayıtlarıdır. Bu rehberde hem standart sürücü güncellemesini hem de DDU (Display Driver Uninstaller) ile sıfırdan temiz kurulum adımlarını bulabilirsiniz.',
       sections: [
         {
-          id: 'temiz-kurulum-adimlari',
-          heading: 'Güvenli Modda DDU Kullanımı',
+          id: 'standart-surucu-guncelleme',
+          heading: '1. NVIDIA App ve AMD Software Üzerinden Normal Sürücü Güncelleme',
           paragraphs: [
-            'Önce Windows Update veya ekran kartı üreticisinin resmi kurulum aracını kullanın. DDU üçüncü taraf bir sürücü kaldırma aracıdır; yalnızca normal kaldırma ve yeniden kurulum sorunu çözmezse, aracın kendi talimatlarını okuyup geri dönüş için gerekli sürücüyü önceden indirerek değerlendirin.'
+            'Her sürücü güncellemesinde üçüncü taraf kaldırma aracı kullanmanıza gerek yoktur. Sisteminizde herhangi bir çökme sorunu yoksa üreticinin resmi kurulum sihirbazındaki "Temiz Kurulum" kutucuğu günlük güncellemeler için yeterlidir.',
+            'NVIDIA kullanıcıları kurulum ekranında "Özel (Gelişmiş)" seçeneğini işaretleyip alt kısımdaki "Temiz kurulum yap" kutusunu seçebilir; AMD kullanıcıları ise Adrenalin kurulum ekranında "Ek Seçenekler > Fabrika Ayarlarına Sıfırla" seçeneğini kullanabilir.'
           ]
+        },
+        {
+          id: 'temiz-kurulum-adimlari',
+          heading: '2. Güvenli Modda DDU ile Tamamen Temiz Sürücü Kurulumu',
+          paragraphs: [
+            'AMD’den NVIDIA’ya (veya tam tersi) ekran kartı değiştirdiyseniz ya da normal yeniden kurulum mavi ekran/çökme sorununu çözmediyse aşağıdaki adımları sırasıyla uygulayın:'
+          ],
+          steps: [
+            {
+              title: '1. Adım: Güncel Sürücüyü Önceden Masaüstüne İndirin',
+              description: 'İşleme başlamadan önce NVIDIA veya AMD’nin resmi web sitesinden ekran kartı modelinize uygun en güncel WHQL sürücü kurulum dosyasını (.exe) indirip masaüstüne kaydedin.'
+            },
+            {
+              title: '2. Adım: İnternet Bağlantısını Geçici Olarak Kesin',
+              description: 'Sürücü silindiği anda Windows Update’in arka planda eski bir sürücüyü otomatik yüklemesini önlemek için Ethernet kablosunu çıkarın veya Wi-Fi bağlantısını kapatın.'
+            },
+            {
+              title: '3. Adım: Windows’u Güvenli Modda (Safe Mode) Başlatın',
+              description: 'Shift tuşuna basılı tutarak Başlat > Yeniden Başlat’a tıklayın. Sorun Gider > Gelişmiş Seçenekler > Başlangıç Ayarları > Yeniden Başlat yolunu izleyin ve açılışta 4 (Güvenli Mod) tuşuna basın.'
+            },
+            {
+              title: '4. Adım: DDU ile Mevcut Sürücüyü Kaldırın ve Yeniden Başlatın',
+              description: 'DDU aracında sağ taraftan "Cihaz Türü: GPU" ve ekran kartı markanızı seçip sol üstteki "Temizle ve Yeniden Başlat" butonuna tıklayın. Bilgisayar normal modda açıldığında masaüstündeki güncel sürücüyü kurup interneti yeniden bağlayın.'
+            }
+          ],
+          callout: {
+            type: 'warning',
+            title: 'BitLocker ve PIN Uyarısı',
+            message: 'Güvenli moda geçmeden önce Windows hesabınızın parolasını (PIN değil, Microsoft hesap şifresi) bildiğinizden ve BitLocker açıksa kurtarma anahtarınızın yedekte olduğundan emin olun.'
+          }
         }
       ]
     },
     faqs: [
       {
-        question: 'DDU kullanmak tehlikeli midir?',
-        answer: 'DDU üçüncü taraf yazılımdır ve sürücüleri kaldırır; yanlış kullanım görüntü sorunlarına yol açabilir. Önce üreticinin önerdiği kurulum/kaldırma yöntemini izleyin ve DDU kullanmanız gerekiyorsa aracın güncel talimatlarını dikkatle uygulayın.'
+        question: 'Her yeni ekran kartı güncellemesinde DDU kullanmak gerekir mi?',
+        answer: 'Hayır. Rutin sürücü güncellemelerinde doğrudan NVIDIA App veya AMD Adrenalin üzerinden güncelleme yapmak yeterlidir. DDU yalnızca sürücü kaynaklı çökme/takılma sorunlarında veya ekran kartı değişiminde kullanılmalıdır.'
+      },
+      {
+        question: 'Game Ready Sürücüsü mü yoksa Studio Sürücüsü mü kurulmalı?',
+        answer: 'Yeni çıkan oyunlarda en yüksek performans ve yama desteği için Game Ready sürücüsü; Premiere Pro, Blender ve DaVinci Resolve gibi iş istasyonu uygulamalarında maksimum kararlılık için Studio sürücüsü tercih edilmelidir.'
       }
     ]
   },
   {
     id: 'post-9',
     slug: 'steam-oyun-acilmiyor-hatasi-kesin-cozum-yollari',
-    title: 'Steam Oyunu Açılmıyorsa Kontrol Edilebilecek Çözüm Adımları',
-    description: 'Steam başlatılıyor diyor ama oyun açılmıyor mu? Dosya bütünlüğü doğrulama, DirectX ve Visual C++ onarım adımları.',
+    title: 'Steam Oyunu Açılmıyor Hatası: "Çalışıyor" Deyip Kapanma Sorunu Çözümü',
+    description: 'Steam’de Oyna butonuna basınca "Çalışıyor" yazıp oyunun hiç açılmadan kapanması sorununa karşı dosya doğrulama, Visual C++ ve DirectX onarım adımları.',
     categorySlug: 'oyun-donanim',
     authorId: 'author-1',
     publishedAt: '2026-10-10',
     updatedAt: '2026-10-12',
-    readTime: '4 dk',
+    readTime: '6 dk',
     featured: false,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&auto=format&fit=crop&q=80',
-    tags: ['Steam', 'Oyun Hatası', 'Çözüm', 'Windows'],
+    tags: ['Steam', 'Oyun Hatası', 'Visual C++', 'DirectX', 'Windows'],
     sources: [
       { title: 'Steam: Oyun dosyalarının bütünlüğünü doğrulama', url: 'https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB' },
-      { title: 'Steam: Oyun başlatılamıyor', url: 'https://help.steampowered.com/en/faqs/view/5814-D9A3-BE42-62DF' }
+      { title: 'Steam: Oyun başlatılamıyor sorun giderme', url: 'https://help.steampowered.com/en/faqs/view/5814-D9A3-BE42-62DF' }
     ],
     content: {
-      lead: 'Steam üzerinde oyunu başlattığınızda "Çalışıyor" dedikten sonra hemen kapanıyorsa sorunun kaynağı çoğunlukla eksik kütüphane dosyaları veya bozuk oyun dosyalarıdır.',
+      lead: 'Steam kütüphanenizde "Oyna" butonuna tıkladığınızda durum birkaç saniye "Çalışıyor / Başlatılıyor" olarak görünüp ekrana hiçbir pencere gelmeden tekrar "Oyna" butonuna dönüyorsa; sorun genellikle bozuk oyun paketlerinden, eksik Microsoft Visual C++ / DirectX kütüphanelerinden veya antivirüs karantinasından kaynaklanır.',
       sections: [
         {
           id: 'dosya-dogrulama',
-          heading: 'Oyun Dosyalarının Bütünlüğünü Doğrulama',
+          heading: '1. Adım: Steam Oyun Dosyalarının Bütünlüğünü Doğrulama',
           paragraphs: [
-            'Steam kütüphanenizde oyuna sağ tıklayıp Özellikler > Yüklü Dosyalar > "Oyun dosyalarının bütünlüğünü doğrula" butonuna basarak eksik veya hasarlı dosyaları yeniden indirin.'
+            'İndirme sırasındaki anlık bağlantı kopmaları veya disk yazma hataları oyunun ana yürütülebilir (.exe veya .dll) dosyalarının eksik inmesine yol açabilir. İlk olarak şu adımları uygulayın:'
+          ],
+          steps: [
+            {
+              title: '1. Kütüphanede Oyuna Sağ Tıklayın',
+              description: 'Steam’i açın, sol listeden açılmayan oyuna sağ tıklayıp "Özellikler" (Properties) menüsüne girin.'
+            },
+            {
+              title: '2. Yüklü Dosyalar Sekmesini Açın',
+              description: 'Sol menüden "Yüklü Dosyalar" (Installed Files) sekmesine tıklayın.'
+            },
+            {
+              title: '3. Bütünlüğü Doğrulayın',
+              description: '"Oyun dosyalarının bütünlüğünü doğrula" butonuna basın. Steam eksik veya bozuk dosyaları tespit edip otomatik olarak yeniden indirecektir.'
+            }
+          ]
+        },
+        {
+          id: 'visual-cpp-ve-directx',
+          heading: '2. Adım: Eksik Visual C++ (VCRUNTIME140.dll) ve DirectX Paketlerini Onarma',
+          paragraphs: [
+            'Özellikle yeni format atılmış bilgisayarlarda oyunların ihtiyaç duyduğu Microsoft Visual C++ Redistributable (2015–2022) ve eski DirectX 9/11 çalışma zamanı bileşenleri eksik olduğunda oyun sessizce kapanır.',
+            'Steam her oyunun ortak kurulum paketlerini kendi klasöründe saklar. Dosya Gezgini’nde C:\\Program Files (x86)\\Steam\\steamapps\\common\\Steamworks Shared\\_CommonRedist klasörüne giderek vcredist ve DirectX klasörleri içindeki kurulum dosyalarını yönetici olarak çalıştırıp "Onar" (Repair) işlemini tamamlayın.'
+          ],
+          callout: {
+            type: 'tip',
+            title: 'İndirme Önbelleğini Temizleme',
+            message: 'Oyun güncellemede takılı kalıyorsa Steam > Ayarlar > İndirmeler > "İndirme Önbelleğini Temizle" seçeneğini kullanıp Steam’i yeniden başlatın.'
+          }
+        },
+        {
+          id: 'uyumluluk-ve-antivirus',
+          heading: '3. Adım: Yönetici İzni, Başlatma Seçenekleri ve Antivirüs Kontrolü',
+          paragraphs: [
+            'Bazı hile korumalı oyunlar (Easy Anti-Cheat veya BattlEye kullanan yapımlar) yönetici izni olmadan başlayamaz. Ayrıca Windows Güvenliği oyunun .exe dosyasını yanlışlıkla engellemiş olabilir.'
+          ],
+          bullets: [
+            'Yönetici Olarak Çalıştırma: Yüklü Dosyalar > "Göz at" diyerek oyunun klasörünü açın, .exe dosyasına sağ tıklayıp Özellikler > Uyumluluk sekmesinden "Bu programı yönetici olarak çalıştır" kutusunu işaretleyin.',
+            'Bozuk Başlatma Seçeneklerini Silin: Oyun Özellikler > Genel sekmesindeki "Başlatma Seçenekleri" kutusunda eski veya uyumsuz komutlar (-dx11, -vulkan vb.) varsa kutuyu tamamen temizleyip deneyin.',
+            'Bindirme (Overlay) Çakışması: Discord, MSI Afterburner / RivaTuner veya Steam Arayüzü eski oyunların çökmesine neden olabilir; geçici olarak kapatıp test edin.'
           ]
         }
       ]
     },
     faqs: [
       {
-        question: 'Visual C++ Redistributable paketlerini nereden indirebilirim?',
-        answer: 'Microsoft resmi destek sayfasından 2015-2022 All-in-One x64 ve x86 paketlerini indirip onarım yapabilirsiniz.'
+        question: 'Visual C++ Redistributable paketlerini nereden güvenle indirebilirim?',
+        answer: 'Doğrudan Microsoft’un resmi "En son desteklenen Visual C++ Yeniden Dağıtılabilir İndirmeleri" sayfasından hem x86 hem de x64 sürümlerini indirip kurabilirsiniz.'
+      },
+      {
+        question: 'İndirme önbelleğini temizlemek yüklü oyunlarımı siler mi?',
+        answer: 'Hayır, kurulu oyunlarınız veya kayıt dosyalarınız silinmez; yalnızca geçici indirme klasörü sıfırlanır ve Steam hesabınıza tekrar giriş yapmanız istenir.'
       }
     ]
   },
@@ -919,12 +1089,12 @@ const originalPosts: Post[] = [
     id: 'post-11',
     slug: 'kpss-puan-turleri-ve-kadro-dagilimi-kapsamli-rehber',
     title: 'KPSS Puan Türleri ve Kadro Dağılımı Kapsamlı Rehber (P1, P2, P3, P93, P94)',
-    description: 'Hangi KPSS puanı ile hangi memurluklara başvurulur? Lisans, önlisans ve ortaöğretim kadroları arasındaki farklar.',
+    description: 'Hangi KPSS puanı ile hangi memurluklara başvurulur? Lisans (P3), Ön Lisans (P93), Ortaöğretim (P94) ve A Grubu uzman yardımcılığı kadroları arasındaki farklar.',
     categorySlug: 'egitim-sinavlar',
     authorId: 'author-1',
     publishedAt: '2026-10-07',
     updatedAt: '2026-10-09',
-    readTime: '6 dk',
+    readTime: '7 dk',
     featured: false,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80',
@@ -934,187 +1104,350 @@ const originalPosts: Post[] = [
       { title: 'Kariyer Kapısı Kamu İşe Alım Platformu', url: 'https://kariyerkapisi.gov.tr/isealim' }
     ],
     content: {
-      lead: 'KPSS sınavına giren adayların en çok kafa karışıklığı yaşadığı konuların başında puan türleri gelir. Hangi meslek için hangi puan türünün gerektiğine yakından bakalım.',
+      lead: 'Kamu Personel Seçme Sınavı’na (KPSS) hazırlanan adayların en çok karıştırdığı konuların başında puan türleri ile B Grubu (merkezi yerleştirme) ve A Grubu (kariyer meslekler) kadrolar arasındaki ayrım gelir. Mezuniyet düzeyinize ve hedeflediğiniz kuruma göre hangi KPSS oturumuna girmeniz ve hangi puan türünü kullanmanız gerektiğini tüm detaylarıyla inceledik.',
       sections: [
         {
-          id: 'puan-turleri',
-          heading: 'Temel KPSS Puan Türleri ve Anlamları',
+          id: 'b-grubu-puan-turleri',
+          heading: '1. B Grubu Kadrolar: P3 (Lisans), P93 (Ön Lisans) ve P94 (Ortaöğretim)',
           paragraphs: [
-            'Puan türü; öğrenim düzeyine, sınav oturumuna ve başvurulan kadronun özel koşullarına göre değişir. P3, P93 ve P94 farklı öğrenim düzeylerinde kullanılan puan türleridir; her ilanın kabul ettiği puan türünü ve taban puan şartını ilgili ÖSYM tercih kılavuzundan veya kurum ilanından doğrulayın.'
-          ]
-        }
-      ]
-    },
-    faqs: [
-      {
-        question: 'KPSS puanı kaç yıl geçerlidir?',
-        answer: 'Puan geçerlilik süresi sınav türü ve ilgili yerleştirme kılavuzuna göre belirlenir. Başvuru yapacağınız dönem için ÖSYM kılavuzunu ve kurum ilanını kontrol edin.'
-      }
-    ]
-  },
-  {
-    id: 'post-12',
-    slug: 'universite-kayit-icin-gerekli-belgeler-ve-e-kayit-adimlari',
-    title: 'Üniversite Kayıt İçin Gerekli Belgeler ve e-Kayıt Adımları',
-    description: 'YKS tercih sonuçları sonrası e-Devlet üzerinden üniversiteye elektronik kayıt (e-kayıt) yapma ve gerekli evraklar listesi.',
-    categorySlug: 'egitim-sinavlar',
-    authorId: 'author-1',
-    publishedAt: '2026-10-05',
-    updatedAt: '2026-10-07',
-    readTime: '5 dk',
-    featured: false,
-    trending: false,
-    coverImage: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1200&auto=format&fit=crop&q=80',
-    tags: ['Üniversite Kayıt', 'e-Kayıt', 'e-Devlet', 'Öğrenci Belgesi'],
-    sources: [
-      { title: 'e-Devlet Kapısı', url: 'https://www.turkiye.gov.tr/' },
-      { title: 'YÖK: Yükseköğretim Kurulu', url: 'https://www.yok.gov.tr/' }
-    ],
-    content: {
-      lead: 'Üniversiteye yerleşen adaylar için e-Kayıt seçeneği açılmış olabilir; kayıt yöntemi programa ve üniversiteye göre değişir. Kayıt ekranındaki duyuruyu ve yerleştiğiniz üniversitenin kayıt takvimini birlikte kontrol edin.',
-      sections: [
-        {
-          id: 'e-kayit-nasil-yapilir',
-          heading: 'e-Kayıt Yapma Adımları',
-          paragraphs: [
-            'e-Devlet’e giriş yaptıktan sonra "Üniversite E-Kayıt" hizmetinde yerleştiğiniz programın görünüp görünmediğini kontrol edin. Ekrandaki bilgileri doğrulayıp işlem adımlarını tamamlayın; oluşan barkodlu belgeyi indirin ve kayıt durumunuzu tekrar kontrol edin. Hizmette programınız görünmüyorsa veya hata alıyorsanız üniversitenizin öğrenci işleriyle iletişime geçin.'
-          ]
-        }
-      ]
-    },
-    faqs: [
-      {
-        question: 'e-Kayıt yaptıktan sonra üniversiteye gitmek gerekir mi?',
-        answer: 'Bu durum üniversitenin ve programın kayıt duyurusuna bağlıdır. e-Kayıt tamamlandıktan sonra ayrıca belge teslimi veya yüz yüze işlem gerekip gerekmediğini üniversitenizin güncel duyurusundan doğrulayın.'
-      }
-    ]
-  },
-  {
-    id: 'post-13',
-    slug: 'evde-pratik-leke-cikarma-ve-temizlik-tuyolari',
-    title: 'Evde Pratik Leke Çıkarma ve Temizlik Tüyoları (Kahve, Yağ, Mürekkep)',
-    description: 'Kıyafet ve halılardaki zorlu lekeleri kumaşa zarar vermeden karbonat, beyaz sirke ve doğal yöntemlerle çıkarma rehberi.',
-    categorySlug: 'pratik-bilgiler',
-    authorId: 'author-1',
-    publishedAt: '2026-10-03',
-    updatedAt: '2026-10-05',
-    readTime: '5 dk',
-    featured: true,
-    trending: false,
-    coverImage: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&auto=format&fit=crop&q=80',
-    tags: ['Temizlik', 'Pratik Bilgiler', 'Leke Çıkarma', 'Ev Yaşam'],
-    content: {
-      lead: 'Halıya dökülen kahve veya beyaz gömleğe sıçrayan yağ lekesi artık kabus olmak zorunda değil. Kimyasal ağartıcılara gerek kalmadan evdeki malzemelerle leke çıkarma yöntemleri.',
-      sections: [
-        {
-          id: 'yag-lekesi',
-          heading: 'Kurumuş Yağ Lekesi Nasıl Çıkar?',
-          paragraphs: [
-            'Önce fazla yağı temiz, emici bir bezle bastırarak alın. Kumaş bakım etiketini kontrol edin; pudra veya bulaşık deterjanını kullanmadan önce görünmeyen küçük bir alanda deneyin. Uygun görünüyorsa ürünü kısa süre bekletip etikette izin verilen yıkama talimatını uygulayın.'
+            'Bakanlıkların, üniversitelerin, belediyelerin ve KİT’lerin düz memur, mühendis, hemşire, tekniker, büro personeli, zabıt katibi ve güvenlik görevlisi gibi kadroları "B Grubu" olarak adlandırılır. Bu kadrolar için yalnızca Genel Yetenek (60 soru) ve Genel Kültür (60 soru) oturumuna girilmesi yeterlidir.'
+          ],
+          bullets: [
+            'KPSS P3 Puanı (Lisans): 4 yıllık fakülte ve yüksekokul mezunlarının merkezi atamalarda (KPSS-1 / KPSS-2) ve kurumsal açıktan alımlarda kullandığı temel puandır (%50 Genel Yetenek + %50 Genel Kültür).',
+            'KPSS P93 Puanı (Ön Lisans): 2 yıllık meslek yüksekokulu (MYO) mezunlarının teknikerlik, sağlık teknikerliği ve ön lisans memurluk alımlarında kullandığı puandır (çift yıllarda düzenlenir).',
+            'KPSS P94 Puanı (Ortaöğretim / Lise): Lise ve dengi okul mezunlarının destek personeli, şoför, teknisyen ve memur alımlarında kullandığı puandır (çift yıllarda düzenlenir).'
           ]
         },
         {
-          id: 'kahve-ve-cay-lekesi',
-          heading: 'Kahve ve Çay Lekelerinde İlk Müdahale',
+          id: 'a-grubu-ve-ogretmenlik',
+          heading: '2. A Grubu Kariyer Meslekler (P1, P2, P4–P48) ve Öğretmenlik (P10, P121)',
           paragraphs: [
-            'Önce sıvıyı temiz, emici bir bezle dıştan içe doğru tamponlayın. Kumaşın bakım etiketini kontrol edin ve herhangi bir temizleyiciyi görünmeyen alanda deneyin. Hassas kumaşlarda ev karışımları yerine profesyonel temizlik tercih edin.'
+            'Müfettiş yardımcılığı, uzman yardımcılığı, denetmen yardımcılığı ve kaymakam adaylığı gibi "A Grubu" kadrolar için Genel Yetenek - Genel Kültür oturumuna ek olarak Alan Bilgisi (Hukuk, İktisat, Maliye, İşletme, Muhasebe, Kamu Yönetimi vb.) oturumlarına girilmesi zorunludur.',
+            'Milli Eğitim Bakanlığı öğretmen atamalarında ise eğitim fakültesi ve formasyon sahibi adaylar için Eğitim Bilimleri (P10) ve Öğretmenlik Alan Bilgisi Testi (ÖABT - P121) veya güncel MEB-AGS kriterleri esas alınır.'
+          ],
+          steps: [
+            {
+              title: '1. Adım: Mezuniyet Düzeyinize Göre Sınav Yılını Kontrol Edin',
+              description: 'B Grubu merkezi atamalar için çift yıllarda (2024, 2026 vb.) yapılan KPSS puanları iki yıl boyunca geçerlidir. Tek yıllarda yapılan sınavlar yalnızca A Grubu ve öğretmenlik içindir.'
+            },
+            {
+              title: '2. Adım: Nitelik Kodlarını İnceleyin',
+              description: 'ÖSYM tercih kılavuzunda mezun olduğunuz bölüme karşılık gelen 4 haneli nitelik kodunu (veya 4001, 3001, 2001 genel kodlarını) belirleyin.'
+            },
+            {
+              title: '3. Adım: Kariyer Kapısı ve ÖSYM AİS’i Birlikte Takip Edin',
+              description: 'Mülakatsız merkezi yerleştirmeler ÖSYM AİS üzerinden, bakanlıkların sözleşmeli personel (4/B) alımları ise Cumhurbaşkanlığı Kariyer Kapısı üzerinden duyurulur.'
+            }
           ],
           callout: {
-            type: 'warning',
-            title: 'Dikkat',
-            message: 'Temizlik ürünlerini, özellikle çamaşır suyunu, başka ürünlerle karıştırmayın. Kumaş ve leke türüne göre ısı lekeyi sabitleyebileceğinden bakım etiketindeki talimatı izleyin.'
+            type: 'info',
+            title: 'P1 ve P2 Puan Türleri Nerede Kullanılır?',
+            message: 'P1 puanında Genel Yetenek %70, Genel Kültür %30 ağırlığındadır; P2 puanında ise Genel Yetenek %60, Genel Kültür %40 ağırlığındadır. Bu iki puan türü genellikle Merkez Bankası, BDDK, SPK ve kamu bankalarının bazı uzmanlık ilanlarında ön eleme puanı olarak kullanılır.'
           }
         }
       ]
     },
     faqs: [
       {
-        question: 'Mürekkep lekesine ne iyi gelir?',
-        answer: 'Mürekkep türü ve kumaş değiştiği için tek bir yöntem her durumda güvenli değildir. Önce bakım etiketini kontrol edin ve ürünü görünmeyen küçük bir alanda deneyin; hassas kumaşlarda profesyonel temizlik tercih edin.'
+        question: 'KPSS B Grubu puanı kaç yıl geçerlidir?',
+        answer: 'Çift yıllarda yapılan KPSS Lisans (P3), Ön Lisans (P93) ve Ortaöğretim (P94) puanları, sınav sonuçlarının açıklandığı tarihten itibaren bir sonraki çift yıl sınav sonuçları açıklanana kadar (2 yıl süreyle) geçerlidir.'
+      },
+      {
+        question: '4001, 3001 ve 2001 nitelik kodları ne anlama gelir?',
+        answer: '4001 kodu "Herhangi bir lisans programından mezun olmak", 3001 kodu "Herhangi bir ön lisans programından mezun olmak", 2001 kodu ise "Herhangi bir ortaöğretim (lise) programından mezun olmak" anlamına gelir.'
+      }
+    ]
+  },
+  {
+    id: 'post-12',
+    slug: 'universite-kayit-icin-gerekli-belgeler-ve-e-kayit-adimlari',
+    title: 'Üniversite Kayıt İçin Gerekli Belgeler ve e-Devlet e-Kayıt Rehberi',
+    description: 'YKS ve DGS yerleştirme sonuçları sonrası e-Devlet üzerinden üniversiteye elektronik kayıt (e-Kayıt) nasıl yapılır? Yüz yüze kayıt evrakları ve dikkat edilecekler.',
+    categorySlug: 'egitim-sinavlar',
+    authorId: 'author-1',
+    publishedAt: '2026-10-05',
+    updatedAt: '2026-10-07',
+    readTime: '6 dk',
+    featured: false,
+    trending: false,
+    coverImage: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1200&auto=format&fit=crop&q=80',
+    tags: ['Üniversite Kayıt', 'e-Kayıt', 'e-Devlet', 'YÖK', 'YKS'],
+    sources: [
+      { title: 'e-Devlet Kapısı: Üniversite e-Kayıt Hizmeti', url: 'https://www.turkiye.gov.tr/yok-universite-ekayit' },
+      { title: 'YÖK: Yükseköğretim Kurulu', url: 'https://www.yok.gov.tr/' }
+    ],
+    content: {
+      lead: 'YKS veya DGS tercih sonuçlarına göre bir yükseköğretim programına yerleşen adaylar, üniversite kampüsüne gitmeye gerek kalmadan e-Devlet Kapısı üzerinden "Üniversite E-Kayıt" (Elektronik Kayıt) işlemini dakikalar içinde tamamlayabilir. İşte adım adım e-Kayıt süreci ve özel yetenek/sağlık raporu gerektiren bölümler için yüz yüze kayıt evrakları.',
+      sections: [
+        {
+          id: 'e-kayit-nasil-yapilir',
+          heading: '1. e-Devlet Üzerinden Adım Adım Üniversite e-Kayıt İşlemi',
+          paragraphs: [
+            'Devlet ve vakıf üniversitelerinin casi tamamı YÖK’ün elektronik kayıt sistemine dahildir. Ancak lise mezuniyet bilgisi MEB e-Okul sisteminde görünmeyenlerin, askerlik/emniyet engel durumu bulunanların veya tam teşekküllü heyet raporu şartı olan bölümlere yerleşenlerin kayıtlarını yüz yüze yapması gerekebilir.'
+          ],
+          steps: [
+            {
+              title: '1. Adım: e-Devlet Kapısına Giriş Yapın',
+              description: 'Kendi T.C. kimlik numaranız ve e-Devlet şifrenizle turkiye.gov.tr adresine giriş yapın (veli hesabından değil, öğrencinin kendi hesabından girilmelidir).'
+            },
+            {
+              title: '2. Adım: YÖK Üniversite E-Kayıt Hizmetini Açın',
+              description: 'Arama kutusuna "Üniversite E-Kayıt" (Yükseköğretim Kurulu Başkanlığı) yazarak ilgili hizmete tıklayın.'
+            },
+            {
+              title: '3. Adım: Yerleştiğiniz Programı ve Bilgileri Kontrol Edin',
+              description: 'Ekrana gelen üniversite, fakülte ve bölüm bilgilerini doğrulayın; cep telefonu ve e-posta adresinizi güncelleyip doğrulama kodunu girin.'
+            },
+            {
+              title: '4. Adım: Barkodlu Elektronik Kayıt Belgesini İndirin',
+              description: '"Kaydı Tamamla" butonuna bastıktan sonra oluşan karekodlu PDF kayıt belgesini bilgisayarınıza veya telefonunuza indirin.'
+            }
+          ],
+          callout: {
+            type: 'warning',
+            title: 'Ders Kaydı (İnteraktif Kayıt) Unutulmamalı!',
+            message: 'e-Devlet üzerinden e-Kayıt yapmak yalnızca üniversite öğrencisi olmanızı sağlar. Dönem derslerinizi seçmek (ders kaydı / danışman onayı) için yerleştiğiniz üniversitenin Öğrenci Bilgi Sistemi’ne (OBS) akademik takvimde belirtilen tarihlerde ayrıca giriş yapmanız zorunludur.'
+          }
+        },
+        {
+          id: 'yuz-yuze-kayit-belgeleri',
+          heading: '2. Yüz Yüze (Şahsen) Kayıt Gerektiren Durumlarda İstenen Belgeler',
+          paragraphs: [
+            'Elektronik kayıt kapsamı dışında kalan programlar (bazı özel yetenek bölümleri, denizcilik, sivil havacılık, güvenlik bilimleri) veya e-Okul’da diploması görünmeyen adaylar için üniversite öğrenci işlerine teslim edilmesi gereken standart belgeler şunlardır:'
+          ],
+          bullets: [
+            'YKS / DGS Yerleştirme Sonuç Belgesinin internet çıktısı.',
+            'Mezun olunan lise veya ön lisans kurumundan alınan diplomanın aslı ya da yeni tarihli mezuniyet belgesi.',
+            'T.C. Kimlik Kartı aslı ve fotokopisi.',
+            'Son 6 ay içinde çekilmiş 4 veya 6 adet vesikalık/biyometrik fotoğraf (üniversite duyurusuna göre).',
+            'Bölümün özel koşulunda (Bk. kodlarında) belirtilmişse tam teşekküllü devlet veya üniversite hastanesinden alınan sağlık kurulu (heyet) raporu.'
+          ]
+        }
+      ]
+    },
+    faqs: [
+      {
+        question: 'e-Kayıt yaptıktan sonra üniversiteye belge götürmek gerekir mi?',
+        answer: 'Standart bölümlerde e-Kayıt yapan öğrencilerin üniversiteye ayrıca basılı diploma veya evrak götürmesine gerek yoktur. Yalnızca bölümünüzün özel koşulunda sağlık raporu veya adli sicil belgesi şartı varsa üniversitenin duyurusunu kontrol edin.'
+      },
+      {
+        question: 'Aynı anda iki üniversitede kayıtlı olunabilir mi?',
+        answer: 'YÖK mevzuatına göre bir öğrenci aynı anda iki örgün lisans veya iki örgün ön lisans programında kayıtlı olamaz. Ancak bir örgün lisans programı ile bir ön lisans programı (veya açıköğretim programı) aynı anda okunabilir.'
+      }
+    ]
+  },
+  {
+    id: 'post-13',
+    slug: 'evde-pratik-leke-cikarma-ve-temizlik-tuyolari',
+    title: 'Evde Pratik Leke Çıkarma Rehberi: Yağ, Kahve, Çay ve Mürekkep Lekeleri',
+    description: 'Kıyafet, gömlek ve halılardaki kurumuş yağ, kahve, çay, çimen ve tükenmez kalem mürekkebi lekelerini kumaşa zarar vermeden çıkarma yöntemleri.',
+    categorySlug: 'pratik-bilgiler',
+    authorId: 'author-1',
+    publishedAt: '2026-10-03',
+    updatedAt: '2026-10-05',
+    readTime: '6 dk',
+    featured: true,
+    trending: false,
+    coverImage: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&auto=format&fit=crop&q=80',
+    tags: ['Temizlik', 'Pratik Bilgiler', 'Leke Çıkarma', 'Ev Yaşam'],
+    content: {
+      lead: 'Kıyafetlere veya halıya dökülen kahve, yemek yağı ya da tükenmez kalem mürekkebi; yanlış ilk müdahale (örneğin sıcak suyla ovalamak) yapıldığında kumaş liflerine kalıcı olarak yerleşir. Lekenin kimyasal yapısına göre evde bulunan malzemelerle kumaşı yıpratmadan uygulayabileceğiniz adım adım çıkarma yöntemlerini derledik.',
+      sections: [
+        {
+          id: 'yag-lekesi',
+          heading: '1. Kıyafetlerdeki Taze ve Kurumuş Yağ Lekesi Nasıl Çıkar?',
+          paragraphs: [
+            'Yağ bazlı lekeler (zeytinyağı, tereyağı, sos, makine yağı) suyla çözünmez; doğrudan çamaşır makinesine atıldığında ve yüksek ısı gördüğünde kumaşa sabitlenir. En etkili çözücü emici tozlar ve yağ çözücü bulaşık deterjanıdır:'
+          ],
+          steps: [
+            {
+              title: '1. Adım: Fazla Yağı Emici Tozla Çekin',
+              description: 'Leke tazeyse peçeteyle yaymadan bastırarak fazlasını alın, ardından üzerine bolca karbonat, mısır nişastası veya bebek pudrası döküp 15–20 dakika bekletin.'
+            },
+            {
+              title: '2. Adım: Renksiz Sıvı Bulaşık Deterjanı Uygulayın',
+              description: 'Tozu silkeledikten sonra lekenin üzerine birkaç damla sıvı bulaşık deterjanı damlatın ve yumuşak bir diş fırçası veya parmak uçlarınızla hafifçe yedirin.'
+            },
+            {
+              title: '3. Adım: Ilık Suyla Durulayıp Yıkayın',
+              description: '10 dakika beklettikten sonra ılık suyla durulayın ve kumaş etiketinde belirtilen programda yıkayın. Leke tamamen çıktığından emin olmadan kurutma makinesine atmayın.'
+            }
+          ]
+        },
+        {
+          id: 'kahve-ve-cay-lekesi',
+          heading: '2. Halı ve Kumaştaki Kahve, Çay ve Meyve Suyu Lekeleri',
+          paragraphs: [
+            'Tanen içeren çay ve kahve lekelerinde ilk kural lekeyi dıştan içe doğru kağıt havluyla tamponlamaktır (ovalama yapmak leke halkasını büyütür). Ardından soğuk/ılık su, birkaç damla beyaz sirke ve sıvı deterjan karışımıyla müdahale edilmelidir.'
+          ],
+          bullets: [
+            'Sıcak Su Kullanmayın: İlk müdahalede kaynar su dökmek özellikle sütlü kahve ve protein içerikli lekelerin kumaşa pişerek yapışmasına yol açar.',
+            'Halıda Köpük Yöntemi: Yarım çay bardağı ılık suya 1 tatlı kaşığı beyaz sirke ve birkaç damla bulaşık deterjanı ekleyip mikrofiber bezle tamponlayın, ardından nemli temiz bezle durulayın.',
+            'Tükenmez Kalem ve Mürekkep Lekesi: Kumaşın altına kağıt havlu koyup lekenin üzerine kolonya (veya izopropil alkol) damlatarak mürekkebin alt kağıda geçmesini sağlayın; asla sağa sola sürtmeyin.'
+          ],
+          callout: {
+            type: 'warning',
+            title: 'Kimyasal Güvenlik Uyarısı',
+            message: 'Çamaşır suyunu (sodyum hipoklorit) kesinlikle sirke, tuz ruhu veya kireç çözücü gibi asidik ürünlerle ya da amonyaklı temizleyicilerle karıştırmayın; solunması son derece tehlikeli zehirli klor gazı açığa çıkar.'
+          }
+        }
+      ]
+    },
+    faqs: [
+      {
+        question: 'Sarı ter ve deodorant lekeleri beyaz tişörtlerden nasıl çıkar?',
+        answer: 'Sarı deodorant lekelerinde çamaşır suyu kullanmak alüminyum kalıntısıyla tepkimeye girerek sarılığı koyulaştırır. Bunun yerine karbonat, ılık su ve birkaç damla oksijenli su (veya beyaz sirke) macununu lekeye sürüp 30 dakika beklettikten sonra yıkayın.'
+      },
+      {
+        question: 'Kan lekesi sıcak suyla mı soğuk suyla mı yıkanmalı?',
+        answer: 'Kan protein yapılı olduğu için sıcak su proteini pıhtılaştırıp kumaşa kilitler. Kan lekesine mutlaka buz gibi soğuk su ve sabunla müdahale edilmelidir.'
       }
     ]
   },
   {
     id: 'post-14',
     slug: 'elektrik-faturasini-dusurmenin-etkili-10-yolu',
-    title: 'Elektrik Tüketimini Azaltmak İçin Evde Uygulanabilecek Yöntemler',
-    description: 'Bekleme modu, cihaz seçimi ve kullanım alışkanlıklarının elektrik tüketimine etkisini anlamaya yönelik pratik öneriler.',
+    title: 'Elektrik Faturasını Düşürmenin ve Evde Enerji Tasarrufunun Etkili Yolları',
+    description: 'Evde en çok elektrik harcayan cihazlar hangileri? Buzdolabı, çamaşır/bulaşık makinesi, klima ve aydınlatmada faturayı %25’e kadar düşüren pratik yöntemler.',
     categorySlug: 'pratik-bilgiler',
     authorId: 'author-1',
     publishedAt: '2026-10-01',
     updatedAt: '2026-10-03',
-    readTime: '5 dk',
+    readTime: '6 dk',
     featured: false,
     trending: true,
     coverImage: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&auto=format&fit=crop&q=80',
-    tags: ['Tasarruf', 'Elektrik Faturası', 'Enerji', 'Pratik Tüyolar'],
+    tags: ['Tasarruf', 'Elektrik Faturası', 'Enerji Verimliliği', 'Pratik Bilgiler'],
     content: {
-      lead: 'Elektrik tüketimini azaltmak için önce hangi cihazların ne kadar çalıştığını anlamak, ardından güvenli ve uygulanabilir alışkanlık değişikliklerini denemek gerekir.',
+      lead: 'Ev bütçesindeki en önemli sabit giderlerden biri olan elektrik faturasını düşürmek için konforunuzdan ödün vermenize gerek yoktur. Faturanın yaklaşık %70’ini oluşturan ısıtma/soğutma ve beyaz eşya kullanımında yapılacak doğru sıcaklık ve program ayarlarıyla aylık kWh tüketiminizi belirgin biçimde azaltabilirsiniz.',
       sections: [
         {
-          id: 'bekleme-modu',
-          heading: 'Bekleme Modundaki (Standby) Vampir Cihazlar',
+          id: 'beyaz-esya-tasarruf',
+          heading: '1. Buzdolabı, Çamaşır ve Bulaşık Makinesinde Doğru Sıcaklık Ayarları',
           paragraphs: [
-            'Bekleme modunda enerji tüketimi cihazın modeline ve ayarlarına göre değişir; her cihazı “vampir tüketici” kabul etmek doğru değildir. Bir cihazın tüketimini öğrenmek için üretici teknik bilgisine veya uygun bir priz tipi enerji ölçere bakın. Çoklu anahtar priz, kullanmadığınız cihazların elektriğini kesmeyi kolaylaştırabilir.'
+            'Evde 7 gün 24 saat kesintisiz çalışan tek cihaz buzdolabıdır ve toplam elektrik tüketiminin yaklaşık %25–30’unu tek başına gerçekleştirir. Çamaşır ve bulaşık makinelerinde ise enerjinin %85’i tamburu döndürmek için değil, suyu ısıtmak için harcanır.'
+          ],
+          bullets: [
+            'Buzdolabı İdeal Derecesi: Soğutucu bölümü +4°C (veya +5°C), dondurucu bölümü ise -18°C olarak ayarlanmalıdır. Her 1 derecelik gereksiz daha soğuk ayar tüketimi %5–6 artırır.',
+            'Hava Boşluğu ve Kapı Fitili: Buzdolabının arka ve yan duvarla arasında en az 5–10 cm hava sirkülasyon boşluğu bırakın; yıpranmış kapı lastiklerini değiştirin.',
+            '40°C ve Eco Programlar: Çok kirli olmayan çamaşırları 60°C yerine 30°C veya 40°C’de yıkamak elektrik tüketimini neredeyse yarı yarıya düşürür.',
+            'Bulaşık Makinesi Eco Modu: Eco programı daha uzun sürse de suyu daha düşük sıcaklıkta ısıttığı ve ıslatma süresini uzattığı için hızlı programlara göre %20–30 daha az elektrik ve su harcar.'
           ]
         },
         {
-          id: 'beyaz-esya-kullanimi',
-          heading: 'Çamaşır ve Bulaşık Makinelerinde Doğru Program Seçimi',
+          id: 'bekleme-modu-ve-isitici',
+          heading: '2. Rezistanslı Küçük Ev Aletleri, Klima ve Bekleme Modu (Standby) Yönetimi',
           paragraphs: [
-            'Düşük sıcaklıkta yıkama, uygun deterjan ve kumaş bakım etiketi elverdiğinde enerji tüketimini azaltabilir. Tasarruf oranı makineye, programa, yük miktarına ve su sıcaklığına göre değişir. Bulaşık makinesinde üreticinin önerdiği Eco programını karşılaştırın.'
-          ]
+            'İçerisinde ısıtıcı rezistans bulunan ütü, saç kurutma makinesi, elektrikli çaycı/kettle, airfryer ve elektrikli soba gibi cihazlar 1800 Watt ile 2400 Watt arasında güç çeker. Bu cihazların kullanım süresini optimize etmek doğrudan faturaya yansır.'
+          ],
+          steps: [
+            {
+              title: '1. Adım: Kettle ve Çaycıda İhtiyaç Kadar Su Kaynatın',
+              description: 'Tek bir kupa kahve için kettle’ı ağzına kadar (1,5 litre) doldurup kaynatmak, gerekenin 4 katı elektrik harcar.'
+            },
+            {
+              title: '2. Adım: Anahtarlı Grup Priz Kullanın',
+              description: 'Televizyon, uydu alıcısı, oyun konsolu ve ses sistemini kullanmadığınız saatlerde anahtarlı prizden kapatarak yıllık 100–150 kWh bekleme (standby) tüketimini sıfırlayın.'
+            },
+            {
+              title: '3. Adım: Tüm Ampulleri LED Aydınlatmaya Dönüştürün',
+              description: 'Eski tip halojen veya akkor ampuller 60–75W harcarken aynı ışık akısını (lümen) veren LED ampuller yalnızca 8–9W enerji tüketir.'
+            }
+          ],
+          callout: {
+            type: 'info',
+            title: 'Kademeli Elektrik Tarifesi Sınırı',
+            message: 'Mesken abonelerinde günlük ortalama 8 kWh (aylık yaklaşık 240 kWh) tüketimin üzerindeki kullanımlar bir üst fiyat kademesinden ücretlendirilir. Aylık tüketimi 240 kWh sınırının altında tutmak fatura tutarını korumanın en etkili yoludur.'
+          }
         }
       ]
     },
     faqs: [
       {
-        question: 'Üç zamanlı tarife karlı mı?',
-        answer: 'Üç zamanlı tarifenin avantajı tüketim saatlerinize ve dağıtım bölgenizde uygulanan güncel saat dilimlerine bağlıdır. Mevcut tarifenizi ve faturanızdaki zaman dilimlerini kontrol etmeden geçiş kararı vermeyin.'
+        question: 'Üç zamanlı (Gündüz - Puant - Gece) elektrik tarifesi kimler için avantajlıdır?',
+        answer: 'Elektrikli otomobilini gece şarj edenler veya çamaşır/bulaşık makinesi ve ütü gibi yüksek tüketimli cihazlarını gece 22:00 – 06:00 saatleri arasında çalıştırabilen haneler için üç zamanlı tarife avantaj sağlar. Akşam 17:00 – 22:00 (Puant) saatlerinde yoğun kullanım yapanlar için ise tek zamanlı tarife daha ekonomiktir.'
+      },
+      {
+        question: 'Modemi geceleri kapatmak faturayı düşürür mü?',
+        answer: 'Standart bir ev modemi ortalama 8–12 Watt güç tüketir (ayda yaklaşık 7–8 kWh). Fatura üzerindeki etkisi küçük olsa da hem siber güvenlik hem de adaptör ömrü açısından uzun süreli ayrılıklarda kapatılması faydalıdır.'
       }
     ]
   },
   {
     id: 'post-15',
     slug: 'pasaport-randevusu-alma-ve-gerekli-evraklar-listesi',
-    title: 'Pasaport Randevusu Alma ve Gerekli Evraklar Listesi (2026 Güncel)',
-    description: 'Bordo (Umuma Mahsus), Yeşil ve Gri pasaport harç ücretleri, NVİ randevu alma adımları ve biyometrik fotoğraf kuralları.',
+    title: 'Pasaport Randevusu Alma, Başvuru Evrakları ve Harç Ödeme Rehberi (NVİ)',
+    description: 'Bordo (Umuma Mahsus), Yeşil (Hususi) ve Öğrenci pasaportu başvurusu nasıl yapılır? NVİ randevu alma, harç/defter bedeli ödeme ve biyometrik fotoğraf kuralları.',
     categorySlug: 'pratik-bilgiler',
     authorId: 'author-1',
     publishedAt: '2026-09-29',
     updatedAt: '2026-10-01',
-    readTime: '6 dk',
+    readTime: '7 dk',
     featured: false,
     trending: false,
     coverImage: 'https://images.unsplash.com/photo-1544717305-2782549b5136?w=1200&auto=format&fit=crop&q=80',
-    tags: ['Pasaport', 'NVİ', 'Seyahat', 'Harç Ücretleri', 'Biyometrik'],
+    tags: ['Pasaport', 'NVİ Randevu', 'Seyahat', 'Bordo Pasaport', 'Yeşil Pasaport'],
     sources: [
-      { title: 'NVİ: Pasaport başvurusu', url: 'https://www.nvi.gov.tr/pasaport' },
-      { title: 'NVİ randevu sistemi', url: 'https://randevu.nvi.gov.tr/' }
+      { title: 'NVİ: Pasaport işlemleri ve sıkça sorulan sorular', url: 'https://www.nvi.gov.tr/pasaport' },
+      { title: 'NVİ Online Randevu Sistemi', url: 'https://randevu.nvi.gov.tr/' }
     ],
     content: {
-      lead: 'Yurt dışı seyahatleri için pasaport çıkarma veya pasaport yenileme süreçleri Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü üzerinden yürütülmektedir.',
+      lead: 'Yurt dışı seyahatleri için ilk kez pasaport çıkaracak veya süresi dolan pasaportunu yenileyecek vatandaşların işlemlerini Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü (NVİ) üzerinden yürütmesi gerekmektedir. Randevu alma, vergi dairesine online harç/defter bedeli yatırma ve başvuru günü yanınızda bulunması gereken evrakları adım adım listeledik.',
       sections: [
         {
-          id: 'evraklar',
-          heading: 'Pasaport Başvurusu İçin Gerekli Evraklar',
+          id: 'pasaport-adimlari',
+          heading: '1. Adım Adım Pasaport Başvuru Süreci (Randevudan Teslimata)',
           paragraphs: [
-            'Kimlik kartı, son 6 ayda çekilmiş 1 adet biyometrik fotoğraf, harç ve defter bedeli dekontu ve varsa eski pasaport gereklidir.'
+            'Pasaport başvurusuna gitmeden önce harç ve defter bedelinin yatırılmış olması şarttır; nüfus müdürlüklerinde vezne veya nakit ödeme işlemi yapılmamaktadır.'
+          ],
+          steps: [
+            {
+              title: '1. Adım: Harç ve Defter Bedelini Online Yatırın',
+              description: 'Dijital Vergi Dairesi (dijital.gib.gov.tr) veya anlaşmalı bankaların mobil uygulamalarındaki "Vergi / Harç Ödemeleri > Pasaport Harcı ve Değerli Kağıt Bedeli" menüsünden T.C. kimlik numaranızla ödemenizi yapın.'
+            },
+            {
+              title: '2. Adım: NVİ veya e-Devlet Üzerinden Randevu Alın',
+              description: 'randevu.nvi.gov.tr adresinden veya Alo 199 hattından il/ilçe nüfus müdürlüğü ve saat seçerek pasaport randevunuzu oluşturun.'
+            },
+            {
+              title: '3. Adım: Başvuru Gününde Parmak İzi ve Evrak Teslimi',
+              description: 'Randevu saatinizden 15 dakika önce kimlik kartınız ve biyometrik fotoğrafınızla nüfus müdürlüğünde hazır bulunun.'
+            },
+            {
+              title: '4. Adım: PTT Kargo ile Adrese Teslim',
+              description: 'Basımı tamamlanan pasaportunuz PTT Kargo aracılığıyla başvuru sırasında belirttiğiniz adrese veya şahsen teslim alması için yetkilendirdiğiniz kişiye ulaştırılır.'
+            }
           ]
         },
         {
-          id: 'harc-odeme',
-          heading: 'Pasaport Harç ve Defter Bedeli Ödeme',
+          id: 'evraklar',
+          heading: '2. Pasaport Türlerine Göre Gerekli Evraklar Listesi',
           paragraphs: [
-            'Vergi dairesi veya anlaşmalı bankaların internet bankacılığı üzerinden T.C. kimlik numaranızla online ödeme yapabilirsiniz. Makbuz sistemde otomatik görünür.'
-          ]
+            'Sistemde ödemeniz elektronik olarak göründüğü için normal şartlarda banka dekontu çıktısı istenmez; ancak olası sistem kesintilerine karşı dekont PDF’ini telefonunuzda bulundurmanız önerilir.'
+          ],
+          bullets: [
+            'T.C. Kimlik Kartı veya geçici kimlik belgesinin aslı.',
+            'Son 6 ay içinde çekilmiş, arka fonu tamamen beyaz, 50x60 mm ölçülerinde 1 adet ICAO standartlarına uygun biyometrik fotoğraf.',
+            'Daha önce alınmış ve iptal edilmemiş eski pasaportların aslı.',
+            '18 yaşından küçükler (ergin olmayanlar) için anne ve babanın birlikte nüfus müdürlüğünde hazır bulunması veya noter onaylı muvafakatname.',
+            'Yeşil (Hususi) Pasaport için: Emekli veya görevdeki kamu personelinin kurumundan ya da e-Devlet "Hususi Damgalı Pasaport Talep Formu" ekranından aldığı onaylı talep belgesi.'
+          ],
+          callout: {
+            type: 'tip',
+            title: '25 Yaş Altı Öğrencilere Harçsız Pasaport',
+            message: 'Örgün veya açıköğretimde aktif öğrenciliği devam eden ve 25 yaşını henüz doldurmamış gençler pasaport harcından muaftır; yalnızca "Pasaport Defter (Değerli Kağıt) Bedeli" ödeyerek 25 yaş sınırına kadar geçerli pasaport alabilirler.'
+          }
         }
       ]
     },
     faqs: [
       {
-        question: 'Öğrenciler pasaport harcından muaf mı?',
-        answer: '25 yaşını doldurmamış ve eğitimi devam eden öğrenciler "harçsız öğrenci pasaportu" alabilir; yalnızca defter bedeli öderler.'
+        question: 'Pasaport başvurudan sonra kaç günde elime ulaşır?',
+        answer: 'Başvurunuz onaylandıktan ve pasaportunuz Gölbaşı/Ankara basım merkezinde basıldıktan sonra il merkezlerine genellikle 2–4 iş günü, ilçelere ise 4–7 iş günü içinde PTT Kargo ile teslim edilir.'
+      },
+      {
+        question: 'Vize almak için pasaportun en az kaç ay geçerlilik süresi olmalı?',
+        answer: 'Schengen bölgesi başta olmak üzere pek çok ülke, seyahat dönüş tarihinizden itibaren pasaportunuzun en az 3 veya 6 ay daha geçerli olmasını şart koşar. Bu nedenle 10 yıllık pasaport tercih etmek hem yıllık maliyet hem de vize kolaylığı açısından en avantajlı seçenektir.'
       }
     ]
   },

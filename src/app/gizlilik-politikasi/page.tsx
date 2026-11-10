@@ -1,12 +1,12 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { Shield, Cookie, Lock, UserCheck, FileText } from 'lucide-react';
+import { Shield, Cookie, Lock, UserCheck, FileText, Calculator } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Gizlilik Politikası ve Çerez Aydınlatma Metni',
   description:
-    'Bilgi Rotası’nın AdSense etiketi, çerezler ve gizlilikle ilgili uygulamalarına dair açıklama.',
+    'Bilgi Rotası gizlilik politikası, KVKK aydınlatma metni, çerez (cookie) kullanımı, Google AdSense DART çerezleri ve hesaplama araçları veri güvenliği ilkeleri.',
   alternates: {
     canonical: '/gizlilik-politikasi'
   }
@@ -23,10 +23,10 @@ export default function PrivacyPage() {
           <span>KVKK ve Çerez Güvenliği Politikası</span>
         </div>
         <h1 className="text-2xl sm:text-3xl font-black">
-          Gizlilik Politikası ve Çerezler (Cookies)
+          Gizlilik Politikası ve Çerez Aydınlatma Metni
         </h1>
         <p className="text-xs sm:text-sm text-slate-300">
-          Son Güncelleme: 22 Ekim 2026 &bull; Bilgi Rotası (bilgirotasi.tr)
+          Son Güncelleme: 01 Kasım 2026 &bull; Bilgi Rotası (www.bilgirotasi.tr)
         </p>
       </div>
 
@@ -38,56 +38,66 @@ export default function PrivacyPage() {
             1. Genel Bakış ve Veri Sorumlusu
           </h2>
           <p>
-            Bu sayfa, Bilgi Rotası’nda kullanılan reklam etiketi ve ziyaretçilerin gizlilik tercihleri hakkında mevcut bilgileri açıklar. Sitedeki uygulamalar veya hizmet sağlayıcılar değiştikçe bu metin de güncellenmelidir.
+            Bilgi Rotası (<strong>www.bilgirotasi.tr</strong>) olarak ziyaretçilerimizin kişisel verilerinin korunmasına ve gizlilik haklarına büyük önem veriyoruz. İşbu Gizlilik Politikası; sitemizi ziyaret ettiğinizde, rehberlerimizi okuduğunuzda, dijital hesaplama araçlarımızı kullandığınızda veya iletişim formumuz üzerinden bizimle irtibata geçtiğinizde hangi verilerin hangi amaçlarla işlendiğini 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında açıklar.
           </p>
           <p>
-            Sitede ziyaretçi hesabı, yorum veya iletişim formu bulunmamaktadır. Sunucu ve barındırma sağlayıcısının teknik kayıt tutup tutmadığı ve saklama süreleri için ilgili sağlayıcının koşullarına bakın.
+            İletişim sayfasındaki geri bildirim formu aracılığıyla kendi isteğinizle paylaştığınız ad, e-posta adresi ve mesaj içeriği yalnızca talebinize yanıt vermek veya bildirdiğiniz içerik düzeltmesini gerçekleştirmek amacıyla kullanılır; hiçbir koşulda üçüncü taraf pazarlama şirketleriyle paylaşılmaz.
+          </p>
+        </section>
+
+        <section className="space-y-3">
+          <h2 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <Calculator className="w-4 h-4 text-blue-600 dark:text-blue-400" />
+            2. Dijital Hesaplama Araçlarında Veri Güvenliği
+          </h2>
+          <p>
+            Sitemizin <strong>/araclar</strong> bölümünde yer alan Vize-Final Not Hesaplama, TYT-AYT-DGS Net Hesaplama, İnternet İndirme Süresi, KDV Matrahı, Kelime Sayacı ve Yaş Hesaplama araçlarına girdiğiniz tüm sayısal veriler, metinler ve tarihler <strong>yalnızca kendi internet tarayıcınız (istemci tarafı / client-side) üzerinde</strong> anlık olarak işlenir. Bu veriler sunucularımıza gönderilmez, veritabanında saklanmaz ve kayıt altına alınmaz.
           </p>
         </section>
 
         <section className="space-y-3">
           <h2 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
             <Cookie className="w-4 h-4 text-amber-500" />
-            2. Google reklam etiketi ve çerezler
+            3. Çerezler (Cookies) ve Google AdSense Politikası
           </h2>
           <p>
-            Bu sitede Google AdSense reklamları ve etiketleri aktif olarak yayınlanmaktadır. Google, reklam isteği veya reklamla ilgili etkinlik gerçekleştiğinde çerez ve benzeri teknolojiler kullanabilir. Kullanım; Google hesabı, reklam ayarları, yayıncı ayarları ve kullanıcının bulunduğu bölgeye göre değişebilir.
+            Sitemizde kullanıcı deneyimini iyileştirmek (örneğin açık/koyu tema tercihinizi tarayıcı yerel depolama alanında hatırlamak), site trafiğini anonim olarak analiz etmek ve reklam hizmetlerini sunmak amacıyla çerezler (cookies) kullanılabilmektedir.
           </p>
           <ul className="list-disc pl-5 space-y-1.5 text-slate-600 dark:text-slate-400">
             <li>
-              Google ve üçüncü taraf sağlayıcıların reklam, ölçüm ve güvenlik amaçlı çerez/yerel depolama kullanımı seçilen reklam ayarlarına bağlı olabilir.
+              <strong>Üçüncü Taraf Çerezleri ve Google AdSense:</strong> Üçüncü taraf satıcı olarak Google, sitemizde reklam yayınlamak için çerezlerden (DART çerezi dahil) yararlanabilir. Bu çerezler, kullanıcıların sitemizi ve internetteki diğer siteleri önceki ziyaretlerine dayalı olarak ilgi alanına uygun reklamlar sunulmasını sağlar.
             </li>
             <li>
-              Kişiselleştirilmiş reklam tercihleri Google hesabındaki reklam ayarlarından yönetilebilir. Reklam kişiselleştirme kapalı olsa bile ölçüm, sıklık sınırlama veya güvenlik amaçlı bazı teknolojiler kullanılabilir.
+              <strong>Kişiselleştirilmiş Reklamları Yönetme:</strong> Ziyaretçilerimiz, <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">Google Reklam Ayarları</a> sayfasını ziyaret ederek kişiselleştirilmiş reklamcılık çerezlerini diledikleri zaman devre dışı bırakabilirler.
             </li>
             <li>
-              Kullanıcılar, <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">Google Reklam Ayarları</a> sayfasını ziyaret ederek kişiselleştirilmiş reklamcılığı devre dışı bırakabilirler.
+              <strong>Tarayıcı Çerez Kontrolü:</strong> Kullandığınız web tarayıcısının (Chrome, Safari, Firefox, Edge) ayarlar menüsünden çerezleri tamamen engelleyebilir veya mevcut çerezleri silebilirsiniz.
             </li>
           </ul>
           <p>
-            Google’ın yayıncı ürünleri için açıkladığı veri ve teknoloji kullanım ayrıntıları için{' '}
-            <a href="https://support.google.com/adsense/answer/7549925?hl=tr" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">AdSense çerezleri açıklamasını</a>{' '}
-            ve <a href="https://support.google.com/adsense/answer/10502938?hl=tr" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Google yayıncı politikalarını</a> inceleyin.
+            Google’ın reklamcılıkta verileri nasıl kullandığı hakkında daha kapsamlı bilgi için{' '}
+            <a href="https://policies.google.com/technologies/partner-sites?hl=tr" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Google İş Ortaklarının Siteleri veya Uygulamalarını Kullandığınızda Google Verileri Nasıl Kullanır?</a>{' '}
+            sayfasını inceleyebilirsiniz.
           </p>
         </section>
 
         <section className="space-y-3">
           <h2 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
             <FileText className="w-4 h-4 text-blue-600" />
-            3. Kayıt Dosyaları (Log Files)
+            4. Sunucu Günlük Kayıtları (Log Files)
           </h2>
           <p>
-            Ziyaret sırasında barındırma altyapısı, güvenlik ve hizmetin çalışması için teknik günlükler oluşturabilir. Bu kayıtların kapsamı, saklama süresi ve erişimi barındırma sağlayıcısının yapılandırmasına bağlıdır; Bilgi Rotası bu sayfada belirli bir saklama süresi veya anonimleştirme garantisi vermez.
+            Standart tüm web sunucularında olduğu gibi barındırma altyapımız; siber güvenliğin sağlanması ve teknik hataların tespiti amacıyla IP adresi türü, tarayıcı sürümü, yönlendiren sayfa ve ziyaret saati gibi anonim teknik günlük kayıtlarını (log files) geçici olarak işleyebilir. Bu veriler kimlik tespiti amacıyla kullanılmaz.
           </p>
         </section>
 
         <section className="space-y-3">
           <h2 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
             <UserCheck className="w-4 h-4 text-emerald-500" />
-            4. Kullanıcı Hakları ve İletişim
+            5. KVKK Kapsamında Kullanıcı Hakları ve İletişim
           </h2>
           <p>
-            KVKK madde 11 uyarınca, herkes veri sorumlusuna başvurarak kendisiyle ilgili kişisel veri işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi talep etme ve silinmesini isteme hakkına sahiptir. Gizlilik politikamızla ilgili herhangi bir sorunuz olması halinde <a href="/iletisim" className="text-blue-600 dark:text-blue-400 underline">İletişim</a> sayfamızdan bizimle irtibat kurabilirsiniz.
+            6698 sayılı KVKK’nın 11. maddesi uyarınca herkes veri sorumlusuna başvurarak kendisiyle ilgili kişisel veri işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, düzeltilmesini veya silinmesini isteme hakkına sahiptir. Gizlilik politikamızla ilgili her türlü soru ve talebiniz için <a href="mailto:konhansoftware@gmail.com" className="text-blue-600 dark:text-blue-400 underline font-semibold">konhansoftware@gmail.com</a> adresinden veya <a href="/iletisim" className="text-blue-600 dark:text-blue-400 underline font-semibold">İletişim</a> sayfamızdan bize ulaşabilirsiniz.
           </p>
         </section>
 
