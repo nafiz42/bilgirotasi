@@ -5,7 +5,7 @@ export interface ToolItem {
   shortTitle: string;
   description: string;
   categoryLabel: string;
-  iconName: 'Calculator' | 'GraduationCap' | 'Wifi' | 'Percent' | 'FileText' | 'Calendar';
+  iconName: 'Calculator' | 'GraduationCap' | 'Wifi' | 'Percent' | 'FileText' | 'Calendar' | 'Zap';
   badge: string;
   lead: string;
   howItWorks: string[];
@@ -307,6 +307,49 @@ export const tools: ToolItem[] = [
       {
         question: '18 yaşını doldurmak için doğum günümün geçmesi gerekir mi?',
         answer: 'Evet, 18. doğum gününüzün geldiği gün (00:00 itibarıyla) 18 yaşınızı resmen doldurmuş ve reşit olmuş sayılırsınız.'
+      }
+    ]
+  },
+  {
+    id: 'tool-elektrik-tuketimi',
+    slug: 'elektrik-tuketimi-ve-fatura-hesaplama',
+    title: 'Elektrik Tüketimi (kWh) ve Cihaz Fatura Maliyeti Hesaplama Aracı',
+    shortTitle: 'Elektrik Faturası Hesaplama',
+    description:
+      'Ev aletlerinizin watt (W) gücüne, günlük çalışma süresine ve elektrik birim fiyatına göre aylık kWh tüketimini ve faturaya etkisini hesaplayın.',
+    categoryLabel: 'Pratik Bilgiler',
+    iconName: 'Zap',
+    badge: 'Tasarruf & Enerji',
+    lead: 'Klima, bilgisayar, buzdolabı, televizyon veya ısıtıcı gibi cihazların teknik etiketindeki watt değerine ve kullanım sıklığına göre aylık ne kadar elektrik (kWh) harcadığını ve faturanıza TL cinsinden kaç lira yansıdığını anında hesaplayın.',
+    howItWorks: [
+      'Cihazın etiketinde veya kullanım kılavuzunda yazan güç değerini Watt (W) cinsinden girin (veya hazır şablonlardan seçin).',
+      'Cihazın günde ortalama kaç saat çalıştığını ve evinizde aynı cihazdan kaç adet bulunduğunu belirleyin.',
+      'Elektrik faturanızda yer alan güncel birim fiyatı (TL/kWh) girerek aylık tüketimi ve yaklaşık maliyeti görün.'
+    ],
+    formulaNote:
+      'Aylık kWh Tüketimi = (Güç (Watt) × Günlük Çalışma Saati × Adet × 30 Gün) / 1000. Aylık Enerji Maliyeti = Aylık kWh × Birim Fiyat (TL/kWh).',
+    sections: [
+      {
+        heading: 'Ev Aletlerinin Ortalama Elektrik Tüketimi Ne Kadardır?',
+        paragraphs: [
+          'Evdeki elektrik tüketiminin büyük kısmını rezistanslı ısıtıcılar ve motorlu soğutucu/klimalar oluşturur. Cihazların güçleri ortalama şu aralıktadır:',
+          'Masaüstü Oyun Bilgisayarı: 300 - 650 Watt | Klima (12.000 BTU): 900 - 1500 Watt | Buzdolabı (No-Frost): 100 - 200 Watt (aralıklı çalışır) | Çamaşır / Bulaşık Makinesi: 1800 - 2200 Watt (ısıtma anında) | LED Televizyon: 60 - 120 Watt | LED Ampul: 8 - 12 Watt.'
+        ],
+        bullets: [
+          'Watt (W) anlık çekilen gücü, Kilowatt-saat (kWh) ise zaman içindeki toplam enerji tüketimini ifade eder.',
+          '1000 Watt gücündeki bir cihazı 1 saat kesintisiz çalıştırmak tam 1 kWh enerji tüketir.',
+          'Kademeli mesken tarifesinde aylık tüketim 240 kWh limitini aştığında üst fiyat kademesi uygulanır.'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'Buzdolabı günde 24 saat boyunca aralıksız elektrik çeker mi?',
+        answer: 'Hayır. Buzdolabı motoru (kompresör) yalnızca iç sıcaklık yükseldiğinde devreye girer; günde ortalama 6 ila 8 saat aktif çalışır.'
+      },
+      {
+        question: 'Klimanın elektrik tüketimi nasıl azaltılır?',
+        answer: 'Klimayı 18°C gibi çok düşük derecelere ayarlamak yerine ideal konfor sıcaklığı olan 23-24°C seviyesinde tutmak ve düzenli filtre temizliği yapmak elektrik tüketimini %25’e kadar düşürür.'
       }
     ]
   }

@@ -10,6 +10,7 @@ import {
   Percent,
   FileText,
   Calendar,
+  Zap,
   ArrowRight,
   Sparkles
 } from 'lucide-react';
@@ -29,7 +30,8 @@ const iconMap: Record<string, React.ReactNode> = {
   Wifi: <Wifi className="w-6 h-6" />,
   Percent: <Percent className="w-6 h-6" />,
   FileText: <FileText className="w-6 h-6" />,
-  Calendar: <Calendar className="w-6 h-6" />
+  Calendar: <Calendar className="w-6 h-6" />,
+  Zap: <Zap className="w-6 h-6" />
 };
 
 export default function ToolsHubPage() {

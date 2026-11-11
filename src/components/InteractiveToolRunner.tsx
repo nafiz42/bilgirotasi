@@ -8,7 +8,8 @@ import {
   RotateCcw,
   Sparkles,
   Clock,
-  HelpCircle
+  HelpCircle,
+  Zap
 } from 'lucide-react';
 
 interface InteractiveToolRunnerProps {
@@ -29,6 +30,8 @@ export default function InteractiveToolRunner({ slug }: InteractiveToolRunnerPro
       return <WordCountCalculator />;
     case 'yas-ve-gun-hesaplama':
       return <AgeCalculator />;
+    case 'elektrik-tuketimi-ve-fatura-hesaplama':
+      return <EnergyCalculatorTool />;
     default:
       return <VizeFinalCalculator />;
   }
@@ -953,6 +956,160 @@ function AgeCalculator() {
           Lütfen geçerli bir doğum tarihi ve doğum tarihinden sonraki bir referans tarihi seçin.
         </p>
       )}
+    </div>
+  );
+}
+
+/* ============================================================================
+ * 7. ELEKTRİK TÜKETİMİ VE FATURA HESAPLAMA ARACI
+ * ============================================================================ */
+function EnergyCalculatorTool() {
+  const [watts, setWatts] = useState<string>('1200');
+  const [hours, setHours] = useState<string>('5');
+  const [quantity, setQuantity] = useState<string>('1');
+  const [rate, setRate] = useState<string>('2.60');
+
+  const energyData = useMemo(() => {
+    const w = Math.max(0, parseFloat(watts) || 0);
+    const h = Math.min(24, Math.max(0, parseFloat(hours) || 0));
+    const q = Math.max(1, parseInt(quantity, 10) || 1);
+    const r = Math.max(0, parseFloat(rate) || 2.6);
+
+    const dailyKwh = (w * h * q) / 1000;
+    const monthlyKwh = dailyKwh * 30;
+    const monthlyCost = monthlyKwh * r;
+    const yearlyCost = monthlyCost * 12;
+
+    return {
+      dailyKwh: dailyKwh.toFixed(2),
+      monthlyKwh: monthlyKwh.toFixed(2),
+      monthlyCost: monthlyCost.toLocaleString('tr-TR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+      yearlyCost: yearlyCost.toLocaleString('tr-TR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+    };
+  }, [watts, hours, quantity, rate]);
+
+  return (
+    <div className="p-6 sm:p-8 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 shadow-sm space-y-6">
+      <div className="flex items-center gap-2.5 border-b border-slate-100 dark:border-slate-800 pb-4">
+        <div className="p-2 rounded-xl bg-blue-600 text-white">
+          <Zap className="w-5 h-5" />
+        </div>
+        <div>
+          <h2 className="text-base sm:text-lg font-extrabold text-slate-900 dark:text-white">
+            Elektrik Enerjisi ve Fatura Maliyeti Hesaplayıcı
+          </h2>
+          <p className="text-xs text-slate-500 dark:text-slate-400">
+            Cihaz gücünü ve çalışma süresini girerek aylık ve yıllık fatura bedelini hesaplayın
+          </p>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div>
+          <label className="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1.5">
+            Cihaz Gücü (Watt)
+          </label>
+          <input
+            type="number"
+            min={1}
+            value={watts}
+            onChange={(e) => setWatts(e.target.value)}
+            className="w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/70 text-slate-900 dark:text-white font-semibold text-sm"
+          />
+          <div className="flex flex-wrap gap-1 mt-2">
+            {[
+              { name: 'Klima', w: '1200' },
+              { name: 'PC', w: '350' },
+              { name: 'TV', w: '90' },
+              { name: 'Soba', w: '2000' }
+            ].map((p) => (
+              <button
+                key={p.name}
+                type="button"
+                onClick={() => setWatts(p.w)}
+                className="px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-[10px] font-semibold text-slate-600 dark:text-slate-300 hover:bg-blue-100"
+              >
+                {p.name} ({p.w}W)
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <label className="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1.5">
+            Günlük Çalışma (Saat)
+          </label>
+          <input
+            type="number"
+            min={0.1}
+            max={24}
+            step={0.5}
+            value={hours}
+            onChange={(e) => setHours(e.target.value)}
+            className="w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/70 text-slate-900 dark:text-white font-semibold text-sm"
+          />
+        </div>
+
+        <div>
+          <label className="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1.5">
+            Aynı Cihaz Adedi
+          </label>
+          <input
+            type="number"
+            min={1}
+            value={quantity}
+            onChange={(e) => setQuantity(e.target.value)}
+            className="w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/70 text-slate-900 dark:text-white font-semibold text-sm"
+          />
+        </div>
+
+        <div>
+          <label className="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1.5">
+            Birim Fiyat (TL / kWh)
+          </label>
+          <input
+            type="number"
+            min={0.1}
+            step={0.05}
+            value={rate}
+            onChange={(e) => setRate(e.target.value)}
+            className="w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/70 text-slate-900 dark:text-white font-semibold text-sm"
+          />
+          <span className="text-[10px] text-slate-400 mt-1 block">
+            Türkiye mesken tarifesi ~2.60 TL
+          </span>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
+          <span className="text-xs font-semibold text-slate-500">Aylık Toplam Tüketim</span>
+          <p className="text-2xl font-black text-slate-900 dark:text-white mt-1">
+            {energyData.monthlyKwh} <span className="text-sm font-bold text-blue-600">kWh</span>
+          </p>
+          <span className="text-[11px] text-slate-400">Günde {energyData.dailyKwh} kWh</span>
+        </div>
+
+        <div className="p-4 rounded-2xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900">
+          <span className="text-xs font-semibold text-emerald-700 dark:text-emerald-300">
+            Aylık Fatura Maliyeti
+          </span>
+          <p className="text-2xl sm:text-3xl font-black text-emerald-700 dark:text-emerald-300 mt-1">
+            {energyData.monthlyCost} <span className="text-sm">TL</span>
+          </p>
+          <span className="text-[11px] text-emerald-600/80">30 günlük tahmini enerji bedeli</span>
+        </div>
+
+        <div className="p-4 rounded-2xl bg-blue-50 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-900">
+          <span className="text-xs font-semibold text-blue-700 dark:text-blue-300">
+            Yıllık Tahmini Maliyet
+          </span>
+          <p className="text-2xl sm:text-3xl font-black text-blue-700 dark:text-blue-300 mt-1">
+            {energyData.yearlyCost} <span className="text-sm">TL</span>
+          </p>
+          <span className="text-[11px] text-slate-500">12 aylık toplam kümülatif tutar</span>
+        </div>
+      </div>
     </div>
   );
 }
