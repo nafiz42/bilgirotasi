@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getCategoryBySlug, categories } from '@/data/categories';
@@ -112,6 +113,25 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               Tarihe Göre Sıralı
             </span>
           </div>
+
+          {category.slug === 'oyun-donanim' && (
+            <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-rose-50 via-purple-50 to-blue-50 dark:from-rose-950/30 dark:via-purple-950/30 dark:to-slate-900 border border-rose-200/80 dark:border-rose-900/50 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div className="space-y-1">
+                <p className="text-xs font-extrabold uppercase tracking-wider text-rose-600 dark:text-rose-400">
+                  Özel Sekme &bull; Kasım 2026
+                </p>
+                <p className="text-sm font-bold text-slate-900 dark:text-white">
+                  GTA 6 Haberleri ve 2026 Yeni Çıkan Oyunlar Rehberlerini İnceleyin
+                </p>
+              </div>
+              <Link
+                href="/gta-6"
+                className="shrink-0 inline-flex items-center justify-center px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold transition-colors"
+              >
+                GTA 6 Merkezine Git &rarr;
+              </Link>
+            </div>
+          )}
 
           {categoryPosts.length > 0 ? (
             <div className="space-y-4">

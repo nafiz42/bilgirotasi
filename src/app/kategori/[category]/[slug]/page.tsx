@@ -425,7 +425,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                           Konuyla ilgili rehberler
                         </h3>
                         <ul className="space-y-2">
-                          {relatedPosts.slice(0, 2).map((relatedPost) => (
+                          {relatedPosts.slice(0, 3).map((relatedPost) => (
                             <li key={relatedPost.id}>
                               <Link
                                 href={`/kategori/${relatedPost.categorySlug}/${relatedPost.slug}`}
@@ -435,6 +435,26 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                               </Link>
                             </li>
                           ))}
+                          {post.categorySlug === 'oyun-donanim' && (
+                            <>
+                              <li>
+                                <Link
+                                  href="/gta-6"
+                                  className="text-sm font-semibold text-rose-600 underline-offset-4 hover:underline dark:text-rose-400"
+                                >
+                                  GTA 6 Haberleri ve 2026 Yeni Çıkan Oyunlar Merkezi &rarr;
+                                </Link>
+                              </li>
+                              <li>
+                                <Link
+                                  href="/araclar/internet-indirme-suresi-hesaplama"
+                                  className="text-sm font-medium text-blue-700 underline-offset-4 hover:underline dark:text-blue-300"
+                                >
+                                  Oyun İndirme Süresi Hesaplama Aracı (GB / Mbps)
+                                </Link>
+                              </li>
+                            </>
+                          )}
                         </ul>
                       </nav>
                     )}

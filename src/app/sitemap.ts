@@ -15,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0
     },
     {
+      url: `${baseUrl}/gta-6`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.95
+    },
+    {
       url: `${baseUrl}/araclar`,
       lastModified: new Date(),
       changeFrequency: 'weekly',

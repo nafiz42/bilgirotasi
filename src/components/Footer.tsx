@@ -48,6 +48,14 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  href="/gta-6"
+                  className="font-semibold text-rose-600 dark:text-rose-400 hover:underline transition-colors"
+                >
+                  GTA 6 &amp; Yeni Oyunlar &rarr;
+                </Link>
+              </li>
             </ul>
           </div>
 

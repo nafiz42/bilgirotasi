@@ -1,5 +1,6 @@
 import { Post } from '@/types';
 import { bilgirotasiPosts } from './bilgirotasi-posts';
+import { gamingNewsPosts } from './gaming-news-posts';
 
 const originalPosts: Post[] = [
   {
@@ -1796,7 +1797,7 @@ const originalPosts: Post[] = [
   }
 ];
 
-export const posts: Post[] = [...bilgirotasiPosts, ...originalPosts];
+export const posts: Post[] = [...gamingNewsPosts, ...bilgirotasiPosts, ...originalPosts];
 
 export function getAllPosts(): Post[] {
   return [...posts].sort(

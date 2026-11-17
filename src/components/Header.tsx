@@ -15,7 +15,8 @@ import {
   GraduationCap,
   Lightbulb,
   Sparkles,
-  Calculator
+  Calculator,
+  Flame
 } from 'lucide-react';
 import { categories } from '@/data/categories';
 import ThemeToggle from '@/components/ThemeToggle';
@@ -223,6 +224,13 @@ export default function Header() {
               </Link>
             ))}
             <Link
+              href="/gta-6"
+              className="shrink-0 inline-flex items-center gap-1 text-xs px-3 py-1 rounded-full bg-rose-600 text-white hover:bg-rose-700 transition-all font-semibold shadow-2xs"
+            >
+              <Flame className="w-3 h-3" />
+              GTA 6 &amp; Yeni Oyunlar
+            </Link>
+            <Link
               href="/araclar"
               className="shrink-0 inline-flex items-center gap-1 text-xs px-3 py-1 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-all font-semibold shadow-2xs"
             >
@@ -242,6 +250,14 @@ export default function Header() {
                 className="block px-3 py-2 rounded-xl text-sm font-semibold text-slate-800 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
               >
                 Ana Sayfa
+              </Link>
+              <Link
+                href="/gta-6"
+                onClick={() => setMobileMenuOpen(false)}
+                className="flex items-center gap-2 px-3 py-2 rounded-xl text-sm font-bold text-rose-600 dark:text-rose-400 bg-rose-50/70 dark:bg-rose-950/40"
+              >
+                <Flame className="w-4 h-4" />
+                <span>GTA 6 &amp; Yeni Çıkan Oyunlar</span>
               </Link>
               <Link
                 href="/araclar"
